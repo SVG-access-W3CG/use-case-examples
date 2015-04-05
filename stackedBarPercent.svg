@@ -1,0 +1,339 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 431" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <clipPath id="13">
+   <path d="m0 0h100v411.61h-100z"/>
+   </clipPath>
+  <clipPath id="12">
+   <path d="m0 0h335v353h-335z"/>
+   </clipPath>
+  <linearGradient id="h" gradientUnits="userSpaceOnUse" x1="246.46" x2="279.96" xlink:href="#3"/>
+  <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="246.46" x2="279.96" xlink:href="#2"/>
+  <linearGradient id="i" gradientUnits="userSpaceOnUse" x1="246.46" x2="279.96" xlink:href="#4"/>
+  <linearGradient id="j" gradientUnits="userSpaceOnUse" x1="246.46" x2="279.96" xlink:href="#5"/>
+  <linearGradient id="k" gradientUnits="userSpaceOnUse" x1="246.46" x2="279.96" xlink:href="#6"/>
+  <linearGradient id="l" gradientUnits="userSpaceOnUse" x1="246.46" x2="279.96" xlink:href="#7"/>
+  <linearGradient id="f" gradientUnits="userSpaceOnUse" x1="246.46" x2="279.96" xlink:href="#1"/>
+  <linearGradient id="e" gradientUnits="userSpaceOnUse" x1="246.46" x2="279.96" xlink:href="#0"/>
+  <linearGradient id="Y" gradientUnits="userSpaceOnUse" x1="198.61" x2="232.11" xlink:href="#2"/>
+  <linearGradient id="Z" gradientUnits="userSpaceOnUse" x1="198.61" x2="232.11" xlink:href="#3"/>
+  <linearGradient id="m" gradientUnits="userSpaceOnUse" x1="294.32" x2="327.82" xlink:href="#0"/>
+  <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="198.61" x2="232.11" xlink:href="#4"/>
+  <linearGradient id="c" gradientUnits="userSpaceOnUse" x1="198.61" x2="232.11" xlink:href="#6"/>
+  <linearGradient id="d" gradientUnits="userSpaceOnUse" x1="198.61" x2="232.11" xlink:href="#7"/>
+  <linearGradient id="b" gradientUnits="userSpaceOnUse" x1="198.61" x2="232.11" xlink:href="#5"/>
+  <linearGradient id="n" gradientUnits="userSpaceOnUse" x1="294.32" x2="327.82" xlink:href="#1"/>
+  <linearGradient id="w" gradientUnits="userSpaceOnUse" x1="2.5" x2="22.5" xlink:href="#2"/>
+  <linearGradient id="x" gradientUnits="userSpaceOnUse" x1="2.5" x2="22.5" xlink:href="#3"/>
+  <linearGradient id="0" gradientUnits="userSpaceOnUse" x1="7.179" x2="40.679">
+   <stop stop-color="#589ec9" stop-opacity=".95"/>
+   <stop offset="1" stop-color="#3b83b0" stop-opacity=".95"/>
+   </linearGradient>
+  <linearGradient id="y" gradientUnits="userSpaceOnUse" x1="2.5" x2="22.5" xlink:href="#4"/>
+  <linearGradient id="10" gradientUnits="userSpaceOnUse" x1="2.5" x2="22.5" xlink:href="#6"/>
+  <linearGradient id="11" gradientUnits="userSpaceOnUse" x1="2.5" x2="22.5" xlink:href="#7"/>
+  <linearGradient id="z" gradientUnits="userSpaceOnUse" x1="2.5" x2="22.5" xlink:href="#5"/>
+  <linearGradient id="v" gradientUnits="userSpaceOnUse" x1="2.5" x2="22.5" xlink:href="#1"/>
+  <linearGradient id="o" gradientUnits="userSpaceOnUse" x1="294.32" x2="327.82" xlink:href="#2"/>
+  <linearGradient id="p" gradientUnits="userSpaceOnUse" x1="294.32" x2="327.82" xlink:href="#3"/>
+  <linearGradient id="u" gradientUnits="userSpaceOnUse" x1="2.5" x2="22.5" xlink:href="#0"/>
+  <linearGradient id="q" gradientUnits="userSpaceOnUse" x1="294.32" x2="327.82" xlink:href="#4"/>
+  <linearGradient id="s" gradientUnits="userSpaceOnUse" x1="294.32" x2="327.82" xlink:href="#6"/>
+  <linearGradient id="t" gradientUnits="userSpaceOnUse" x1="294.32" x2="327.82" xlink:href="#7"/>
+  <linearGradient id="r" gradientUnits="userSpaceOnUse" x1="294.32" x2="327.82" xlink:href="#5"/>
+  <linearGradient id="X" gradientUnits="userSpaceOnUse" x1="198.61" x2="232.11" xlink:href="#1"/>
+  <linearGradient id="9" gradientUnits="userSpaceOnUse" x1="55.04" x2="88.54" xlink:href="#1"/>
+  <linearGradient id="A" gradientUnits="userSpaceOnUse" x1="55.04" x2="88.54" xlink:href="#2"/>
+  <linearGradient id="W" gradientUnits="userSpaceOnUse" x1="198.61" x2="232.11" xlink:href="#0"/>
+  <linearGradient id="B" gradientUnits="userSpaceOnUse" x1="55.04" x2="88.54" xlink:href="#3"/>
+  <linearGradient id="D" gradientUnits="userSpaceOnUse" x1="55.04" x2="88.54" xlink:href="#5"/>
+  <linearGradient id="E" gradientUnits="userSpaceOnUse" x1="55.04" x2="88.54" xlink:href="#6"/>
+  <linearGradient id="C" gradientUnits="userSpaceOnUse" x1="55.04" x2="88.54" xlink:href="#4"/>
+  <linearGradient id="8" gradientUnits="userSpaceOnUse" x1="55.04" x2="88.54" xlink:href="#0"/>
+  <linearGradient id="1" gradientUnits="userSpaceOnUse" x1="7.179" x2="40.679">
+   <stop stop-color="#698c38" stop-opacity=".95"/>
+   <stop offset="1" stop-color="#517322" stop-opacity=".95"/>
+   </linearGradient>
+  <linearGradient id="2" gradientUnits="userSpaceOnUse" x1="7.179" x2="40.679">
+   <stop stop-color="#ebc800" stop-opacity=".95"/>
+   <stop offset="1" stop-color="#d2b200" stop-opacity=".95"/>
+   </linearGradient>
+  <linearGradient id="7" gradientUnits="userSpaceOnUse" x1="7.179" x2="40.679">
+   <stop stop-color="#998445" stop-opacity=".95"/>
+   <stop offset="1" stop-color="#806b2d" stop-opacity=".95"/>
+   </linearGradient>
+  <linearGradient id="3" gradientUnits="userSpaceOnUse" x1="7.179" x2="40.679">
+   <stop stop-color="#b3463e" stop-opacity=".95"/>
+   <stop offset="1" stop-color="#9a2e26" stop-opacity=".95"/>
+   </linearGradient>
+  <linearGradient id="5" gradientUnits="userSpaceOnUse" x1="7.179" x2="40.679">
+   <stop stop-color="#51a58e" stop-opacity=".95"/>
+   <stop offset="1" stop-color="#378c74" stop-opacity=".95"/>
+   </linearGradient>
+  <linearGradient id="6" gradientUnits="userSpaceOnUse" x1="7.179" x2="40.679">
+   <stop stop-color="#eb9b41" stop-opacity=".95"/>
+   <stop offset="1" stop-color="#d28025" stop-opacity=".95"/>
+   </linearGradient>
+  <linearGradient id="4" gradientUnits="userSpaceOnUse" x1="7.179" x2="40.679">
+   <stop stop-color="#956bb3" stop-opacity=".95"/>
+   <stop offset="1" stop-color="#794c9a" stop-opacity=".95"/>
+   </linearGradient>
+  <linearGradient id="F" gradientUnits="userSpaceOnUse" x1="55.04" x2="88.54" xlink:href="#7"/>
+  <linearGradient id="Q" gradientUnits="userSpaceOnUse" x1="150.75" x2="184.25" xlink:href="#2"/>
+  <linearGradient id="R" gradientUnits="userSpaceOnUse" x1="150.75" x2="184.25" xlink:href="#3"/>
+  <linearGradient id="G" gradientUnits="userSpaceOnUse" x1="102.89" x2="136.39" xlink:href="#0"/>
+  <linearGradient id="S" gradientUnits="userSpaceOnUse" x1="150.75" x2="184.25" xlink:href="#4"/>
+  <linearGradient id="U" gradientUnits="userSpaceOnUse" x1="150.75" x2="184.25" xlink:href="#6"/>
+  <linearGradient id="V" gradientUnits="userSpaceOnUse" x1="150.75" x2="184.25" xlink:href="#7"/>
+  <linearGradient id="T" gradientUnits="userSpaceOnUse" x1="150.75" x2="184.25" xlink:href="#5"/>
+  <linearGradient id="P" gradientUnits="userSpaceOnUse" x1="150.75" x2="184.25" xlink:href="#1"/>
+  <linearGradient id="H" gradientUnits="userSpaceOnUse" x1="102.89" x2="136.39" xlink:href="#1"/>
+  <linearGradient id="I" gradientUnits="userSpaceOnUse" x1="102.89" x2="136.39" xlink:href="#2"/>
+  <linearGradient id="O" gradientUnits="userSpaceOnUse" x1="150.75" x2="184.25" xlink:href="#0"/>
+  <linearGradient id="J" gradientUnits="userSpaceOnUse" x1="102.89" x2="136.39" xlink:href="#3"/>
+  <linearGradient id="K" gradientUnits="userSpaceOnUse" x1="102.89" x2="136.39" xlink:href="#4"/>
+  <linearGradient id="N" gradientUnits="userSpaceOnUse" x1="102.89" x2="136.39" xlink:href="#7"/>
+  <linearGradient id="L" gradientUnits="userSpaceOnUse" x1="102.89" x2="136.39" xlink:href="#5"/>
+  <linearGradient id="M" gradientUnits="userSpaceOnUse" x1="102.89" x2="136.39" xlink:href="#6"/>
+  </defs>
+ <g fill="#fff" fill-rule="evenodd" stroke-width="1">
+  <path d="m0 0h500v431h-500z"/>
+  <path d="m0 0h400v431h-400z"/>
+  <path d="m57 29.55h335v353h-335z"/>
+  </g>
+ <g transform="translate(57 29.55)" stroke-opacity=".1" fill="none" stroke="#000" fill-opacity="0">
+  <path dojoGfxStrokeStyle="solid" d="m0 317.7h335"/>
+  <path dojoGfxStrokeStyle="solid" d="m0 282.4h335"/>
+  <path dojoGfxStrokeStyle="solid" d="m0 247.1h335"/>
+  <path dojoGfxStrokeStyle="solid" d="m0 211.8h335"/>
+  <path dojoGfxStrokeStyle="solid" d="m0 176.5h335"/>
+  <path dojoGfxStrokeStyle="solid" d="m0 141.2h335"/>
+  <path dojoGfxStrokeStyle="solid" d="m0 105.9h335"/>
+  <path dojoGfxStrokeStyle="solid" d="m0 70.6h335"/>
+  <path dojoGfxStrokeStyle="solid" d="m0 35.3h335"/>
+  <path dojoGfxStrokeStyle="solid" d="m0 0h335"/>
+  </g>
+ <g transform="translate(57 29.55)" clip-path="url(#12)" fill-rule="evenodd">
+  <path fill="url(#0)" stroke="#3c6c89" dojoGfxStrokeStyle="solid" d="m7.179 288.82h33.5v64.18h-33.5z"/>
+  <path fill="url(#1)" stroke="#394c1f" dojoGfxStrokeStyle="solid" d="m7.179 247.56h33.5v41.26h-33.5z"/>
+  <path fill="url(#2)" stroke="#ab9200" dojoGfxStrokeStyle="solid" d="m7.179 197.13h33.5v50.43h-33.5z"/>
+  <path fill="url(#3)" stroke="#732d28" dojoGfxStrokeStyle="solid" d="m7.179 174.21h33.5v22.922h-33.5z"/>
+  <path fill="url(#4)" stroke="#604573" dojoGfxStrokeStyle="solid" d="m7.179 137.53h33.5v36.675h-33.5z"/>
+  <path fill="url(#5)" stroke="#326557" dojoGfxStrokeStyle="solid" d="m7.179 114.61h33.5v22.922h-33.5z"/>
+  <path fill="url(#6)" stroke="#ab712f" dojoGfxStrokeStyle="solid" d="m7.179 55.01h33.5v59.6h-33.5z"/>
+  <path fill="url(#7)" stroke="#594d28" dojoGfxStrokeStyle="solid" d="m7.179 0h33.5v55.01h-33.5z"/>
+  <path fill="url(#8)" stroke="#3c6c89" dojoGfxStrokeStyle="solid" d="m55.04 314.31h33.5v38.685h-33.5z"/>
+  <path fill="url(#9)" stroke="#394c1f" dojoGfxStrokeStyle="solid" d="m55.04 275.63h33.5v38.685h-33.5z"/>
+  <path fill="url(#A)" stroke="#ab9200" dojoGfxStrokeStyle="solid" d="m55.04 232.11h33.5v43.521h-33.5z"/>
+  <path fill="url(#B)" stroke="#732d28" dojoGfxStrokeStyle="solid" d="m55.04 183.75h33.5v48.36h-33.5z"/>
+  <path fill="url(#C)" stroke="#604573" dojoGfxStrokeStyle="solid" d="m55.04 125.73h33.5v58.03h-33.5z"/>
+  <path fill="url(#D)" stroke="#326557" dojoGfxStrokeStyle="solid" d="m55.04 106.38h33.5v19.342h-33.5z"/>
+  <path fill="url(#E)" stroke="#ab712f" dojoGfxStrokeStyle="solid" d="m55.04 48.36h33.5v58.03h-33.5z"/>
+  <path fill="url(#F)" stroke="#594d28" dojoGfxStrokeStyle="solid" d="m55.04 0h33.5v48.36h-33.5z"/>
+  <path fill="url(#G)" stroke="#3c6c89" dojoGfxStrokeStyle="solid" d="m102.89 306.96h33.5v46.04h-33.5z"/>
+  <path fill="url(#H)" stroke="#394c1f" dojoGfxStrokeStyle="solid" d="m102.89 276.26h33.5v30.696h-33.5z"/>
+  <path fill="url(#I)" stroke="#ab9200" dojoGfxStrokeStyle="solid" d="m102.89 250.68h33.5v25.58h-33.5z"/>
+  <path fill="url(#J)" stroke="#732d28" dojoGfxStrokeStyle="solid" d="m102.89 194.41h33.5v56.28h-33.5z"/>
+  <path fill="url(#K)" stroke="#604573" dojoGfxStrokeStyle="solid" d="m102.89 138.13h33.5v56.28h-33.5z"/>
+  <path fill="url(#L)" stroke="#326557" dojoGfxStrokeStyle="solid" d="m102.89 71.62h33.5v66.51h-33.5z"/>
+  <path fill="url(#M)" stroke="#ab712f" dojoGfxStrokeStyle="solid" d="m102.89 15.348h33.5v56.28h-33.5z"/>
+  <path fill="url(#N)" stroke="#594d28" dojoGfxStrokeStyle="solid" d="m102.89 0h33.5v15.348h-33.5z"/>
+  <path fill="url(#O)" stroke="#3c6c89" dojoGfxStrokeStyle="solid" d="m150.75 327.48h33.5v25.518h-33.5z"/>
+  <path fill="url(#P)" stroke="#394c1f" dojoGfxStrokeStyle="solid" d="m150.75 297.71h33.5v29.771h-33.5z"/>
+  <path fill="url(#Q)" stroke="#ab9200" dojoGfxStrokeStyle="solid" d="m150.75 242.42h33.5v55.29h-33.5z"/>
+  <path fill="url(#R)" stroke="#732d28" dojoGfxStrokeStyle="solid" d="m150.75 170.12h33.5v72.3h-33.5z"/>
+  <path fill="url(#S)" stroke="#604573" dojoGfxStrokeStyle="solid" d="m150.75 131.84h33.5v38.28h-33.5z"/>
+  <path fill="url(#T)" stroke="#326557" dojoGfxStrokeStyle="solid" d="m150.75 89.31h33.5v42.53h-33.5z"/>
+  <path fill="url(#U)" stroke="#ab712f" dojoGfxStrokeStyle="solid" d="m150.75 55.29h33.5v34.02h-33.5z"/>
+  <path fill="url(#V)" stroke="#594d28" dojoGfxStrokeStyle="solid" d="m150.75 0h33.5v55.29h-33.5z"/>
+  <path fill="url(#W)" stroke="#3c6c89" dojoGfxStrokeStyle="solid" d="m198.61 307.94h33.5v45.06h-33.5z"/>
+  <path fill="url(#X)" stroke="#394c1f" dojoGfxStrokeStyle="solid" d="m198.61 266.63h33.5v41.31h-33.5z"/>
+  <path fill="url(#Y)" stroke="#ab9200" dojoGfxStrokeStyle="solid" d="m198.61 210.3h33.5v56.33h-33.5z"/>
+  <path fill="url(#Z)" stroke="#732d28" dojoGfxStrokeStyle="solid" d="m198.61 161.48h33.5v48.819h-33.5z"/>
+  <path fill="url(#a)" stroke="#604573" dojoGfxStrokeStyle="solid" d="m198.61 123.93h33.5v37.553h-33.5z"/>
+  <path fill="url(#b)" stroke="#326557" dojoGfxStrokeStyle="solid" d="m198.61 82.62h33.5v41.31h-33.5z"/>
+  <path fill="url(#c)" stroke="#ab712f" dojoGfxStrokeStyle="solid" d="m198.61 41.31h33.5v41.31h-33.5z"/>
+  <path fill="url(#d)" stroke="#594d28" dojoGfxStrokeStyle="solid" d="m198.61 0h33.5v41.31h-33.5z"/>
+  <path fill="url(#e)" stroke="#3c6c89" dojoGfxStrokeStyle="solid" d="m246.46 289.2h33.5v63.795h-33.5z"/>
+  <path fill="url(#f)" stroke="#394c1f" dojoGfxStrokeStyle="solid" d="m246.46 272.19h33.5v17.01h-33.5z"/>
+  <path fill="url(#g)" stroke="#ab9200" dojoGfxStrokeStyle="solid" d="m246.46 229.66h33.5v42.53h-33.5z"/>
+  <path fill="url(#h)" stroke="#732d28" dojoGfxStrokeStyle="solid" d="m246.46 170.12h33.5v59.54h-33.5z"/>
+  <path fill="url(#i)" stroke="#604573" dojoGfxStrokeStyle="solid" d="m246.46 140.35h33.5v29.771h-33.5z"/>
+  <path fill="url(#j)" stroke="#326557" dojoGfxStrokeStyle="solid" d="m246.46 80.81h33.5v59.54h-33.5z"/>
+  <path fill="url(#k)" stroke="#ab712f" dojoGfxStrokeStyle="solid" d="m246.46 25.518h33.5v55.29h-33.5z"/>
+  <path fill="url(#l)" stroke="#594d28" dojoGfxStrokeStyle="solid" d="m246.46 0h33.5v25.518h-33.5z"/>
+  <path fill="url(#m)" stroke="#3c6c89" dojoGfxStrokeStyle="solid" d="m294.32 302.57h33.5v50.43h-33.5z"/>
+  <path fill="url(#n)" stroke="#394c1f" dojoGfxStrokeStyle="solid" d="m294.32 252.14h33.5v50.43h-33.5z"/>
+  <path fill="url(#o)" stroke="#ab9200" dojoGfxStrokeStyle="solid" d="m294.32 197.51h33.5v54.631h-33.5z"/>
+  <path fill="url(#p)" stroke="#732d28" dojoGfxStrokeStyle="solid" d="m294.32 142.88h33.5v54.631h-33.5z"/>
+  <path fill="url(#q)" stroke="#604573" dojoGfxStrokeStyle="solid" d="m294.32 96.66h33.5v46.23h-33.5z"/>
+  <path fill="url(#r)" stroke="#326557" dojoGfxStrokeStyle="solid" d="m294.32 58.833h33.5v37.821h-33.5z"/>
+  <path fill="url(#s)" stroke="#ab712f" dojoGfxStrokeStyle="solid" d="m294.32 42.02h33.5v16.81h-33.5z"/>
+  <path fill="url(#t)" stroke="#594d28" dojoGfxStrokeStyle="solid" d="m294.32 0h33.5v42.02h-33.5z"/>
+  </g>
+ <g transform="translate(57 29.55)">
+  <path fill="none" fill-opacity="0" dojoGfxStrokeStyle="solid" d="m0 0v353"/>
+  <text fill-opacity=".6" x="176.5" y="-37.94" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" fill-rule="evenodd" font-weight="bold" font-size="12" font-family="Arial" transform="matrix(0-1 1 0 0 353)">Sales
+   </text>
+  <g fill="none" fill-opacity="0">
+   <path dojoGfxStrokeStyle="solid" d="m0 353h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 317.7h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 282.4h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 247.1h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 211.8h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 176.5h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 141.2h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 105.9h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 70.6h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 35.3h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 0h-4.667"/>
+   </g>
+  <g fill="none" fill-opacity="0">
+   <path dojoGfxStrokeStyle="solid" d="m0 344.18h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 335.35h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 326.52h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 308.87h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 300.05h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 291.23h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 273.57h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 264.75h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 255.93h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 238.28h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 229.45h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 220.62h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 202.97h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 194.15h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 185.32h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 167.68h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 158.85h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 150.03h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 132.37h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 123.55h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 114.72h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 97.08h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 88.25h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 79.42h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 61.775h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 52.95h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 44.12h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 26.475h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 17.65h-2.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 8.825h-2.333"/>
+   </g>
+  <g font-family="Arial" text-anchor="end" kerning="0" fill-rule="evenodd" text-rendering="auto" fill-opacity=".6" font-size="12">
+   <text x="-7.667" y="357.06" rotate="0">0
+    </text>
+   <text x="-7.667" y="321.76" rotate="0">10
+    </text>
+   <text x="-7.667" y="286.46" rotate="0">20
+    </text>
+   <text x="-7.667" y="251.16" rotate="0">30
+    </text>
+   <text x="-7.667" y="215.86" rotate="0">40
+    </text>
+   <text x="-7.667" y="180.56" rotate="0">50
+    </text>
+   <text x="-7.667" y="145.26" rotate="0">60
+    </text>
+   <text x="-7.667" y="109.96" rotate="0">70
+    </text>
+   <text x="-7.667" y="74.66" rotate="0">80
+    </text>
+   <text x="-7.667" y="39.36" rotate="0">90
+    </text>
+   <text x="-7.667" y="4.06" rotate="0">100
+    </text>
+   </g>
+  </g>
+ <g transform="translate(57 382.55)">
+  <path fill="none" fill-opacity="0" stroke="#999" dojoGfxStrokeStyle="solid" d="m0 0h335"/>
+  <text fill-opacity=".6" x="167.5" y="36.06" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" fill-rule="evenodd" font-weight="bold" font-size="12" font-family="Arial">Year
+   </text>
+  <g fill="none" fill-opacity="0">
+   <path dojoGfxStrokeStyle="solid" d="m23.929 0v4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m71.786 0v4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m119.64 0v4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m167.5 0v4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m215.36 0v4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m263.21 0v4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m311.07 0v4.667"/>
+   </g>
+  <g font-family="Arial" text-anchor="middle" kerning="0" fill-rule="evenodd" text-rendering="auto" fill-opacity=".6" font-size="12">
+   <text x="23.929" y="18.727" rotate="0">2002
+    </text>
+   <text x="71.786" y="18.727" rotate="0">2003
+    </text>
+   <text x="119.64" y="18.727" rotate="0">2004
+    </text>
+   <text x="167.5" y="18.727" rotate="0">2005
+    </text>
+   <text x="215.36" y="18.727" rotate="0">2006
+    </text>
+   <text x="263.21" y="18.727" rotate="0">2007
+    </text>
+   <text x="311.07" y="18.727" rotate="0">2008
+    </text>
+   </g>
+  </g>
+ <g fill-rule="evenodd">
+  <path fill="#fff" fill-opacity="1" stroke-width="1" d="m400 0h100v431h-100z"/>
+  <g transform="translate(400 19.395)" clip-path="url(#13)">
+   <path fill-opacity="0" stroke-width="1" d="m0 0h100v411.61h-100z"/>
+   <g transform="translate(0 1)">
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m2.5 2.5h69v20h-69z"/>
+    <path fill="url(#u)" stroke="#3c6c89" dojoGfxStrokeStyle="solid" d="m2.5 2.5h20v20h-20z"/>
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m27.5 5.5h44v14h-44z"/>
+    <text fill-opacity=".6" x="27.5" y="16.56" rotate="0" kerning="0" text-rendering="auto" font-weight="bold" font-size="12" font-family="Arial">Store A
+     </text>
+    </g>
+   <g transform="translate(0 1)">
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m2.5 27.5h69v20h-69z"/>
+    <path fill="url(#v)" stroke="#394c1f" dojoGfxStrokeStyle="solid" d="m2.5 27.5h20v20h-20z"/>
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m27.5 30.5h44v14h-44z"/>
+    <text fill-opacity=".6" x="27.5" y="41.56" rotate="0" kerning="0" text-rendering="auto" font-weight="bold" font-size="12" font-family="Arial">Store B
+     </text>
+    </g>
+   <g transform="translate(0 1)">
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m2.5 52.5h69v20h-69z"/>
+    <path fill="url(#w)" stroke="#ab9200" dojoGfxStrokeStyle="solid" d="m2.5 52.5h20v20h-20z"/>
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m27.5 55.5h44v14h-44z"/>
+    <text fill-opacity=".6" x="27.5" y="66.56" rotate="0" kerning="0" text-rendering="auto" font-weight="bold" font-size="12" font-family="Arial">Store C
+     </text>
+    </g>
+   <g transform="translate(0 1)">
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m2.5 77.5h69v20h-69z"/>
+    <path fill="url(#x)" stroke="#732d28" dojoGfxStrokeStyle="solid" d="m2.5 77.5h20v20h-20z"/>
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m27.5 80.5h44v14h-44z"/>
+    <text fill-opacity=".6" x="27.5" y="91.56" rotate="0" kerning="0" text-rendering="auto" font-weight="bold" font-size="12" font-family="Arial">Store D
+     </text>
+    </g>
+   <g transform="translate(0 1)">
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m2.5 102.5h69v20h-69z"/>
+    <path fill="url(#y)" stroke="#604573" dojoGfxStrokeStyle="solid" d="m2.5 102.5h20v20h-20z"/>
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m27.5 105.5h44v14h-44z"/>
+    <text fill-opacity=".6" x="27.5" y="116.56" rotate="0" kerning="0" text-rendering="auto" font-weight="bold" font-size="12" font-family="Arial">Store E
+     </text>
+    </g>
+   <g transform="translate(0 1)">
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m2.5 127.5h69v20h-69z"/>
+    <path fill="url(#z)" stroke="#326557" dojoGfxStrokeStyle="solid" d="m2.5 127.5h20v20h-20z"/>
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m27.5 130.5h44v14h-44z"/>
+    <text fill-opacity=".6" x="27.5" y="141.56" rotate="0" kerning="0" text-rendering="auto" font-weight="bold" font-size="12" font-family="Arial">Store F
+     </text>
+    </g>
+   <g transform="translate(0 1)">
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m2.5 152.5h69v20h-69z"/>
+    <path fill="url(#10)" stroke="#ab712f" dojoGfxStrokeStyle="solid" d="m2.5 152.5h20v20h-20z"/>
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m27.5 155.5h44v14h-44z"/>
+    <text fill-opacity=".6" x="27.5" y="166.56" rotate="0" kerning="0" text-rendering="auto" font-weight="bold" font-size="12" font-family="Arial">Store G
+     </text>
+    </g>
+   <g transform="translate(0 1)">
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m2.5 177.5h69v20h-69z"/>
+    <path fill="url(#11)" stroke="#594d28" dojoGfxStrokeStyle="solid" d="m2.5 177.5h20v20h-20z"/>
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m27.5 180.5h44v14h-44z"/>
+    <text fill-opacity=".6" x="27.5" y="191.56" rotate="0" kerning="0" text-rendering="auto" font-weight="bold" font-size="12" font-family="Arial">Store H
+     </text>
+    </g>
+   </g>
+  </g>
+ </svg>

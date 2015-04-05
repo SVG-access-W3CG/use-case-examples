@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 946 844">
+ <defs>
+  <clipPath id="0">
+   <path d="m-10-11h946v844h-946z"/>
+   </clipPath>
+  </defs>
+ <g fill-rule="evenodd" stroke-width="1">
+  <path fill="#fff" d="m0 0h946v844h-946z"/>
+  <path fill-opacity="0" d="m0 0h946v844h-946z"/>
+  </g>
+ <g transform="translate(10 11)" clip-path="url(#0)">
+  <g stroke="#000">
+   <g fill="none" fill-opacity="0">
+    <g stroke-width="5">
+     <path dojoGfxStrokeStyle="solid" d="m463 146v608.5"/>
+     <path path="M470.5,762L463,769.5L455.5,762L463,754.5Z" d="m470.5 762l-7.5 7.5-7.5-7.5 7.5-7.5" dojoGfxStrokeStyle="solid"/>
+     </g>
+    <path dojoGfxStrokeStyle="solid" d="m140 372.41l313.38-179.52"/>
+    <path path="M451.674,189.256L459.632,189.307L455.651,196.198M459.632,189.307L453.246,192.965" d="m451.67 189.26l7.958.051-3.981 6.891m3.981-6.891l-6.386 3.658" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m415.5 267.11v-43.622"/>
+    <path path="M411.5,223.171L415.5,216.291L419.5,223.171M415.5,216.291L415.5,223.651" d="m411.5 223.17l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m338.67 311.11v-43.622"/>
+    <path path="M334.667,267.17L338.667,260.29L342.667,267.17M338.667,260.29L338.667,267.65" d="m334.67 267.17l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m261.83 355.11v-43.622"/>
+    <path path="M257.833,311.169L261.833,304.289L265.833,311.169M261.833,304.289L261.833,311.649" d="m257.83 311.17l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m185 399.11v-43.623"/>
+    <path path="M181,355.167L185,348.287L189,355.167M185,348.287L185,355.647" d="m181 355.17l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m140 515.54l313.38-179.52"/>
+    <path path="M451.674,332.389L459.632,332.44L455.651,339.33M459.632,332.44L453.246,336.098" d="m451.67 332.39l7.958.051-3.981 6.89m3.981-6.89l-6.386 3.658" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m415.5 410.25v-43.623"/>
+    <path path="M411.5,366.303L415.5,359.423L419.5,366.303M415.5,359.423L415.5,366.783" d="m411.5 366.3l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m338.67 454.25v-43.623"/>
+    <path path="M334.667,410.302L338.667,403.422L342.667,410.302M338.667,403.422L338.667,410.782" d="m334.67 410.3l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m261.83 498.24v-43.623"/>
+    <path path="M257.833,454.301L261.833,447.421L265.833,454.301M261.833,447.421L261.833,454.781" d="m257.83 454.3l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m185 542.24v-43.623"/>
+    <path path="M181,498.3L185,491.42L189,498.3M185,491.42L185,498.78" d="m181 498.3l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m140 658.67l313.38-179.52"/>
+    <path path="M451.674,475.521L459.632,475.572L455.651,482.463M459.632,475.572L453.246,479.231" d="m451.67 475.52l7.958.051-3.981 6.891m3.981-6.891l-6.386 3.659" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m415.5 553.38v-43.623"/>
+    <path path="M411.5,509.436L415.5,502.556L419.5,509.436M415.5,502.556L415.5,509.916" d="m411.5 509.44l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m338.67 597.38v-43.623"/>
+    <path path="M334.667,553.435L338.667,546.555L342.667,553.435M338.667,546.555L338.667,553.915" d="m334.67 553.43l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m261.83 641.38v-43.623"/>
+    <path path="M257.833,597.434L261.833,590.554L265.833,597.434M261.833,590.554L261.833,597.914" d="m257.83 597.43l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m185 685.38v-43.623"/>
+    <path path="M181,641.433L185,634.553L189,641.433M185,634.553L185,641.913" d="m181 641.43l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m786 391.22l-313.38-179.52"/>
+    <path path="M470.349,215.008L466.368,208.117L474.326,208.066M466.368,208.117L472.754,211.775" d="m470.35 215.01l-3.981-6.891 7.958-.051m-7.958.051l6.386 3.658" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m510.5 285.92v-43.622"/>
+    <path path="M506.5,241.981L510.5,235.101L514.5,241.981M510.5,235.101L510.5,242.461" d="m506.5 241.98l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m587.33 329.92v-43.622"/>
+    <path path="M583.333,285.98L587.333,279.1L591.333,285.98M587.333,279.1L587.333,286.46" d="m583.33 285.98l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m664.17 373.92v-43.622"/>
+    <path path="M660.167,329.979L664.167,323.099L668.167,329.979M664.167,323.099L664.167,330.459" d="m660.17 329.98l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m741 417.92v-43.623"/>
+    <path path="M737,373.977L741,367.097L745,373.977M741,367.097L741,374.457" d="m737 373.98l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m786 534.35l-313.38-179.52"/>
+    <path path="M470.349,358.14L466.368,351.25L474.326,351.199M466.368,351.25L472.754,354.908" d="m470.35 358.14l-3.981-6.89 7.958-.051m-7.958.051l6.386 3.658" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m510.5 429.06v-43.623"/>
+    <path path="M506.5,385.113L510.5,378.233L514.5,385.113M510.5,378.233L510.5,385.593" d="m506.5 385.11l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m587.33 473.06v-43.623"/>
+    <path path="M583.333,429.112L587.333,422.232L591.333,429.112M587.333,422.232L587.333,429.592" d="m583.33 429.11l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m664.17 517.05v-43.623"/>
+    <path path="M660.167,473.111L664.167,466.231L668.167,473.111M664.167,466.231L664.167,473.591" d="m660.17 473.11l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m741 561.05v-43.623"/>
+    <path path="M737,517.11L741,510.23L745,517.11M741,510.23L741,517.59" d="m737 517.11l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m786 677.48l-313.38-179.52"/>
+    <path path="M470.349,501.273L466.368,494.382L474.326,494.331M466.368,494.382L472.754,498.041" d="m470.35 501.27l-3.981-6.891 7.958-.051m-7.958.051l6.386 3.659" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m510.5 572.19v-43.623"/>
+    <path path="M506.5,528.246L510.5,521.366L514.5,528.246M510.5,521.366L510.5,528.726" d="m506.5 528.25l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m587.33 616.19v-43.623"/>
+    <path path="M583.333,572.245L587.333,565.365L591.333,572.245M587.333,565.365L587.333,572.725" d="m583.33 572.25l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m664.17 660.19v-43.623"/>
+    <path path="M660.167,616.244L664.167,609.364L668.167,616.244M664.167,609.364L664.167,616.724" d="m660.17 616.24l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    <path dojoGfxStrokeStyle="solid" d="m741 704.19v-43.623"/>
+    <path path="M737,660.243L741,653.363L745,660.243M741,653.363L741,660.723" d="m737 660.24l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+    </g>
+   <path fill="#0089ce" fill-rule="evenodd" dojoGfxStrokeStyle="solid" d="m418 50h90v96h-90z"/>
+   </g>
+  <g font-family="Arial,SansSerif,sans-serif" text-anchor="middle" kerning="0" fill-rule="evenodd" text-rendering="auto" font-size="12">
+   <text x="463" y="88.06" rotate="0">Example
+    </text>
+   <text x="463" y="102.06" rotate="0">of
+    </text>
+   <text x="463" y="116.06" rotate="0">Fishbone
+    </text>
+   </g>
+  <g fill-rule="evenodd">
+   <path fill="#7cbc4a" stroke="#000" dojoGfxStrokeStyle="solid" d="m50 348.41h90v48h-90z"/>
+   <text x="95" y="376.47" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">People
+    </text>
+   <path fill="#d8c625" stroke="#000" dojoGfxStrokeStyle="solid" d="m786 367.22h90v48h-90z"/>
+   <text x="831" y="395.28" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">I.T.
+    </text>
+   <path fill="#f79428" stroke="#000" dojoGfxStrokeStyle="solid" d="m50 491.54h90v48h-90z"/>
+   <text x="95" y="519.6" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Premises
+    </text>
+   <path fill="#d6332f" stroke="#000" dojoGfxStrokeStyle="solid" d="m786 510.35h90v48h-90z"/>
+   <text x="831" y="538.41" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Finance
+    </text>
+   <path fill="#a83293" stroke="#000" dojoGfxStrokeStyle="solid" d="m50 634.67h90v48h-90z"/>
+   <text x="95" y="662.73" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Transport
+    </text>
+   <path fill="#2a58a8" stroke="#000" dojoGfxStrokeStyle="solid" d="m786 653.48h90v48h-90z"/>
+   <text x="831" y="681.54" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Clients
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m370.5 267.11h90v24h-90z"/>
+   <text x="415.5" y="283.17" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Resistance
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m293.67 311.11h90v24h-90z"/>
+   <text x="338.67" y="327.17" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Training
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m216.83 355.11h90v24h-90z"/>
+   <text x="261.83" y="371.17" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Redeployment
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m140 399.11h90v24h-90z"/>
+   <text x="185" y="415.17" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Role review
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m465.5 285.92h90v24h-90z"/>
+   <text x="510.5" y="301.98" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Resiliance
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m542.33 329.92h90v24h-90z"/>
+   <text x="587.33" y="345.98" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Support
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m619.17 373.92h90v24h-90z"/>
+   <text x="664.17" y="389.98" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Training
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m696 417.92h90v24h-90z"/>
+   <text x="741" y="433.98" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Resource
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m370.5 410.25h90v24h-90z"/>
+   <text x="415.5" y="426.31" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Security
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m293.67 454.25h90v24h-90z"/>
+   <text x="338.67" y="470.31" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Access
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m216.83 498.24h90v24h-90z"/>
+   <text x="261.83" y="514.3" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Geography
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m140 542.24h90v24h-90z"/>
+   <text x="185" y="558.3" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Capacity
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m465.5 429.06h90v24h-90z"/>
+   <text x="510.5" y="445.12" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Savings
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m542.33 473.06h90v24h-90z"/>
+   <text x="587.33" y="489.12" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Sustainability
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m619.17 517.05h90v24h-90z"/>
+   <text x="664.17" y="533.11" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Profits
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m696 561.05h90v24h-90z"/>
+   <text x="741" y="577.11" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Economics
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m370.5 553.38h90v24h-90z"/>
+   <text x="415.5" y="569.44" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Cost
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m293.67 597.38h90v24h-90z"/>
+   <text x="338.67" y="613.44" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Access
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m216.83 641.38h90v24h-90z"/>
+   <g font-family="Arial,SansSerif,sans-serif" text-anchor="middle" kerning="0" text-rendering="auto" font-size="12">
+    <text x="261.83" y="650.44" rotate="0">Transport
+     </text>
+    <text x="261.83" y="664.44" rotate="0">goods
+     </text>
+    </g>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m140 685.38h90v24h-90z"/>
+   <text x="185" y="701.44" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Local
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m465.5 572.19h90v24h-90z"/>
+   <text x="510.5" y="588.25" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Consultation
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m542.33 616.19h90v24h-90z"/>
+   <text x="587.33" y="632.25" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Information
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m619.17 660.19h90v24h-90z"/>
+   <text x="664.17" y="676.25" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Involvement
+    </text>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m696 704.19h90v24h-90z"/>
+   <text x="741" y="720.25" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">Sales
+    </text>
+   </g>
+  </g>
+ </svg>

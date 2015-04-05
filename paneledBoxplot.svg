@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 400" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <path id="6" d="m0 0h355" fill-opacity="0" fill="none"/>
+  <clipPath id="4">
+   <path d="m0 0h355v160h-355z"/>
+   </clipPath>
+  <clipPath id="5">
+   <path d="m0 0h355v160h-355z"/>
+   </clipPath>
+  <clipPath id="3">
+   <path d="m0 0h40v144h-40z"/>
+   </clipPath>
+  <clipPath id="1">
+   <path d="m0 0h399v199h-399z"/>
+   </clipPath>
+  <clipPath id="0">
+   <path d="m0 0h399v398h-399z"/>
+   </clipPath>
+  <clipPath id="2">
+   <path d="m0 0h399v199h-399z"/>
+   </clipPath>
+  </defs>
+ <g transform="translate(0 1)" clip-path="url(#0)" fill-rule="evenodd" fill-opacity="0">
+  <path d="m0 0h399v199h-399z"/>
+  <path d="m0 199h399v199h-399z"/>
+  </g>
+ <g transform="translate(0 1)" clip-path="url(#1)">
+  <g transform="translate(39 13)">
+   <path fill="none" fill-opacity="0" stroke="#ddf" dojoGfxStrokeStyle="solid" d="m0 133.33h355" id="7"/>
+   <path fill="none" fill-opacity="0" stroke="#ddf" dojoGfxStrokeStyle="solid" d="m0 106.67h355" id="8"/>
+   <path fill="none" fill-opacity="0" stroke="#ddf" dojoGfxStrokeStyle="solid" d="m0 80h355" id="9"/>
+   <path fill="none" fill-opacity="0" stroke="#ddf" dojoGfxStrokeStyle="solid" d="m0 53.33h355" id="A"/>
+   <path fill="none" fill-opacity="0" stroke="#ddf" dojoGfxStrokeStyle="solid" d="m0 26.667h355" id="B"/>
+   <use stroke="#ddf" dojoGfxStrokeStyle="solid" xlink:href="#6"/>
+   </g>
+  <g transform="translate(39 13)" clip-path="url(#4)" stroke-width="2">
+   <path fill="none" fill-opacity="0" stroke="#0089ce" path="M23.667,101.333L47.333,101.333M35.5,101.333L35.5,112M23.667,138.667L47.333,138.667M35.5,138.667L35.5,133.333" d="m23.667 101.33h23.666m-11.833 0v10.667m-11.833 26.667h23.666m-11.833 0v-5.334" dojoGfxStrokeStyle="solid"/>
+   <g stroke="#000">
+    <path fill="#0089ce" fill-rule="evenodd" dojoGfxStrokeStyle="solid" d="m17.75 112h35.5v21.333h-35.5z"/>
+    <path fill="none" fill-opacity="0" dojoGfxStrokeStyle="solid" d="m17.75 122.67h35.5"/>
+    </g>
+   <path fill="none" fill-opacity="0" stroke="#f79428" path="M236.667,69.333L260.333,69.333M248.5,69.333L248.5,80M236.667,112L260.333,112M248.5,112L248.5,101.333" d="m236.67 69.33h23.666m-11.833 0v10.667m-11.833 32h23.666m-11.833 0v-10.667" dojoGfxStrokeStyle="solid"/>
+   <g stroke="#000">
+    <path fill="#f79428" fill-rule="evenodd" dojoGfxStrokeStyle="solid" d="m230.75 80h35.5v21.333h-35.5z"/>
+    <path fill="none" fill-opacity="0" dojoGfxStrokeStyle="solid" d="m230.75 90.67h35.5"/>
+    </g>
+   <path fill="none" fill-opacity="0" stroke="#d8c625" path="M165.667,26.667L189.333,26.667M177.5,26.667L177.5,80M165.667,122.667L189.333,122.667M177.5,122.667L177.5,112" d="m165.67 26.667h23.666m-11.833 0v53.33m-11.833 42.667h23.666m-11.833 0v-10.667" dojoGfxStrokeStyle="solid"/>
+   <g stroke="#000">
+    <path fill="#d8c625" fill-rule="evenodd" dojoGfxStrokeStyle="solid" d="m159.75 80h35.5v32h-35.5z"/>
+    <path fill="none" fill-opacity="0" dojoGfxStrokeStyle="solid" d="m159.75 101.33h35.5"/>
+    </g>
+   </g>
+  <g transform="translate(39 13)">
+   <path fill="none" fill-opacity="0" stroke="#000" dojoGfxStrokeStyle="solid" d="m0 0v160"/>
+   <g>
+    <path fill="none" fill-opacity="0" stroke="#000" dojoGfxStrokeStyle="solid" d="m0 160h-4.667" id="C"/>
+    <path fill="none" fill-opacity="0" stroke="#000" dojoGfxStrokeStyle="solid" d="m0 133.33h-4.667" id="D"/>
+    <path fill="none" fill-opacity="0" stroke="#000" dojoGfxStrokeStyle="solid" d="m0 106.67h-4.667" id="E"/>
+    <path fill="none" fill-opacity="0" stroke="#000" dojoGfxStrokeStyle="solid" d="m0 80h-4.667" id="F"/>
+    <path fill="none" fill-opacity="0" stroke="#000" dojoGfxStrokeStyle="solid" d="m0 53.33h-4.667" id="G"/>
+    <path fill="none" fill-opacity="0" stroke="#000" dojoGfxStrokeStyle="solid" d="m0 26.667h-4.667" id="H"/>
+    <path fill="none" fill-opacity="0" stroke="#000" dojoGfxStrokeStyle="solid" d="m0 0h-4.667" id="I"/>
+    </g>
+   <g font-family="Arial,SansSerif,sans-serif" text-anchor="end" kerning="0" fill-rule="evenodd" text-rendering="auto" font-size="12">
+    <text x="-7" y="164.06" rotate="0">-2.5
+     </text>
+    <text x="-7" y="137.39" rotate="0">0
+     </text>
+    <text x="-7" y="110.73" rotate="0">2.5
+     </text>
+    <text x="-7" y="84.06" rotate="0">5
+     </text>
+    <text x="-7" y="57.39" rotate="0">7.5
+     </text>
+    <text x="-7" y="30.727" rotate="0">10
+     </text>
+    <text x="-7" y="4.06" rotate="0">12.5
+     </text>
+    </g>
+   </g>
+  <g transform="translate(39 173)">
+   <use stroke="#000" dojoGfxStrokeStyle="solid" xlink:href="#6"/>
+   <g>
+    <path fill="none" fill-opacity="0" stroke="#000" dojoGfxStrokeStyle="solid" d="m35.5 0v4.667" id="J"/>
+    <path fill="none" fill-opacity="0" stroke="#000" dojoGfxStrokeStyle="solid" d="m106.5 0v4.667" id="K"/>
+    <path fill="none" fill-opacity="0" stroke="#000" dojoGfxStrokeStyle="solid" d="m177.5 0v4.667" id="L"/>
+    <path fill="none" fill-opacity="0" stroke="#000" dojoGfxStrokeStyle="solid" d="m248.5 0v4.667" id="M"/>
+    <path fill="none" fill-opacity="0" stroke="#000" dojoGfxStrokeStyle="solid" d="m319.5 0v4.667" id="N"/>
+    </g>
+   <g font-family="Arial,SansSerif,sans-serif" text-anchor="middle" kerning="0" fill-rule="evenodd" text-rendering="auto" font-size="12">
+    <text x="35.5" y="18.06" rotate="0">1
+     </text>
+    <text x="106.5" y="18.06" rotate="0">2
+     </text>
+    <text x="177.5" y="18.06" rotate="0">3
+     </text>
+    <text x="248.5" y="18.06" rotate="0">4
+     </text>
+    <text x="319.5" y="18.06" rotate="0">5
+     </text>
+    </g>
+   </g>
+  </g>
+ <g transform="translate(0 200)" clip-path="url(#2)">
+  <g transform="translate(39 13)">
+   <use dojoGfxStrokeStyle="solid" xlink:href="#7"/>
+   <use dojoGfxStrokeStyle="solid" xlink:href="#8"/>
+   <use dojoGfxStrokeStyle="solid" xlink:href="#9"/>
+   <use dojoGfxStrokeStyle="solid" xlink:href="#A"/>
+   <use dojoGfxStrokeStyle="solid" xlink:href="#B"/>
+   <use stroke="#ddf" dojoGfxStrokeStyle="solid" xlink:href="#6"/>
+   </g>
+  <g transform="translate(39 13)" clip-path="url(#5)" stroke-width="2">
+   <path fill="none" fill-opacity="0" stroke="#d6332f" path="M307.667,104.533L331.333,104.533M319.5,104.533L319.5,114.667M307.667,128L331.333,128M319.5,128L319.5,125.333" d="m307.67 104.53h23.666m-11.833 0v10.134m-11.833 13.333h23.666m-11.833 0v-2.667" dojoGfxStrokeStyle="solid"/>
+   <g stroke="#000">
+    <path fill="#d6332f" fill-rule="evenodd" dojoGfxStrokeStyle="solid" d="m301.75 114.67h35.5v10.667h-35.5z"/>
+    <path fill="none" fill-opacity="0" dojoGfxStrokeStyle="solid" d="m301.75 117.33h35.5"/>
+    </g>
+   <path fill="none" fill-opacity="0" stroke="#7cbc4a" path="M94.667,96L118.333,96M106.5,96L106.5,106.667M94.667,128L118.333,128M106.5,128L106.5,122.667" d="m94.67 96h23.666m-11.833 0v10.667m-11.833 21.333h23.666m-11.833 0v-5.333" dojoGfxStrokeStyle="solid"/>
+   <g stroke="#000">
+    <path fill="#7cbc4a" fill-rule="evenodd" dojoGfxStrokeStyle="solid" d="m88.75 106.67h35.5v16h-35.5z"/>
+    <path fill="none" fill-opacity="0" dojoGfxStrokeStyle="solid" d="m88.75 112h35.5"/>
+    </g>
+   </g>
+  <g transform="translate(39 13)">
+   <path fill="none" fill-opacity="0" stroke="#000" dojoGfxStrokeStyle="solid" d="m0 0v160"/>
+   <g>
+    <use dojoGfxStrokeStyle="solid" xlink:href="#C"/>
+    <use dojoGfxStrokeStyle="solid" xlink:href="#D"/>
+    <use dojoGfxStrokeStyle="solid" xlink:href="#E"/>
+    <use dojoGfxStrokeStyle="solid" xlink:href="#F"/>
+    <use dojoGfxStrokeStyle="solid" xlink:href="#G"/>
+    <use dojoGfxStrokeStyle="solid" xlink:href="#H"/>
+    <use dojoGfxStrokeStyle="solid" xlink:href="#I"/>
+    </g>
+   <g font-family="Arial,SansSerif,sans-serif" text-anchor="end" kerning="0" fill-rule="evenodd" text-rendering="auto" font-size="12">
+    <text x="-7" y="164.06" rotate="0">-2.5
+     </text>
+    <text x="-7" y="137.39" rotate="0">0
+     </text>
+    <text x="-7" y="110.73" rotate="0">2.5
+     </text>
+    <text x="-7" y="84.06" rotate="0">5
+     </text>
+    <text x="-7" y="57.39" rotate="0">7.5
+     </text>
+    <text x="-7" y="30.727" rotate="0">10
+     </text>
+    <text x="-7" y="4.06" rotate="0">12.5
+     </text>
+    </g>
+   </g>
+  <g transform="translate(39 173)">
+   <use stroke="#000" dojoGfxStrokeStyle="solid" xlink:href="#6"/>
+   <g>
+    <use dojoGfxStrokeStyle="solid" xlink:href="#J"/>
+    <use dojoGfxStrokeStyle="solid" xlink:href="#K"/>
+    <use dojoGfxStrokeStyle="solid" xlink:href="#L"/>
+    <use dojoGfxStrokeStyle="solid" xlink:href="#M"/>
+    <use dojoGfxStrokeStyle="solid" xlink:href="#N"/>
+    </g>
+   <g font-family="Arial,SansSerif,sans-serif" text-anchor="middle" kerning="0" fill-rule="evenodd" text-rendering="auto" font-size="12">
+    <text x="35.5" y="18.06" rotate="0">1
+     </text>
+    <text x="106.5" y="18.06" rotate="0">2
+     </text>
+    <text x="177.5" y="18.06" rotate="0">3
+     </text>
+    <text x="248.5" y="18.06" rotate="0">4
+     </text>
+    <text x="319.5" y="18.06" rotate="0">5
+     </text>
+    </g>
+   </g>
+  </g>
+ <g transform="translate(400)" clip-path="url(#3)" fill-rule="evenodd">
+  <path fill-opacity="0" stroke-width="1" d="m0 0h40v144h-40z"/>
+  <g>
+   <path fill-opacity="0" d="m16.5 1.5h7v14h-7z"/>
+   <text x="20" y="12.56" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-weight="bold" font-size="12" font-family="Arial,SanSerif">x
+    </text>
+   </g>
+  <g transform="translate(0 18)">
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m2.5 2.5h33v20h-33z"/>
+   <path fill="#0089ce" stroke="#000" stroke-width="2" dojoGfxStrokeStyle="solid" d="m2.5 2.5h20v20h-20z"/>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m27.5 5.5h8v14h-8z"/>
+   <text x="27.5" y="16.56" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">1
+    </text>
+   </g>
+  <g transform="translate(0 18)">
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m2.5 27.5h33v20h-33z"/>
+   <path fill="#7cbc4a" stroke="#000" stroke-width="2" dojoGfxStrokeStyle="solid" d="m2.5 27.5h20v20h-20z"/>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m27.5 30.5h8v14h-8z"/>
+   <text x="27.5" y="41.56" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">2
+    </text>
+   </g>
+  <g transform="translate(0 18)">
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m2.5 52.5h33v20h-33z"/>
+   <path fill="#d8c625" stroke="#000" stroke-width="2" dojoGfxStrokeStyle="solid" d="m2.5 52.5h20v20h-20z"/>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m27.5 55.5h8v14h-8z"/>
+   <text x="27.5" y="66.56" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">3
+    </text>
+   </g>
+  <g transform="translate(0 18)">
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m2.5 77.5h33v20h-33z"/>
+   <path fill="#f79428" stroke="#000" stroke-width="2" dojoGfxStrokeStyle="solid" d="m2.5 77.5h20v20h-20z"/>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m27.5 80.5h8v14h-8z"/>
+   <text x="27.5" y="91.56" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">4
+    </text>
+   </g>
+  <g transform="translate(0 18)">
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m2.5 102.5h33v20h-33z"/>
+   <path fill="#d6332f" stroke="#000" stroke-width="2" dojoGfxStrokeStyle="solid" d="m2.5 102.5h20v20h-20z"/>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m27.5 105.5h8v14h-8z"/>
+   <text x="27.5" y="116.56" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SansSerif,sans-serif">5
+    </text>
+   </g>
+  </g>
+ </svg>

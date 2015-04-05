@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+ <defs>
+  <clipPath id="0">
+   <path d="m0 0h544v422h-544z"/>
+   </clipPath>
+  </defs>
+ <g fill-rule="evenodd">
+  <path fill="#fff" stroke-width="1" d="m0 0h600v600h-600z"/>
+  <g transform="translate(55 8)" clip-path="url(#0)" stroke="#000">
+   <path fill="#004568" dojoGfxStrokeStyle="solid" d="m0 379.8h34v42.2h-34z"/>
+   <path fill="#4b752b" dojoGfxStrokeStyle="solid" d="m34 379.8h34v42.2h-34z"/>
+   <path fill="#35bbff" dojoGfxStrokeStyle="solid" d="m68 295.4h34v126.6h-34z"/>
+   <path fill="#b2d894" dojoGfxStrokeStyle="solid" d="m102 379.8h34v42.2h-34z"/>
+   <path fill="#004568" dojoGfxStrokeStyle="solid" d="m136 379.8h34v42.2h-34z"/>
+   <path fill="#4b752b" dojoGfxStrokeStyle="solid" d="m170 379.8h34v42.2h-34z"/>
+   <path fill="#35bbff" dojoGfxStrokeStyle="solid" d="m204 379.8h34v42.2h-34z"/>
+   <path fill="#b2d894" dojoGfxStrokeStyle="solid" d="m238 211h34v211h-34z"/>
+   <path fill="#004568" dojoGfxStrokeStyle="solid" d="m272 379.8h34v42.2h-34z"/>
+   <path fill="#4b752b" dojoGfxStrokeStyle="solid" d="m306 379.8h34v42.2h-34z"/>
+   <path fill="#35bbff" dojoGfxStrokeStyle="solid" d="m340 337.6h34v84.4h-34z"/>
+   <path fill="#b2d894" dojoGfxStrokeStyle="solid" d="m374 379.8h34v42.2h-34z"/>
+   <path fill="#004568" dojoGfxStrokeStyle="solid" d="m408 379.8h34v42.2h-34z"/>
+   <path fill="#4b752b" dojoGfxStrokeStyle="solid" d="m442 379.8h34v42.2h-34z"/>
+   <path fill="#35bbff" dojoGfxStrokeStyle="solid" d="m476 379.8h34v42.2h-34z"/>
+   <path fill="#b2d894" dojoGfxStrokeStyle="solid" d="m510 379.8h34v42.2h-34z"/>
+   </g>
+  </g>
+ <g transform="translate(55 8)">
+  <path fill="none" fill-opacity="0" stroke="#000" dojoGfxStrokeStyle="solid" d="m0 0v422"/>
+  <text x="211" y="-42.773" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" fill-rule="evenodd" font-size="12" font-family="Arial,SansSerif,sans-serif" transform="matrix(0-1 1 0 0 422)">This is Y
+   </text>
+  <g fill="none" stroke="#000" fill-opacity="0">
+   <path dojoGfxStrokeStyle="solid" d="m0 422h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 379.8h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 337.6h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 295.4h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 253.2h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 211h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 168.8h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 126.6h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 84.4h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 42.2h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 0h-4.667"/>
+   </g>
+  <g font-family="Arial,SansSerif,sans-serif" text-anchor="end" kerning="0" fill-rule="evenodd" text-rendering="auto" font-size="12">
+   <text x="-7" y="426.06" rotate="0">0
+    </text>
+   <text x="-7" y="383.86" rotate="0">100
+    </text>
+   <text x="-7" y="341.66" rotate="0">200
+    </text>
+   <text x="-7" y="299.46" rotate="0">300
+    </text>
+   <text x="-7" y="257.26" rotate="0">400
+    </text>
+   <text x="-7" y="215.06" rotate="0">500
+    </text>
+   <text x="-7" y="172.86" rotate="0">600
+    </text>
+   <text x="-7" y="130.66" rotate="0">700
+    </text>
+   <text x="-7" y="88.46" rotate="0">800
+    </text>
+   <text x="-7" y="46.26" rotate="0">900
+    </text>
+   <text x="-7" y="4.06" rotate="0">1000
+    </text>
+   </g>
+  </g>
+ <g transform="translate(55 430)">
+  <g fill-rule="evenodd">
+   <g stroke="#000" fill-opacity="0" stroke-width="1.5">
+    <path dojoGfxStrokeStyle="solid" d="m0 152h272v17h-272z"/>
+    <path dojoGfxStrokeStyle="solid" d="m272 152h272v17h-272z"/>
+    </g>
+   <g font-family="Arial,SansSerif,sans-serif" text-anchor="middle" kerning="0" text-rendering="auto" font-size="12">
+    <text x="136" y="165.73" rotate="0">Male
+     </text>
+    <text x="408" y="165.73" rotate="0">Female
+     </text>
+    </g>
+   <g stroke="#000" fill-opacity="0" stroke-width="1.5">
+    <path dojoGfxStrokeStyle="solid" d="m0 135h136v17h-136z"/>
+    <path dojoGfxStrokeStyle="solid" d="m136 135h136v17h-136z"/>
+    <path dojoGfxStrokeStyle="solid" d="m272 135h136v17h-136z"/>
+    <path dojoGfxStrokeStyle="solid" d="m408 135h136v17h-136z"/>
+    </g>
+   <g font-family="Arial,SansSerif,sans-serif" text-anchor="middle" kerning="0" text-rendering="auto" font-size="12">
+    <text x="68" y="148.73" rotate="0">Yes
+     </text>
+    <text x="204" y="148.73" rotate="0">No
+     </text>
+    <text x="340" y="148.73" rotate="0">Yes
+     </text>
+    <text x="476" y="148.73" rotate="0">No
+     </text>
+    </g>
+   <g stroke="#000" fill-opacity="0" stroke-width="1.5">
+    <path dojoGfxStrokeStyle="solid" d="m0 118h68v17h-68z"/>
+    <path dojoGfxStrokeStyle="solid" d="m68 118h68v17h-68z"/>
+    <path dojoGfxStrokeStyle="solid" d="m136 118h68v17h-68z"/>
+    <path dojoGfxStrokeStyle="solid" d="m204 118h68v17h-68z"/>
+    <path dojoGfxStrokeStyle="solid" d="m272 118h68v17h-68z"/>
+    <path dojoGfxStrokeStyle="solid" d="m340 118h68v17h-68z"/>
+    <path dojoGfxStrokeStyle="solid" d="m408 118h68v17h-68z"/>
+    <path dojoGfxStrokeStyle="solid" d="m476 118h68v17h-68z"/>
+    </g>
+   <g font-family="Arial,SansSerif,sans-serif" text-anchor="middle" kerning="0" text-rendering="auto" font-size="12">
+    <text x="34" y="131.73" rotate="0">Web
+     </text>
+    <text x="102" y="131.73" rotate="0">Phone
+     </text>
+    <text x="170" y="131.73" rotate="0">Web
+     </text>
+    <text x="238" y="131.73" rotate="0">Phone
+     </text>
+    <text x="306" y="131.73" rotate="0">Web
+     </text>
+    <text x="374" y="131.73" rotate="0">Phone
+     </text>
+    <text x="442" y="131.73" rotate="0">Web
+     </text>
+    <text x="510" y="131.73" rotate="0">Phone
+     </text>
+    </g>
+   </g>
+  <g stroke="#000" fill-opacity="0">
+   <path fill="none" dojoGfxStrokeStyle="solid" d="m0 0h544"/>
+   <g fill-rule="evenodd" stroke-width="1.5">
+    <path dojoGfxStrokeStyle="solid" d="m0 0h34v118h-34z"/>
+    <path dojoGfxStrokeStyle="solid" d="m34 0h34v118h-34z"/>
+    <path dojoGfxStrokeStyle="solid" d="m68 0h34v118h-34z"/>
+    <path dojoGfxStrokeStyle="solid" d="m102 0h34v118h-34z"/>
+    <path dojoGfxStrokeStyle="solid" d="m136 0h34v118h-34z"/>
+    <path dojoGfxStrokeStyle="solid" d="m170 0h34v118h-34z"/>
+    <path dojoGfxStrokeStyle="solid" d="m204 0h34v118h-34z"/>
+    <path dojoGfxStrokeStyle="solid" d="m238 0h34v118h-34z"/>
+    <path dojoGfxStrokeStyle="solid" d="m272 0h34v118h-34z"/>
+    <path dojoGfxStrokeStyle="solid" d="m306 0h34v118h-34z"/>
+    <path dojoGfxStrokeStyle="solid" d="m340 0h34v118h-34z"/>
+    <path dojoGfxStrokeStyle="solid" d="m374 0h34v118h-34z"/>
+    <path dojoGfxStrokeStyle="solid" d="m408 0h34v118h-34z"/>
+    <path dojoGfxStrokeStyle="solid" d="m442 0h34v118h-34z"/>
+    <path dojoGfxStrokeStyle="solid" d="m476 0h34v118h-34z"/>
+    <path dojoGfxStrokeStyle="solid" d="m510 0h34v118h-34z"/>
+    </g>
+   </g>
+  <g font-family="Arial,SansSerif,sans-serif" text-anchor="end" kerning="0" fill-rule="evenodd" text-rendering="auto" font-size="12" transform="matrix(0-1 1 0 0 115.67)">
+   <text x="113.33" y="21.06" rotate="0">Camping Equipment
+    </text>
+   <text x="113.33" y="55.06" rotate="0">Golf Equipment
+    </text>
+   <text x="113.33" y="89.06" rotate="0">Camping Equipment
+    </text>
+   <text x="113.33" y="123.06" rotate="0">Golf Equipment
+    </text>
+   <text x="113.33" y="157.06" rotate="0">Camping Equipment
+    </text>
+   <text x="113.33" y="191.06" rotate="0">Golf Equipment
+    </text>
+   <text x="113.33" y="225.06" rotate="0">Camping Equipment
+    </text>
+   <text x="113.33" y="259.06" rotate="0">Golf Equipment
+    </text>
+   <text x="113.33" y="293.06" rotate="0">Camping Equipment
+    </text>
+   <text x="113.33" y="327.06" rotate="0">Golf Equipment
+    </text>
+   <text x="113.33" y="361.06" rotate="0">Camping Equipment
+    </text>
+   <text x="113.33" y="395.06" rotate="0">Golf Equipment
+    </text>
+   <text x="113.33" y="429.06" rotate="0">Camping Equipment
+    </text>
+   <text x="113.33" y="463.06" rotate="0">Golf Equipment
+    </text>
+   <text x="113.33" y="497.06" rotate="0">Camping Equipment
+    </text>
+   <text x="113.33" y="531.06" rotate="0">Golf Equipment
+    </text>
+   </g>
+  </g>
+ </svg>

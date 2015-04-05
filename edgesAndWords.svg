@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 800" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <clipPath id="1">
+   <path d="m-50-51h1500v800h-1500z"/>
+   </clipPath>
+  <clipPath id="2">
+   <path d="m-50-51h1500v800h-1500z"/>
+   </clipPath>
+  </defs>
+ <path fill="#aaa" fill-rule="evenodd" stroke-width="1" d="m0 0h1500v800h-1500z" id="0"/>
+ <use xlink:href="#0"/>
+ <g transform="translate(50 51)" clip-path="url(#1)" font-family="Arial,SanSerif" text-anchor="middle" kerning="0" fill-rule="evenodd" text-rendering="auto" font-weight="bold">
+  <text fill="#9dbde5" x="22.5" y="357.91" rotate="0" font-size="25.4">  Our 
+   </text>
+  <text fill="#a3c2e5" x="393.17" y="352.22" rotate="0" font-size="15.8">  financial 
+   </text>
+  <text fill="#aac7e5" x="393.17" y="431.82" rotate="0" font-size="19">  growth 
+   </text>
+  <text fill="#b3cde5" x="393.17" y="275.36" rotate="0" font-size="16.6">  business 
+   </text>
+  <text fill="#bcd4e5" x="393.17" y="509.11" rotate="0" font-size="15.8">  long-term strategic priorities 
+   </text>
+  <text fill="#c8dbe5" x="393.17" y="198.17" rotate="0" font-size="12">  operating net income for the quarter was up 5 percent 
+   </text>
+  <text fill="#d5e4e5" x="393.17" y="124.26" rotate="0" font-size="17.4">  increased 
+   </text>
+  <g font-size="16.6">
+   <g fill="#e5e5e5">
+    <text x="393.17" y="587.13" rotate="0">  more 
+     </text>
+    <text x="393.17" y="45.02" rotate="0">  new 
+     </text>
+    <text x="393.17" y="665.58" rotate="0">  clients 
+     </text>
+    </g>
+   <text fill="#e5e5d8" x="899.33" y="319.08" rotate="0">  results 
+    </text>
+   </g>
+  <g font-size="15.8">
+   <text fill="#e5e5c0" x="1326.5" y="392.94" rotate="0">  for the third quarter 
+    </text>
+   <text fill="#e5d9a8" x="1326.5" y="316.5" rotate="0">  reflect the strength 
+    </text>
+   <text fill="#e5cd90" x="899.33" y="548.83" rotate="0">  initiatives 
+    </text>
+   <text fill="#e5bf78" x="899.33" y="395.94" rotate="0">  markets revenue was up 
+    </text>
+   <text fill="#e5b061" x="899.33" y="472.39" rotate="0">  by delivering on the promise 
+    </text>
+   <text fill="#e59f4b" x="899.33" y="164.61" rotate="0">  model 
+    </text>
+   <text fill="#e58e37" x="899.33" y="241.05" rotate="0">  analytics revenue increased 
+    </text>
+   <text fill="#e57b26" x="899.33" y="88.16" rotate="0">  focus on growth plays 
+    </text>
+   </g>
+  <g font-size="12">
+   <text fill="#e56719" x="899.33" y="622.12" rotate="0">  traditional packaged applications projects 
+    </text>
+   <text fill="#e55219" x="899.33" y="12.56" rotate="0">  mainframe, Power, storage and Pure Systems products 
+    </text>
+   </g>
+  <text fill="#e53c19" x="899.33" y="694.56" rotate="0" font-size="12.238">  reduce costs and create new capabilities 
+   </text>
+  </g>
+ <g transform="translate(50 51)" clip-path="url(#2)" stroke-opacity=".6" fill="none" stroke="#000" fill-opacity="0" stroke-width="3">
+  <path path="M45,347L350.067,347L350.067,347" d="m45 347h305.07" dojoGfxStrokeStyle="solid"/>
+  <path path="M350.427,342.5L358.167,347L350.427,351.5M358.167,347L349.887,347" d="m350.43 342.5l7.74 4.5-7.74 4.5m7.74-4.5h-8.28" dojoGfxStrokeStyle="solid"/>
+  <path path="M45,361.1C248.711,361.1,146.856,425.444,350.567,425.444L350.567,425.444" d="m45 361.1c203.71 0 101.86 64.34 305.57 64.34" dojoGfxStrokeStyle="solid"/>
+  <path path="M350.927,420.944L358.667,425.444L350.927,429.944M358.667,425.444L350.387,425.444" d="m350.93 420.94l7.74 4.5-7.74 4.5m7.74-4.5h-8.28" dojoGfxStrokeStyle="solid"/>
+  <path path="M45,337.9C246.044,337.9,145.522,269.556,346.567,269.556L346.567,269.556" d="m45 337.9c201.04 0 100.52-68.34 301.57-68.34" dojoGfxStrokeStyle="solid"/>
+  <path path="M346.927,265.056L354.667,269.556L346.927,274.056M354.667,269.556L346.387,269.556" d="m346.93 265.06l7.74 4.5-7.74 4.5m7.74-4.5h-8.28" dojoGfxStrokeStyle="solid"/>
+  <path path="M45,361.1C198.378,361.1,121.689,503.889,275.067,503.889L275.067,503.889" d="m45 361.1c153.38 0 76.69 142.79 230.07 142.79" dojoGfxStrokeStyle="solid"/>
+  <path path="M275.427,499.389L283.167,503.889L275.427,508.389M283.167,503.889L274.887,503.889" d="m275.43 499.39l7.74 4.5-7.74 4.5m7.74-4.5h-8.28" dojoGfxStrokeStyle="solid"/>
+  <path path="M45,337.9C168.044,337.9,106.522,194.111,229.567,194.111L229.567,194.111" d="m45 337.9c123.04 0 61.52-143.79 184.57-143.79" dojoGfxStrokeStyle="solid"/>
+  <path path="M229.927,189.611L237.667,194.111L229.927,198.611M237.667,194.111L229.387,194.111" d="m229.93 189.61l7.74 4.5-7.74 4.5m7.74-4.5h-8.28" dojoGfxStrokeStyle="solid"/>
+  <path path="M45,337.9C242.711,337.9,143.856,118.167,341.567,118.167L341.567,118.167" d="m45 337.9c197.71 0 98.86-219.73 296.57-219.73" dojoGfxStrokeStyle="solid"/>
+  <path path="M341.927,113.667L349.667,118.167L341.927,122.667M349.667,118.167L341.387,118.167" d="m341.93 113.67l7.74 4.5-7.74 4.5m7.74-4.5h-8.28" dojoGfxStrokeStyle="solid"/>
+  <path path="M45,361.1C256.378,361.1,150.689,581.333,362.067,581.333L362.067,581.333" d="m45 361.1c211.38 0 105.69 220.23 317.07 220.23" dojoGfxStrokeStyle="solid"/>
+  <path path="M362.427,576.833L370.167,581.333L362.427,585.833M370.167,581.333L361.887,581.333" d="m362.43 576.83l7.74 4.5-7.74 4.5m7.74-4.5h-8.28" dojoGfxStrokeStyle="solid"/>
+  <path path="M45,337.9C259.044,337.9,152.022,39.222,366.067,39.222L366.067,39.222" d="m45 337.9c214.04 0 107.02-298.68 321.07-298.68" dojoGfxStrokeStyle="solid"/>
+  <path path="M366.427,34.722L374.167,39.222L366.427,43.722M374.167,39.222L365.887,39.222" d="m366.43 34.722l7.74 4.5-7.74 4.5m7.74-4.5h-8.28" dojoGfxStrokeStyle="solid"/>
+  <path path="M45,361.1C252.378,361.1,148.689,659.778,356.067,659.778L356.067,659.778" d="m45 361.1c207.38 0 103.69 298.68 311.07 298.68" dojoGfxStrokeStyle="solid"/>
+  <path path="M356.427,655.278L364.167,659.778L356.427,664.278M364.167,659.778L355.887,659.778" d="m356.43 655.28l7.74 4.5-7.74 4.5m7.74-4.5h-8.28" dojoGfxStrokeStyle="solid"/>
+  <path path="M425.167,347C715.878,347,570.522,313.278,861.233,313.278L861.233,313.278" d="m425.17 347c290.71 0 145.36-33.722 436.07-33.722" dojoGfxStrokeStyle="solid"/>
+  <path path="M861.593,308.778L869.333,313.278L861.593,317.778M869.333,313.278L861.053,313.278" d="m861.59 308.78l7.74 4.5-7.74 4.5m7.74-4.5h-8.28" dojoGfxStrokeStyle="solid"/>
+  <path path="M926.333,321.278C1136.711,321.278,1031.522,387.722,1241.9,387.722L1241.9,387.722" d="m926.33 321.28c210.38 0 105.19 66.44 315.57 66.44" dojoGfxStrokeStyle="solid"/>
+  <path path="M1242.26,383.222L1250,387.722L1242.26,392.222M1250,387.722L1241.72,387.722" d="m1242.26 383.22l7.74 4.5-7.74 4.5m7.74-4.5h-8.28" dojoGfxStrokeStyle="solid"/>
+  <path path="M926.333,312.678L1243.9,311.878L1243.9,311.878" d="m926.33 312.68l317.57-.8" dojoGfxStrokeStyle="solid"/>
+  <path path="M1244.26,307.378L1252,311.878L1244.26,316.378M1252,311.878L1243.72,311.878" d="m1244.26 307.38l7.74 4.5-7.74 4.5m7.74-4.5h-8.28" dojoGfxStrokeStyle="solid"/>
+  <path path="M424.667,434.244C709.711,434.244,567.189,543.611,852.233,543.611L852.233,543.611" d="m424.67 434.24c285.04 0 142.52 109.37 427.57 109.37" dojoGfxStrokeStyle="solid"/>
+  <path path="M852.593,539.111L860.333,543.611L852.593,548.111M860.333,543.611L852.053,543.611" d="m852.59 539.11l7.74 4.5-7.74 4.5m7.74-4.5h-8.28" dojoGfxStrokeStyle="solid"/>
+  <path path="M424.667,416.644C672.044,416.644,548.356,390.722,795.733,390.722L795.733,390.722" d="m424.67 416.64c247.38 0 123.69-25.922 371.07-25.922" dojoGfxStrokeStyle="solid"/>
+  <path path="M796.093,386.222L803.833,390.722L796.093,395.222M803.833,390.722L795.553,390.722" d="m796.09 386.22l7.74 4.5-7.74 4.5m7.74-4.5h-8.28" dojoGfxStrokeStyle="solid"/>
+  <path path="M424.667,434.244C661.711,434.244,543.189,467.167,780.233,467.167L780.233,467.167" d="m424.67 434.24c237.04 0 118.52 32.923 355.57 32.923" dojoGfxStrokeStyle="solid"/>
+  <path path="M780.593,462.667L788.333,467.167L780.593,471.667M788.333,467.167L780.053,467.167" d="m780.59 462.67l7.74 4.5-7.74 4.5m7.74-4.5h-8.28" dojoGfxStrokeStyle="solid"/>
+  <path path="M428.667,261.556C719.378,261.556,574.022,159.389,864.733,159.389L864.733,159.389" d="m428.67 261.56c290.71 0 145.36-102.17 436.07-102.17" dojoGfxStrokeStyle="solid"/>
+  <path path="M865.093,154.889L872.833,159.389L865.093,163.889M872.833,159.389L864.553,159.389" d="m865.09 154.89l7.74 4.5-7.74 4.5m7.74-4.5h-8.28" dojoGfxStrokeStyle="solid"/>
+  <path path="M428.667,261.556C664.044,261.556,546.356,235.833,781.733,235.833L781.733,235.833" d="m428.67 261.56c235.38 0 117.69-25.723 353.07-25.723" dojoGfxStrokeStyle="solid"/>
+  <path path="M782.093,231.333L789.833,235.833L782.093,240.333M789.833,235.833L781.553,235.833" d="m782.09 231.33l7.74 4.5-7.74 4.5m7.74-4.5h-8.28" dojoGfxStrokeStyle="solid"/>
+  <path path="M433.667,118.167C680.378,118.167,557.022,82.944,803.733,82.944L803.733,82.944" d="m433.67 118.17c246.71 0 123.36-35.22 370.07-35.22" dojoGfxStrokeStyle="solid"/>
+  <path path="M804.093,78.444L811.833,82.944L804.093,87.444M811.833,82.944L803.553,82.944" d="m804.09 78.44l7.74 4.5-7.74 4.5m7.74-4.5h-8.28" dojoGfxStrokeStyle="solid"/>
+  <path path="M413.167,581.333C650.544,581.333,531.856,618.056,769.233,618.056L769.233,618.056" d="m413.17 581.33c237.38 0 118.69 36.723 356.07 36.723" dojoGfxStrokeStyle="solid"/>
+  <path path="M769.593,613.556L777.333,618.056L769.593,622.556M777.333,618.056L769.053,618.056" d="m769.59 613.56l7.74 4.5-7.74 4.5m7.74-4.5h-8.28" dojoGfxStrokeStyle="solid"/>
+  <path path="M409.167,39.222C623.211,39.222,516.189,8.5,730.233,8.5L730.233,8.5" d="m409.17 39.22c214.04 0 107.02-30.722 321.07-30.722" dojoGfxStrokeStyle="solid"/>
+  <path path="M730.593,4L738.333,8.5L730.593,13M738.333,8.5L730.053,8.5" d="m730.59 4l7.74 4.5-7.74 4.5m7.74-4.5h-8.28" dojoGfxStrokeStyle="solid"/>
+  <path path="M419.167,659.778C653.878,659.778,536.522,690.5,771.233,690.5L771.233,690.5" d="m419.17 659.78c234.71 0 117.36 30.722 352.07 30.722" dojoGfxStrokeStyle="solid"/>
+  <path path="M771.593,686L779.333,690.5L771.593,695M779.333,690.5L771.053,690.5" d="m771.59 686l7.74 4.5-7.74 4.5m7.74-4.5h-8.28" dojoGfxStrokeStyle="solid"/>
+  </g>
+ </svg>

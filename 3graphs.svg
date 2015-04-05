@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+ <defs>
+  <clipPath id="0">
+   <path d="m0 0h273v358h-273z"/>
+   </clipPath>
+  <clipPath id="1">
+   <path d="m0 0h190v189h-190z"/>
+   </clipPath>
+  <clipPath id="2">
+   <path d="m0 0h190v189h-190z"/>
+   </clipPath>
+  </defs>
+ <g fill-rule="evenodd">
+  <path fill="#fff" stroke-width="1" d="m0 0h400v400h-400z"/>
+  <g transform="translate(108 11)" clip-path="url(#0)" fill="#013996" stroke="#000" stroke-width=".75">
+   <path dojoGfxStrokeStyle="solid" d="M 0,3.978 H192.075 V35.8 H0 z"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 43.756h83.79v31.822h-83.79z"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 83.53h88.82v31.822h-88.82z"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 123.31h261.32v31.822h-261.32z"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 163.09h106.27v31.822h-106.27z"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 202.87h221.37v31.822h-221.37z"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 242.64h91.22v31.822h-91.22z"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 282.42h98.17v31.822h-98.17z"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 322.2h237.86v31.822h-237.86z"/>
+   </g>
+  </g>
+ <g transform="translate(108 369)">
+  <g fill="none" stroke="#000" fill-opacity="0">
+   <path dojoGfxStrokeStyle="solid" d="m0 0h273"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 0v4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m45.5 0v4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m91 0v4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m136.5 0v4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m182 0v4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m227.5 0v4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m273 0v4.667"/>
+   </g>
+  <g font-family="Arial,SansSerif,sans-serif" text-anchor="middle" kerning="0" fill-rule="evenodd" text-rendering="auto" font-size="12">
+   <text x="0" y="18.06" rotate="0">0
+    </text>
+   <text x="45.5" y="18.06" rotate="0">5
+    </text>
+   <text x="91" y="18.06" rotate="0">10
+    </text>
+   <text x="136.5" y="18.06" rotate="0">15
+    </text>
+   <text x="182" y="18.06" rotate="0">20
+    </text>
+   <text x="227.5" y="18.06" rotate="0">25
+    </text>
+   <text x="273" y="18.06" rotate="0">30
+    </text>
+   </g>
+  </g>
+ <g transform="translate(108 11)">
+  <g fill="none" stroke="#000" fill-opacity="0">
+   <path dojoGfxStrokeStyle="solid" d="m0 0v358"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 338.11h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 298.33h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 258.56h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 218.78h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 179h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 139.22h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 99.44h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 59.667h-4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 19.889h-4.667"/>
+   </g>
+  <g font-family="Arial,SansSerif,sans-serif" text-anchor="end" kerning="0" fill-rule="evenodd" text-rendering="auto" font-size="12">
+   <text x="-7" y="342.17" rotate="0">Spirituality
+    </text>
+   <text x="-7" y="302.39" rotate="0">Scifi/Fantasy
+    </text>
+   <text x="-7" y="262.62" rotate="0">Romance
+    </text>
+   <text x="-7" y="222.84" rotate="0">Reference
+    </text>
+   <text x="-7" y="183.06" rotate="0">Mystery/Fantasy
+    </text>
+   <text x="-7" y="143.28" rotate="0">History
+    </text>
+   <text x="-7" y="103.5" rotate="0">General fiction
+    </text>
+   <text x="-7" y="63.727" rotate="0">Classics
+    </text>
+   <text x="-7" y="23.949" rotate="0">Biography
+    </text>
+   </g>
+  </g>
+ <g fill-rule="evenodd">
+  <path fill="#fff" stroke-width="1" d="m400 0h200v200h-200z"/>
+  <g transform="translate(405 6)">
+   <circle cx="95" cy="94.5" r="94.5"/>
+   <g clip-path="url(#1)">
+    <g stroke="#000080">
+     <path fill="#0089ce" path="M95,94.5L189,94.5C189,131.983,166.732,165.883,132.332,180.769Z" d="m95 94.5h94c0 37.483-22.268 71.38-56.668 86.27" dojoGfxStrokeStyle="solid"/>
+     <path fill="#7cbc4a" path="M95,94.5L132.332,180.769C100.865,194.386,64.479,189.79,37.387,168.775C10.294,147.76,-3.206,113.66,2.157,79.795Z" d="m95 94.5l37.33 86.27c-31.467 13.617-67.853 9.02-94.94-11.994-27.09-21.02-40.593-55.12-35.23-88.98" dojoGfxStrokeStyle="solid"/>
+     <path fill="#d8c625" path="M95,94.5L2.157,79.795C7.356,46.973,29.498,19.334,60.396,7.101C91.294,-5.132,126.355,-0.142,152.613,20.225Z" d="m95 94.5l-92.84-14.705c5.199-32.822 27.341-60.46 58.24-72.69 30.898-12.233 65.959-7.243 92.22 13.12" dojoGfxStrokeStyle="solid"/>
+     <path fill="#f79428" path="M95,94.5L152.613,20.225C175.568,38.031,189,65.449,189,94.5Z" d="m95 94.5l57.61-74.28c22.955 17.806 36.39 45.22 36.39 74.28" dojoGfxStrokeStyle="solid"/>
+     </g>
+    <g font-family="Arial,SanSerif" text-anchor="middle" kerning="0" text-rendering="auto" font-size="12">
+     <text x="142.14" y="129.53" rotate="0">California
+      </text>
+     <text x="60.43" y="143.12" rotate="0">Illinois
+      </text>
+     <text x="74.24" y="46.12" rotate="0">New York
+      </text>
+     <text x="145.65" y="73.75" rotate="0">Texas
+      </text>
+     </g>
+    </g>
+   </g>
+  <path fill="#fff" stroke-width="1" d="m400 200h200v200h-200z"/>
+  <g transform="translate(405 206)">
+   <circle cx="95" cy="94.5" r="94.5"/>
+   <g clip-path="url(#2)">
+    <g stroke="#000080">
+     <path fill="#0089ce" path="M95,94.5L189,94.5C189,108.337,185.945,122.003,180.054,134.523Z" d="m95 94.5h94c0 13.837-3.055 27.503-8.946 40.02" dojoGfxStrokeStyle="solid"/>
+     <path fill="#7cbc4a" path="M95,94.5L180.054,134.523C176.275,142.553,171.379,150.007,165.51,156.663Z" d="m95 94.5l85.05 40.02c-3.779 8.03-8.675 15.484-14.544 22.14" dojoGfxStrokeStyle="solid"/>
+     <path fill="#d8c625" path="M95,94.5L165.51,156.663C144.576,180.409,113.095,192.023,81.755,187.562C50.415,183.102,23.425,163.166,9.946,134.523Z" d="m95 94.5l70.51 62.16c-20.934 23.746-52.41 35.36-83.75 30.899-31.34-4.46-58.33-24.396-71.809-53.04" dojoGfxStrokeStyle="solid"/>
+     <path fill="#f79428" path="M95,94.5L9.946,134.523C5.746,125.598,2.977,116.067,1.741,106.281Z" d="m95 94.5l-85.05 40.02c-4.2-8.925-6.969-18.456-8.205-28.24" dojoGfxStrokeStyle="solid"/>
+     <path fill="#d6332f" path="M95,94.5L1.741,106.281C0.505,96.495,0.817,86.575,2.665,76.886Z" d="m95 94.5l-93.26 11.781c-1.236-9.786-.924-19.706.924-29.395" dojoGfxStrokeStyle="solid"/>
+     <path fill="#a83293" path="M95,94.5L2.665,76.886C6.574,56.394,17.188,37.785,32.837,23.99Z" d="m95 94.5l-92.33-17.614c3.909-20.492 14.523-39.1 30.17-52.896" dojoGfxStrokeStyle="solid"/>
+     <path fill="#2a58a8" path="M95,94.5L32.837,23.99C52.306,6.825,78.006,-1.525,103.846,0.917Z" d="m95 94.5l-62.16-70.51c19.469-17.16 45.17-25.515 71.01-23.07" dojoGfxStrokeStyle="solid"/>
+     <path fill="#33a0da" path="M95,94.5L103.846,0.917C118.615,2.313,132.843,7.185,145.368,15.133Z" d="m95 94.5l8.846-93.58c14.769 1.396 28.997 6.268 41.522 14.216" dojoGfxStrokeStyle="solid"/>
+     <path fill="#97c66d" path="M95,94.5L145.368,15.133C172.538,32.376,189,62.32,189,94.5Z" d="m95 94.5l50.37-79.37c27.17 17.243 43.632 47.19 43.632 79.37" dojoGfxStrokeStyle="solid"/>
+     </g>
+    <g font-family="Arial,SanSerif" text-anchor="middle" kerning="0" text-rendering="auto" font-size="12">
+     <text x="150.04" y="110.86" rotate="0">Biography
+      </text>
+     <text x="142.14" y="129.53" rotate="0">Classics
+      </text>
+     <text x="87.05" y="147.4" rotate="0">General
+      </text>
+     <text x="87.05" y="161.4" rotate="0">fiction
+      </text>
+     <text x="40.839" y="114.3" rotate="0">History
+      </text>
+     <text x="38.628" y="96.79" rotate="0">Mystery
+      </text>
+     <text x="46.01" y="70.62" rotate="0">Reference
+      </text>
+     <text x="77.57" y="44.92" rotate="0">Romance
+      </text>
+     <text x="113.27" y="45.2" rotate="0">Scifi
+      </text>
+     <text x="144.42" y="71.39" rotate="0">Spirituality
+      </text>
+     </g>
+    </g>
+   </g>
+  </g>
+ </svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+ <defs>
+  <clipPath id="0">
+   <path d="m0-1h800v400h-800z"/>
+   </clipPath>
+  </defs>
+ <g fill-rule="evenodd">
+  <path fill="#fff" stroke-width="1" d="m0 0h800v400h-800z"/>
+  <g transform="translate(0 1)" clip-path="url(#0)" font-family="Arial,SansSerif,sans-serif" kerning="0" text-rendering="auto">
+   <text fill="#0089ce" x="509.08" y="196.34" rotate="0" font-size="53.34">Russia
+    </text>
+   <text fill="#7cbc4a" x="373.35" y="147.72" rotate="0" font-size="39.19">Great Britain
+    </text>
+   <text fill="#d8c625" x="224.79" y="154.37" rotate="0" font-size="35.923">Germany
+    </text>
+   <text fill="#f79428" x="593.69" y="149.12" rotate="0" font-size="28.3">Italy
+    </text>
+   <text fill="#d6332f" x="288.73" y="112.33" rotate="0" font-size="35.923">France
+    </text>
+   <text fill="#a83293" x="417.79" y="177.52" rotate="0" font-size="28.3">Ukrain
+    </text>
+   <text fill="#2a58a8" x="262.4" y="332.59" rotate="0" font-size="68.04">Netherlands
+    </text>
+   <text fill="#33a0da" x="183.94" y="212.37" rotate="0" font-size="28.847">Spain
+    </text>
+   <text fill="#97c66d" x="549.25" y="76.903" rotate="0" font-size="23.949">Belarus
+    </text>
+   <text fill="#e2de59" x="446.85" y="76.25" rotate="0" font-size="23.405">Romania
+    </text>
+   <text fill="#faa753" x="673.18" y="23.365" rotate="0" font-size="29.936">Poland
+    </text>
+   <text fill="#e46243" x="171.97" y="120.48" rotate="0" font-size="24.493">Hungary
+    </text>
+   <text fill="#b45da4" x="417.79" y="200.89" rotate="0" font-size="23.949">Norway
+    </text>
+   <text fill="#5c72b7" x="401.38" y="108.74" rotate="0" font-size="38.645">Czech Republic
+    </text>
+   <text fill="#69afe0" x="386.17" y="289.22" rotate="0" font-size="22.316">Slovakia
+    </text>
+   <g font-size="22.86">
+    <text fill="#afd78f" x="160.86" y="98.34" rotate="0">Denmark
+     </text>
+    <text fill="#ebec86" x="631.3" y="76.12" rotate="0">Switzerland
+     </text>
+    </g>
+   <text fill="#fcbc7b" x="230.09" y="235.99" rotate="0" font-size="23.405">Turkey
+    </text>
+   <text fill="#ea8768" x="357.96" y="254.91" rotate="0" font-size="66.4">Azerbaijan
+    </text>
+   <g font-size="21.772">
+    <text fill="#c282b8" x="241.2" y="258.48" rotate="0">Slovenia
+     </text>
+    <text fill="#717cad" x="544.98" y="174.62" rotate="0">Bulgeria
+     </text>
+    </g>
+   <text fill="#0089ce" x="258.13" y="198.32" rotate="0" font-size="48.44">Finland
+    </text>
+   <text fill="#7cbc4a" x="187.36" y="186.48" rotate="0" font-size="26.13">Latvia
+    </text>
+   <text fill="#d8c625" x="646.69" y="136.73" rotate="0" font-size="25.582">Belgium
+    </text>
+   <text fill="#f79428" x="348.56" y="76.72" rotate="0" font-size="26.13">Portugal
+    </text>
+   </g>
+  </g>
+ </svg>

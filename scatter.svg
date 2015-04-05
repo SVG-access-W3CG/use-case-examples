@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <clipPath id="N">
+   <path d="m0 0h289v310h-289z"/>
+   </clipPath>
+  <radialGradient id="G" gradientUnits="userSpaceOnUse" cx="188.54" cy="204.91" r="10.308" xlink:href="#4"/>
+  <radialGradient id="0" gradientUnits="userSpaceOnUse" cx="130.18" cy="155.19" r="11.714">
+   <stop stop-color="#fff"/>
+   <stop offset="1" stop-color="#7cbc4a"/>
+   </radialGradient>
+  <radialGradient id="F" gradientUnits="userSpaceOnUse" cx="141.58" cy="75.58" r="31.383" xlink:href="#1"/>
+  <radialGradient id="D" gradientUnits="userSpaceOnUse" cx="198.46" cy="188.8" r="9.605" xlink:href="#6"/>
+  <radialGradient id="E" gradientUnits="userSpaceOnUse" cx="119.24" cy="82.14" r="14.977" xlink:href="#2"/>
+  <radialGradient id="H" gradientUnits="userSpaceOnUse" cx="134.76" cy="144.82" r="24.352" xlink:href="#1"/>
+  <radialGradient id="M" gradientUnits="userSpaceOnUse" cx="202.66" cy="41.21" r="23.18" xlink:href="#2"/>
+  <radialGradient id="I" gradientUnits="userSpaceOnUse" cx="204.53" cy="88.25" r="18.511" xlink:href="#5"/>
+  <radialGradient id="L" gradientUnits="userSpaceOnUse" cx="101.28" cy="135.7" r="11.714" xlink:href="#6"/>
+  <radialGradient id="J" gradientUnits="userSpaceOnUse" cx="93.43" cy="203.91" r="7.261" xlink:href="#2"/>
+  <radialGradient id="K" gradientUnits="userSpaceOnUse" cx="56.755" cy="89.85" r="26.695" xlink:href="#4"/>
+  <radialGradient id="C" gradientUnits="userSpaceOnUse" cx="207.25" cy="221.17" r="11.714" xlink:href="#1"/>
+  <radialGradient id="4" gradientUnits="userSpaceOnUse" cx="169.56" cy="193.67" r="9.605">
+   <stop stop-color="#fff"/>
+   <stop offset="1" stop-color="#a83293"/>
+   </radialGradient>
+  <radialGradient id="B" gradientUnits="userSpaceOnUse" cx="111.66" cy="222.81" r="9.839" xlink:href="#1"/>
+  <radialGradient id="3" gradientUnits="userSpaceOnUse" cx="207.9" cy="173.56" r="10.07" xlink:href="#1"/>
+  <radialGradient id="1" gradientUnits="userSpaceOnUse" cx="169.84" cy="178.01" r="8.902">
+   <stop stop-color="#fff"/>
+   <stop offset="1" stop-color="#d8c625"/>
+   </radialGradient>
+  <radialGradient id="2" gradientUnits="userSpaceOnUse" cx="217.44" cy="207.12" r="10.308">
+   <stop stop-color="#fff"/>
+   <stop offset="1" stop-color="#d6332f"/>
+   </radialGradient>
+  <radialGradient id="5" gradientUnits="userSpaceOnUse" cx="208" cy="183.39" r="9.839">
+   <stop stop-color="#fff"/>
+   <stop offset="1" stop-color="#f79428"/>
+   </radialGradient>
+  <radialGradient id="A" gradientUnits="userSpaceOnUse" cx="183.86" cy="169.67" r="22.01" xlink:href="#0"/>
+  <radialGradient id="6" gradientUnits="userSpaceOnUse" cx="168.53" cy="122.67" r="12.183">
+   <stop stop-color="#fff"/>
+   <stop offset="1" stop-color="#0089ce"/>
+   </radialGradient>
+  <radialGradient id="9" gradientUnits="userSpaceOnUse" cx="150.02" cy="134.94" r="10.289" xlink:href="#5"/>
+  <radialGradient id="7" gradientUnits="userSpaceOnUse" cx="102.41" cy="187.75" r="8.902" xlink:href="#5"/>
+  <radialGradient id="8" gradientUnits="userSpaceOnUse" cx="44.42" cy="174.72" r="9.37" xlink:href="#4"/>
+  </defs>
+ <g fill-rule="evenodd" stroke-width="1">
+  <path fill="#141414" d="m0 0h400v400h-400z"/>
+  <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m0 0h400v400h-400z"/>
+  </g>
+ <g transform="translate(63.8 347.8)" stroke-dasharray="0.5 1.5" fill="none" stroke="#fff" fill-opacity="0" stroke-width=".5">
+  <path dojoGfxStrokeStyle="Dot" d="m48.17 0v-310"/>
+  <path dojoGfxStrokeStyle="Dot" d="m96.33 0v-310"/>
+  <path dojoGfxStrokeStyle="Dot" d="m144.5 0v-310"/>
+  <path dojoGfxStrokeStyle="Dot" d="m192.67 0v-310"/>
+  <path dojoGfxStrokeStyle="Dot" d="m240.83 0v-310"/>
+  <path dojoGfxStrokeStyle="Dot" d="m289 0v-310"/>
+  </g>
+ <g transform="translate(63.8 37.8)">
+  <g stroke-dasharray="0.5 1.5" fill="none" stroke="#fff" fill-opacity="0" stroke-width=".5">
+   <path dojoGfxStrokeStyle="Dot" d="m0 265.71h289"/>
+   <path dojoGfxStrokeStyle="Dot" d="m0 221.43h289"/>
+   <path dojoGfxStrokeStyle="Dot" d="m0 177.14h289"/>
+   <path dojoGfxStrokeStyle="Dot" d="m0 132.86h289"/>
+   <path dojoGfxStrokeStyle="Dot" d="m0 88.57h289"/>
+   <path dojoGfxStrokeStyle="Dot" d="m0 44.29h289"/>
+   <path dojoGfxStrokeStyle="Dot" d="m0 0h289"/>
+   </g>
+  <g clip-path="url(#N)" fill-rule="evenodd">
+   <circle fill="url(#0)" cx="134.87" cy="159.87" r="11.714"/>
+   <circle fill="url(#1)" cx="173.4" cy="181.57" r="8.902"/>
+   <circle fill="url(#2)" cx="221.57" cy="211.24" r="10.308"/>
+   <circle fill="url(#3)" cx="211.93" cy="177.59" r="10.07"/>
+   <circle fill="url(#4)" cx="173.4" cy="197.51" r="9.605"/>
+   <circle fill="url(#5)" cx="211.93" cy="187.33" r="9.839"/>
+   <circle fill="url(#6)" cx="173.4" cy="127.54" r="12.183"/>
+   <circle fill="url(#7)" cx="105.97" cy="191.31" r="8.902"/>
+   <circle fill="url(#8)" cx="48.17" cy="178.47" r="9.37"/>
+   <circle fill="url(#9)" cx="154.13" cy="139.06" r="10.289"/>
+   <circle fill="url(#A)" cx="192.67" cy="178.47" r="22.01"/>
+   <circle fill="url(#B)" cx="115.6" cy="226.74" r="9.839"/>
+   <circle fill="url(#C)" cx="211.93" cy="225.86" r="11.714"/>
+   <circle fill="url(#D)" cx="202.3" cy="192.64" r="9.605"/>
+   <circle fill="url(#E)" cx="125.23" cy="88.13" r="14.977"/>
+   <circle fill="url(#F)" cx="154.13" cy="88.13" r="31.383"/>
+   <circle fill="url(#G)" cx="192.67" cy="209.03" r="10.308"/>
+   <circle fill="url(#H)" cx="144.5" cy="154.56" r="24.352"/>
+   <circle fill="url(#I)" cx="211.93" cy="95.66" r="18.511"/>
+   <circle fill="url(#J)" cx="96.33" cy="206.81" r="7.261"/>
+   <circle fill="url(#K)" cx="67.43" cy="100.53" r="26.695"/>
+   <circle fill="url(#L)" cx="105.97" cy="140.39" r="11.714"/>
+   <circle fill="url(#M)" cx="211.93" cy="50.49" r="23.18"/>
+   </g>
+  <g fill="none" fill-opacity="0">
+   <path stroke="#000" dojoGfxStrokeStyle="solid" d="m0 0v310"/>
+   <g stroke="#fff">
+    <path dojoGfxStrokeStyle="solid" d="m0 310h-5"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 265.71h-5"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 221.43h-5"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 177.14h-5"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 132.86h-5"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 88.57h-5"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 44.29h-5"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 0h-5"/>
+    </g>
+   </g>
+  <g fill="#a0a0a0" font-family="Verdana,SanSerif" text-anchor="end" kerning="0" fill-rule="evenodd" text-rendering="auto" font-size="12">
+   <text x="-7.5" y="314.35" rotate="0">0
+    </text>
+   <text x="-7.5" y="270.06" rotate="0">100
+    </text>
+   <text x="-7.5" y="225.78" rotate="0">200
+    </text>
+   <text x="-7.5" y="181.49" rotate="0">300
+    </text>
+   <text x="-7.5" y="137.21" rotate="0">400
+    </text>
+   <text x="-7.5" y="92.92" rotate="0">500
+    </text>
+   <text x="-7.5" y="48.636" rotate="0">600
+    </text>
+   <text x="-7.5" y="4.35" rotate="0">700
+    </text>
+   </g>
+  </g>
+ <g transform="translate(63.8 347.8)">
+  <g fill="none" fill-opacity="0">
+   <path stroke="#000" dojoGfxStrokeStyle="solid" d="m0 0h289"/>
+   <g stroke="#fff">
+    <path dojoGfxStrokeStyle="solid" d="m0 0v5"/>
+    <path dojoGfxStrokeStyle="solid" d="m48.17 0v5"/>
+    <path dojoGfxStrokeStyle="solid" d="m96.33 0v5"/>
+    <path dojoGfxStrokeStyle="solid" d="m144.5 0v5"/>
+    <path dojoGfxStrokeStyle="solid" d="m192.67 0v5"/>
+    <path dojoGfxStrokeStyle="solid" d="m240.83 0v5"/>
+    <path dojoGfxStrokeStyle="solid" d="m289 0v5"/>
+    </g>
+   </g>
+  <g fill="#a0a0a0" font-family="Verdana,SanSerif" text-anchor="middle" kerning="0" fill-rule="evenodd" text-rendering="auto" font-size="12">
+   <text x="0" y="19.35" rotate="0">1985
+    </text>
+   <text x="48.17" y="19.35" rotate="0">1990
+    </text>
+   <text x="96.33" y="19.35" rotate="0">1995
+    </text>
+   <text x="144.5" y="19.35" rotate="0">2000
+    </text>
+   <text x="192.67" y="19.35" rotate="0">2005
+    </text>
+   <text x="240.83" y="19.35" rotate="0">2010
+    </text>
+   <text x="289" y="19.35" rotate="0">2015
+    </text>
+   </g>
+  </g>
+ </svg>

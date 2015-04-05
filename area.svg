@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 415 400">
+ <defs>
+  <clipPath id="1">
+   <path d="m0 0h365v353h-365z"/>
+   </clipPath>
+  <linearGradient id="0" gradientUnits="userSpaceOnUse" y1="39.22" x2="0" y2="353">
+   <stop stop-color="#125994" stop-opacity="0"/>
+   <stop offset="1" stop-color="#fff" stop-opacity=".99"/>
+   </linearGradient>
+  </defs>
+ <path fill="#fff" fill-rule="evenodd" stroke-width="1" d="m0 10h400v390h-400z"/>
+ <g transform="translate(35 19)" stroke-opacity=".1" fill="none" stroke="#000" fill-opacity="0">
+  <path dojoGfxStrokeStyle="solid" d="m0 313.78h365"/>
+  <path dojoGfxStrokeStyle="solid" d="m0 274.56h365"/>
+  <path dojoGfxStrokeStyle="solid" d="m0 235.33h365"/>
+  <path dojoGfxStrokeStyle="solid" d="m0 196.11h365"/>
+  <path dojoGfxStrokeStyle="solid" d="m0 156.89h365"/>
+  <path dojoGfxStrokeStyle="solid" d="m0 117.67h365"/>
+  <path dojoGfxStrokeStyle="solid" d="m0 78.44h365"/>
+  <path dojoGfxStrokeStyle="solid" d="m0 39.22h365"/>
+  <path dojoGfxStrokeStyle="solid" d="m0 0h365"/>
+  </g>
+ <g transform="translate(35 19)" clip-path="url(#1)">
+  <g>
+   <path fill="url(#0)" path="M22.813,353L22.813,298.089L68.438,235.333L114.063,274.556L159.688,235.333L205.313,117.667L250.938,180.422L296.563,196.111L342.188,39.222L342.188,353Z" d="m22.813 353v-54.911l45.625-62.756 45.625 39.22 45.625-39.22 45.625-117.67 45.625 62.755 45.625 15.689 45.625-156.89v313.78" fill-rule="evenodd"/>
+   <path fill="none" fill-opacity="0" stroke="#125994" stroke-opacity=".99" stroke-width="3" path="M22.813,298.089L68.438,235.333L114.063,274.556L159.688,235.333L205.313,117.667L250.938,180.422L296.563,196.111L342.188,39.222" d="m22.813 298.09l45.625-62.756 45.625 39.22 45.625-39.22 45.625-117.67 45.625 62.755 45.625 15.689 45.625-156.89" dojoGfxStrokeStyle="solid"/>
+   </g>
+  </g>
+ <g transform="translate(35 19)">
+  <g stroke-opacity=".24" fill="none" stroke="#000" fill-opacity="0">
+   <path dojoGfxStrokeStyle="solid" d="m0 0v353"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 353h-5.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 313.78h-5.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 274.56h-5.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 235.33h-5.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 196.11h-5.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 156.89h-5.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 117.67h-5.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 78.44h-5.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 39.22h-5.333"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 0h-5.333"/>
+   </g>
+  <g font-family="Arial" text-anchor="end" kerning="0" fill-rule="evenodd" text-rendering="auto" fill-opacity=".44" font-weight="bold" font-size="14.667">
+   <text x="-10.333" y="357.64" rotate="0">0
+    </text>
+   <text x="-10.333" y="318.42" rotate="0">5
+    </text>
+   <text x="-10.333" y="279.2" rotate="0">10
+    </text>
+   <text x="-10.333" y="239.97" rotate="0">15
+    </text>
+   <text x="-10.333" y="200.75" rotate="0">20
+    </text>
+   <text x="-10.333" y="161.53" rotate="0">25
+    </text>
+   <text x="-10.333" y="122.31" rotate="0">30
+    </text>
+   <text x="-10.333" y="83.08" rotate="0">35
+    </text>
+   <text x="-10.333" y="43.862" rotate="0">40
+    </text>
+   <text x="-10.333" y="4.64" rotate="0">45
+    </text>
+   </g>
+  </g>
+ <g transform="translate(35 372)">
+  <g fill="none" stroke="#000" fill-opacity="0">
+   <path stroke-opacity=".24" dojoGfxStrokeStyle="solid" d="m0 0h365"/>
+   <g stroke-opacity=".44">
+    <path dojoGfxStrokeStyle="solid" d="m22.813 0v5.333"/>
+    <path dojoGfxStrokeStyle="solid" d="m68.44 0v5.333"/>
+    <path dojoGfxStrokeStyle="solid" d="m114.06 0v5.333"/>
+    <path dojoGfxStrokeStyle="solid" d="m159.69 0v5.333"/>
+    <path dojoGfxStrokeStyle="solid" d="m205.31 0v5.333"/>
+    <path dojoGfxStrokeStyle="solid" d="m250.94 0v5.333"/>
+    <path dojoGfxStrokeStyle="solid" d="m296.56 0v5.333"/>
+    <path dojoGfxStrokeStyle="solid" d="m342.19 0v5.333"/>
+    </g>
+   </g>
+  <g font-family="Arial" text-anchor="middle" kerning="0" fill-rule="evenodd" text-rendering="auto" fill-opacity=".44" font-weight="bold" font-size="14.667">
+   <text x="22.813" y="20.973" rotate="0">A
+    </text>
+   <text x="68.44" y="20.973" rotate="0">B
+    </text>
+   <text x="114.06" y="20.973" rotate="0">C
+    </text>
+   <text x="159.69" y="20.973" rotate="0">D
+    </text>
+   <text x="205.31" y="20.973" rotate="0">E
+    </text>
+   <text x="250.94" y="20.973" rotate="0">F
+    </text>
+   <text x="296.56" y="20.973" rotate="0">G
+    </text>
+   <text x="342.19" y="20.973" rotate="0">H
+    </text>
+   </g>
+  </g>
+ </svg>

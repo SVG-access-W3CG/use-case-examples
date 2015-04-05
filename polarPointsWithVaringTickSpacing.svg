@@ -1,0 +1,318 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <clipPath id="0">
+   <path d="m0 0h661.67v735.67h-661.67z"/>
+   </clipPath>
+  </defs>
+ <g fill-rule="evenodd">
+  <g stroke-width="1">
+   <path fill="#fff" d="m0 0h800v800h-800z"/>
+   <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m0 0h800v800h-800z"/>
+   </g>
+  <circle fill="#ebebeb" stroke="#aaa" cx="330.83" cy="367.83" r="330.33" transform="translate(68.67 31.667)"/>
+  </g>
+ <g transform="translate(69 32)">
+  <path fill="none" fill-opacity="0" stroke="#aaa" stroke-dasharray="4 3" dojoGfxStrokeStyle="dash" d="m330.83 37.5v330.33" id="1"/>
+  <g stroke-dasharray="4 3" fill="none" stroke="#aaa" fill-opacity="0">
+   <path dojoGfxStrokeStyle="dash" d="m525 100.59l-194.17 267.25"/>
+   <path dojoGfxStrokeStyle="dash" d="m645 265.75l-314.17 102.08"/>
+   <path dojoGfxStrokeStyle="dash" d="m660.51 347.09l-329.68 20.741"/>
+   <path dojoGfxStrokeStyle="dash" d="m655.32 429.73l-324.48-61.899"/>
+   <path dojoGfxStrokeStyle="dash" d="m629.73 508.48l-298.89-140.65"/>
+   <path dojoGfxStrokeStyle="dash" d="m585.36 578.4l-254.53-210.56"/>
+   <path dojoGfxStrokeStyle="dash" d="m525 635.08l-194.17-267.25"/>
+   <path dojoGfxStrokeStyle="dash" d="m489.97 657.31l-159.14-289.47"/>
+   <path dojoGfxStrokeStyle="dash" d="m452.44 674.97l-121.6-307.14"/>
+   <path dojoGfxStrokeStyle="dash" d="m412.98 687.79l-82.15-319.96"/>
+   <path dojoGfxStrokeStyle="dash" d="m372.24 695.56l-41.4-327.73"/>
+   <path dojoGfxStrokeStyle="dash" d="m330.83 698.17v-330.33"/>
+   <path dojoGfxStrokeStyle="dash" d="m289.43 695.56l41.4-327.73"/>
+   <path dojoGfxStrokeStyle="dash" d="m248.68 687.79l82.15-319.96"/>
+   <path dojoGfxStrokeStyle="dash" d="m209.23 674.97l121.6-307.14"/>
+   <path dojoGfxStrokeStyle="dash" d="m171.69 657.31l159.14-289.47"/>
+   <path dojoGfxStrokeStyle="dash" d="m136.67 635.08l194.17-267.25"/>
+   <path dojoGfxStrokeStyle="dash" d="m120.27 622.36l210.56-254.53"/>
+   <path dojoGfxStrokeStyle="dash" d="m104.7 608.64l226.13-240.8"/>
+   <path dojoGfxStrokeStyle="dash" d="m90.03 593.96l240.8-226.13"/>
+   <path dojoGfxStrokeStyle="dash" d="m76.31 578.4l254.53-210.56"/>
+   <path dojoGfxStrokeStyle="dash" d="m63.59 562l267.25-194.17"/>
+   <path dojoGfxStrokeStyle="dash" d="m51.924 544.84l278.91-177"/>
+   <path dojoGfxStrokeStyle="dash" d="m41.36 526.97l289.47-159.14"/>
+   <path dojoGfxStrokeStyle="dash" d="m31.939 508.48l298.89-140.65"/>
+   <path dojoGfxStrokeStyle="dash" d="m23.697 489.44l307.14-121.6"/>
+   <path dojoGfxStrokeStyle="dash" d="m16.668 469.91l314.17-102.08"/>
+   <path dojoGfxStrokeStyle="dash" d="m10.878 449.98l319.96-82.15"/>
+   <path dojoGfxStrokeStyle="dash" d="m6.351 429.73l324.48-61.899"/>
+   <path dojoGfxStrokeStyle="dash" d="m3.105 409.24l327.73-41.4"/>
+   <path dojoGfxStrokeStyle="dash" d="m1.152 388.57l329.68-20.742"/>
+   <path dojoGfxStrokeStyle="dash" d="m.5 367.83h330.33"/>
+   <path dojoGfxStrokeStyle="dash" d="m1.152 347.09l329.68 20.741"/>
+   <path dojoGfxStrokeStyle="dash" d="m3.105 326.43l327.73 41.4"/>
+   <path dojoGfxStrokeStyle="dash" d="m6.351 305.94l324.48 61.898"/>
+   <path dojoGfxStrokeStyle="dash" d="m10.878 285.68l319.96 82.15"/>
+   <path dojoGfxStrokeStyle="dash" d="m16.668 265.75l314.17 102.08"/>
+   <path dojoGfxStrokeStyle="dash" d="m20.03 255.94l310.8 111.9"/>
+   <path dojoGfxStrokeStyle="dash" d="m23.697 246.23l307.14 121.6"/>
+   <path dojoGfxStrokeStyle="dash" d="m27.668 236.64l303.17 131.19"/>
+   <path dojoGfxStrokeStyle="dash" d="m31.939 227.18l298.89 140.65"/>
+   <path dojoGfxStrokeStyle="dash" d="m36.504 217.87l294.33 149.97"/>
+   <path dojoGfxStrokeStyle="dash" d="m41.36 208.69l289.47 159.14"/>
+   <path dojoGfxStrokeStyle="dash" d="m46.5 199.68l284.33 168.15"/>
+   <path dojoGfxStrokeStyle="dash" d="m51.924 190.83l278.91 177"/>
+   <path dojoGfxStrokeStyle="dash" d="m57.62 182.16l273.21 185.68"/>
+   <path dojoGfxStrokeStyle="dash" d="m63.59 173.67l267.25 194.17"/>
+   <path dojoGfxStrokeStyle="dash" d="m69.819 165.37l261.01 202.46"/>
+   <path dojoGfxStrokeStyle="dash" d="m76.31 157.27l254.53 210.56"/>
+   <path dojoGfxStrokeStyle="dash" d="m83.05 149.38l247.79 218.45"/>
+   <path dojoGfxStrokeStyle="dash" d="m90.03 141.71l240.8 226.13"/>
+   <path dojoGfxStrokeStyle="dash" d="m97.25 134.25l233.58 233.58"/>
+   <path dojoGfxStrokeStyle="dash" d="m104.7 127.03l226.13 240.8"/>
+   <path dojoGfxStrokeStyle="dash" d="m112.38 120.05l218.45 247.79"/>
+   <path dojoGfxStrokeStyle="dash" d="m120.27 113.31l210.56 254.53"/>
+   <path dojoGfxStrokeStyle="dash" d="m128.37 106.82l202.46 261.01"/>
+   <path dojoGfxStrokeStyle="dash" d="m136.67 100.59l194.17 267.25"/>
+   <path dojoGfxStrokeStyle="dash" d="m145.16 94.62l185.68 273.21"/>
+   <path dojoGfxStrokeStyle="dash" d="m153.83 88.92l177 278.91"/>
+   <path dojoGfxStrokeStyle="dash" d="m162.68 83.5l168.15 284.33"/>
+   <path dojoGfxStrokeStyle="dash" d="m171.69 78.36l159.14 289.47"/>
+   <path dojoGfxStrokeStyle="dash" d="m180.87 73.5l149.97 294.33"/>
+   <path dojoGfxStrokeStyle="dash" d="m190.18 68.939l140.65 298.89"/>
+   <path dojoGfxStrokeStyle="dash" d="m199.64 64.67l131.19 303.17"/>
+   <path dojoGfxStrokeStyle="dash" d="m209.23 60.697l121.6 307.14"/>
+   <path dojoGfxStrokeStyle="dash" d="m218.94 57.03l111.9 310.8"/>
+   <path dojoGfxStrokeStyle="dash" d="m228.75 53.668l102.08 314.17"/>
+   <path dojoGfxStrokeStyle="dash" d="m238.67 50.616l92.16 317.22"/>
+   <path dojoGfxStrokeStyle="dash" d="m248.68 47.878l82.15 319.96"/>
+   <path dojoGfxStrokeStyle="dash" d="m258.77 45.45l72.06 322.38"/>
+   <path dojoGfxStrokeStyle="dash" d="m268.94 43.35l61.898 324.48"/>
+   <path dojoGfxStrokeStyle="dash" d="m279.16 41.567l51.675 326.27"/>
+   <path dojoGfxStrokeStyle="dash" d="m289.43 40.1l41.4 327.73"/>
+   <path dojoGfxStrokeStyle="dash" d="m299.75 38.966l31.09 328.87"/>
+   <path dojoGfxStrokeStyle="dash" d="m310.09 38.15l20.741 329.68"/>
+   <path dojoGfxStrokeStyle="dash" d="m320.46 37.663l10.376 330.17"/>
+   </g>
+  <use dojoGfxStrokeStyle="dash" xlink:href="#1"/>
+  </g>
+ <g transform="translate(69 32)" fill="none" stroke="#aaa" fill-opacity="0">
+  <path path="M330.833,337.803C347.419,337.803,360.864,351.248,360.864,367.833C360.864,384.419,347.419,397.864,330.833,397.864C314.248,397.864,300.803,384.419,300.803,367.833C300.803,351.248,314.248,337.803,330.833,337.803" d="m330.83 337.8c16.586 0 30.03 13.445 30.03 30.03 0 16.586-13.445 30.03-30.03 30.03-16.585 0-30.03-13.445-30.03-30.03 0-16.585 13.445-30.03 30.03-30.03" dojoGfxStrokeStyle="solid"/>
+  <path path="M330.833,307.773C364.004,307.773,390.894,334.663,390.894,367.833C390.894,401.004,364.004,427.894,330.833,427.894C297.663,427.894,270.773,401.004,270.773,367.833C270.773,334.663,297.663,307.773,330.833,307.773" d="m330.83 307.77c33.17 0 60.06 26.89 60.06 60.06 0 33.17-26.89 60.06-60.06 60.06-33.17 0-60.06-26.89-60.06-60.06 0-33.17 26.89-60.06 60.06-60.06" dojoGfxStrokeStyle="solid"/>
+  <path path="M330.833,277.742C380.589,277.742,420.924,318.077,420.924,367.833C420.924,417.589,380.589,457.924,330.833,457.924C281.077,457.924,240.742,417.589,240.742,367.833C240.742,318.077,281.077,277.742,330.833,277.742" d="m330.83 277.74c49.756 0 90.09 40.33 90.09 90.09 0 49.756-40.33 90.09-90.09 90.09-49.756 0-90.09-40.33-90.09-90.09 0-49.756 40.34-90.09 90.09-90.09" dojoGfxStrokeStyle="solid"/>
+  <path path="M330.833,247.712C397.174,247.712,450.955,301.492,450.955,367.833C450.955,434.174,397.174,487.955,330.833,487.955C264.492,487.955,210.712,434.174,210.712,367.833C210.712,301.492,264.492,247.712,330.833,247.712" d="m330.83 247.71c66.34 0 120.12 53.78 120.12 120.12 0 66.34-53.781 120.12-120.12 120.12-66.34 0-120.12-53.781-120.12-120.12 0-66.34 53.78-120.12 120.12-120.12" dojoGfxStrokeStyle="solid"/>
+  <path path="M330.833,217.682C413.76,217.682,480.985,284.907,480.985,367.833C480.985,450.76,413.76,517.985,330.833,517.985C247.907,517.985,180.682,450.76,180.682,367.833C180.682,284.907,247.907,217.682,330.833,217.682" d="m330.83 217.68c82.927 0 150.15 67.22 150.15 150.15 0 82.927-67.23 150.15-150.15 150.15-82.926 0-150.15-67.23-150.15-150.15 0-82.926 67.23-150.15 150.15-150.15" dojoGfxStrokeStyle="solid"/>
+  <path path="M330.833,187.652C430.345,187.652,511.015,268.322,511.015,367.833C511.015,467.345,430.345,548.015,330.833,548.015C231.322,548.015,150.652,467.345,150.652,367.833C150.652,268.322,231.322,187.652,330.833,187.652" d="m330.83 187.65c99.51 0 180.18 80.67 180.18 180.18 0 99.51-80.67 180.18-180.18 180.18-99.51 0-180.18-80.67-180.18-180.18 0-99.51 80.67-180.18 180.18-180.18" dojoGfxStrokeStyle="solid"/>
+  <path path="M330.833,157.621C446.93,157.621,541.045,251.736,541.045,367.833C541.045,483.93,446.93,578.045,330.833,578.045C214.736,578.045,120.621,483.93,120.621,367.833C120.621,251.736,214.736,157.621,330.833,157.621" d="m330.83 157.62c116.1 0 210.21 94.11 210.21 210.21 0 116.1-94.11 210.21-210.21 210.21-116.1 0-210.21-94.11-210.21-210.21 0-116.1 94.11-210.21 210.21-210.21" dojoGfxStrokeStyle="solid"/>
+  <path path="M330.833,127.591C463.516,127.591,571.076,235.151,571.076,367.833C571.076,500.516,463.516,608.076,330.833,608.076C198.151,608.076,90.591,500.516,90.591,367.833C90.591,235.151,198.151,127.591,330.833,127.591" d="m330.83 127.59c132.68 0 240.24 107.56 240.24 240.24 0 132.68-107.56 240.24-240.24 240.24-132.68 0-240.24-107.56-240.24-240.24 0-132.68 107.56-240.24 240.24-240.24" dojoGfxStrokeStyle="solid"/>
+  <path path="M330.833,97.561C480.101,97.561,601.106,218.566,601.106,367.833C601.106,517.101,480.101,638.106,330.833,638.106C181.566,638.106,60.561,517.101,60.561,367.833C60.561,218.566,181.566,97.561,330.833,97.561" d="m330.83 97.56c149.27 0 270.27 121 270.27 270.27 0 149.27-121 270.27-270.27 270.27-149.27 0-270.27-121-270.27-270.27 0-149.27 121-270.27 270.27-270.27" dojoGfxStrokeStyle="solid"/>
+  <path path="M330.833,67.53C496.686,67.53,631.136,201.981,631.136,367.833C631.136,533.686,496.686,668.136,330.833,668.136C164.981,668.136,30.53,533.686,30.53,367.833C30.53,201.981,164.981,67.53,330.833,67.53" d="m330.83 67.53c165.85 0 300.3 134.45 300.3 300.3 0 165.85-134.45 300.3-300.3 300.3-165.85 0-300.3-134.45-300.3-300.3 0-165.85 134.45-300.3 300.3-300.3" dojoGfxStrokeStyle="solid"/>
+  <path path="M330.833,37.5C513.271,37.5,661.167,185.395,661.167,367.833C661.167,550.271,513.271,698.167,330.833,698.167C148.395,698.167,0.5,550.271,0.5,367.833C0.5,185.395,148.395,37.5,330.833,37.5" d="m330.83 37.5c182.44 0 330.33 147.9 330.33 330.33 0 182.44-147.9 330.33-330.33 330.33-182.44 0-330.33-147.9-330.33-330.33 0-182.44 147.9-330.33 330.33-330.33" dojoGfxStrokeStyle="solid"/>
+  </g>
+ <g transform="translate(68.67 31.667)" clip-path="url(#0)" stroke="#000" fill-rule="evenodd">
+  <g fill="#0089ce">
+   <circle cx="691.49" cy="381.44" r="10"/>
+   <circle cx="485.58" cy="460.67" r="10"/>
+   <circle cx="472.26" cy="562.49" r="10"/>
+   <circle cx="338.39" cy="668.5" r="10"/>
+   <circle cx="207.09" cy="538.16" r="10"/>
+   <circle cx="58.7" cy="495.89" r="10"/>
+   <circle cx="44.796" cy="274.89" r="10"/>
+   <circle cx="178.47" cy="271.14" r="10"/>
+   <circle cx="282.78" cy="132.07" r="10"/>
+   </g>
+  <g fill="#7cbc4a">
+   <circle cx="368.01" cy="253.42" r="10"/>
+   <circle cx="390.94" cy="370.1" r="10"/>
+   <circle cx="449" cy="390.38" r="10"/>
+   <circle cx="463.92" cy="489.7" r="10"/>
+   <circle cx="371.3" cy="543.69" r="10"/>
+   <circle cx="276.87" cy="602.31" r="10"/>
+   <circle cx="191.72" cy="424.94" r="10"/>
+   <circle cx="283.54" cy="330.67" r="10"/>
+   </g>
+  </g>
+ <g font-family="Verdana,SanSerif" kerning="0" fill-rule="evenodd" text-rendering="auto">
+  <g fill="#f00" text-anchor="middle" font-size="12" transform="translate(69 32)">
+   <text x="330.83" y="372.18" rotate="0">0
+    </text>
+   <text x="330.83" y="342.11" rotate="0">1
+    </text>
+   <text x="330.83" y="312.03" rotate="0">2
+    </text>
+   <text x="330.83" y="281.96" rotate="0">3
+    </text>
+   <text x="330.83" y="251.88" rotate="0">4
+    </text>
+   <text x="330.83" y="221.81" rotate="0">5
+    </text>
+   <text x="330.83" y="191.73" rotate="0">6
+    </text>
+   <text x="330.83" y="161.65" rotate="0">7
+    </text>
+   <text x="330.83" y="131.58" rotate="0">8
+    </text>
+   <text x="330.83" y="101.5" rotate="0">9
+    </text>
+   <text x="330.83" y="71.43" rotate="0">10
+    </text>
+   <text x="330.83" y="41.35" rotate="0">11
+    </text>
+   </g>
+  <g font-size="16">
+   <text x="330.83" y="32.542" rotate="0" transform="matrix(0-1 1 0 372.8 389.86)">0
+    </text>
+   <text x="531.15" y="97.63" rotate="0" transform="matrix(.58779-.80902.80902.58779 213.42 499.68)">10
+    </text>
+   <text x="654.96" y="268.03" rotate="0" transform="matrix(.95106-.30902.30902.95106 19.933 247.24)">20
+    </text>
+   <text x="670.96" y="351.94" rotate="0" transform="matrix(.99803-.06279.06279.99803 48.571 74.81)">20
+    </text>
+   <text x="665.6" y="437.2" rotate="0" transform="matrix(.98229.18738-.18738.98229 161.68-85.07)">25
+    </text>
+   <text x="639.2" y="518.45" rotate="0" transform="matrix(.90483.42578-.42578.90483 348.23-191.34)">30
+    </text>
+   <text x="593.43" y="590.58" rotate="0" transform="matrix(.77051.63742-.63742.77051 578.12-212)">35
+    </text>
+   <text x="531.15" y="649.06" rotate="0" transform="matrix(.58779.80902-.80902.58779 808.59-132.43)">40
+    </text>
+   <text x="495.02" y="671.99" rotate="0" transform="matrix(.48175.87631-.87631.48175 909.58-56.38)">37.5
+    </text>
+   <text x="456.29" y="690.21" rotate="0" transform="matrix(.36812.92978-.92978.36812 993.94 40.4)">40
+    </text>
+   <text x="415.59" y="703.44" rotate="0" transform="matrix(.24869.96858-.96858.24869 1057.24 153.83)">42.5
+    </text>
+   <text x="373.55" y="711.46" rotate="0" transform="matrix(.12533.99211-.99211.12533 1096.11 278.87)">45
+    </text>
+   <g text-anchor="end">
+    <text x="330.83" y="714.14" rotate="0" transform="matrix(0-1 1 0-308.8 1071.47)">47.5
+     </text>
+    <text x="288.12" y="711.46" rotate="0" transform="matrix(.12533-.99211.99211.12533-379.37 935.32)">50
+     </text>
+    <text x="246.08" y="703.44" rotate="0" transform="matrix(.24869-.96858.96858.24869-422.12 794.71)">52.5
+     </text>
+    <text x="205.38" y="690.21" rotate="0" transform="matrix(.36812-.92978.92978.36812-437.85 655.6)">55
+     </text>
+    <text x="166.65" y="671.99" rotate="0" transform="matrix(.48175-.87631.87631.48175-428.67 523.44)">57.5
+     </text>
+    <text x="130.51" y="649.06" rotate="0" transform="matrix(.58779-.80902.80902.58779-397.84 402.87)">60
+     </text>
+    <text x="113.6" y="635.94" rotate="0" transform="matrix(.63742-.77051.77051.63742-375.56 348.11)">56.25
+     </text>
+    <text x="97.54" y="621.78" rotate="0" transform="matrix(.68455-.72897.72897.68455-349.47 297.51)">57.5
+     </text>
+    <text x="82.4" y="606.64" rotate="0" transform="matrix(.72897-.68455.68455.72897-320.17 251.33)">58.75
+     </text>
+    <text x="68.24" y="590.58" rotate="0" transform="matrix(.77051-.63742.63742.77051-288.28 209.76)">60
+     </text>
+    <text x="55.12" y="573.66" rotate="0" transform="matrix(.80902-.58779.58779.80902-254.42 172.91)">61.25
+     </text>
+    <text x="43.09" y="555.95" rotate="0" transform="matrix(.84433-.53583.53583.84433-219.24 140.77)">62.5
+     </text>
+    <text x="32.19" y="537.53" rotate="0" transform="matrix(.87631-.48175.48175.87631-183.32 113.31)">63.75
+     </text>
+    <text x="22.467" y="518.45" rotate="0" transform="matrix(.90483-.42578.42578.90483-147.26 90.38)">65
+     </text>
+    <text x="13.964" y="498.8" rotate="0" transform="matrix(.92978-.36812.36812.92978-111.61 71.78)">66.25
+     </text>
+    <text x="6.712" y="478.66" rotate="0" transform="matrix(.95106-.30902.30902.95106-76.882 57.23)">67.5
+     </text>
+    <text x=".738" y="458.1" rotate="0" transform="matrix(.96858-.24869.24869.96858-43.531 46.4)">68.75
+     </text>
+    <text x="-3.932" y="437.2" rotate="0" transform="matrix(.98229-.18738.18738.98229-11.961 38.91)">70
+     </text>
+    <text x="-7.281" y="416.06" rotate="0" transform="matrix(.99211-.12533.12533.99211 17.487 34.32)">71.25
+     </text>
+    <text x="-9.296" y="394.74" rotate="0" transform="matrix(.99803-.06279.06279.99803 44.542 32.18)">72.5
+     </text>
+    <text x="-9.968" y="373.34" rotate="0" transform="translate(69 32)">73.75
+     </text>
+    <text x="-9.296" y="351.94" rotate="0" transform="matrix(.99803.06279-.06279.99803 90.73 33.27)">75
+     </text>
+    <text x="-7.281" y="330.63" rotate="0" transform="matrix(.99211.12533-.12533.99211 109.69 35.476)">76.25
+     </text>
+    <text x="-3.932" y="309.48" rotate="0" transform="matrix(.98229.18738-.18738.98229 125.89 38.12)">77.5
+     </text>
+    <text x=".738" y="288.59" rotate="0" transform="matrix(.96858.24869-.24869.96858 139.42 40.71)">78.75
+     </text>
+    <text x="6.712" y="268.03" rotate="0" transform="matrix(.95106.30902-.30902.95106 150.45 42.775)">80
+     </text>
+    <text x="10.179" y="257.9" rotate="0" transform="matrix(.94088.33874-.33874.94088 155.1 43.47)">75.625
+     </text>
+    <text x="13.964" y="247.89" rotate="0" transform="matrix(.92978.36812-.36812.92978 159.21 43.88)">76.25
+     </text>
+    <text x="18.06" y="238" rotate="0" transform="matrix(.91775.39715-.39715.91775 162.82 43.948)">76.875
+     </text>
+    <text x="22.467" y="228.24" rotate="0" transform="matrix(.90483.42578-.42578.90483 165.97 43.632)">77.5
+     </text>
+    <text x="27.18" y="218.62" rotate="0" transform="matrix(.89101.45399-.45399.89101 168.71 42.89)">78.125
+     </text>
+    <text x="32.19" y="209.16" rotate="0" transform="matrix(.87631.48175-.48175.87631 171.09 41.684)">78.75
+     </text>
+    <text x="37.491" y="199.86" rotate="0" transform="matrix(.86074.50904-.50904.86074 173.15 39.981)">79.375
+     </text>
+    <text x="43.09" y="190.73" rotate="0" transform="matrix(.84433.53583-.53583.84433 174.95 37.748)">80
+     </text>
+    <text x="48.963" y="181.78" rotate="0" transform="matrix(.82708.56208-.56208.82708 176.55 34.96)">80.625
+     </text>
+    <text x="55.12" y="173.03" rotate="0" transform="matrix(.80902.58779-.58779.80902 177.99 31.594)">81.25
+     </text>
+    <text x="61.55" y="164.46" rotate="0" transform="matrix(.79016.61291-.61291.79016 179.34 27.633)">81.875
+     </text>
+    <text x="68.24" y="156.11" rotate="0" transform="matrix(.77051.63742-.63742.77051 180.66 23.06)">82.5
+     </text>
+    <text x="75.19" y="147.97" rotate="0" transform="matrix(.75011.66131-.66131.75011 182 17.872)">83.125
+     </text>
+    <text x="82.4" y="140.05" rotate="0" transform="matrix(.72897.68455-.68455.72897 183.43 12.06)">83.75
+     </text>
+    <text x="89.85" y="132.36" rotate="0" transform="matrix(.70711.70711-.70711.70711 185.01 5.62)">84.375
+     </text>
+    <text x="97.54" y="124.91" rotate="0" transform="matrix(.68455.72897-.72897.68455 186.81-1.438)">85
+     </text>
+    <text x="105.46" y="117.7" rotate="0" transform="matrix(.66131.75011-.75011.66131 188.88-9.106)">85.625
+     </text>
+    <text x="113.6" y="110.75" rotate="0" transform="matrix(.63742.77051-.77051.63742 191.28-17.371)">86.25
+     </text>
+    <text x="121.95" y="104.06" rotate="0" transform="matrix(.61291.79016-.79016.61291 194.07-26.22)">86.875
+     </text>
+    <text x="130.51" y="97.63" rotate="0" transform="matrix(.58779.80902-.80902.58779 197.33-35.616)">87.5
+     </text>
+    <text x="139.27" y="91.47" rotate="0" transform="matrix(.56208.82708-.82708.56208 201.09-45.547)">88.125
+     </text>
+    <text x="148.22" y="85.59" rotate="0" transform="matrix(.53583.84433-.84433.53583 205.42-55.975)">88.75
+     </text>
+    <text x="157.35" y="80" rotate="0" transform="matrix(.50904.86074-.86074.50904 210.37-66.867)">89.375
+     </text>
+    <text x="166.65" y="74.7" rotate="0" transform="matrix(.48175.87631-.87631.48175 215.99-78.18)">90
+     </text>
+    <text x="176.11" y="69.69" rotate="0" transform="matrix(.45399.89101-.89101.45399 222.34-89.88)">90.625
+     </text>
+    <text x="185.73" y="64.977" rotate="0" transform="matrix(.42578.90483-.90483.42578 229.46-101.9)">91.25
+     </text>
+    <text x="195.49" y="60.57" rotate="0" transform="matrix(.39715.91775-.91775.39715 237.38-114.21)">91.875
+     </text>
+    <text x="205.38" y="56.47" rotate="0" transform="matrix(.36812.92978-.92978.36812 246.16-126.75)">92.5
+     </text>
+    <text x="215.39" y="52.689" rotate="0" transform="matrix(.33874.94088-.94088.33874 255.82-139.46)">93.125
+     </text>
+    <text x="225.52" y="49.22" rotate="0" transform="matrix(.30902.95106-.95106.30902 266.4-152.28)">93.75
+     </text>
+    <text x="235.75" y="46.07" rotate="0" transform="matrix(.27899.96029-.96029.27899 277.93-165.15)">94.375
+     </text>
+    <text x="246.08" y="43.25" rotate="0" transform="matrix(.24869.96858-.96858.24869 290.43-178)">95
+     </text>
+    <text x="256.49" y="40.749" rotate="0" transform="matrix(.21814.97592-.97592.21814 303.93-190.76)">95.625
+     </text>
+    <text x="266.97" y="38.578" rotate="0" transform="matrix(.18738.98229-.98229.18738 318.43-203.37)">96.25
+     </text>
+    <text x="277.52" y="36.737" rotate="0" transform="matrix(.15643.98769-.98769.15643 333.95-215.76)">96.875
+     </text>
+    <text x="288.12" y="35.23" rotate="0" transform="matrix(.12533.99211-.99211.12533 350.49-227.85)">97.5
+     </text>
+    <text x="298.76" y="34.05" rotate="0" transform="matrix(.09411.99556-.99556.09411 368.06-239.58)">98.125
+     </text>
+    <text x="309.43" y="33.21" rotate="0" transform="matrix(.06279.99803-.99803.06279 386.65-250.86)">98.75
+     </text>
+    <text x="320.13" y="32.71" rotate="0" transform="matrix(.03141.99951-.99951.03141 406.26-261.63)">99.375
+     </text>
+    </g>
+   </g>
+  </g>
+ </svg>

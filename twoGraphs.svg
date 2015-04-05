@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 400" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <clipPath id="0">
+   <path d="m0 0h335v239h-335z"/>
+   </clipPath>
+  <clipPath id="1">
+   <path d="m0 0h335v239h-335z"/>
+   </clipPath>
+  <clipPath id="2">
+   <path d="m0 0h308v77h-308z"/>
+   </clipPath>
+  </defs>
+ <path fill="#fff" fill-rule="evenodd" stroke-width="1" d="m0 10h400v254h-400z"/>
+ <g transform="translate(65 18)" stroke-dasharray="1 3" fill="none" stroke="#d3d3d3" fill-opacity="0">
+  <path dojoGfxStrokeStyle="Dot" d="m0 204.86h335"/>
+  <path dojoGfxStrokeStyle="Dot" d="m0 170.71h335"/>
+  <path dojoGfxStrokeStyle="Dot" d="m0 136.57h335"/>
+  <path dojoGfxStrokeStyle="Dot" d="m0 102.43h335"/>
+  <path dojoGfxStrokeStyle="Dot" d="m0 68.29h335"/>
+  <path dojoGfxStrokeStyle="Dot" d="m0 34.14h335"/>
+  <path dojoGfxStrokeStyle="Dot" d="m0 0h335"/>
+  </g>
+ <g stroke="#0087bc" fill-rule="evenodd">
+  <g transform="translate(65 18)" clip-path="url(#0)" fill="#0087bc">
+   <path dojoGfxStrokeStyle="solid" d="m83.75 51.21h.0001v153.64h-.0001z"/>
+   <path dojoGfxStrokeStyle="solid" d="m125.62 34.14h.0001v144.77h-.0001z"/>
+   <path dojoGfxStrokeStyle="solid" d="m167.5 68.29h.0001v59.41h-.0001z"/>
+   <path dojoGfxStrokeStyle="solid" d="m209.37 110.62h.0001v68.29h-.0001z"/>
+   <path dojoGfxStrokeStyle="solid" d="m251.25 110.62h.0001v68.29h-.0001z"/>
+   </g>
+  <g transform="translate(65 18)" clip-path="url(#1)">
+   <g fill="#fff">
+    <path dojoGfxStrokeStyle="solid" d="m78.75 136.57h10v59.41h-10z"/>
+    <path dojoGfxStrokeStyle="solid" d="m162.5 102.43h10v17.07h-10z"/>
+    </g>
+   <g fill="#99cfe4">
+    <path dojoGfxStrokeStyle="solid" d="m204.37 119.5h10v17.07h-10z"/>
+    <path dojoGfxStrokeStyle="solid" d="m246.25 127.69h10v25.949h-10z"/>
+    </g>
+   </g>
+  </g>
+ <g transform="translate(65 18)">
+  <path fill="none" fill-opacity="0" stroke="#000" dojoGfxStrokeStyle="solid" d="m0 0v239"/>
+  <text x="119.5" y="-52.773" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" fill-rule="evenodd" font-size="12" font-family="Arial,SansSerif,sans-serif" transform="matrix(0-1 1 0 0 239)">  Stock price 
+   </text>
+  <g>
+   <g fill="none" stroke="#000" fill-opacity="0">
+    <path dojoGfxStrokeStyle="solid" d="m0 239h-4.667"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 204.86h-4.667"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 170.71h-4.667"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 136.57h-4.667"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 102.43h-4.667"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 68.29h-4.667"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 34.14h-4.667"/>
+    </g>
+   <path fill="none" fill-opacity="0" stroke="#000" dojoGfxStrokeStyle="solid" d="m0 0h-4.667" id="3"/>
+   </g>
+  <g font-family="Arial,SansSerif,sans-serif" text-anchor="end" kerning="0" fill-rule="evenodd" text-rendering="auto" font-size="12">
+   <text x="-7" y="243.06" rotate="0">  $63.50 
+    </text>
+   <text x="-7" y="208.92" rotate="0">  $64.00 
+    </text>
+   <text x="-7" y="174.77" rotate="0">  $64.50 
+    </text>
+   <text x="-7" y="140.63" rotate="0">  $65.00 
+    </text>
+   <text x="-7" y="106.49" rotate="0">  $65.50 
+    </text>
+   <text x="-7" y="72.35" rotate="0">  $66.00 
+    </text>
+   <text x="-7" y="38.2" rotate="0">  $66.50 
+    </text>
+   <text x="-7" y="4.06" rotate="0">  $67.00 
+    </text>
+   </g>
+  </g>
+ <path fill="#fff" fill-rule="evenodd" stroke-width="1" d="m0 280h400v120h-400z"/>
+ <g transform="translate(73 288)" stroke-dasharray="1 3" fill="none" stroke="#d3d3d3" fill-opacity="0">
+  <path dojoGfxStrokeStyle="Dot" d="m0 57.75h308"/>
+  <path dojoGfxStrokeStyle="Dot" d="m0 38.5h308"/>
+  <path dojoGfxStrokeStyle="Dot" d="m0 19.25h308"/>
+  <path dojoGfxStrokeStyle="Dot" d="m0 0h308"/>
+  </g>
+ <g transform="translate(73 288)" clip-path="url(#2)" fill="#0087bc" stroke="#0087bc" fill-rule="evenodd" fill-opacity=".4">
+  <path dojoGfxStrokeStyle="solid" d="m72.5 50.936h9v26.07h-9z"/>
+  <path dojoGfxStrokeStyle="solid" d="m111 37.48h9v39.52h-9z"/>
+  <path dojoGfxStrokeStyle="solid" d="m149.5 23.514h9v53.49h-9z"/>
+  <path dojoGfxStrokeStyle="solid" d="m188 15.01h9v61.995h-9z"/>
+  <path dojoGfxStrokeStyle="solid" d="m226.5 33.62h9v43.38h-9z"/>
+  </g>
+ <g transform="translate(73 288)">
+  <path fill="none" fill-opacity="0" stroke="#000" dojoGfxStrokeStyle="solid" d="m0 0v77"/>
+  <text x="38.5" y="-60.773" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" fill-rule="evenodd" font-size="12" font-family="Arial,SansSerif,sans-serif" transform="matrix(0-1 1 0 0 77)">  Volume 
+   </text>
+  <g>
+   <g fill="none" stroke="#000" fill-opacity="0">
+    <path dojoGfxStrokeStyle="solid" d="m0 77h-4.667"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 57.75h-4.667"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 38.5h-4.667"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 19.25h-4.667"/>
+    </g>
+   <use dojoGfxStrokeStyle="solid" xlink:href="#3"/>
+   </g>
+  <g font-family="Arial,SansSerif,sans-serif" text-anchor="end" kerning="0" fill-rule="evenodd" text-rendering="auto" font-size="12">
+   <text x="-7" y="81.06" rotate="0">  0.000E0 
+    </text>
+   <text x="-7" y="61.81" rotate="0">  2.000E5 
+    </text>
+   <text x="-7" y="42.56" rotate="0">  4.000E5 
+    </text>
+   <text x="-7" y="23.31" rotate="0">  6.000E5 
+    </text>
+   <text x="-7" y="4.06" rotate="0">  8.000E5 
+    </text>
+   </g>
+  </g>
+ <g transform="translate(73 365)">
+  <g fill="none" stroke="#000" fill-opacity="0">
+   <path dojoGfxStrokeStyle="solid" d="m0 0h308"/>
+   <path dojoGfxStrokeStyle="solid" d="m0 0v4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m38.5 0v4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m77 0v4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m115.5 0v4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m154 0v4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m192.5 0v4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m231 0v4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m269.5 0v4.667"/>
+   <path dojoGfxStrokeStyle="solid" d="m308 0v4.667"/>
+   </g>
+  <g font-family="Arial,SansSerif,sans-serif" text-anchor="middle" kerning="0" fill-rule="evenodd" text-rendering="auto" font-size="12">
+   <text x="0" y="18.06" rotate="0">  7/26/80 
+    </text>
+   <text x="38.5" y="32.06" rotate="0">  7/27/80 
+    </text>
+   <text x="77" y="18.06" rotate="0">  7/28/80 
+    </text>
+   <text x="115.5" y="32.06" rotate="0">  7/29/80 
+    </text>
+   <text x="154" y="18.06" rotate="0">  7/30/80 
+    </text>
+   <text x="192.5" y="32.06" rotate="0">  7/31/80 
+    </text>
+   <text x="231" y="18.06" rotate="0">  8/1/80 
+    </text>
+   <text x="269.5" y="32.06" rotate="0">  8/2/80 
+    </text>
+   <text x="308" y="18.06" rotate="0">  8/3/80 
+    </text>
+   </g>
+  </g>
+ </svg>

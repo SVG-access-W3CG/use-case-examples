@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 782 352" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <clipPath id="4">
+   <path d="m0-1h772v342h-772z"/>
+   </clipPath>
+  <clipPath id="3">
+   <path d="m0-1h772v342h-772z"/>
+   </clipPath>
+  <linearGradient id="2" gradientUnits="userSpaceOnUse" y1="240" x2="0" y2="300" xlink:href="#0"/>
+  <linearGradient id="1" gradientUnits="userSpaceOnUse" y1="140" x2="0" y2="200" xlink:href="#0"/>
+  <linearGradient id="0" gradientUnits="userSpaceOnUse" y1="40" x2="0" y2="100">
+   <stop stop-color="#f2fdfd"/>
+   <stop offset="1" stop-color="#cef4fa"/>
+   </linearGradient>
+  </defs>
+ <path fill-opacity="0" fill-rule="evenodd" stroke-width="1" d="m0 0h782v352h-782z"/>
+ <g transform="translate(5 6)" clip-path="url(#3)">
+  <g>
+   <path fill-opacity="0" fill-rule="evenodd" dojoGfxStrokeStyle="solid" d="m340 40h90v60h-90z" id="5"/>
+   <path fill="url(#0)" stroke="#99c5cc" path="M340,45.333C340,42.388,342.388,40,345.333,40L424.667,40C427.612,40,430,42.388,430,45.333L430,94.667C430,97.612,427.612,100,424.667,100L345.333,100C342.388,100,340,97.612,340,94.667Z" d="m340 45.33c0-2.945 2.388-5.333 5.333-5.333h79.33c2.945 0 5.333 2.388 5.333 5.333v49.33c0 2.945-2.388 5.333-5.333 5.333h-79.33c-2.945 0-5.333-2.388-5.333-5.333" fill-rule="evenodd" dojoGfxStrokeStyle="solid"/>
+   <use dojoGfxStrokeStyle="solid" xlink:href="#5"/>
+   </g>
+  <text fill="#006173" x="385" y="74.06" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" fill-rule="evenodd" font-size="12" font-family="Arial,SanSerif">sp1
+   </text>
+  <g>
+   <path fill-opacity="0" fill-rule="evenodd" dojoGfxStrokeStyle="solid" d="m190 40h90v60h-90z" id="6"/>
+   <path fill="url(#0)" stroke="#99c5cc" path="M190,45.333C190,42.388,192.388,40,195.333,40L274.667,40C277.612,40,280,42.388,280,45.333L280,94.667C280,97.612,277.612,100,274.667,100L195.333,100C192.388,100,190,97.612,190,94.667Z" d="m190 45.33c0-2.945 2.388-5.333 5.333-5.333h79.33c2.945 0 5.333 2.388 5.333 5.333v49.33c0 2.945-2.388 5.333-5.333 5.333h-79.33c-2.945 0-5.333-2.388-5.333-5.333" fill-rule="evenodd" dojoGfxStrokeStyle="solid"/>
+   <use dojoGfxStrokeStyle="solid" xlink:href="#6"/>
+   </g>
+  <text fill="#006173" x="235" y="74.06" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" fill-rule="evenodd" font-size="12" font-family="Arial,SanSerif">sp0
+   </text>
+  <g>
+   <path fill-opacity="0" fill-rule="evenodd" dojoGfxStrokeStyle="solid" d="m40 40h90v60h-90z" id="7"/>
+   <path fill="url(#0)" stroke="#99c5cc" path="M40,45.333C40,42.388,42.388,40,45.333,40L124.667,40C127.612,40,130,42.388,130,45.333L130,94.667C130,97.612,127.612,100,124.667,100L45.333,100C42.388,100,40,97.612,40,94.667Z" d="m40 45.33c0-2.945 2.388-5.333 5.333-5.333h79.33c2.945 0 5.333 2.388 5.333 5.333v49.33c0 2.945-2.388 5.333-5.333 5.333h-79.33c-2.945 0-5.333-2.388-5.333-5.333" fill-rule="evenodd" dojoGfxStrokeStyle="solid"/>
+   <use dojoGfxStrokeStyle="solid" xlink:href="#7"/>
+   </g>
+  <text fill="#006173" x="85" y="74.06" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" fill-rule="evenodd" font-size="12" font-family="Arial,SanSerif">sp10
+   </text>
+  <g>
+   <path fill-opacity="0" fill-rule="evenodd" dojoGfxStrokeStyle="solid" d="m640 40h90v60h-90z" id="8"/>
+   <path fill="url(#0)" stroke="#99c5cc" path="M640,45.333C640,42.388,642.388,40,645.333,40L724.667,40C727.612,40,730,42.388,730,45.333L730,94.667C730,97.612,727.612,100,724.667,100L645.333,100C642.388,100,640,97.612,640,94.667Z" d="m640 45.33c0-2.945 2.388-5.333 5.333-5.333h79.33c2.945 0 5.333 2.388 5.333 5.333v49.33c0 2.945-2.388 5.333-5.333 5.333h-79.33c-2.945 0-5.333-2.388-5.333-5.333" fill-rule="evenodd" dojoGfxStrokeStyle="solid"/>
+   <use dojoGfxStrokeStyle="solid" xlink:href="#8"/>
+   </g>
+  <text fill="#006173" x="685" y="74.06" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" fill-rule="evenodd" font-size="12" font-family="Arial,SanSerif">sp14
+   </text>
+  <g>
+   <path fill-opacity="0" fill-rule="evenodd" dojoGfxStrokeStyle="solid" d="m490 40h90v60h-90z" id="9"/>
+   <path fill="url(#0)" stroke="#99c5cc" path="M490,45.333C490,42.388,492.388,40,495.333,40L574.667,40C577.612,40,580,42.388,580,45.333L580,94.667C580,97.612,577.612,100,574.667,100L495.333,100C492.388,100,490,97.612,490,94.667Z" d="m490 45.33c0-2.945 2.388-5.333 5.333-5.333h79.33c2.945 0 5.333 2.388 5.333 5.333v49.33c0 2.945-2.388 5.333-5.333 5.333h-79.33c-2.945 0-5.333-2.388-5.333-5.333" fill-rule="evenodd" dojoGfxStrokeStyle="solid"/>
+   <use dojoGfxStrokeStyle="solid" xlink:href="#9"/>
+   </g>
+  <text fill="#006173" x="535" y="74.06" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" fill-rule="evenodd" font-size="12" font-family="Arial,SanSerif">sp11
+   </text>
+  <g>
+   <path fill-opacity="0" fill-rule="evenodd" dojoGfxStrokeStyle="solid" d="m40 140h90v60h-90z" id="A"/>
+   <path fill="url(#1)" stroke="#99c5cc" path="M40,145.333C40,142.388,42.388,140,45.333,140L124.667,140C127.612,140,130,142.388,130,145.333L130,194.667C130,197.612,127.612,200,124.667,200L45.333,200C42.388,200,40,197.612,40,194.667Z" d="m40 145.33c0-2.945 2.388-5.333 5.333-5.333h79.33c2.945 0 5.333 2.388 5.333 5.333v49.33c0 2.945-2.388 5.333-5.333 5.333h-79.33c-2.945 0-5.333-2.388-5.333-5.333" fill-rule="evenodd" dojoGfxStrokeStyle="solid"/>
+   <use dojoGfxStrokeStyle="solid" xlink:href="#A"/>
+   </g>
+  <text fill="#006173" x="85" y="174.06" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" fill-rule="evenodd" font-size="12" font-family="Arial,SanSerif">sp13
+   </text>
+  <g>
+   <path fill-opacity="0" fill-rule="evenodd" dojoGfxStrokeStyle="solid" d="m190 140h90v60h-90z" id="B"/>
+   <path fill="url(#1)" stroke="#99c5cc" path="M190,145.333C190,142.388,192.388,140,195.333,140L274.667,140C277.612,140,280,142.388,280,145.333L280,194.667C280,197.612,277.612,200,274.667,200L195.333,200C192.388,200,190,197.612,190,194.667Z" d="m190 145.33c0-2.945 2.388-5.333 5.333-5.333h79.33c2.945 0 5.333 2.388 5.333 5.333v49.33c0 2.945-2.388 5.333-5.333 5.333h-79.33c-2.945 0-5.333-2.388-5.333-5.333" fill-rule="evenodd" dojoGfxStrokeStyle="solid"/>
+   <use dojoGfxStrokeStyle="solid" xlink:href="#B"/>
+   </g>
+  <text fill="#006173" x="235" y="174.06" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" fill-rule="evenodd" font-size="12" font-family="Arial,SanSerif">sp17
+   </text>
+  <g>
+   <path fill-opacity="0" fill-rule="evenodd" dojoGfxStrokeStyle="solid" d="m340 140h90v60h-90z" id="C"/>
+   <path fill="url(#1)" stroke="#99c5cc" path="M340,145.333C340,142.388,342.388,140,345.333,140L424.667,140C427.612,140,430,142.388,430,145.333L430,194.667C430,197.612,427.612,200,424.667,200L345.333,200C342.388,200,340,197.612,340,194.667Z" d="m340 145.33c0-2.945 2.388-5.333 5.333-5.333h79.33c2.945 0 5.333 2.388 5.333 5.333v49.33c0 2.945-2.388 5.333-5.333 5.333h-79.33c-2.945 0-5.333-2.388-5.333-5.333" fill-rule="evenodd" dojoGfxStrokeStyle="solid"/>
+   <use dojoGfxStrokeStyle="solid" xlink:href="#C"/>
+   </g>
+  <text fill="#006173" x="385" y="174.06" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" fill-rule="evenodd" font-size="12" font-family="Arial,SanSerif">sp16
+   </text>
+  <g>
+   <path fill-opacity="0" fill-rule="evenodd" dojoGfxStrokeStyle="solid" d="m490 140h90v60h-90z" id="D"/>
+   <path fill="url(#1)" stroke="#99c5cc" path="M490,145.333C490,142.388,492.388,140,495.333,140L574.667,140C577.612,140,580,142.388,580,145.333L580,194.667C580,197.612,577.612,200,574.667,200L495.333,200C492.388,200,490,197.612,490,194.667Z" d="m490 145.33c0-2.945 2.388-5.333 5.333-5.333h79.33c2.945 0 5.333 2.388 5.333 5.333v49.33c0 2.945-2.388 5.333-5.333 5.333h-79.33c-2.945 0-5.333-2.388-5.333-5.333" fill-rule="evenodd" dojoGfxStrokeStyle="solid"/>
+   <use dojoGfxStrokeStyle="solid" xlink:href="#D"/>
+   </g>
+  <text fill="#006173" x="535" y="174.06" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" fill-rule="evenodd" font-size="12" font-family="Arial,SanSerif">sp18
+   </text>
+  <g>
+   <path fill-opacity="0" fill-rule="evenodd" dojoGfxStrokeStyle="solid" d="m640 140h90v60h-90z" id="E"/>
+   <path fill="url(#1)" stroke="#99c5cc" path="M640,145.333C640,142.388,642.388,140,645.333,140L724.667,140C727.612,140,730,142.388,730,145.333L730,194.667C730,197.612,727.612,200,724.667,200L645.333,200C642.388,200,640,197.612,640,194.667Z" d="m640 145.33c0-2.945 2.388-5.333 5.333-5.333h79.33c2.945 0 5.333 2.388 5.333 5.333v49.33c0 2.945-2.388 5.333-5.333 5.333h-79.33c-2.945 0-5.333-2.388-5.333-5.333" fill-rule="evenodd" dojoGfxStrokeStyle="solid"/>
+   <use dojoGfxStrokeStyle="solid" xlink:href="#E"/>
+   </g>
+  <text fill="#006173" x="685" y="174.06" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" fill-rule="evenodd" font-size="12" font-family="Arial,SanSerif">sp19
+   </text>
+  <g>
+   <path fill-opacity="0" fill-rule="evenodd" dojoGfxStrokeStyle="solid" d="m640 240h90v60h-90z" id="F"/>
+   <path fill="url(#2)" stroke="#99c5cc" path="M640,245.333C640,242.388,642.388,240,645.333,240L724.667,240C727.612,240,730,242.388,730,245.333L730,294.667C730,297.612,727.612,300,724.667,300L645.333,300C642.388,300,640,297.612,640,294.667Z" d="m640 245.33c0-2.945 2.388-5.333 5.333-5.333h79.33c2.945 0 5.333 2.388 5.333 5.333v49.33c0 2.945-2.388 5.333-5.333 5.333h-79.33c-2.945 0-5.333-2.388-5.333-5.333" fill-rule="evenodd" dojoGfxStrokeStyle="solid"/>
+   <use dojoGfxStrokeStyle="solid" xlink:href="#F"/>
+   </g>
+  <text fill="#006173" x="685" y="274.06" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" fill-rule="evenodd" font-size="12" font-family="Arial,SanSerif">sp20
+   </text>
+  </g>
+ <g transform="translate(5 6)" clip-path="url(#4)">
+  <g fill="none" stroke="#000" fill-opacity="0">
+   <path dojoGfxStrokeStyle="Solid" d="m85 140v-31.8"/>
+   <path path="M81,107.88L85,101L89,107.88M85,101L85,108.36" d="m81 107.88l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+   <path dojoGfxStrokeStyle="Solid" d="m685 200v31.8"/>
+   <path path="M689,232.12L685,239L681,232.12M685,239L685,231.64" d="m689 232.12l-4 6.88-4-6.88m4 6.88v-7.36" dojoGfxStrokeStyle="solid"/>
+   <path dojoGfxStrokeStyle="Solid" d="m340 70h-51.8"/>
+   <path path="M287.88,74L281,70L287.88,66M281,70L288.36,70" d="m287.88 74l-6.88-4 6.88-4m-6.88 4h7.36" dojoGfxStrokeStyle="solid"/>
+   <path dojoGfxStrokeStyle="Solid" d="m190 70h-51.8"/>
+   <path path="M137.88,74L131,70L137.88,66M131,70L138.36,70" d="m137.88 74l-6.88-4 6.88-4m-6.88 4h7.36" dojoGfxStrokeStyle="solid"/>
+   </g>
+  <g>
+   <path fill="none" fill-opacity="0" stroke="#000" dojoGfxStrokeStyle="Solid" d="m640 70h-51.8"/>
+   <path fill="none" fill-opacity="0" stroke="#000" path="M587.88,74L581,70L587.88,66M581,70L588.36,70" d="m587.88 74l-6.88-4 6.88-4m-6.88 4h7.36" dojoGfxStrokeStyle="solid" id="G"/>
+   </g>
+  <g>
+   <path fill="none" fill-opacity="0" stroke="#000" dojoGfxStrokeStyle="Solid" d="m490 70h-51.8"/>
+   <path fill="none" fill-opacity="0" stroke="#000" path="M437.88,74L431,70L437.88,66M431,70L438.36,70" d="m437.88 74l-6.88-4 6.88-4m-6.88 4h7.36" dojoGfxStrokeStyle="solid" id="H"/>
+   </g>
+  <g fill="none" stroke="#000" fill-opacity="0">
+   <path dojoGfxStrokeStyle="Solid" d="m130 170h51.8"/>
+   <path path="M182.12,166L189,170L182.12,174M189,170L181.64,170" d="m182.12 166l6.88 4-6.88 4m6.88-4h-7.36" dojoGfxStrokeStyle="solid"/>
+   <path dojoGfxStrokeStyle="Solid" d="m280 170h51.8"/>
+   <path path="M332.12,166L339,170L332.12,174M339,170L331.64,170" d="m332.12 166l6.88 4-6.88 4m6.88-4h-7.36" dojoGfxStrokeStyle="solid"/>
+   <path dojoGfxStrokeStyle="Solid" d="m430 170h51.8"/>
+   <path path="M482.12,166L489,170L482.12,174M489,170L481.64,170" d="m482.12 166l6.88 4-6.88 4m6.88-4h-7.36" dojoGfxStrokeStyle="solid"/>
+   <path dojoGfxStrokeStyle="Solid" d="m580 170h51.8"/>
+   <path path="M632.12,166L639,170L632.12,174M639,170L631.64,170" d="m632.12 166l6.88 4-6.88 4m6.88-4h-7.36" dojoGfxStrokeStyle="solid"/>
+   <path path="M385,40L385,26.99Q385,26.99,385,26.99L235,26.99Q235,26.99,235,26.99L235,31.8" d="m385 40v-13.01q0 0 0 0h-150q0 0 0 0v4.81" dojoGfxStrokeStyle="Solid"/>
+   <path path="M239,32.12L235,39L231,32.12M235,39L235,31.64" d="m239 32.12l-4 6.88-4-6.88m4 6.88v-7.36" dojoGfxStrokeStyle="solid"/>
+   <path path="M235,40L235,26.99Q235,26.99,235,26.99L85,26.99Q85,26.99,85,26.99L85,31.8" d="m235 40v-13.01q0 0 0 0h-150q0 0 0 0v4.81" dojoGfxStrokeStyle="Solid"/>
+   <path path="M89,32.12L85,39L81,32.12M85,39L85,31.64" d="m89 32.12l-4 6.88-4-6.88m4 6.88v-7.36" dojoGfxStrokeStyle="solid"/>
+   </g>
+  <g>
+   <path fill="none" fill-opacity="0" stroke="#000" path="M535,40L535,26.99Q535,26.99,535,26.99L443.01,26.99Q443.01,26.99,443.01,26.99L443.01,70Q443.01,70,443.01,70L438.2,70" d="m535 40v-13.01q0 0 0 0h-91.99q0 0 0 0v43.01q0 0 0 0h-4.81" dojoGfxStrokeStyle="Solid"/>
+   <use path="M437.88,74L431,70L437.88,66M431,70L438.36,70" dojoGfxStrokeStyle="solid" xlink:href="#H"/>
+   </g>
+  <g fill="none" stroke="#000" fill-opacity="0">
+   <path path="M235,200L235,213.01Q235,213.01,235,213.01L85,213.01Q85,213.01,85,213.01L85,208.2" d="m235 200v13.01q0 0 0 0h-150q0 0 0 0v-4.81" dojoGfxStrokeStyle="Solid"/>
+   <path path="M81,207.88L85,201L89,207.88M85,201L85,208.36" d="m81 207.88l4-6.88 4 6.88m-4-6.88v7.36" dojoGfxStrokeStyle="solid"/>
+   <path path="M385,200L385,213.01Q385,213.01,385,213.01L293.01,213.01Q293.01,213.01,293.01,213.01L293.01,126.99Q293.01,126.99,293.01,126.99L235,126.99Q235,126.99,235,126.99L235,131.8" d="m385 200v13.01q0 0 0 0h-91.99q0 0 0 0v-86.02q0 0 0 0h-58.01q0 0 0 0v4.81" dojoGfxStrokeStyle="Solid"/>
+   <path path="M239,132.12L235,139L231,132.12M235,139L235,131.64" d="m239 132.12l-4 6.88-4-6.88m4 6.88v-7.36" dojoGfxStrokeStyle="solid"/>
+   <path path="M535,200L535,213.01Q535,213.01,535,213.01L443.01,213.01Q443.01,213.01,443.01,213.01L443.01,126.99Q443.01,126.99,443.01,126.99L385,126.99Q385,126.99,385,126.99L385,131.8" d="m535 200v13.01q0 0 0 0h-91.99q0 0 0 0v-86.02q0 0 0 0h-58.01q0 0 0 0v4.81" dojoGfxStrokeStyle="Solid"/>
+   <path path="M389,132.12L385,139L381,132.12M385,139L385,131.64" d="m389 132.12l-4 6.88-4-6.88m4 6.88v-7.36" dojoGfxStrokeStyle="solid"/>
+   <path path="M685,100L685,113.01Q685,113.01,685,113.01L535,113.01Q535,113.01,535,113.01L535,131.8" d="m685 100v13.01q0 0 0 0h-150q0 0 0 0v18.79" dojoGfxStrokeStyle="Solid"/>
+   <path path="M539,132.12L535,139L531,132.12M535,139L535,131.64" d="m539 132.12l-4 6.88-4-6.88m4 6.88v-7.36" dojoGfxStrokeStyle="solid"/>
+   </g>
+  <g>
+   <path fill="none" fill-opacity="0" stroke="#000" path="M685,240L685,226.99Q685,226.99,685,226.99L593.01,226.99Q593.01,226.99,593.01,226.99L593.01,70Q593.01,70,593.01,70L588.2,70" d="m685 240v-13.01q0 0 0 0h-91.99q0 0 0 0v-156.99q0 0 0 0h-4.81" dojoGfxStrokeStyle="Solid"/>
+   <use path="M587.88,74L581,70L587.88,66M581,70L588.36,70" dojoGfxStrokeStyle="solid" xlink:href="#G"/>
+   </g>
+  </g>
+ </svg>

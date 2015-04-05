@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+ <defs>
+  <clipPath id="0">
+   <path d="m-20-21h800v800h-800z"/>
+   </clipPath>
+  <clipPath id="1">
+   <path d="m-20-21h800v800h-800z"/>
+   </clipPath>
+  </defs>
+ <g fill-rule="evenodd">
+  <path fill="#fff" stroke-width="1" d="m0 0h800v800h-800z"/>
+  <g transform="translate(20 21)" clip-path="url(#0)">
+   <circle fill="#a1c0e5" cx="123.68" cy="562.55" r="10"/>
+   <text x="123.68" y="566.61" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">1
+    </text>
+   <circle fill="#a5c3e5" cx="196.77" cy="655.5" r="10"/>
+   <text x="196.77" y="659.56" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">2
+    </text>
+   <circle fill="#aac6e5" cx="264.23" cy="597.46" r="10"/>
+   <text x="264.23" y="601.52" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">3
+    </text>
+   <circle fill="#aecae5" cx="183.99" cy="563.77" r="10"/>
+   <text x="183.99" y="567.83" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">4
+    </text>
+   <circle fill="#b4cee5" cx="373.1" cy="469.2" r="10"/>
+   <text x="373.1" y="473.26" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">5
+    </text>
+   <circle fill="#bad2e5" cx="244.3" cy="87.67" r="10"/>
+   <text x="244.3" y="91.73" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">6
+    </text>
+   <circle fill="#c0d6e5" cx="260.66" cy="178.18" r="10"/>
+   <text x="260.66" y="182.24" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">7
+    </text>
+   <circle fill="#c8dbe5" cx="304.1" cy="40.588" r="10"/>
+   <text x="304.1" y="44.648" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">8
+    </text>
+   <circle fill="#d0e1e5" cx="170.7" cy="52.765" r="10"/>
+   <text x="170.7" y="56.825" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">9
+    </text>
+   <circle fill="#d8e5e5" cx="158.43" cy="224.05" r="10"/>
+   <text x="158.43" y="228.11" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">10
+    </text>
+   <circle fill="#e2e5e5" cx="87.39" cy="278.44" r="10"/>
+   <text x="87.39" y="282.5" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">11
+    </text>
+   <circle fill="#e5e5e5" cx="179.9" cy="319.43" r="10"/>
+   <text x="179.9" y="323.49" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">12
+    </text>
+   <circle fill="#e5e5e5" cx="108.86" cy="137.59" r="10"/>
+   <text x="108.86" y="141.65" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">13
+    </text>
+   <circle fill="#e5e5e5" cx="51.611" cy="198.88" r="10"/>
+   <text x="51.611" y="202.94" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">14
+    </text>
+   <circle fill="#e5e5e5" cx="377.19" cy="198.48" r="10"/>
+   <text x="377.19" y="202.54" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">15
+    </text>
+   <circle fill="#e5e5d8" cx="468.68" cy="146.52" r="10"/>
+   <text x="468.68" y="150.58" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">16
+    </text>
+   <circle fill="#e5e2ba" cx="396.61" cy="102.69" r="10"/>
+   <text x="396.61" y="106.75" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">18
+    </text>
+   <circle fill="#e5dbab" cx="388.94" cy="294.67" r="10"/>
+   <text x="388.94" y="298.73" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">19
+    </text>
+   <circle fill="#e5d39c" cx="402.23" cy="385.18" r="10"/>
+   <text x="402.23" y="389.24" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">20
+    </text>
+   <circle fill="#e5cb8d" cx="494.74" cy="316.59" r="10"/>
+   <text x="494.74" y="320.65" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">21
+    </text>
+   <circle fill="#e5c27e" cx="265.26" cy="391.27" r="10"/>
+   <text x="265.26" y="395.33" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">22
+    </text>
+   <circle fill="#e5b96f" cx="516.72" cy="382.75" r="10"/>
+   <text x="516.72" y="386.81" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">23
+    </text>
+   <circle fill="#e5b061" cx="619.46" cy="421.31" r="10"/>
+   <text x="619.46" y="425.37" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">24
+    </text>
+   <circle fill="#e5a653" cx="623.54" cy="337.29" r="10"/>
+   <text x="623.54" y="341.35" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">25
+    </text>
+   <circle fill="#e59b46" cx="688.97" cy="496.8" r="10"/>
+   <text x="688.97" y="500.86" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">26
+    </text>
+   <circle fill="#e5903a" cx="708.39" cy="404.26" r="10"/>
+   <text x="708.39" y="408.32" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">27
+    </text>
+   <circle fill="#e5852e" cx="426.26" cy="647.38" r="10"/>
+   <text x="426.26" y="651.44" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">28
+    </text>
+   <circle fill="#e57924" cx="365.94" cy="565.8" r="10"/>
+   <text x="365.94" y="569.86" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">29
+    </text>
+   <circle fill="#e56c1b" cx="323.52" cy="697.31" r="10"/>
+   <text x="323.52" y="701.37" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">30
+    </text>
+   <circle fill="#e55f19" cx="438.52" cy="718.41" r="10"/>
+   <text x="438.52" y="722.47" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">31
+    </text>
+   <circle fill="#e55219" cx="546.37" cy="673.36" r="10"/>
+   <text x="546.37" y="677.42" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">32
+    </text>
+   <circle fill="#e54419" cx="513.14" cy="612.88" r="10"/>
+   <text x="513.14" y="616.94" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">33
+    </text>
+   <circle fill="#e53719" cx="550.97" cy="531.3" r="10"/>
+   <text x="550.97" y="535.36" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">34
+    </text>
+   <circle fill="#e52919" cx="630.19" cy="585.28" r="10"/>
+   <text x="630.19" y="589.34" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">35
+    </text>
+   <circle fill="#e51d19" cx="505.99" cy="444.04" r="10"/>
+   <text x="505.99" y="448.1" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">36
+    </text>
+   <circle fill="#9dbde5" cx="76" cy="455.4" r="10"/>
+   <text x="76" y="459.46" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">0
+    </text>
+   <circle fill="#e5e5c9" cx="608" cy="151.8" r="10"/>
+   <text x="608" y="155.86" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" font-size="12" font-family="Arial,SanSerif">17
+    </text>
+   </g>
+  </g>
+ <g transform="translate(20 21)" clip-path="url(#1)" stroke-opacity=".2" fill="none" stroke="#000050" fill-opacity="0" stroke-width="6">
+  <path dojoGfxStrokeStyle="solid" d="m294.14 41.497l-113.48 10.359"/>
+  <path dojoGfxStrokeStyle="solid" d="m164.81 60.845l-50.06 68.67"/>
+  <path dojoGfxStrokeStyle="solid" d="m102.03 144.9l-43.593 46.672"/>
+  <path dojoGfxStrokeStyle="solid" d="m55.713 208l27.574 61.31"/>
+  <path dojoGfxStrokeStyle="solid" d="m96.53 282.49l74.23 32.891"/>
+  <path dojoGfxStrokeStyle="solid" d="m187.55 325.87l70.05 58.962"/>
+  <path dojoGfxStrokeStyle="solid" d="m255.78 394.48l-170.31 57.711"/>
+  <path dojoGfxStrokeStyle="solid" d="m80.06 464.54l39.548 88.88"/>
+  <path dojoGfxStrokeStyle="solid" d="m129.86 570.41l60.726 77.23"/>
+  <path dojoGfxStrokeStyle="solid" d="m206.26 658.63l107.76 35.542"/>
+  <path dojoGfxStrokeStyle="solid" d="m333.36 699.11l95.33 17.496"/>
+  <path dojoGfxStrokeStyle="solid" d="m447.75 714.56l89.39-37.34"/>
+  <path dojoGfxStrokeStyle="solid" d="m553.26 666.12l70.03-73.59"/>
+  <path dojoGfxStrokeStyle="solid" d="m635.72 576.95l47.711-71.823"/>
+  <path dojoGfxStrokeStyle="solid" d="m691.02 487.01l15.314-72.967"/>
+  <path dojoGfxStrokeStyle="solid" d="m700.54 398.06l-69.15-54.58"/>
+  <path dojoGfxStrokeStyle="solid" d="m613.67 335.7l-109.05-17.526"/>
+  <path dojoGfxStrokeStyle="solid" d="m500.41 308.35l101.93-148.31"/>
+  <path dojoGfxStrokeStyle="solid" d="m598.01 151.42l-119.34-4.52"/>
+  <path dojoGfxStrokeStyle="solid" d="m460.13 141.33l-54.979-33.442"/>
+  <path dojoGfxStrokeStyle="solid" d="m388.31 97.11l-75.905-50.953"/>
+  <path dojoGfxStrokeStyle="solid" d="m176.93 556.69l-93.87-94.2"/>
+  <path dojoGfxStrokeStyle="solid" d="m173.99 563.57l-40.32-.814"/>
+  <path dojoGfxStrokeStyle="solid" d="m185.37 573.67l10.02 71.921"/>
+  <path dojoGfxStrokeStyle="solid" d="m193.21 567.64l61.804 25.946"/>
+  <path dojoGfxStrokeStyle="solid" d="m258.88 168.34l-12.799-70.831"/>
+  <path dojoGfxStrokeStyle="solid" d="m235.26 83.39l-55.53-26.335"/>
+  <path dojoGfxStrokeStyle="solid" d="m252.16 81.48l44.09-34.711"/>
+  <path dojoGfxStrokeStyle="solid" d="m150.49 230.13l-55.16 42.23"/>
+  <path dojoGfxStrokeStyle="solid" d="m160.63 233.8l17.08 75.87"/>
+  <path dojoGfxStrokeStyle="solid" d="m153.46 215.37l-39.629-69.1"/>
+  <path dojoGfxStrokeStyle="solid" d="m148.7 221.75l-87.35-20.579"/>
+  <path dojoGfxStrokeStyle="solid" d="m167.56 219.95l83.975-37.677"/>
+  <path dojoGfxStrokeStyle="solid" d="m270.51 179.9l96.83 16.863"/>
+  <path dojoGfxStrokeStyle="solid" d="m385.88 193.54l74.1-42.08"/>
+  <path dojoGfxStrokeStyle="solid" d="m386.99 196.49l211.21-42.712"/>
+  <path dojoGfxStrokeStyle="solid" d="m379.18 188.68l15.448-76.19"/>
+  <path dojoGfxStrokeStyle="solid" d="m378.4 208.4l9.329 76.34"/>
+  <path dojoGfxStrokeStyle="solid" d="m376.38 459.75l22.581-65.12"/>
+  <path dojoGfxStrokeStyle="solid" d="m400.78 375.29l-10.384-70.72"/>
+  <path dojoGfxStrokeStyle="solid" d="m410.27 379.23l76.45-56.682"/>
+  <path dojoGfxStrokeStyle="solid" d="m392.24 385.63l-117 5.201"/>
+  <path dojoGfxStrokeStyle="solid" d="m412.23 384.97l94.49-2.01"/>
+  <path dojoGfxStrokeStyle="solid" d="m526.09 386.26l84.01 31.531"/>
+  <path dojoGfxStrokeStyle="solid" d="m619.94 411.32l3.116-64.04"/>
+  <path dojoGfxStrokeStyle="solid" d="m626.23 428.66l55.964 60.781"/>
+  <path dojoGfxStrokeStyle="solid" d="m629.28 419.42l69.29-13.282"/>
+  <path dojoGfxStrokeStyle="solid" d="m435.55 643.69l68.3-27.12"/>
+  <path dojoGfxStrokeStyle="solid" d="m517.35 603.81l29.411-63.44"/>
+  <path dojoGfxStrokeStyle="solid" d="m559.23 536.93l62.694 42.72"/>
+  <path dojoGfxStrokeStyle="solid" d="m436.03 649.5l100.56 21.749"/>
+  <path dojoGfxStrokeStyle="solid" d="m427.96 657.24l8.863 51.32"/>
+  <path dojoGfxStrokeStyle="solid" d="m417.26 651.75l-84.75 41.18"/>
+  <path dojoGfxStrokeStyle="solid" d="m420.31 639.34l-48.42-65.5"/>
+  <path dojoGfxStrokeStyle="solid" d="m609.65 423.27l-93.86 18.801"/>
+  <path dojoGfxStrokeStyle="solid" d="m510.57 452.92l35.815 69.49"/>
+  <path dojoGfxStrokeStyle="solid" d="m497.29 439.1l-86.36-48.985"/>
+  <path dojoGfxStrokeStyle="solid" d="m372.36 479.17l-5.678 76.65"/>
+  <path dojoGfxStrokeStyle="solid" d="m356.4 568.77l-82.62 25.715"/>
+  </g>
+ </svg>

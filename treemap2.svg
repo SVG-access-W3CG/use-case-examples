@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 402 402" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <path id="1" d="m178.8 279.69h222.2v120.31h-222.2z" fill="#57899e" stroke="#fff" fill-rule="evenodd"/>
+  <path id="2" d="m0 0h178.8v206.76h-178.8z" stroke="#fff" fill-rule="evenodd" fill="#609476"/>
+  <path id="3" d="m178.8 0h222.2v151.43h-222.2z" fill="#cca16c" stroke="#fff" fill-rule="evenodd"/>
+  <clipPath id="0">
+   <path d="m0-1h402v402h-402z"/>
+   </clipPath>
+  </defs>
+ <path fill="#fff" fill-rule="evenodd" stroke-width="1" d="m0 1h401v400h-401z"/>
+ <g transform="translate(0 1)" clip-path="url(#0)">
+  <g stroke-width="2.25">
+   <use dojoGfxStrokeStyle="solid" xlink:href="#1"/>
+   <use dojoGfxStrokeStyle="solid" xlink:href="#1"/>
+   </g>
+  <use stroke-width=".5" dojoGfxStrokeStyle="solid" xlink:href="#1"/>
+  <g fill="#7db3b3" stroke="#fff" fill-rule="evenodd">
+   <g stroke-width="2.25">
+    <path dojoGfxStrokeStyle="solid" d="m178.8 151.43h222.2v128.26h-222.2z"/>
+    <path dojoGfxStrokeStyle="solid" d="m178.8 151.43h222.2v128.26h-222.2z"/>
+    </g>
+   <path stroke-width=".5" dojoGfxStrokeStyle="solid" d="m178.8 151.43h222.2v128.26h-222.2z"/>
+   </g>
+  <g stroke-width="2.25">
+   <use dojoGfxStrokeStyle="solid" xlink:href="#2"/>
+   <use dojoGfxStrokeStyle="solid" xlink:href="#2"/>
+   </g>
+  <use stroke-width=".5" dojoGfxStrokeStyle="solid" xlink:href="#2"/>
+  <g fill="#e8c780" stroke="#fff" fill-rule="evenodd">
+   <g stroke-width="2.25">
+    <path dojoGfxStrokeStyle="solid" d="m0 206.76h178.8v193.24h-178.8z"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 206.76h178.8v193.24h-178.8z"/>
+    </g>
+   <path stroke-width=".5" dojoGfxStrokeStyle="solid" d="m0 206.76h178.8v193.24h-178.8z"/>
+   </g>
+  <g stroke-width="2.25">
+   <use dojoGfxStrokeStyle="solid" xlink:href="#3"/>
+   <use dojoGfxStrokeStyle="solid" xlink:href="#3"/>
+   </g>
+  <use stroke-width=".5" dojoGfxStrokeStyle="solid" xlink:href="#3"/>
+  <g fill="#fff" font-family="Roboto Condensed Light, Roboto Condensed, Helvetica neue condensed, Helvetica Neue Std, Helvetica Neue, Arial" kerning="0" fill-rule="evenodd" text-rendering="auto" font-size="13.333">
+   <text x="184.8" y="297.54" rotate="0">2007
+    </text>
+   <text x="184.8" y="169.28" rotate="0">2008
+    </text>
+   <text x="6" y="17.85" rotate="0">2009
+    </text>
+   <text x="6" y="224.61" rotate="0">2011
+    </text>
+   <text x="184.8" y="17.85" rotate="0">2010
+    </text>
+   </g>
+  </g>
+ </svg>

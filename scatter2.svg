@@ -1,0 +1,530 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <clipPath id="3E">
+   <path d="m0 0h351v368h-351z"/>
+   </clipPath>
+  <radialGradient id="29" gradientUnits="userSpaceOnUse" cx="92.6" cy="283.89" r="11.695" xlink:href="#8"/>
+  <radialGradient id="2D" gradientUnits="userSpaceOnUse" cx="139.47" cy="308.93" r="9.839" xlink:href="#1"/>
+  <radialGradient id="2A" gradientUnits="userSpaceOnUse" cx="99.84" cy="223.85" r="16.15" xlink:href="#8"/>
+  <radialGradient id="2C" gradientUnits="userSpaceOnUse" cx="100.55" cy="315.25" r="9.37" xlink:href="#2"/>
+  <radialGradient id="2B" gradientUnits="userSpaceOnUse" cx="284.6" cy="113.23" r="24.352" xlink:href="#8"/>
+  <radialGradient id="28" gradientUnits="userSpaceOnUse" cx="73.57" cy="318.41" r="9.136" xlink:href="#2"/>
+  <radialGradient id="23" gradientUnits="userSpaceOnUse" cx="97.93" cy="277.57" r="12.164" xlink:href="#2"/>
+  <radialGradient id="27" gradientUnits="userSpaceOnUse" cx="77.44" cy="144.84" r="22.01" xlink:href="#8"/>
+  <radialGradient id="24" gradientUnits="userSpaceOnUse" cx="178.16" cy="277.57" r="12.164" xlink:href="#0"/>
+  <radialGradient id="26" gradientUnits="userSpaceOnUse" cx="176.35" cy="81.63" r="26.695" xlink:href="#1"/>
+  <radialGradient id="25" gradientUnits="userSpaceOnUse" cx="94.16" cy="302.61" r="10.308" xlink:href="#2"/>
+  <radialGradient id="2E" gradientUnits="userSpaceOnUse" cx="133.97" cy="207.79" r="17.339" xlink:href="#2"/>
+  <radialGradient id="2M" gradientUnits="userSpaceOnUse" cx="141.1" cy="296.28" r="10.777" xlink:href="#1"/>
+  <radialGradient id="1d" gradientUnits="userSpaceOnUse" cx="215.39" cy="264.93" r="13.1" xlink:href="#2"/>
+  <radialGradient id="2N" gradientUnits="userSpaceOnUse" cx="117.82" cy="305.76" r="10.07" xlink:href="#2"/>
+  <radialGradient id="2P" gradientUnits="userSpaceOnUse" cx="179.47" cy="271" r="12.652" xlink:href="#2"/>
+  <radialGradient id="2O" gradientUnits="userSpaceOnUse" cx="151.33" cy="252.29" r="14.04" xlink:href="#2"/>
+  <radialGradient id="2L" gradientUnits="userSpaceOnUse" cx="222.69" cy="223.85" r="16.15" xlink:href="#0"/>
+  <radialGradient id="2F" gradientUnits="userSpaceOnUse" cx="184.16" cy="277.32" r="12.183" xlink:href="#0"/>
+  <radialGradient id="2K" gradientUnits="userSpaceOnUse" cx="116.02" cy="160.64" r="20.836" xlink:href="#0"/>
+  <radialGradient id="2G" gradientUnits="userSpaceOnUse" cx="140.57" cy="312.09" r="9.605" xlink:href="#2"/>
+  <radialGradient id="2I" gradientUnits="userSpaceOnUse" cx="199.4" cy="283.89" r="11.695" xlink:href="#1"/>
+  <radialGradient id="2J" gradientUnits="userSpaceOnUse" cx="233.62" cy="271" r="12.652" xlink:href="#8"/>
+  <radialGradient id="2H" gradientUnits="userSpaceOnUse" cx="91.93" cy="312.09" r="9.605" xlink:href="#2"/>
+  <radialGradient id="22" gradientUnits="userSpaceOnUse" cx="140.92" cy="290.22" r="11.227" xlink:href="#1"/>
+  <radialGradient id="1k" gradientUnits="userSpaceOnUse" cx="73.66" cy="321.57" r="8.902" xlink:href="#1"/>
+  <radialGradient id="21" gradientUnits="userSpaceOnUse" cx="249.26" cy="223.59" r="16.17" xlink:href="#2"/>
+  <radialGradient id="1l" gradientUnits="userSpaceOnUse" cx="113.81" cy="305.76" r="10.07" xlink:href="#8"/>
+  <radialGradient id="1n" gradientUnits="userSpaceOnUse" cx="172.64" cy="176.19" r="19.683" xlink:href="#2"/>
+  <radialGradient id="1m" gradientUnits="userSpaceOnUse" cx="195.76" cy="296.28" r="10.777" xlink:href="#2"/>
+  <radialGradient id="1j" gradientUnits="userSpaceOnUse" cx="164.65" cy="160.39" r="20.855" xlink:href="#2"/>
+  <radialGradient id="1e" gradientUnits="userSpaceOnUse" cx="125.53" cy="312.09" r="9.605" xlink:href="#1"/>
+  <radialGradient id="1i" gradientUnits="userSpaceOnUse" cx="130.73" cy="318.41" r="9.136" xlink:href="#0"/>
+  <radialGradient id="1f" gradientUnits="userSpaceOnUse" cx="120.48" cy="327.89" r="8.433" xlink:href="#1"/>
+  <radialGradient id="1h" gradientUnits="userSpaceOnUse" cx="87.92" cy="312.09" r="9.605" xlink:href="#2"/>
+  <radialGradient id="1g" gradientUnits="userSpaceOnUse" cx="137.87" cy="305.76" r="10.07" xlink:href="#0"/>
+  <radialGradient id="1o" gradientUnits="userSpaceOnUse" cx="164.93" cy="271.25" r="12.633" xlink:href="#1"/>
+  <radialGradient id="1x" gradientUnits="userSpaceOnUse" cx="160.97" cy="289.96" r="11.245" xlink:href="#8"/>
+  <radialGradient id="1p" gradientUnits="userSpaceOnUse" cx="150.79" cy="318.41" r="9.136" xlink:href="#2"/>
+  <radialGradient id="1y" gradientUnits="userSpaceOnUse" cx="191.37" cy="283.64" r="11.714" xlink:href="#1"/>
+  <radialGradient id="20" gradientUnits="userSpaceOnUse" cx="99.47" cy="160.39" r="20.855" xlink:href="#2"/>
+  <radialGradient id="1z" gradientUnits="userSpaceOnUse" cx="201.36" cy="113.23" r="24.352" xlink:href="#8"/>
+  <radialGradient id="1w" gradientUnits="userSpaceOnUse" cx="124.81" cy="321.57" r="8.902" xlink:href="#0"/>
+  <radialGradient id="1q" gradientUnits="userSpaceOnUse" cx="190.24" cy="296.28" r="10.777" xlink:href="#1"/>
+  <radialGradient id="1v" gradientUnits="userSpaceOnUse" cx="195.02" cy="271.25" r="12.633" xlink:href="#1"/>
+  <radialGradient id="1r" gradientUnits="userSpaceOnUse" cx="160.34" cy="302.61" r="10.308" xlink:href="#1"/>
+  <radialGradient id="1t" gradientUnits="userSpaceOnUse" cx="159.16" cy="296.28" r="10.777" xlink:href="#1"/>
+  <radialGradient id="1u" gradientUnits="userSpaceOnUse" cx="110.95" cy="327.89" r="8.433" xlink:href="#2"/>
+  <radialGradient id="1s" gradientUnits="userSpaceOnUse" cx="152.12" cy="160.39" r="20.855" xlink:href="#2"/>
+  <radialGradient id="2Q" gradientUnits="userSpaceOnUse" cx="124.44" cy="207.79" r="17.339" xlink:href="#2"/>
+  <radialGradient id="2x" gradientUnits="userSpaceOnUse" cx="130.82" cy="321.57" r="8.902" xlink:href="#2"/>
+  <radialGradient id="2R" gradientUnits="userSpaceOnUse" cx="95.96" cy="160.64" r="20.836" xlink:href="#0"/>
+  <radialGradient id="2y" gradientUnits="userSpaceOnUse" cx="145.18" cy="315.25" r="9.37" xlink:href="#2"/>
+  <radialGradient id="30" gradientUnits="userSpaceOnUse" cx="140.12" cy="144.84" r="22.01" xlink:href="#8"/>
+  <radialGradient id="2z" gradientUnits="userSpaceOnUse" cx="189.44" cy="302.86" r="10.289" xlink:href="#8"/>
+  <radialGradient id="2w" gradientUnits="userSpaceOnUse" cx="201.72" cy="277.32" r="12.183" xlink:href="#1"/>
+  <radialGradient id="2r" gradientUnits="userSpaceOnUse" cx="74.3" cy="258.61" r="13.57" xlink:href="#2"/>
+  <radialGradient id="2v" gradientUnits="userSpaceOnUse" cx="134.96" cy="308.93" r="9.839" xlink:href="#2"/>
+  <radialGradient id="2s" gradientUnits="userSpaceOnUse" cx="107.69" cy="302.61" r="10.308" xlink:href="#0"/>
+  <radialGradient id="2u" gradientUnits="userSpaceOnUse" cx="123.52" cy="312.09" r="9.605" xlink:href="#0"/>
+  <radialGradient id="2t" gradientUnits="userSpaceOnUse" cx="145.9" cy="305.76" r="10.07" xlink:href="#0"/>
+  <radialGradient id="31" gradientUnits="userSpaceOnUse" cx="90.33" cy="308.93" r="9.839" xlink:href="#1"/>
+  <radialGradient id="3A" gradientUnits="userSpaceOnUse" cx="175.59" cy="258.61" r="13.57" xlink:href="#8"/>
+  <radialGradient id="32" gradientUnits="userSpaceOnUse" cx="90.59" cy="283.64" r="11.714" xlink:href="#2"/>
+  <radialGradient id="3B" gradientUnits="userSpaceOnUse" cx="226.5" cy="81.63" r="26.695" xlink:href="#2"/>
+  <radialGradient id="3D" gradientUnits="userSpaceOnUse" cx="284.56" cy="129.03" r="23.18" xlink:href="#0"/>
+  <radialGradient id="3C" gradientUnits="userSpaceOnUse" cx="187.36" cy="283.64" r="11.714" xlink:href="#2"/>
+  <radialGradient id="39" gradientUnits="userSpaceOnUse" cx="113.93" cy="343.69" r="7.261" xlink:href="#1"/>
+  <radialGradient id="33" gradientUnits="userSpaceOnUse" cx="129.04" cy="312.09" r="9.605" xlink:href="#1"/>
+  <radialGradient id="38" gradientUnits="userSpaceOnUse" cx="235.29" cy="191.99" r="18.511" xlink:href="#1"/>
+  <radialGradient id="34" gradientUnits="userSpaceOnUse" cx="245.22" cy="239.65" r="14.977" xlink:href="#2"/>
+  <radialGradient id="36" gradientUnits="userSpaceOnUse" cx="110.2" cy="302.61" r="10.308" xlink:href="#1"/>
+  <radialGradient id="37" gradientUnits="userSpaceOnUse" cx="166.26" cy="113.23" r="24.352" xlink:href="#2"/>
+  <radialGradient id="35" gradientUnits="userSpaceOnUse" cx="238.66" cy="18.42" r="31.383" xlink:href="#2"/>
+  <radialGradient id="2q" gradientUnits="userSpaceOnUse" cx="44.17" cy="324.73" r="8.667" xlink:href="#2"/>
+  <radialGradient id="2Y" gradientUnits="userSpaceOnUse" cx="75.6" cy="302.61" r="10.308" xlink:href="#1"/>
+  <radialGradient id="2p" gradientUnits="userSpaceOnUse" cx="141.85" cy="321.57" r="8.902" xlink:href="#0"/>
+  <radialGradient id="2Z" gradientUnits="userSpaceOnUse" cx="220.72" cy="208.04" r="17.32" xlink:href="#1"/>
+  <radialGradient id="2b" gradientUnits="userSpaceOnUse" cx="207.75" cy="176.44" r="19.664" xlink:href="#2"/>
+  <radialGradient id="2a" gradientUnits="userSpaceOnUse" cx="109.64" cy="283.64" r="11.714" xlink:href="#2"/>
+  <radialGradient id="2X" gradientUnits="userSpaceOnUse" cx="173.66" cy="312.09" r="9.605" xlink:href="#0"/>
+  <radialGradient id="2S" gradientUnits="userSpaceOnUse" cx="143.11" cy="296.28" r="10.777" xlink:href="#1"/>
+  <radialGradient id="2W" gradientUnits="userSpaceOnUse" cx="193.45" cy="252.29" r="14.04" xlink:href="#1"/>
+  <radialGradient id="2T" gradientUnits="userSpaceOnUse" cx="87.77" cy="289.96" r="11.245" xlink:href="#2"/>
+  <radialGradient id="2V" gradientUnits="userSpaceOnUse" cx="190.3" cy="129.03" r="23.18" xlink:href="#1"/>
+  <radialGradient id="2U" gradientUnits="userSpaceOnUse" cx="120.74" cy="302.86" r="10.289" xlink:href="#2"/>
+  <radialGradient id="2c" gradientUnits="userSpaceOnUse" cx="198.08" cy="239.4" r="14.995" xlink:href="#8"/>
+  <radialGradient id="2l" gradientUnits="userSpaceOnUse" cx="83.69" cy="321.57" r="8.902" xlink:href="#2"/>
+  <radialGradient id="2d" gradientUnits="userSpaceOnUse" cx="86.92" cy="312.09" r="9.605" xlink:href="#2"/>
+  <radialGradient id="2m" gradientUnits="userSpaceOnUse" cx="160.91" cy="271" r="12.652" xlink:href="#8"/>
+  <radialGradient id="2o" gradientUnits="userSpaceOnUse" cx="165.3" cy="283.64" r="11.714" xlink:href="#1"/>
+  <radialGradient id="2n" gradientUnits="userSpaceOnUse" cx="128.72" cy="318.41" r="9.136" xlink:href="#2"/>
+  <radialGradient id="2k" gradientUnits="userSpaceOnUse" cx="116.5" cy="312.09" r="9.605" xlink:href="#8"/>
+  <radialGradient id="2e" gradientUnits="userSpaceOnUse" cx="249.89" cy="160.39" r="20.855" xlink:href="#0"/>
+  <radialGradient id="2j" gradientUnits="userSpaceOnUse" cx="213.7" cy="208.04" r="17.32" xlink:href="#2"/>
+  <radialGradient id="2f" gradientUnits="userSpaceOnUse" cx="204.8" cy="245.97" r="14.508" xlink:href="#1"/>
+  <radialGradient id="2h" gradientUnits="userSpaceOnUse" cx="141.12" cy="144.84" r="22.01" xlink:href="#8"/>
+  <radialGradient id="2i" gradientUnits="userSpaceOnUse" cx="239.82" cy="277.32" r="12.183" xlink:href="#1"/>
+  <radialGradient id="2g" gradientUnits="userSpaceOnUse" cx="209.32" cy="144.84" r="22.01" xlink:href="#0"/>
+  <radialGradient id="1c" gradientUnits="userSpaceOnUse" cx="166.96" cy="305.76" r="10.07" xlink:href="#2"/>
+  <radialGradient id="W" gradientUnits="userSpaceOnUse" cx="159.79" cy="283.89" r="11.695" xlink:href="#1"/>
+  <radialGradient id="0" gradientUnits="userSpaceOnUse" cx="89.3" cy="324.73" r="8.667">
+   <stop stop-color="#fff"/>
+   <stop offset="1" stop-color="#b48c64" stop-opacity=".5"/>
+   </radialGradient>
+  <radialGradient id="X" gradientUnits="userSpaceOnUse" cx="134.52" cy="327.89" r="8.433" xlink:href="#2"/>
+  <radialGradient id="Z" gradientUnits="userSpaceOnUse" cx="118.91" cy="308.93" r="9.839" xlink:href="#1"/>
+  <radialGradient id="Y" gradientUnits="userSpaceOnUse" cx="59.43" cy="315.25" r="9.37" xlink:href="#2"/>
+  <radialGradient id="V" gradientUnits="userSpaceOnUse" cx="174.46" cy="271.25" r="12.633" xlink:href="#2"/>
+  <radialGradient id="Q" gradientUnits="userSpaceOnUse" cx="84.91" cy="312.09" r="9.605" xlink:href="#2"/>
+  <radialGradient id="U" gradientUnits="userSpaceOnUse" cx="202.16" cy="207.79" r="17.339" xlink:href="#0"/>
+  <radialGradient id="R" gradientUnits="userSpaceOnUse" cx="257.25" cy="239.4" r="14.995" xlink:href="#8"/>
+  <radialGradient id="T" gradientUnits="userSpaceOnUse" cx="139.16" cy="315.25" r="9.37" xlink:href="#0"/>
+  <radialGradient id="S" gradientUnits="userSpaceOnUse" cx="162.48" cy="289.96" r="11.245" xlink:href="#0"/>
+  <radialGradient id="a" gradientUnits="userSpaceOnUse" cx="161.64" cy="160.39" r="20.855" xlink:href="#8"/>
+  <radialGradient id="j" gradientUnits="userSpaceOnUse" cx="157.68" cy="331.05" r="8.198" xlink:href="#1"/>
+  <radialGradient id="b" gradientUnits="userSpaceOnUse" cx="128.63" cy="315.25" r="9.37" xlink:href="#1"/>
+  <radialGradient id="k" gradientUnits="userSpaceOnUse" cx="133.64" cy="315.25" r="9.37" xlink:href="#8"/>
+  <radialGradient id="m" gradientUnits="userSpaceOnUse" cx="129.22" cy="318.41" r="9.136" xlink:href="#1"/>
+  <radialGradient id="l" gradientUnits="userSpaceOnUse" cx="145.08" cy="312.09" r="9.605" xlink:href="#1"/>
+  <radialGradient id="i" gradientUnits="userSpaceOnUse" cx="100.62" cy="283.89" r="11.695" xlink:href="#1"/>
+  <radialGradient id="c" gradientUnits="userSpaceOnUse" cx="96.63" cy="318.41" r="9.136" xlink:href="#1"/>
+  <radialGradient id="h" gradientUnits="userSpaceOnUse" cx="189.93" cy="302.61" r="10.308" xlink:href="#8"/>
+  <radialGradient id="d" gradientUnits="userSpaceOnUse" cx="140.63" cy="331.05" r="8.198" xlink:href="#1"/>
+  <radialGradient id="f" gradientUnits="userSpaceOnUse" cx="180.03" cy="290.22" r="11.227" xlink:href="#0"/>
+  <radialGradient id="g" gradientUnits="userSpaceOnUse" cx="200.59" cy="290.22" r="11.227" xlink:href="#1"/>
+  <radialGradient id="e" gradientUnits="userSpaceOnUse" cx="149.53" cy="343.69" r="7.261" xlink:href="#2"/>
+  <radialGradient id="P" gradientUnits="userSpaceOnUse" cx="132.86" cy="305.76" r="10.07" xlink:href="#8"/>
+  <radialGradient id="7" gradientUnits="userSpaceOnUse" cx="128.2" cy="283.89" r="11.695" xlink:href="#2"/>
+  <radialGradient id="O" gradientUnits="userSpaceOnUse" cx="104.85" cy="223.59" r="16.17" xlink:href="#1"/>
+  <radialGradient id="8" gradientUnits="userSpaceOnUse" cx="102.88" cy="207.79" r="17.339">
+   <stop stop-color="#fff"/>
+   <stop offset="1" stop-color="#1e3cfa" stop-opacity=".5"/>
+   </radialGradient>
+  <radialGradient id="A" gradientUnits="userSpaceOnUse" cx="164.42" cy="271" r="12.652" xlink:href="#1"/>
+  <radialGradient id="9" gradientUnits="userSpaceOnUse" cx="125.43" cy="308.93" r="9.839" xlink:href="#2"/>
+  <radialGradient id="6" gradientUnits="userSpaceOnUse" cx="135.87" cy="305.76" r="10.07" xlink:href="#2"/>
+  <radialGradient id="1" gradientUnits="userSpaceOnUse" cx="64.63" cy="321.57" r="8.902">
+   <stop stop-color="#fff"/>
+   <stop offset="1" stop-color="#c8c850" stop-opacity=".5"/>
+   </radialGradient>
+  <radialGradient id="5" gradientUnits="userSpaceOnUse" cx="220.53" cy="252.29" r="14.04" xlink:href="#0"/>
+  <radialGradient id="2" gradientUnits="userSpaceOnUse" cx="240.34" cy="176.44" r="19.664">
+   <stop stop-color="#fff"/>
+   <stop offset="1" stop-color="#fa3228" stop-opacity=".5"/>
+   </radialGradient>
+  <radialGradient id="4" gradientUnits="userSpaceOnUse" cx="235.29" cy="191.99" r="18.511" xlink:href="#0"/>
+  <radialGradient id="3" gradientUnits="userSpaceOnUse" cx="218.96" cy="283.89" r="11.695" xlink:href="#0"/>
+  <radialGradient id="B" gradientUnits="userSpaceOnUse" cx="124.25" cy="252.29" r="14.04" xlink:href="#1"/>
+  <radialGradient id="K" gradientUnits="userSpaceOnUse" cx="122.8" cy="321.57" r="8.902" xlink:href="#2"/>
+  <radialGradient id="C" gradientUnits="userSpaceOnUse" cx="119.42" cy="308.93" r="9.839" xlink:href="#1"/>
+  <radialGradient id="L" gradientUnits="userSpaceOnUse" cx="175.36" cy="318.41" r="9.136" xlink:href="#1"/>
+  <radialGradient id="N" gradientUnits="userSpaceOnUse" cx="196.41" cy="81.63" r="26.695" xlink:href="#1"/>
+  <radialGradient id="M" gradientUnits="userSpaceOnUse" cx="128.41" cy="324.73" r="8.667" xlink:href="#1"/>
+  <radialGradient id="J" gradientUnits="userSpaceOnUse" cx="263.1" cy="81.63" r="26.695" xlink:href="#8"/>
+  <radialGradient id="D" gradientUnits="userSpaceOnUse" cx="168.05" cy="308.93" r="9.839" xlink:href="#2"/>
+  <radialGradient id="I" gradientUnits="userSpaceOnUse" cx="118.6" cy="315.25" r="9.37" xlink:href="#2"/>
+  <radialGradient id="E" gradientUnits="userSpaceOnUse" cx="150.32" cy="302.61" r="10.308" xlink:href="#8"/>
+  <radialGradient id="G" gradientUnits="userSpaceOnUse" cx="113.08" cy="315.25" r="9.37" xlink:href="#2"/>
+  <radialGradient id="H" gradientUnits="userSpaceOnUse" cx="123.61" cy="315.25" r="9.37" xlink:href="#0"/>
+  <radialGradient id="F" gradientUnits="userSpaceOnUse" cx="171.97" cy="305.76" r="10.07" xlink:href="#8"/>
+  <radialGradient id="n" gradientUnits="userSpaceOnUse" cx="191.83" cy="113.23" r="24.352" xlink:href="#1"/>
+  <radialGradient id="1L" gradientUnits="userSpaceOnUse" cx="176.71" cy="296.28" r="10.777" xlink:href="#1"/>
+  <radialGradient id="o" gradientUnits="userSpaceOnUse" cx="155.46" cy="289.96" r="11.245" xlink:href="#8"/>
+  <radialGradient id="1M" gradientUnits="userSpaceOnUse" cx="117.19" cy="318.41" r="9.136" xlink:href="#1"/>
+  <radialGradient id="1O" gradientUnits="userSpaceOnUse" cx="100.45" cy="312.09" r="9.605" xlink:href="#8"/>
+  <radialGradient id="1N" gradientUnits="userSpaceOnUse" cx="79.86" cy="327.89" r="8.433" xlink:href="#1"/>
+  <radialGradient id="1K" gradientUnits="userSpaceOnUse" cx="200.75" cy="160.39" r="20.855" xlink:href="#2"/>
+  <radialGradient id="1F" gradientUnits="userSpaceOnUse" cx="174.77" cy="264.93" r="13.1" xlink:href="#8"/>
+  <radialGradient id="1J" gradientUnits="userSpaceOnUse" cx="225.19" cy="223.59" r="16.17" xlink:href="#1"/>
+  <radialGradient id="1G" gradientUnits="userSpaceOnUse" cx="128.72" cy="318.41" r="9.136" xlink:href="#1"/>
+  <radialGradient id="1I" gradientUnits="userSpaceOnUse" cx="189.21" cy="312.09" r="9.605" xlink:href="#8"/>
+  <radialGradient id="1H" gradientUnits="userSpaceOnUse" cx="72.44" cy="331.05" r="8.198" xlink:href="#2"/>
+  <radialGradient id="1P" gradientUnits="userSpaceOnUse" cx="124.3" cy="321.57" r="8.902" xlink:href="#8"/>
+  <radialGradient id="1Y" gradientUnits="userSpaceOnUse" cx="162.13" cy="312.09" r="9.605" xlink:href="#2"/>
+  <radialGradient id="1Q" gradientUnits="userSpaceOnUse" cx="150.08" cy="176.19" r="19.683" xlink:href="#8"/>
+  <radialGradient id="1Z" gradientUnits="userSpaceOnUse" cx="142.43" cy="239.4" r="14.995" xlink:href="#2"/>
+  <radialGradient id="1b" gradientUnits="userSpaceOnUse" cx="86.21" cy="271.25" r="12.633" xlink:href="#2"/>
+  <radialGradient id="1a" gradientUnits="userSpaceOnUse" cx="162.99" cy="290.22" r="11.227" xlink:href="#2"/>
+  <radialGradient id="1X" gradientUnits="userSpaceOnUse" cx="135.78" cy="302.61" r="10.308" xlink:href="#1"/>
+  <radialGradient id="1R" gradientUnits="userSpaceOnUse" cx="113.91" cy="258.61" r="13.57" xlink:href="#2"/>
+  <radialGradient id="1W" gradientUnits="userSpaceOnUse" cx="248.8" cy="208.04" r="17.32" xlink:href="#2"/>
+  <radialGradient id="1S" gradientUnits="userSpaceOnUse" cx="159.08" cy="192.24" r="18.492" xlink:href="#1"/>
+  <radialGradient id="1U" gradientUnits="userSpaceOnUse" cx="143.04" cy="327.89" r="8.433" xlink:href="#2"/>
+  <radialGradient id="1V" gradientUnits="userSpaceOnUse" cx="79.05" cy="334.21" r="7.964" xlink:href="#2"/>
+  <radialGradient id="1T" gradientUnits="userSpaceOnUse" cx="151.33" cy="302.86" r="10.289" xlink:href="#1"/>
+  <radialGradient id="1E" gradientUnits="userSpaceOnUse" cx="124.4" cy="324.73" r="8.667" xlink:href="#1"/>
+  <radialGradient id="w" gradientUnits="userSpaceOnUse" cx="139.73" cy="283.89" r="11.695" xlink:href="#1"/>
+  <radialGradient id="1D" gradientUnits="userSpaceOnUse" cx="219.2" cy="258.36" r="13.589" xlink:href="#2"/>
+  <radialGradient id="x" gradientUnits="userSpaceOnUse" cx="167.5" cy="239.65" r="14.977" xlink:href="#8"/>
+  <radialGradient id="z" gradientUnits="userSpaceOnUse" cx="117.69" cy="318.41" r="9.136" xlink:href="#8"/>
+  <radialGradient id="y" gradientUnits="userSpaceOnUse" cx="279.28" cy="18.42" r="31.383" xlink:href="#0"/>
+  <radialGradient id="v" gradientUnits="userSpaceOnUse" cx="128.13" cy="264.68" r="13.12" xlink:href="#1"/>
+  <radialGradient id="p" gradientUnits="userSpaceOnUse" cx="255.25" cy="239.65" r="14.977" xlink:href="#2"/>
+  <radialGradient id="u" gradientUnits="userSpaceOnUse" cx="197.33" cy="264.68" r="13.12" xlink:href="#1"/>
+  <radialGradient id="q" gradientUnits="userSpaceOnUse" cx="165.51" cy="324.73" r="8.667" xlink:href="#1"/>
+  <radialGradient id="s" gradientUnits="userSpaceOnUse" cx="115.59" cy="315.25" r="9.37" xlink:href="#0"/>
+  <radialGradient id="t" gradientUnits="userSpaceOnUse" cx="203.22" cy="277.32" r="12.183" xlink:href="#8"/>
+  <radialGradient id="r" gradientUnits="userSpaceOnUse" cx="113.53" cy="296.54" r="10.758" xlink:href="#1"/>
+  <radialGradient id="10" gradientUnits="userSpaceOnUse" cx="192.4" cy="81.63" r="26.695" xlink:href="#8"/>
+  <radialGradient id="19" gradientUnits="userSpaceOnUse" cx="110.86" cy="324.73" r="8.667" xlink:href="#8"/>
+  <radialGradient id="11" gradientUnits="userSpaceOnUse" cx="205.22" cy="277.32" r="12.183" xlink:href="#0"/>
+  <radialGradient id="1A" gradientUnits="userSpaceOnUse" cx="167.88" cy="252.29" r="14.04" xlink:href="#8"/>
+  <radialGradient id="1C" gradientUnits="userSpaceOnUse" cx="93.22" cy="321.57" r="8.902" xlink:href="#2"/>
+  <radialGradient id="1B" gradientUnits="userSpaceOnUse" cx="152.14" cy="296.54" r="10.758" xlink:href="#1"/>
+  <radialGradient id="18" gradientUnits="userSpaceOnUse" cx="122.87" cy="290.22" r="11.227" xlink:href="#1"/>
+  <radialGradient id="12" gradientUnits="userSpaceOnUse" cx="138.35" cy="271" r="12.652" xlink:href="#2"/>
+  <radialGradient id="17" gradientUnits="userSpaceOnUse" cx="180.53" cy="289.96" r="11.245" xlink:href="#1"/>
+  <radialGradient id="13" gradientUnits="userSpaceOnUse" cx="77.84" cy="191.99" r="18.511" xlink:href="#0"/>
+  <radialGradient id="15" gradientUnits="userSpaceOnUse" cx="222.78" cy="176.19" r="19.683" xlink:href="#1"/>
+  <radialGradient id="16" gradientUnits="userSpaceOnUse" cx="140.13" cy="331.05" r="8.198" xlink:href="#8"/>
+  <radialGradient id="14" gradientUnits="userSpaceOnUse" cx="93.22" cy="321.57" r="8.902" xlink:href="#1"/>
+  </defs>
+ <g fill-rule="evenodd" stroke-width="1">
+  <path fill="#141414" d="m0 0h420v420h-420z"/>
+  <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m0 0h420v420h-420z"/>
+  <path fill="#141414" stroke="#000" dojoGfxStrokeStyle="solid" d="m45 19h351v368h-351z"/>
+  </g>
+ <g transform="translate(45 387)" stroke-dasharray="0.5 1.5" fill="none" stroke="#fff" fill-opacity="0" stroke-width=".5">
+  <path dojoGfxStrokeStyle="Dot" d="m50.14 0v-368"/>
+  <path dojoGfxStrokeStyle="Dot" d="m100.29 0v-368"/>
+  <path dojoGfxStrokeStyle="Dot" d="m150.43 0v-368"/>
+  <path dojoGfxStrokeStyle="Dot" d="m200.57 0v-368"/>
+  <path dojoGfxStrokeStyle="Dot" d="m250.71 0v-368"/>
+  <path dojoGfxStrokeStyle="Dot" d="m300.86 0v-368"/>
+  <path dojoGfxStrokeStyle="Dot" d="m351 0v-368"/>
+  </g>
+ <g transform="translate(45 19)">
+  <g stroke-dasharray="0.5 1.5" fill="none" stroke="#fff" fill-opacity="0" stroke-width=".5">
+   <path dojoGfxStrokeStyle="Dot" d="m0 337.33h351"/>
+   <path dojoGfxStrokeStyle="Dot" d="m0 306.67h351"/>
+   <path dojoGfxStrokeStyle="Dot" d="m0 276h351"/>
+   <path dojoGfxStrokeStyle="Dot" d="m0 245.33h351"/>
+   <path dojoGfxStrokeStyle="Dot" d="m0 214.67h351"/>
+   <path dojoGfxStrokeStyle="Dot" d="m0 184h351"/>
+   <path dojoGfxStrokeStyle="Dot" d="m0 153.33h351"/>
+   <path dojoGfxStrokeStyle="Dot" d="m0 122.67h351"/>
+   <path dojoGfxStrokeStyle="Dot" d="m0 92h351"/>
+   <path dojoGfxStrokeStyle="Dot" d="m0 61.33h351"/>
+   <path dojoGfxStrokeStyle="Dot" d="m0 30.667h351"/>
+   <path dojoGfxStrokeStyle="Dot" d="m0 0h351"/>
+   </g>
+  <g clip-path="url(#3E)" fill-rule="evenodd">
+   <circle fill="url(#0)" cx="92.76" cy="328.19" r="8.667"/>
+   <circle fill="url(#1)" cx="68.19" cy="325.13" r="8.902"/>
+   <circle fill="url(#2)" cx="248.21" cy="184.31" r="19.664"/>
+   <circle fill="url(#3)" cx="223.64" cy="288.57" r="11.695"/>
+   <circle fill="url(#4)" cx="242.69" cy="199.4" r="18.511"/>
+   <circle fill="url(#5)" cx="226.14" cy="257.91" r="14.04"/>
+   <circle fill="url(#6)" cx="139.9" cy="309.8" r="10.07"/>
+   <circle fill="url(#7)" cx="132.88" cy="288.57" r="11.695"/>
+   <circle fill="url(#8)" cx="109.81" cy="214.73" r="17.339"/>
+   <circle fill="url(#9)" cx="129.37" cy="312.86" r="9.839"/>
+   <circle fill="url(#A)" cx="169.48" cy="276.06" r="12.652"/>
+   <circle fill="url(#B)" cx="129.87" cy="257.91" r="14.04"/>
+   <circle fill="url(#C)" cx="123.35" cy="312.86" r="9.839"/>
+   <circle fill="url(#D)" cx="171.99" cy="312.86" r="9.839"/>
+   <circle fill="url(#E)" cx="154.44" cy="306.73" r="10.308"/>
+   <circle fill="url(#F)" cx="176" cy="309.8" r="10.07"/>
+   <circle fill="url(#G)" cx="116.83" cy="319" r="9.37"/>
+   <circle fill="url(#H)" cx="127.36" cy="319" r="9.37"/>
+   <circle fill="url(#I)" cx="122.35" cy="319" r="9.37"/>
+   <circle fill="url(#J)" cx="273.78" cy="92.31" r="26.695"/>
+   <circle fill="url(#K)" cx="126.36" cy="325.13" r="8.902"/>
+   <circle fill="url(#L)" cx="179.01" cy="322.06" r="9.136"/>
+   <circle fill="url(#M)" cx="131.88" cy="328.19" r="8.667"/>
+   <circle fill="url(#N)" cx="207.09" cy="92.31" r="26.695"/>
+   <circle fill="url(#O)" cx="111.32" cy="230.06" r="16.17"/>
+   <circle fill="url(#P)" cx="136.89" cy="309.8" r="10.07"/>
+   <circle fill="url(#Q)" cx="88.75" cy="315.93" r="9.605"/>
+   <circle fill="url(#R)" cx="263.25" cy="245.4" r="14.995"/>
+   <circle fill="url(#S)" cx="166.98" cy="294.46" r="11.245"/>
+   <circle fill="url(#T)" cx="142.91" cy="319" r="9.37"/>
+   <circle fill="url(#U)" cx="209.1" cy="214.73" r="17.339"/>
+   <circle fill="url(#V)" cx="179.51" cy="276.31" r="12.633"/>
+   <circle fill="url(#W)" cx="164.47" cy="288.57" r="11.695"/>
+   <circle fill="url(#X)" cx="137.89" cy="331.26" r="8.433"/>
+   <circle fill="url(#Y)" cx="63.18" cy="319" r="9.37"/>
+   <circle fill="url(#Z)" cx="122.85" cy="312.86" r="9.839"/>
+   <circle fill="url(#a)" cx="169.98" cy="168.73" r="20.855"/>
+   <circle fill="url(#b)" cx="132.38" cy="319" r="9.37"/>
+   <circle fill="url(#c)" cx="100.29" cy="322.06" r="9.136"/>
+   <circle fill="url(#d)" cx="143.91" cy="334.33" r="8.198"/>
+   <circle fill="url(#e)" cx="152.43" cy="346.6" r="7.261"/>
+   <circle fill="url(#f)" cx="184.53" cy="294.71" r="11.227"/>
+   <circle fill="url(#g)" cx="205.08" cy="294.71" r="11.227"/>
+   <circle fill="url(#h)" cx="194.05" cy="306.73" r="10.308"/>
+   <circle fill="url(#i)" cx="105.3" cy="288.57" r="11.695"/>
+   <circle fill="url(#j)" cx="160.96" cy="334.33" r="8.198"/>
+   <circle fill="url(#k)" cx="137.39" cy="319" r="9.37"/>
+   <circle fill="url(#l)" cx="148.92" cy="315.93" r="9.605"/>
+   <circle fill="url(#m)" cx="132.88" cy="322.06" r="9.136"/>
+   <circle fill="url(#n)" cx="201.57" cy="122.97" r="24.352"/>
+   <circle fill="url(#o)" cx="159.96" cy="294.46" r="11.245"/>
+   <circle fill="url(#p)" cx="261.24" cy="245.64" r="14.977"/>
+   <circle fill="url(#q)" cx="168.98" cy="328.19" r="8.667"/>
+   <circle fill="url(#r)" cx="117.84" cy="300.84" r="10.758"/>
+   <circle fill="url(#s)" cx="119.34" cy="319" r="9.37"/>
+   <circle fill="url(#t)" cx="208.09" cy="282.19" r="12.183"/>
+   <circle fill="url(#u)" cx="202.58" cy="269.93" r="13.12"/>
+   <circle fill="url(#v)" cx="133.38" cy="269.93" r="13.12"/>
+   <circle fill="url(#w)" cx="144.41" cy="288.57" r="11.695"/>
+   <circle fill="url(#x)" cx="173.49" cy="245.64" r="14.977"/>
+   <circle fill="url(#y)" cx="291.83" cy="30.973" r="31.383"/>
+   <circle fill="url(#z)" cx="121.35" cy="322.06" r="9.136"/>
+   <circle fill="url(#10)" cx="203.08" cy="92.31" r="26.695"/>
+   <circle fill="url(#11)" cx="210.1" cy="282.19" r="12.183"/>
+   <circle fill="url(#12)" cx="143.41" cy="276.06" r="12.652"/>
+   <circle fill="url(#13)" cx="85.24" cy="199.4" r="18.511"/>
+   <circle fill="url(#14)" cx="96.78" cy="325.13" r="8.902"/>
+   <circle fill="url(#15)" cx="230.66" cy="184.06" r="19.683"/>
+   <circle fill="url(#16)" cx="143.41" cy="334.33" r="8.198"/>
+   <circle fill="url(#17)" cx="185.03" cy="294.46" r="11.245"/>
+   <circle fill="url(#18)" cx="127.36" cy="294.71" r="11.227"/>
+   <circle fill="url(#19)" cx="114.33" cy="328.19" r="8.667"/>
+   <circle fill="url(#1A)" cx="173.49" cy="257.91" r="14.04"/>
+   <circle fill="url(#1B)" cx="156.45" cy="300.84" r="10.758"/>
+   <circle fill="url(#1C)" cx="96.78" cy="325.13" r="8.902"/>
+   <circle fill="url(#1D)" cx="224.64" cy="263.8" r="13.589"/>
+   <circle fill="url(#1E)" cx="127.86" cy="328.19" r="8.667"/>
+   <circle fill="url(#1F)" cx="180.01" cy="270.17" r="13.1"/>
+   <circle fill="url(#1G)" cx="132.38" cy="322.06" r="9.136"/>
+   <circle fill="url(#1H)" cx="75.72" cy="334.33" r="8.198"/>
+   <circle fill="url(#1I)" cx="193.05" cy="315.93" r="9.605"/>
+   <circle fill="url(#1J)" cx="231.66" cy="230.06" r="16.17"/>
+   <circle fill="url(#1K)" cx="209.1" cy="168.73" r="20.855"/>
+   <circle fill="url(#1L)" cx="181.02" cy="300.6" r="10.777"/>
+   <circle fill="url(#1M)" cx="120.84" cy="322.06" r="9.136"/>
+   <circle fill="url(#1N)" cx="83.24" cy="331.26" r="8.433"/>
+   <circle fill="url(#1O)" cx="104.3" cy="315.93" r="9.605"/>
+   <circle fill="url(#1P)" cx="127.86" cy="325.13" r="8.902"/>
+   <circle fill="url(#1Q)" cx="157.95" cy="184.06" r="19.683"/>
+   <circle fill="url(#1R)" cx="119.34" cy="264.04" r="13.57"/>
+   <circle fill="url(#1S)" cx="166.47" cy="199.64" r="18.492"/>
+   <circle fill="url(#1T)" cx="155.44" cy="306.97" r="10.289"/>
+   <circle fill="url(#1U)" cx="146.42" cy="331.26" r="8.433"/>
+   <circle fill="url(#1V)" cx="82.23" cy="337.39" r="7.964"/>
+   <circle fill="url(#1W)" cx="255.73" cy="214.97" r="17.32"/>
+   <circle fill="url(#1X)" cx="139.9" cy="306.73" r="10.308"/>
+   <circle fill="url(#1Y)" cx="165.97" cy="315.93" r="9.605"/>
+   <circle fill="url(#1Z)" cx="148.42" cy="245.4" r="14.995"/>
+   <circle fill="url(#1a)" cx="167.48" cy="294.71" r="11.227"/>
+   <circle fill="url(#1b)" cx="91.26" cy="276.31" r="12.633"/>
+   <circle fill="url(#1c)" cx="170.99" cy="309.8" r="10.07"/>
+   <circle fill="url(#1d)" cx="220.63" cy="270.17" r="13.1"/>
+   <circle fill="url(#1e)" cx="129.37" cy="315.93" r="9.605"/>
+   <circle fill="url(#1f)" cx="123.85" cy="331.26" r="8.433"/>
+   <circle fill="url(#1g)" cx="141.9" cy="309.8" r="10.07"/>
+   <circle fill="url(#1h)" cx="91.76" cy="315.93" r="9.605"/>
+   <circle fill="url(#1i)" cx="134.38" cy="322.06" r="9.136"/>
+   <circle fill="url(#1j)" cx="172.99" cy="168.73" r="20.855"/>
+   <circle fill="url(#1k)" cx="77.22" cy="325.13" r="8.902"/>
+   <circle fill="url(#1l)" cx="117.84" cy="309.8" r="10.07"/>
+   <circle fill="url(#1m)" cx="200.07" cy="300.6" r="10.777"/>
+   <circle fill="url(#1n)" cx="180.51" cy="184.06" r="19.683"/>
+   <circle fill="url(#1o)" cx="169.98" cy="276.31" r="12.633"/>
+   <circle fill="url(#1p)" cx="154.44" cy="322.06" r="9.136"/>
+   <circle fill="url(#1q)" cx="194.55" cy="300.6" r="10.777"/>
+   <circle fill="url(#1r)" cx="164.47" cy="306.73" r="10.308"/>
+   <circle fill="url(#1s)" cx="160.46" cy="168.73" r="20.855"/>
+   <circle fill="url(#1t)" cx="163.47" cy="300.6" r="10.777"/>
+   <circle fill="url(#1u)" cx="114.33" cy="331.26" r="8.433"/>
+   <circle fill="url(#1v)" cx="200.07" cy="276.31" r="12.633"/>
+   <circle fill="url(#1w)" cx="128.37" cy="325.13" r="8.902"/>
+   <circle fill="url(#1x)" cx="165.47" cy="294.46" r="11.245"/>
+   <circle fill="url(#1y)" cx="196.06" cy="288.33" r="11.714"/>
+   <circle fill="url(#1z)" cx="211.1" cy="122.97" r="24.352"/>
+   <circle fill="url(#20)" cx="107.81" cy="168.73" r="20.855"/>
+   <circle fill="url(#21)" cx="255.73" cy="230.06" r="16.17"/>
+   <circle fill="url(#22)" cx="145.41" cy="294.71" r="11.227"/>
+   <circle fill="url(#23)" cx="102.79" cy="282.44" r="12.164"/>
+   <circle fill="url(#24)" cx="183.02" cy="282.44" r="12.164"/>
+   <circle fill="url(#25)" cx="98.28" cy="306.73" r="10.308"/>
+   <circle fill="url(#26)" cx="187.03" cy="92.31" r="26.695"/>
+   <circle fill="url(#27)" cx="86.25" cy="153.64" r="22.01"/>
+   <circle fill="url(#28)" cx="77.22" cy="322.06" r="9.136"/>
+   <circle fill="url(#29)" cx="97.28" cy="288.57" r="11.695"/>
+   <circle fill="url(#2A)" cx="106.3" cy="230.31" r="16.15"/>
+   <circle fill="url(#2B)" cx="294.34" cy="122.97" r="24.352"/>
+   <circle fill="url(#2C)" cx="104.3" cy="319" r="9.37"/>
+   <circle fill="url(#2D)" cx="143.41" cy="312.86" r="9.839"/>
+   <circle fill="url(#2E)" cx="140.9" cy="214.73" r="17.339"/>
+   <circle fill="url(#2F)" cx="189.04" cy="282.19" r="12.183"/>
+   <circle fill="url(#2G)" cx="144.41" cy="315.93" r="9.605"/>
+   <circle fill="url(#2H)" cx="95.77" cy="315.93" r="9.605"/>
+   <circle fill="url(#2I)" cx="204.08" cy="288.57" r="11.695"/>
+   <circle fill="url(#2J)" cx="238.68" cy="276.06" r="12.652"/>
+   <circle fill="url(#2K)" cx="124.35" cy="168.97" r="20.836"/>
+   <circle fill="url(#2L)" cx="229.15" cy="230.31" r="16.15"/>
+   <circle fill="url(#2M)" cx="145.41" cy="300.6" r="10.777"/>
+   <circle fill="url(#2N)" cx="121.85" cy="309.8" r="10.07"/>
+   <circle fill="url(#2O)" cx="156.95" cy="257.91" r="14.04"/>
+   <circle fill="url(#2P)" cx="184.53" cy="276.06" r="12.652"/>
+   <circle fill="url(#2Q)" cx="131.37" cy="214.73" r="17.339"/>
+   <circle fill="url(#2R)" cx="104.3" cy="168.97" r="20.836"/>
+   <circle fill="url(#2S)" cx="147.42" cy="300.6" r="10.777"/>
+   <circle fill="url(#2T)" cx="92.26" cy="294.46" r="11.245"/>
+   <circle fill="url(#2U)" cx="124.86" cy="306.97" r="10.289"/>
+   <circle fill="url(#2V)" cx="199.57" cy="138.31" r="23.18"/>
+   <circle fill="url(#2W)" cx="199.07" cy="257.91" r="14.04"/>
+   <circle fill="url(#2X)" cx="177.51" cy="315.93" r="9.605"/>
+   <circle fill="url(#2Y)" cx="79.73" cy="306.73" r="10.308"/>
+   <circle fill="url(#2Z)" cx="227.65" cy="214.97" r="17.32"/>
+   <circle fill="url(#2a)" cx="114.33" cy="288.33" r="11.714"/>
+   <circle fill="url(#2b)" cx="215.61" cy="184.31" r="19.664"/>
+   <circle fill="url(#2c)" cx="204.08" cy="245.4" r="14.995"/>
+   <circle fill="url(#2d)" cx="90.76" cy="315.93" r="9.605"/>
+   <circle fill="url(#2e)" cx="258.24" cy="168.73" r="20.855"/>
+   <circle fill="url(#2f)" cx="210.6" cy="251.77" r="14.508"/>
+   <circle fill="url(#2g)" cx="218.12" cy="153.64" r="22.01"/>
+   <circle fill="url(#2h)" cx="149.93" cy="153.64" r="22.01"/>
+   <circle fill="url(#2i)" cx="244.7" cy="282.19" r="12.183"/>
+   <circle fill="url(#2j)" cx="220.63" cy="214.97" r="17.32"/>
+   <circle fill="url(#2k)" cx="120.34" cy="315.93" r="9.605"/>
+   <circle fill="url(#2l)" cx="87.25" cy="325.13" r="8.902"/>
+   <circle fill="url(#2m)" cx="165.97" cy="276.06" r="12.652"/>
+   <circle fill="url(#2n)" cx="132.38" cy="322.06" r="9.136"/>
+   <circle fill="url(#2o)" cx="169.98" cy="288.33" r="11.714"/>
+   <circle fill="url(#2p)" cx="145.41" cy="325.13" r="8.902"/>
+   <circle fill="url(#2q)" cx="47.636" cy="328.19" r="8.667"/>
+   <circle fill="url(#2r)" cx="79.73" cy="264.04" r="13.57"/>
+   <circle fill="url(#2s)" cx="111.82" cy="306.73" r="10.308"/>
+   <circle fill="url(#2t)" cx="149.93" cy="309.8" r="10.07"/>
+   <circle fill="url(#2u)" cx="127.36" cy="315.93" r="9.605"/>
+   <circle fill="url(#2v)" cx="138.9" cy="312.86" r="9.839"/>
+   <circle fill="url(#2w)" cx="206.59" cy="282.19" r="12.183"/>
+   <circle fill="url(#2x)" cx="134.38" cy="325.13" r="8.902"/>
+   <circle fill="url(#2y)" cx="148.92" cy="319" r="9.37"/>
+   <circle fill="url(#2z)" cx="193.55" cy="306.97" r="10.289"/>
+   <circle fill="url(#30)" cx="148.92" cy="153.64" r="22.01"/>
+   <circle fill="url(#31)" cx="94.27" cy="312.86" r="9.839"/>
+   <circle fill="url(#32)" cx="95.27" cy="288.33" r="11.714"/>
+   <circle fill="url(#33)" cx="132.88" cy="315.93" r="9.605"/>
+   <circle fill="url(#34)" cx="251.22" cy="245.64" r="14.977"/>
+   <circle fill="url(#35)" cx="251.22" cy="30.973" r="31.383"/>
+   <circle fill="url(#36)" cx="114.33" cy="306.73" r="10.308"/>
+   <circle fill="url(#37)" cx="176" cy="122.97" r="24.352"/>
+   <circle fill="url(#38)" cx="242.69" cy="199.4" r="18.511"/>
+   <circle fill="url(#39)" cx="116.83" cy="346.6" r="7.261"/>
+   <circle fill="url(#3A)" cx="181.02" cy="264.04" r="13.57"/>
+   <circle fill="url(#3B)" cx="237.18" cy="92.31" r="26.695"/>
+   <circle fill="url(#3C)" cx="192.05" cy="288.33" r="11.714"/>
+   <circle fill="url(#3D)" cx="293.84" cy="138.31" r="23.18"/>
+   </g>
+  <g fill="none" fill-opacity="0">
+   <path stroke="#000" dojoGfxStrokeStyle="solid" d="m0 0v368"/>
+   <g stroke="#fff">
+    <path dojoGfxStrokeStyle="solid" d="m0 368h-5"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 337.33h-5"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 306.67h-5"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 276h-5"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 245.33h-5"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 214.67h-5"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 184h-5"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 153.33h-5"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 122.67h-5"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 92h-5"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 61.33h-5"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 30.667h-5"/>
+    <path dojoGfxStrokeStyle="solid" d="m0 0h-5"/>
+    </g>
+   </g>
+  <g fill="#a0a0a0" font-family="Verdana,SanSerif" text-anchor="end" kerning="0" fill-rule="evenodd" text-rendering="auto" font-size="12">
+   <text x="-7.5" y="372.35" rotate="0">$0
+    </text>
+   <text x="-7.5" y="341.68" rotate="0">$5
+    </text>
+   <text x="-7.5" y="311.02" rotate="0">$10
+    </text>
+   <text x="-7.5" y="280.35" rotate="0">$15
+    </text>
+   <text x="-7.5" y="249.68" rotate="0">$20
+    </text>
+   <text x="-7.5" y="219.02" rotate="0">$25
+    </text>
+   <text x="-7.5" y="188.35" rotate="0">$30
+    </text>
+   <text x="-7.5" y="157.68" rotate="0">$35
+    </text>
+   <text x="-7.5" y="127.02" rotate="0">$40
+    </text>
+   <text x="-7.5" y="96.35" rotate="0">$45
+    </text>
+   <text x="-7.5" y="65.68" rotate="0">$50
+    </text>
+   <text x="-7.5" y="35.02" rotate="0">$55
+    </text>
+   <text x="-7.5" y="4.35" rotate="0">$60
+    </text>
+   </g>
+  </g>
+ <g transform="translate(45 387)">
+  <g fill="none" fill-opacity="0">
+   <path stroke="#000" dojoGfxStrokeStyle="solid" d="m0 0h351"/>
+   <g stroke="#fff">
+    <path dojoGfxStrokeStyle="solid" d="m0 0v5"/>
+    <path dojoGfxStrokeStyle="solid" d="m50.14 0v5"/>
+    <path dojoGfxStrokeStyle="solid" d="m100.29 0v5"/>
+    <path dojoGfxStrokeStyle="solid" d="m150.43 0v5"/>
+    <path dojoGfxStrokeStyle="solid" d="m200.57 0v5"/>
+    <path dojoGfxStrokeStyle="solid" d="m250.71 0v5"/>
+    <path dojoGfxStrokeStyle="solid" d="m300.86 0v5"/>
+    <path dojoGfxStrokeStyle="solid" d="m351 0v5"/>
+    </g>
+   </g>
+  <g fill="#a0a0a0" font-family="Verdana,SanSerif" text-anchor="middle" kerning="0" fill-rule="evenodd" text-rendering="auto" font-size="12">
+   <text x="0" y="19.35" rotate="0">0
+    </text>
+   <text x="50.14" y="19.35" rotate="0">100
+    </text>
+   <text x="100.29" y="19.35" rotate="0">200
+    </text>
+   <text x="150.43" y="19.35" rotate="0">300
+    </text>
+   <text x="200.57" y="19.35" rotate="0">400
+    </text>
+   <text x="250.71" y="19.35" rotate="0">500
+    </text>
+   <text x="300.86" y="19.35" rotate="0">600
+    </text>
+   <text x="351" y="19.35" rotate="0">700
+    </text>
+   </g>
+  </g>
+ </svg>

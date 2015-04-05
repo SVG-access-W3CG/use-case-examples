@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 402">
+ <defs>
+  <clipPath id="0">
+   <path d="m0-1h402v402h-402z"/>
+   </clipPath>
+  <clipPath id="1">
+   <path d="m0 0h181v144h-181z"/>
+   </clipPath>
+  <clipPath>
+   <path d="m0-1h402v402h-402z"/>
+   </clipPath>
+  </defs>
+ <g fill-rule="evenodd">
+  <path fill="#fff" stroke-width="1" d="m0 1h402v400h-402z"/>
+  <g transform="translate(0 1)" clip-path="url(#0)">
+   <g fill="#589ec9">
+    <g stroke="#666" stroke-width="1.45">
+     <path dojoGfxStrokeStyle="solid" d="M 10,203.684 H174.487 V390 H10 z"/>
+     <path dojoGfxStrokeStyle="solid" d="m10 203.68h93.93v112.14h-93.93z"/>
+     </g>
+    <g stroke="#333" stroke-width=".75">
+     <path dojoGfxStrokeStyle="solid" d="m10 203.68h47.09v62.38h-47.09z"/>
+     <path dojoGfxStrokeStyle="solid" d="m10 266.06h50.32v49.768h-50.32z"/>
+     <path dojoGfxStrokeStyle="solid" d="m57.09 203.68h46.843v62.38h-46.843z"/>
+     <path dojoGfxStrokeStyle="solid" d="m60.32 266.06h43.612v49.768h-43.612z"/>
+     </g>
+    <path stroke="#666" stroke-width="1.45" dojoGfxStrokeStyle="solid" d="m10 315.83h90.41v74.17h-90.41z"/>
+    <g stroke="#333" stroke-width=".75">
+     <path dojoGfxStrokeStyle="solid" d="M 10,315.827 H50.726 V390 H10 z"/>
+     <path dojoGfxStrokeStyle="solid" d="m50.726 315.83h49.688v37.584h-49.688z"/>
+     <path dojoGfxStrokeStyle="solid" d="m50.726 353.41h30.506v36.589h-30.506z"/>
+     <path dojoGfxStrokeStyle="solid" d="m81.23 353.41h19.18v36.589h-19.18z"/>
+     </g>
+    <path stroke="#666" stroke-width="1.45" dojoGfxStrokeStyle="solid" d="m103.93 203.68h70.55v112.14h-70.55z"/>
+    <g stroke="#333" stroke-width=".75">
+     <path dojoGfxStrokeStyle="solid" d="m103.93 203.68h70.55v38.915h-70.55z"/>
+     <path dojoGfxStrokeStyle="solid" d="m103.93 278.14h51.52v37.688h-51.52z"/>
+     <path dojoGfxStrokeStyle="solid" d="m103.93 242.6h70.55v35.54h-70.55z"/>
+     <path dojoGfxStrokeStyle="solid" d="m155.45 278.14h19.03v37.688h-19.03z"/>
+     </g>
+    <path stroke="#666" stroke-width="1.45" dojoGfxStrokeStyle="solid" d="m100.41 315.83h74.07v74.17h-74.07z"/>
+    <g stroke="#333" stroke-width=".75">
+     <path dojoGfxStrokeStyle="solid" d="m100.41 364.7h49.627v25.295h-49.627z"/>
+     <path dojoGfxStrokeStyle="solid" d="m150.04 364.7h24.447v25.295h-24.447z"/>
+     <path dojoGfxStrokeStyle="solid" d="m100.41 315.83h38.08v48.878h-38.08z"/>
+     <path dojoGfxStrokeStyle="solid" d="m138.49 315.83h35.993v48.878h-35.993z"/>
+     </g>
+    </g>
+   <g fill="#698c38">
+    <g stroke="#666" stroke-width="1.45">
+     <path dojoGfxStrokeStyle="solid" d="m174.49 10h217.51v134.85h-217.51z"/>
+     <path dojoGfxStrokeStyle="solid" d="m247.83 10h105.24v69.1h-105.24z"/>
+     </g>
+    <g stroke="#333" stroke-width=".75">
+     <path dojoGfxStrokeStyle="solid" d="m286.36 44.11h34.37v34.991h-34.37z"/>
+     <path dojoGfxStrokeStyle="solid" d="m286.36 10h66.71v34.11h-66.71z"/>
+     <path dojoGfxStrokeStyle="solid" d="m247.83 10h38.524v69.1h-38.524z"/>
+     <path dojoGfxStrokeStyle="solid" d="m320.73 44.11h32.34v34.991h-32.34z"/>
+     </g>
+    <path stroke="#666" stroke-width="1.45" dojoGfxStrokeStyle="solid" d="m174.49 10h73.34v134.85h-73.34z"/>
+    <g stroke="#333" stroke-width=".75">
+     <path dojoGfxStrokeStyle="solid" d="m174.49 10h73.34v40.22h-73.34z"/>
+     <path dojoGfxStrokeStyle="solid" d="m219.14 89.46h28.69v55.39h-28.69z"/>
+     <path dojoGfxStrokeStyle="solid" d="m174.49 50.22h73.34v39.25h-73.34z"/>
+     <path dojoGfxStrokeStyle="solid" d="m174.49 89.46h44.654v55.39h-44.654z"/>
+     </g>
+    <path stroke="#666" stroke-width="1.45" dojoGfxStrokeStyle="solid" d="m353.07 10h38.931v134.85h-38.931z"/>
+    <g stroke="#333" stroke-width=".75">
+     <path dojoGfxStrokeStyle="solid" d="m353.07 129.21h38.931v15.646h-38.931z"/>
+     <path dojoGfxStrokeStyle="solid" d="m353.07 10h38.931v53.37h-38.931z"/>
+     <path dojoGfxStrokeStyle="solid" d="m353.07 101.97h38.931v27.24h-38.931z"/>
+     <path dojoGfxStrokeStyle="solid" d="m353.07 63.37h38.931v38.598h-38.931z"/>
+     </g>
+    <path stroke="#666" stroke-width="1.45" dojoGfxStrokeStyle="solid" d="m247.83 79.1h105.24v65.752h-105.24z"/>
+    <g stroke="#333" stroke-width=".75">
+     <path dojoGfxStrokeStyle="solid" d="m290.15 79.1h62.916v36.66h-62.916z"/>
+     <path dojoGfxStrokeStyle="solid" d="m337.98 115.76h15.09v29.09h-15.09z"/>
+     <path dojoGfxStrokeStyle="solid" d="m290.15 115.76h47.825v29.09h-47.825z"/>
+     <path dojoGfxStrokeStyle="solid" d="m247.83 79.1h42.32v65.752h-42.32z"/>
+     </g>
+    </g>
+   <g fill="#ebc800">
+    <g stroke="#666" stroke-width="1.45">
+     <path dojoGfxStrokeStyle="solid" d="m10 10h164.49v193.68h-164.49z"/>
+     <path dojoGfxStrokeStyle="solid" d="m98.2 10h76.29v117.82h-76.29z"/>
+     </g>
+    <g stroke="#333" stroke-width=".75">
+     <path dojoGfxStrokeStyle="solid" d="m136.75 10h37.732v71.45h-37.732z"/>
+     <path dojoGfxStrokeStyle="solid" d="m98.2 10h38.554v71.45h-38.554z"/>
+     <path dojoGfxStrokeStyle="solid" d="m98.2 81.45h57.55v46.37h-57.55z"/>
+     <path dojoGfxStrokeStyle="solid" d="m155.75 81.45h18.738v46.37h-18.738z"/>
+     </g>
+    <path stroke="#666" stroke-width="1.45" dojoGfxStrokeStyle="solid" d="m10 10h88.2v117.82h-88.2z"/>
+    <g stroke="#333" stroke-width=".75">
+     <path dojoGfxStrokeStyle="solid" d="m55.758 71.872h42.44v55.948h-42.44z"/>
+     <path dojoGfxStrokeStyle="solid" d="m10 71.872h45.758v55.948h-45.758z"/>
+     <path dojoGfxStrokeStyle="solid" d="m10 10h45.724v61.872h-45.724z"/>
+     <path dojoGfxStrokeStyle="solid" d="m55.724 10h42.476v61.872h-42.476z"/>
+     </g>
+    <path stroke="#666" stroke-width="1.45" dojoGfxStrokeStyle="solid" d="m10 127.82h87.01v75.865h-87.01z"/>
+    <g stroke="#333" stroke-width=".75">
+     <path dojoGfxStrokeStyle="solid" d="m65.63 127.82h31.381v43.15h-31.381z"/>
+     <path dojoGfxStrokeStyle="solid" d="m65.63 170.97h31.381v32.71h-31.381z"/>
+     <path dojoGfxStrokeStyle="solid" d="m10 172.17h55.631v31.513h-55.631z"/>
+     <path dojoGfxStrokeStyle="solid" d="m10 127.82h55.631v44.35h-55.631z"/>
+     </g>
+    <path stroke="#666" stroke-width="1.45" dojoGfxStrokeStyle="solid" d="m97.01 127.82h77.47v75.865h-77.47z"/>
+    <g stroke="#333" stroke-width=".75">
+     <path dojoGfxStrokeStyle="solid" d="m161.89 170.54h12.594v33.14h-12.594z"/>
+     <path dojoGfxStrokeStyle="solid" d="m137.36 127.82h37.13v42.721h-37.13z"/>
+     <path dojoGfxStrokeStyle="solid" d="m97.01 127.82h40.35v75.865h-40.35z"/>
+     <path dojoGfxStrokeStyle="solid" d="m137.36 170.54h24.534v33.14h-24.534z"/>
+     </g>
+    </g>
+   <g fill="#b3463e">
+    <g stroke="#666" stroke-width="1.45">
+     <path dojoGfxStrokeStyle="solid" d="m174.49 144.85h217.51v129.68h-217.51z"/>
+     <path dojoGfxStrokeStyle="solid" d="m174.49 144.85h70.55v129.68h-70.55z"/>
+     </g>
+    <g stroke="#333" stroke-width=".75">
+     <path dojoGfxStrokeStyle="solid" d="m210.49 223.43h34.549v51.1h-34.549z"/>
+     <path dojoGfxStrokeStyle="solid" d="m174.49 223.43h36v51.1h-36z"/>
+     <path dojoGfxStrokeStyle="solid" d="m174.49 144.85h70.55v40.67h-70.55z"/>
+     <path dojoGfxStrokeStyle="solid" d="m174.49 185.53h70.55v37.909h-70.55z"/>
+     </g>
+    <path stroke="#666" stroke-width="1.45" dojoGfxStrokeStyle="solid" d="m245.04 209.92h102.12v64.61h-102.12z"/>
+    <g stroke="#333" stroke-width=".75">
+     <path dojoGfxStrokeStyle="solid" d="m245.04 209.92h34.12v64.61h-34.12z"/>
+     <path dojoGfxStrokeStyle="solid" d="m312.36 263.6h34.788v10.932h-34.788z"/>
+     <path dojoGfxStrokeStyle="solid" d="m312.36 209.92h34.788v53.681h-34.788z"/>
+     <path dojoGfxStrokeStyle="solid" d="m279.15 209.92h33.21v64.61h-33.21z"/>
+     </g>
+    <path stroke="#666" stroke-width="1.45" dojoGfxStrokeStyle="solid" d="m245.04 144.85h102.12v65.07h-102.12z"/>
+    <g stroke="#333" stroke-width=".75">
+     <path dojoGfxStrokeStyle="solid" d="m292.13 182h36.2v27.926h-36.2z"/>
+     <path dojoGfxStrokeStyle="solid" d="m328.33 182h18.822v27.926h-18.822z"/>
+     <path dojoGfxStrokeStyle="solid" d="m245.04 144.85h47.09v65.07h-47.09z"/>
+     <path dojoGfxStrokeStyle="solid" d="m292.13 144.85h55.03v37.14h-55.03z"/>
+     </g>
+    <path stroke="#666" stroke-width="1.45" dojoGfxStrokeStyle="solid" d="m347.15 144.85h44.847v129.68h-44.847z"/>
+    <g stroke="#333" stroke-width=".75">
+     <path dojoGfxStrokeStyle="solid" d="m347.15 246.41h24.512v28.13h-24.512z"/>
+     <path dojoGfxStrokeStyle="solid" d="m347.15 144.85h44.847v60.32h-44.847z"/>
+     <path dojoGfxStrokeStyle="solid" d="m347.15 205.18h44.847v41.23h-44.847z"/>
+     <path dojoGfxStrokeStyle="solid" d="m371.67 246.41h20.335v28.13h-20.335z"/>
+     </g>
+    </g>
+   <g fill="#956bb3">
+    <g stroke="#666" stroke-width="1.45">
+     <path dojoGfxStrokeStyle="solid" d="m174.49 274.53h217.51v115.47h-217.51z"/>
+     <path dojoGfxStrokeStyle="solid" d="m174.49 274.53h68.52v115.47h-68.52z"/>
+     </g>
+    <g stroke="#333" stroke-width=".75">
+     <path dojoGfxStrokeStyle="solid" d="m174.49 373.26h68.52v16.74h-68.52z"/>
+     <path dojoGfxStrokeStyle="solid" d="m174.49 318.08h38.94v55.18h-38.94z"/>
+     <path dojoGfxStrokeStyle="solid" d="m213.43 318.08h29.583v55.18h-29.583z"/>
+     <path dojoGfxStrokeStyle="solid" d="m174.49 274.53h68.52v43.542h-68.52z"/>
+     </g>
+    <path stroke="#666" stroke-width="1.45" dojoGfxStrokeStyle="solid" d="m300.56 274.53h91.44v58.63h-91.44z"/>
+    <g stroke="#333" stroke-width=".75">
+     <path dojoGfxStrokeStyle="solid" d="m300.56 274.53h37.601v58.63h-37.601z"/>
+     <path dojoGfxStrokeStyle="solid" d="m338.16 308.64h40.73v24.52h-40.73z"/>
+     <path dojoGfxStrokeStyle="solid" d="m378.89 308.64h13.11v24.52h-13.11z"/>
+     <path dojoGfxStrokeStyle="solid" d="m338.16 274.53h53.844v34.11h-53.844z"/>
+     </g>
+    <path stroke="#666" stroke-width="1.45" dojoGfxStrokeStyle="solid" d="m243.01 274.53h57.54v115.47h-57.54z"/>
+    <g stroke="#333" stroke-width=".75">
+     <path dojoGfxStrokeStyle="solid" d="m243.01 377.8h57.54v12.197h-57.54z"/>
+     <path dojoGfxStrokeStyle="solid" d="m243.01 327.78h29.05v50.02h-29.05z"/>
+     <path dojoGfxStrokeStyle="solid" d="m243.01 274.53h57.54v53.25h-57.54z"/>
+     <path dojoGfxStrokeStyle="solid" d="m272.06 327.78h28.494v50.02h-28.494z"/>
+     </g>
+    <path stroke="#666" stroke-width="1.45" dojoGfxStrokeStyle="solid" d="m300.56 333.16h91.44v56.837h-91.44z"/>
+    <g stroke="#333" stroke-width=".75">
+     <path dojoGfxStrokeStyle="solid" d="m379.87 333.16h12.13v56.837h-12.13z"/>
+     <path dojoGfxStrokeStyle="solid" d="m333.09 333.16h46.783v31.392h-46.783z"/>
+     <path dojoGfxStrokeStyle="solid" d="m300.56 333.16h32.531v56.837h-32.531z"/>
+     <path dojoGfxStrokeStyle="solid" d="m333.09 364.56h46.783v25.444h-46.783z"/>
+     </g>
+    </g>
+   </g>
+  <g transform="translate(402)" clip-path="url(#1)">
+   <g fill-opacity="0" stroke-width="1">
+    <path d="m0 0h181v144h-181z"/>
+    <path d="m56.5 1.5h68v14h-68z"/>
+    </g>
+   <g transform="translate(0 18)">
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m2.5 2.5h174v20h-174z"/>
+    <path fill="#589ec9" stroke="#000" dojoGfxStrokeStyle="solid" d="m2.5 2.5h20v20h-20z"/>
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m27.5 5.5h149v14h-149z"/>
+    </g>
+   <g transform="translate(0 18)">
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m2.5 27.5h174v20h-174z"/>
+    <path fill="#698c38" stroke="#000" dojoGfxStrokeStyle="solid" d="m2.5 27.5h20v20h-20z"/>
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m27.5 30.5h149v14h-149z"/>
+    </g>
+   <g transform="translate(0 18)">
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m2.5 52.5h174v20h-174z"/>
+    <path fill="#ebc800" stroke="#000" dojoGfxStrokeStyle="solid" d="m2.5 52.5h20v20h-20z"/>
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m27.5 55.5h149v14h-149z"/>
+    </g>
+   <g transform="translate(0 18)">
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m2.5 77.5h174v20h-174z"/>
+    <path fill="#b3463e" stroke="#000" dojoGfxStrokeStyle="solid" d="m2.5 77.5h20v20h-20z"/>
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m27.5 80.5h149v14h-149z"/>
+    </g>
+   <g transform="translate(0 18)">
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m2.5 102.5h174v20h-174z"/>
+    <path fill="#956bb3" stroke="#000" dojoGfxStrokeStyle="solid" d="m2.5 102.5h20v20h-20z"/>
+    <path fill-opacity="0" dojoGfxStrokeStyle="solid" d="m27.5 105.5h149v14h-149z"/>
+    </g>
+   </g>
+  </g>
+ </svg>
