@@ -1,0 +1,9 @@
+# use-case-examples
+SVG documents for messing around with. The primary purpose of these is to figure out the relevant use cases,
+and how to meet them or what is lacking in SVG at the moment.
+
+Please feel free to make pull requests on this readme (I don't do markdown very well) or on the files themselves.
+
+The key thing is to explain in your comments why your change makes the thing more accessible, and to whom.
+
+We are also trying to track this through the W3C Wiki (can someone insert a link here?)
