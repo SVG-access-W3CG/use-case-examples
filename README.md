@@ -6,4 +6,5 @@ Please feel free to make pull requests on this readme (I don't do markdown very 
 
 The key thing is to explain in your comments why your change makes the thing more accessible, and to whom.
 
-We are also trying to track this through the W3C Wiki (can someone insert a link here?)
+We are tracking this through the W3C SVG wiki:
+https://www.w3.org/wiki/SVG_Accessibility
