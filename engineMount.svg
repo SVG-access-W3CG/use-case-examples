@@ -1,11 +1,7 @@
-<?xml version="1.0" standalone="no"?> 
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<?xml-stylesheet href="svg-ig.css" type="text/css"?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	viewBox="-400 -400 20800 20800" preserveAspectRatio="xMidYMid" xml:space="preserve"
-	zoomAndPan="magnify" onload="diagramOnLoad(evt)" >
+	zoomAndPan="magnify">
 <desc>
 Document converted from CGM binary with Boeing SVGBuilder.
 For info on tool contact Boeing Information Technology - Thomas Smailus
@@ -22,9 +18,7 @@ Notice: Stroke-width was lower bounded to 0.06% of the max(CGM VDC Extents width
 	Thinner CGM edges and lines were set to this stroke-width.
 </desc>
 
-<BIGPedigree>BIGpedigree:SVGBuilder_v2015.04.16.3977</BIGPedigree>
-
-<CgmMetaData id="CgmMetaData" ScaleMode="metric" ScaleFactor="3.54729173355503" ScaleFactorUnits="VDC's per mm" VDCExtents="(0,0)(20000,20000)" />
+<!-- CgmMetaData id="CgmMetaData" ScaleMode="metric" ScaleFactor="3.54729173355503" ScaleFactorUnits="VDC's per mm" VDCExtents="(0,0)(20000,20000)" / -->
 
 <defs id="ig_defs" >
 <style type="text/css" >
@@ -43,8 +37,6 @@ Notice: Stroke-width was lower bounded to 0.06% of the max(CGM VDC Extents width
 
 <rect id='mouseCapRect' x='-416400' y='-416400' width='852800' height='852800' fill='green' opacity='0' />
 
-<!-- scripts that drive the core SVG-IG viewer behavior -->
-<script xlink:href="BIGcore.js" type="text/ecmascript" />
 
 <!-- watermarks and other processing legends that should appear below the main artwork -->
 <g id="markup-below" transform="scale( 1,-1) translate(0,-20000)" >
@@ -720,20 +712,4 @@ Notice: Stroke-width was lower bounded to 0.06% of the max(CGM VDC Extents width
 
 </g>  <!-- end of graphics/artwork layer -->
 
-<script type="text/ecmascript"><![CDATA[
-// diagram specific initialization
-function diagramOnLoad(evt) {
-  var errMsg="";
-  if ( window['coreOnLoad'] != undefined ) {
-	coreOnLoad(evt); // call the core initialization
-  }
-  else {
-	errMsg = errMsg + "You need the [BIGcore] and related IG support code for IG functionality.\n";
-  }
-
-	// Resize CGM Restricted Text; Supports scaling to fill y-dimension beyond font-size due to text rendering.
-	if ( window['resizeRestrictedTexts'] != undefined ) { resizeRestrictedTexts( "T1","T2","T3","T4","T5","T6","T7","T8","T9","T10","T11","T12","T13","T14","T15","T16","T17","T18","T19","T20","T21","T22","T23","T24","T25","T26","T27","T28"); } // resize the restricted text items
-	if (errMsg.length>0) { alert(errMsg); }
-}
-]]></script>
 </svg>
