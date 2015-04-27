@@ -1,0 +1,1022 @@
+<?xml version="1.0" standalone="no"?> 
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<?xml-stylesheet href="svg-ig.css" type="text/css"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	viewBox="-328 -230 17038 11978" preserveAspectRatio="xMidYMid" xml:space="preserve"
+	zoomAndPan="magnify" onload="diagramOnLoad(evt)" >
+<desc>
+Document converted from CGM binary with Boeing SVGBuilder.
+For info on tool contact Boeing Information Technology - Thomas Smailus
+SVGBuilder v. 2015.04.16.3977
+The SVG graphic data remains the property of the owner of the input CGM graphic.
+
+** Release Build - this graphic was created from a CGM diagram and may be enhanced with Boeing Intelligent Graphics technology **
+
+Source CGM Description: "ProfileId:ATA GRAPHICS.GREXCHANGE""ProfileEd:2.4""ColourClass:monochrome""Source:NIST/ITL""Date:19980930"
+Source CGM Metafile Version: 1
+CGM Profile: ATA GRAPHICS.GREXCHANGE
+
+Notice: Stroke-width was lower bounded to 0.06% of the max(CGM VDC Extents width and height), which is 9.8298 VDC.
+	Thinner CGM edges and lines were set to this stroke-width.
+</desc>
+
+<BIGPedigree>BIGpedigree:SVGBuilder_v2015.04.16.3977</BIGPedigree>
+
+<CgmMetaData id="CgmMetaData" ScaleMode="metric" ScaleFactor="22.5517397872973" ScaleFactorUnits="VDC's per mm" VDCExtents="(0,0)(16383,11517)" />
+
+<defs id="ig_defs" >
+<style type="text/css" >
+	<![CDATA[
+	@media screen {.print-only { visibility: hidden;}}
+	@media print  {.print-only { visibility: visible;}}
+	.hs-activecgm-off { stroke: black; }
+	]]>
+</style>
+</defs>
+
+<text id="StyleSheetTester" class="stylesheettester" />
+
+<!-- Numerical output to beyond here is formatted to the VDC stream precision; some above this line is selectively formatted -->
+<rect id='backgroundColor' x='-341094' y='-239784' width='698571' height='491085' fill='rgb(255,255,255)' />
+
+<rect id='mouseCapRect' x='-341094' y='-239784' width='698571' height='491085' fill='green' opacity='0' />
+
+<!-- scripts that drive the core SVG-IG viewer behavior -->
+<script xlink:href="BIGcore.js" type="text/ecmascript" />
+
+<!-- watermarks and other processing legends that should appear below the main artwork -->
+<g id="markup-below" transform="scale( 1,-1) translate(0,-11517)" >
+</g>
+
+
+<!-- ======================================================================================= -->
+<!--         CGM drawing elements / artwork from the source CGM Binary file                  -->
+<g id="cgm-objects" transform="scale( 1,-1) translate(0,-11517)">
+<text id="T1" x="9690" y="715" textLength="5003" igTextHeight="240" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9690,715) scale(1,-1) rotate(-0) translate(-9690,-715)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="240"  >SCHEMA01; ATA v2.4;  ClrClass:m</tspan></text>
+<text id="T2" x="9690" y="385" textLength="4684" igTextHeight="240" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9690,385) scale(1,-1) rotate(-0) translate(-9690,-385)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="240"  >NIST CGM Interpreter Test Suite</tspan></text>
+<text id="T3" x="9690" y="55" textLength="3464" igTextHeight="240" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9690,55) scale(1,-1) rotate(-0) translate(-9690,-55)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="240"  >Release 3.0, Sept 1998</tspan></text>
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2227,2529 2227,2513 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2240,2537 2240,2504 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2253,2542 2253,2499 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2199,2520 2236,2499 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2236,2542 2199,2520 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2239,2504 2212,2520 2239,2536 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2239,2536 2265,2552 2265,2488 2239,2504 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2271,2563 2271,2477 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2227,2185 2227,2170 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2240,2194 2240,2161 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2253,2198 2253,2155 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2199,2177 2236,2155 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2236,2198 2199,2177 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2239,2161 2212,2177 2239,2193 2265,2208 2265,2145 2239,2161 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2271,2220 2271,2133 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14316,7455 14316,7439 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14303,7464 14303,7431 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14290,7468 14290,7425 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14343,7447 14307,7425 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14307,7468 14343,7447 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14304,7430 14331,7447 14304,7463 14278,7478 14278,7415 14304,7430 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14271,7489 14271,7404 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14316,2529 14316,2513 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14303,2537 14303,2504 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14290,2542 14290,2499 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14343,2520 14307,2499 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14307,2542 14343,2520 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14304,2504 14331,2520 14304,2536 14278,2552 14278,2488 14304,2504 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14271,2563 14271,2477 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14316,2185 14316,2170 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14303,2194 14303,2161 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14290,2198 14290,2155 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14343,2177 14307,2155 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14307,2198 14343,2177 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14304,2161 14331,2177 14304,2193 14278,2208 14278,2145 14304,2161 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14271,2220 14271,2133 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14316,6080 14316,6064 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14303,6089 14303,6056 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14290,6093 14290,6050 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14343,6072 14307,6050 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14307,6093 14343,6072 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14304,6055 14331,6072 14304,6088 14278,6104 14278,6040 14304,6055 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14271,6115 14271,6029 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14316,5737 14316,5721 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14303,5745 14303,5712 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14290,5749 14290,5707 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14343,5728 14307,5707 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14307,5749 14343,5728 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14304,5712 14331,5728 14304,5744 14278,5760 14278,5696 14304,5712 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14271,5771 14271,5685 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3574,9457 3574,9337 4032,9337 4032,9451 3569,9451 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3574,9113 3574,8993 4032,8993 4032,9107 3569,9107 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2214,8936 2242,8936 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2228,8907 2228,8964 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2205,8932 2228,8968 2249,8936 2228,8904 2205,8939 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="5508,7447 5479,7447 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="5493,7418 5493,7475 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="5517,7443 5493,7478 5472,7447 5493,7415 5517,7450 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="5880,7447 5908,7447 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="5894,7418 5894,7475 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="5870,7443 5894,7478 5915,7447 5894,7415 5870,7450 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="5508,8936 5479,8936 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="5493,8907 5493,8964 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="5517,8932 5493,8968 5472,8936 5493,8904 5517,8939 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="5880,8936 5908,8936 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="5894,8907 5894,8964 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="5870,8932 5894,8968 5915,8936 5894,8904 5870,8939 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="9288,7447 9259,7447 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="9274,7418 9274,7475 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="9297,7443 9274,7478 9252,7447 9274,7415 9297,7450 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="9660,7447 9689,7447 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="9674,7418 9674,7475 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="9651,7443 9674,7478 9696,7447 9674,7415 9651,7450 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="11923,7447 11894,7447 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="11909,7418 11909,7475 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="11932,7443 11909,7478 11887,7447 11909,7415 11932,7450 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="12295,7447 12324,7447 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="12309,7418 12309,7475 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="12286,7443 12309,7478 12330,7447 12309,7415 12286,7450 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="7455,8936 7426,8936 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="7441,8907 7441,8964 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="7464,8933 7441,8967 7420,8936 7441,8904 7464,8939 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="8944,8936 8916,8936 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="8930,8907 8930,8964 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="8953,8932 8930,8968 8909,8936 8930,8904 8953,8939 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="7827,8936 7856,8936 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="7842,8907 7842,8964 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="7818,8932 7842,8968 7863,8936 7842,8904 7818,8939 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4749,7361 4749,7303 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4720,7375 4720,7289 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4777,7346 4777,7318 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4576,7274 4648,7332 4576,7389 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4571,7274 4691,7274 4691,7389 4576,7389 4576,7269 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4749,8850 4749,8793 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4720,8864 4720,8778 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4777,8835 4777,8807 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4576,8764 4648,8821 4576,8878 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4571,8764 4691,8764 4691,8878 4576,8878 4576,8759 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3087,8850 3087,8793 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3116,8864 3116,8778 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3059,8835 3059,8807 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3259,8764 3187,8821 3259,8878 "  />
+<circle cx="13197" cy="10311" r="37" fill="none" stroke="rgb(0,0,0)" stroke-width="10"    />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13103,10325 13103,10296 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13131,10282 13131,10339 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13160,10356 13160,10265 "  />
+<polyline stroke-width="11" stroke="rgb(0,0,0)" fill="none"  points="6112,10595 6112,10484 "  />
+<polyline stroke-width="11" stroke="rgb(0,0,0)" fill="none"  points="6100,10595 6100,10484 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="6009,10568 6009,10511 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="6037,10583 6037,10497 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="5980,10554 5980,10525 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3264,8764 3145,8764 3145,8878 3259,8878 3259,8759 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2701,11041 2615,10955 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2615,11041 2701,10955 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2601,10998 2715,10998 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2657,11055 2657,10941 "  />
+<circle cx="2657" cy="10998" r="57" fill="none" stroke="rgb(0,0,0)" stroke-width="10"    />
+<circle cx="1397" cy="10769" r="37" fill="none" stroke="rgb(0,0,0)" stroke-width="10"    />
+<circle cx="1054" cy="10769" r="37" fill="none" stroke="rgb(0,0,0)" stroke-width="10"    />
+<path stroke-width="10" stroke="rgb(0,0,0)"  fill="none"  d="M 1007,10629 a227,227  0  1,1 -7,37"  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1226,10941 1226,10917 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1197,10941 1255,10941 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="6129,10482 6066,10482 6066,10597 6123,10597 6123,10477 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1051,10769 1057,10769 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1397,10766 1398,10772 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1400,10769 1395,10769 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1403,10769 1403,10770 1402,10772 1400,10774 1397,10774 1395,10774 1393,10772 1392,10770 1392,10769 1392,10767 1393,10765 1395,10764 1397,10763 1400,10764 1402,10765 1403,10767 1403,10769 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1059,10769 1059,10770 1058,10772 1057,10774 1054,10774 1051,10774 1049,10772 1048,10770 1048,10769 1048,10767 1049,10765 1051,10764 1054,10763 1057,10764 1058,10765 1059,10767 1059,10769 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1054,10766 1054,10771 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2257,5720 2214,5720 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2214,5736 2257,5736 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2206,5728 2206,5750 2265,5750 2265,5706 2206,5706 2206,5728 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2257,6064 2214,6064 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2214,6080 2257,6080 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2206,6072 2206,6094 2265,6094 2265,6050 2206,6050 2206,6072 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="3975,6064 4018,6064 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4018,6080 3975,6080 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4026,6072 4026,6094 3967,6094 3967,6050 4026,6050 4026,6072 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="3975,5720 4018,5720 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4018,5736 3975,5736 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4026,5728 4026,5750 3967,5750 3967,5706 4026,5706 4026,5728 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4434,6064 4390,6064 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4390,6080 4434,6080 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4382,6072 4382,6094 4441,6094 4441,6050 4382,6050 4382,6072 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4434,5720 4390,5720 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4390,5736 4434,5736 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4382,5728 4382,5750 4441,5750 4441,5706 4382,5706 4382,5728 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14796,5814 14830,5814 14839,5815 14847,5819 14853,5826 14857,5834 14858,5843 14858,5871 14860,5880 14864,5888 14870,5894 14878,5899 14887,5900 14921,5900 "  />
+<text id="T4" x="14406" y="2246" textLength="162" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14406,2246) scale(1,-1) rotate(-0) translate(-14406,-2246)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >D1</tspan></text>
+<text id="T5" x="14406" y="2360" textLength="162" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14406,2360) scale(1,-1) rotate(-0) translate(-14406,-2360)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >C1</tspan></text>
+<text id="T6" x="14406" y="2589" textLength="156" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14406,2589) scale(1,-1) rotate(-0) translate(-14406,-2589)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >B1</tspan></text>
+<text id="T7" x="14406" y="2704" textLength="156" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14406,2704) scale(1,-1) rotate(-0) translate(-14406,-2704)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >A1</tspan></text>
+<text id="T8" x="1853" y="10723" textLength="468" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1853,10723) scale(1,-1) rotate(-0) translate(-1853,-10723)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >1357-20</tspan></text>
+<text id="T9" x="2074" y="10883" textLength="511" igTextHeight="115" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2074,10883) scale(1,-1) rotate(-0) translate(-2074,-10883)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="115"  >W3200</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2663,10769 2432,10769 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1808,10769 1430,10769 "  />
+<text id="T10" x="1499" y="10597" textLength="540" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1499,10597) scale(1,-1) rotate(-0) translate(-1499,-10597)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >CTU (C6)</tspan></text>
+<text id="T11" x="1514" y="10780" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1514,10780) scale(1,-1) rotate(-0) translate(-1514,-10780)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2</tspan></text>
+<text id="T12" x="1178" y="10731" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1178,10731) scale(1,-1) rotate(-0) translate(-1178,-10731)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >5</tspan></text>
+<text id="T13" x="830" y="10780" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(830,10780) scale(1,-1) rotate(-0) translate(-830,-10780)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >1</tspan></text>
+<text id="T14" x="182" y="10725" textLength="496" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(182,10725) scale(1,-1) rotate(-0) translate(-182,-10725)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >24-51-24</tspan></text>
+<text id="T15" x="178" y="10844" textLength="387" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(178,10844) scale(1,-1) rotate(-0) translate(-178,-10844)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >R BUS</tspan></text>
+<text id="T16" x="169" y="10964" textLength="509" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(169,10964) scale(1,-1) rotate(-0) translate(-169,-10964)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >115V AC</tspan></text>
+<text id="T17" x="1040" y="10597" textLength="414" igTextHeight="85" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1040,10597) scale(1,-1) rotate(-0) translate(-1040,-10597)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="85"  >C23430</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="820,10769 889,10769 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="952,10769 1022,10769 "  />
+<text id="T18" x="9298" y="9005" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9298,9005) scale(1,-1) rotate(-0) translate(-9298,-9005)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >A</tspan></text>
+<text id="T19" x="9285" y="9349" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9285,9349) scale(1,-1) rotate(-0) translate(-9285,-9349)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >B</tspan></text>
+<text id="T20" x="9285" y="8707" textLength="289" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9285,8707) scale(1,-1) rotate(-0) translate(-9285,-8707)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >(J18)</tspan></text>
+<text id="T21" x="13482" y="6713" textLength="468" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13482,6713) scale(1,-1) rotate(-0) translate(-13482,-6713)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >0020-24</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14348,6759 14118,6759 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13427,6759 13197,6759 13197,6530 14348,6530 "  />
+<text id="T22" x="14669" y="6485" textLength="927" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14669,6485) scale(1,-1) rotate(-0) translate(-14669,-6485)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >HOT PLUG IN B</tspan></text>
+<text id="T23" x="14669" y="6714" textLength="927" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14669,6714) scale(1,-1) rotate(-0) translate(-14669,-6714)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >HOT PLUG IN A</tspan></text>
+<text id="T24" x="14406" y="6484" textLength="149" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14406,6484) scale(1,-1) rotate(-0) translate(-14406,-6484)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >F6</tspan></text>
+<text id="T25" x="14406" y="6713" textLength="156" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14406,6713) scale(1,-1) rotate(-0) translate(-14406,-6713)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >E6</tspan></text>
+<text id="T26" x="2182" y="10537" textLength="289" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2182,10537) scale(1,-1) rotate(-0) translate(-2182,-10537)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >(J10)</tspan></text>
+<text id="T27" x="6448" y="10494" textLength="468" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(6448,10494) scale(1,-1) rotate(-0) translate(-6448,-10494)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >0085-16</tspan></text>
+<text id="T28" x="6448" y="10723" textLength="468" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(6448,10723) scale(1,-1) rotate(-0) translate(-6448,-10723)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >0048-16</tspan></text>
+<text id="T29" x="6749" y="10894" textLength="511" igTextHeight="115" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(6749,10894) scale(1,-1) rotate(-0) translate(-6749,-10894)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="115"  >W2482</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="7245,10540 7014,10540 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="6390,10540 6118,10540 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="7245,10769 7015,10769 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="6393,10769 5173,10769 "  />
+<text id="T30" x="5383" y="10494" textLength="557" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5383,10494) scale(1,-1) rotate(-0) translate(-5383,-10494)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >GBX2-AC</tspan></text>
+<text id="T31" x="9484" y="10494" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9484,10494) scale(1,-1) rotate(-0) translate(-9484,-10494)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >27</tspan></text>
+<text id="T32" x="9471" y="10723" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9471,10723) scale(1,-1) rotate(-0) translate(-9471,-10723)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >13</tspan></text>
+<text id="T33" x="7477" y="10723" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(7477,10723) scale(1,-1) rotate(-0) translate(-7477,-10723)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >1</tspan></text>
+<text id="T34" x="7490" y="10494" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(7490,10494) scale(1,-1) rotate(-0) translate(-7490,-10494)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2</tspan></text>
+<text id="T35" x="7452" y="10311" textLength="460" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(7452,10311) scale(1,-1) rotate(-0) translate(-7452,-10311)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >D4791P</tspan></text>
+<text id="T36" x="8385" y="10723" textLength="543" igTextHeight="89" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(8385,10723) scale(1,-1) rotate(-0) translate(-8385,-10723)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="89"  >2026R-16</tspan></text>
+<text id="T37" x="8385" y="10494" textLength="536" igTextHeight="89" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(8385,10494) scale(1,-1) rotate(-0) translate(-8385,-10494)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="89"  >2026B-16</tspan></text>
+<text id="T38" x="10438" y="10494" textLength="543" igTextHeight="89" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(10438,10494) scale(1,-1) rotate(-0) translate(-10438,-10494)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="89"  >2026B-16</tspan></text>
+<text id="T39" x="10438" y="10723" textLength="536" igTextHeight="89" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(10438,10723) scale(1,-1) rotate(-0) translate(-10438,-10723)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="89"  >2026R-16</tspan></text>
+<text id="T40" x="12491" y="10265" textLength="562" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(12491,10265) scale(1,-1) rotate(-0) translate(-12491,-10265)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >GD341-S</tspan></text>
+<text id="T41" x="13482" y="10494" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13482,10494) scale(1,-1) rotate(-0) translate(-13482,-10494)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2071B-16</tspan></text>
+<text id="T42" x="13482" y="10723" textLength="559" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13482,10723) scale(1,-1) rotate(-0) translate(-13482,-10723)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2071R-16</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9307,10540 8916,10540 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="7809,10540 7578,10540 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9307,10769 8916,10769 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="7809,10769 7578,10769 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14796,5986 14830,5986 14839,5984 14847,5980 14853,5974 14857,5966 14858,5957 14858,5928 14860,5920 14864,5912 14870,5906 14878,5901 14887,5900 14921,5900 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11943,10540 10976,10540 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9871,10540 9641,10540 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11943,10769 10976,10769 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9871,10769 9641,10769 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="7728,10763 7727,10774 7725,10779 7723,10783 7720,10787 7717,10790 7713,10794 7708,10796 7703,10797 7699,10797 7693,10797 7688,10796 7684,10794 7680,10790 7676,10787 7674,10783 7671,10779 7670,10774 7670,10769 7727,10540 7727,10535 7725,10530 7723,10525 7720,10521 7717,10518 7713,10515 7708,10512 7703,10511 7699,10511 7693,10511 7688,10512 7684,10515 7680,10518 7676,10521 7674,10525 7671,10530 7670,10535 7670,10540 7728,10773 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12276,10540 13427,10540 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14118,10540 14348,10540 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14348,10769 14118,10769 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13427,10769 12276,10769 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9790,10763 9789,10774 9788,10779 9785,10783 9782,10787 9779,10790 9775,10794 9770,10796 9765,10797 9761,10797 9756,10797 9751,10796 9746,10794 9742,10790 9739,10787 9736,10783 9733,10779 9732,10774 9732,10769 9789,10540 9789,10535 9788,10530 9785,10525 9782,10521 9779,10518 9775,10515 9770,10512 9765,10511 9761,10511 9756,10511 9751,10512 9746,10515 9742,10518 9739,10521 9736,10525 9733,10530 9732,10535 9732,10540 9790,10773 "  />
+<text id="T43" x="11991" y="10494" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(11991,10494) scale(1,-1) rotate(-0) translate(-11991,-10494)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >12</tspan></text>
+<text id="T44" x="9935" y="10723" textLength="445" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9935,10723) scale(1,-1) rotate(-0) translate(-9935,-10723)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >W5250-</tspan></text>
+<text id="T45" x="9935" y="10494" textLength="445" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9935,10494) scale(1,-1) rotate(-0) translate(-9935,-10494)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >W5250-</tspan></text>
+<text id="T46" x="7873" y="10494" textLength="445" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(7873,10494) scale(1,-1) rotate(-0) translate(-7873,-10494)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >W5240-</tspan></text>
+<text id="T47" x="7873" y="10723" textLength="445" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(7873,10723) scale(1,-1) rotate(-0) translate(-7873,-10723)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >W5240-</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14257,10763 14256,10774 14255,10779 14253,10783 14251,10787 14247,10790 14243,10794 14238,10796 14234,10797 14228,10797 14223,10797 14219,10796 14214,10794 14210,10790 14206,10787 14204,10783 14202,10779 14200,10774 14199,10769 14257,10540 14256,10535 14255,10530 14253,10525 14251,10521 14247,10518 14243,10515 14238,10512 14234,10511 14228,10511 14223,10511 14219,10512 14214,10515 14210,10518 14206,10521 14204,10525 14202,10530 14200,10535 14199,10540 14258,10773 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="12395,9729 12395,10320 "  />
+<text id="T48" x="12613" y="10883" textLength="511" igTextHeight="115" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(12613,10883) scale(1,-1) rotate(-0) translate(-12613,-10883)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="115"  >W1200</tspan></text>
+<text id="T49" x="13482" y="2246" textLength="587" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13482,2246) scale(1,-1) rotate(-0) translate(-13482,-2246)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2010W-24</tspan></text>
+<text id="T50" x="13482" y="2360" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13482,2360) scale(1,-1) rotate(-0) translate(-13482,-2360)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2010B-24</tspan></text>
+<text id="T51" x="13482" y="2589" textLength="587" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13482,2589) scale(1,-1) rotate(-0) translate(-13482,-2589)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2009W-24</tspan></text>
+<text id="T52" x="13482" y="2704" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13482,2704) scale(1,-1) rotate(-0) translate(-13482,-2704)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2009B-24</tspan></text>
+<text id="T53" x="13482" y="5797" textLength="587" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13482,5797) scale(1,-1) rotate(-0) translate(-13482,-5797)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2052W-24</tspan></text>
+<text id="T54" x="13482" y="5911" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13482,5911) scale(1,-1) rotate(-0) translate(-13482,-5911)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2052B-24</tspan></text>
+<text id="T55" x="13482" y="6140" textLength="587" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13482,6140) scale(1,-1) rotate(-0) translate(-13482,-6140)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2051W-24</tspan></text>
+<text id="T56" x="13482" y="6255" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13482,6255) scale(1,-1) rotate(-0) translate(-13482,-6255)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2051B-24</tspan></text>
+<text id="T57" x="13482" y="7515" textLength="559" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13482,7515) scale(1,-1) rotate(-0) translate(-13482,-7515)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2023R-24</tspan></text>
+<text id="T58" x="13482" y="7744" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13482,7744) scale(1,-1) rotate(-0) translate(-13482,-7744)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2023B-24</tspan></text>
+<text id="T59" x="13551" y="10265" textLength="468" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13551,10265) scale(1,-1) rotate(-0) translate(-13551,-10265)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >0003-18</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14348,10311 14117,10311 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13492,10311 13229,10311 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14348,2291 14118,2291 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13427,2291 12276,2291 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14348,2406 14118,2406 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13427,2406 12276,2406 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14348,2635 14118,2635 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13427,2635 12276,2635 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14348,2749 14118,2749 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13427,2749 12276,2749 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14348,5843 14118,5843 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13427,5843 12276,5843 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14348,5957 14118,5957 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13427,5957 12276,5957 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14348,6186 14118,6186 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13427,6186 12276,6186 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14348,6301 14118,6301 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13427,6301 12276,6301 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14348,7561 14118,7561 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13427,7561 12276,7561 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14348,7790 14118,7790 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13427,7790 12276,7790 "  />
+<text id="T60" x="5074" y="2246" textLength="587" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5074,2246) scale(1,-1) rotate(-0) translate(-5074,-2246)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2008W-24</tspan></text>
+<text id="T61" x="5074" y="2360" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5074,2360) scale(1,-1) rotate(-0) translate(-5074,-2360)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2008B-24</tspan></text>
+<text id="T62" x="5074" y="2589" textLength="587" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5074,2589) scale(1,-1) rotate(-0) translate(-5074,-2589)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2007W-24</tspan></text>
+<text id="T63" x="5074" y="2704" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5074,2704) scale(1,-1) rotate(-0) translate(-5074,-2704)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2007B-24</tspan></text>
+<text id="T64" x="4596" y="2246" textLength="445" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4596,2246) scale(1,-1) rotate(-0) translate(-4596,-2246)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >W6253-</tspan></text>
+<text id="T65" x="4596" y="2704" textLength="445" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4596,2704) scale(1,-1) rotate(-0) translate(-4596,-2704)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >W6253-</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11943,2291 5701,2291 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4600,2291 4371,2291 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11943,2406 5701,2406 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4600,2406 4371,2406 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11943,2635 5701,2635 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4600,2635 4371,2635 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11943,2749 5701,2749 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4600,2749 4371,2749 "  />
+<text id="T66" x="13815" y="10081" textLength="727" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13815,10081) scale(1,-1) rotate(-0) translate(-13815,-10081)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >DM23004AC</tspan></text>
+<text id="T67" x="12072" y="2131" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(12072,2131) scale(1,-1) rotate(-0) translate(-12072,-2131)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >9</tspan></text>
+<text id="T68" x="12072" y="2246" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(12072,2246) scale(1,-1) rotate(-0) translate(-12072,-2246)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >7</tspan></text>
+<text id="T69" x="12072" y="2360" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(12072,2360) scale(1,-1) rotate(-0) translate(-12072,-2360)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >8</tspan></text>
+<text id="T70" x="12072" y="2589" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(12072,2589) scale(1,-1) rotate(-0) translate(-12072,-2589)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >5</tspan></text>
+<text id="T71" x="12062" y="2704" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(12062,2704) scale(1,-1) rotate(-0) translate(-12062,-2704)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >6</tspan></text>
+<text id="T72" x="14669" y="2246" textLength="182" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14669,2246) scale(1,-1) rotate(-0) translate(-14669,-2246)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >RR</tspan></text>
+<text id="T73" x="14669" y="2360" textLength="168" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14669,2360) scale(1,-1) rotate(-0) translate(-14669,-2360)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >RT</tspan></text>
+<text id="T74" x="14682" y="2589" textLength="168" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14682,2589) scale(1,-1) rotate(-0) translate(-14682,-2589)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >TR</tspan></text>
+<text id="T75" x="14682" y="2704" textLength="154" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14682,2704) scale(1,-1) rotate(-0) translate(-14682,-2704)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >TT</tspan></text>
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="12395,9041 12395,9403 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14228,2612 14228,2520 14305,2520 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12395,2268 12395,2177 12276,2177 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11822,2268 11822,2177 11943,2177 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="4156,3093 23,3093 23,1718 4147,1718 4147,3102 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="137,1938 137,2978 1970,2978 1970,1947 128,1947 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14228,2268 14228,2177 14305,2177 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12395,2612 12395,2429 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14234,2435 14223,2434 14219,2433 14214,2431 14210,2428 14206,2424 14204,2420 14202,2416 14200,2411 14199,2406 14199,2291 14200,2286 14202,2281 14204,2277 14206,2273 14210,2270 14214,2266 14219,2264 14223,2263 14228,2263 14234,2263 14238,2264 14243,2266 14247,2270 14251,2273 14253,2277 14255,2281 14256,2286 14257,2291 14257,2406 14256,2411 14255,2416 14253,2420 14251,2424 14247,2428 14243,2431 14238,2433 14234,2434 14223,2435 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14234,2779 14223,2778 14219,2777 14214,2774 14210,2771 14206,2768 14204,2764 14202,2760 14200,2754 14199,2749 14199,2635 14200,2630 14202,2625 14204,2621 14206,2617 14210,2613 14214,2610 14219,2608 14223,2606 14228,2606 14234,2606 14238,2608 14243,2610 14247,2613 14251,2617 14253,2621 14255,2625 14256,2630 14257,2635 14257,2749 14256,2754 14255,2760 14253,2764 14251,2768 14247,2771 14243,2774 14238,2777 14234,2778 14223,2779 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12401,2435 12391,2434 12386,2433 12381,2431 12377,2428 12374,2424 12370,2420 12368,2416 12367,2411 12367,2406 12367,2291 12367,2286 12368,2281 12370,2277 12374,2273 12377,2270 12381,2266 12386,2264 12391,2263 12395,2263 12400,2263 12405,2264 12410,2266 12414,2270 12417,2273 12420,2277 12422,2281 12423,2286 12424,2291 12424,2406 12423,2411 12422,2416 12420,2420 12417,2424 12414,2428 12410,2431 12405,2433 12400,2434 12390,2435 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12401,2779 12391,2778 12386,2777 12381,2774 12377,2771 12374,2768 12370,2764 12368,2760 12367,2754 12367,2749 12367,2635 12367,2630 12368,2625 12370,2621 12374,2617 12377,2613 12381,2610 12386,2608 12391,2606 12395,2606 12400,2606 12405,2608 12410,2610 12414,2613 12417,2617 12420,2621 12422,2625 12423,2630 12424,2635 12424,2749 12423,2754 12422,2760 12420,2764 12417,2768 12414,2771 12410,2774 12405,2777 12400,2778 12390,2779 "  />
+<text id="T76" x="13145" y="10551" textLength="253" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13145,10551) scale(1,-1) rotate(-0) translate(-13145,-10551)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >NN1</tspan></text>
+<text id="T77" x="3045" y="10780" textLength="243" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(3045,10780) scale(1,-1) rotate(-0) translate(-3045,-10780)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >NN1</tspan></text>
+<text id="T78" x="4509" y="11061" textLength="454" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4509,11061) scale(1,-1) rotate(-0) translate(-4509,-11061)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >AE0322</tspan></text>
+<text id="T79" x="7488" y="11061" textLength="454" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(7488,11061) scale(1,-1) rotate(-0) translate(-7488,-11061)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >AE0322</tspan></text>
+<text id="T80" x="9206" y="11061" textLength="460" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9206,11061) scale(1,-1) rotate(-0) translate(-9206,-11061)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >AC1462</tspan></text>
+<text id="T81" x="3794" y="10723" textLength="458" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(3794,10723) scale(1,-1) rotate(-0) translate(-3794,-10723)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >0229-18</tspan></text>
+<text id="T82" x="3291" y="10723" textLength="445" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(3291,10723) scale(1,-1) rotate(-0) translate(-3291,-10723)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >W4236-</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4840,10769 4263,10769 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3227,10769 2996,10769 "  />
+<text id="T83" x="10843" y="8621" textLength="218" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(10843,8621) scale(1,-1) rotate(-0) translate(-10843,-8621)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >(J6)</tspan></text>
+<text id="T84" x="10774" y="9280" textLength="289" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(10774,9280) scale(1,-1) rotate(-0) translate(-10774,-9280)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >(J18)</tspan></text>
+<text id="T85" x="7488" y="9801" textLength="454" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(7488,9801) scale(1,-1) rotate(-0) translate(-7488,-9801)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >AE0351</tspan></text>
+<text id="T86" x="5556" y="10066" textLength="1579" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5556,10066) scale(1,-1) rotate(-0) translate(-5556,-10066)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >INTEGRATION PNL-RIGHT</tspan></text>
+<text id="T87" x="5041" y="10066" textLength="298" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5041,10066) scale(1,-1) rotate(-0) translate(-5041,-10066)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >P205</tspan></text>
+<text id="T88" x="9523" y="10311" textLength="63" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9523,10311) scale(1,-1) rotate(-0) translate(-9523,-10311)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >J</tspan></text>
+<text id="T89" x="8873" y="10311" textLength="460" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(8873,10311) scale(1,-1) rotate(-0) translate(-8873,-10311)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >D8176P</tspan></text>
+<text id="T90" x="7163" y="10311" textLength="63" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(7163,10311) scale(1,-1) rotate(-0) translate(-7163,-10311)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >J</tspan></text>
+<text id="T91" x="5169" y="10540" textLength="63" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5169,10540) scale(1,-1) rotate(-0) translate(-5169,-10540)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >J</tspan></text>
+<text id="T92" x="4519" y="10540" textLength="460" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4519,10540) scale(1,-1) rotate(-0) translate(-4519,-10540)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >D4837P</tspan></text>
+<text id="T93" x="4870" y="10723" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4870,10723) scale(1,-1) rotate(-0) translate(-4870,-10723)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >17</tspan></text>
+<text id="T94" x="515" y="10295" textLength="2306" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(515,10295) scale(1,-1) rotate(-0) translate(-515,-10295)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >POWER MANAGEMENT PANEL-RIGHT</tspan></text>
+<text id="T95" x="0" y="10295" textLength="298" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(0,10295) scale(1,-1) rotate(-0) translate(-0,-10295)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >P210</tspan></text>
+<text id="T96" x="2580" y="10540" textLength="63" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2580,10540) scale(1,-1) rotate(-0) translate(-2580,-10540)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >J</tspan></text>
+<text id="T97" x="2839" y="10723" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2839,10723) scale(1,-1) rotate(-0) translate(-2839,-10723)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >29</tspan></text>
+<text id="T98" x="2870" y="10540" textLength="531" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2870,10540) scale(1,-1) rotate(-0) translate(-2870,-10540)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >D21010P</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11822,2429 11822,2612 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="2772,10416 2772,11112 23,11112 23,10425 2781,10425 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2766,10654 2887,10654 2913,10657 2936,10666 2958,10679 2976,10697 2990,10719 2999,10743 3001,10769 3001,10909 2910,10909 2910,10863 2864,10955 2864,10909 2772,10909 2657,10909 2657,10654 2779,10654 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="7355,10187 7355,11112 5063,11112 5063,10196 7364,10196 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="5070,10654 4949,10654 4923,10657 4899,10666 4877,10679 4859,10697 4846,10719 4837,10743 4834,10769 4834,10909 4926,10909 4926,10955 4972,10863 4972,10909 5063,10909 5178,10909 5178,10654 5057,10654 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="7348,10425 7469,10425 7495,10428 7519,10436 7541,10450 7559,10468 7573,10490 7581,10514 7584,10540 7584,10909 7492,10909 7492,10863 7446,10955 7446,10909 7355,10909 7240,10909 7240,10425 7361,10425 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="9417,10301 9417,11007 "  />
+<text id="T99" x="14674" y="10265" textLength="557" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14674,10265) scale(1,-1) rotate(-0) translate(-14674,-10265)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >CHASSIS</tspan></text>
+<text id="T100" x="14682" y="10494" textLength="470" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14682,10494) scale(1,-1) rotate(-0) translate(-14682,-10494)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >AC RTN</tspan></text>
+<text id="T101" x="14661" y="10723" textLength="509" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14661,10723) scale(1,-1) rotate(-0) translate(-14661,-10723)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >115V AC</tspan></text>
+<text id="T102" x="11622" y="10311" textLength="438" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(11622,10311) scale(1,-1) rotate(-0) translate(-11622,-10311)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >D7382J</tspan></text>
+<text id="T103" x="12264" y="10311" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(12264,10311) scale(1,-1) rotate(-0) translate(-12264,-10311)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >P</tspan></text>
+<text id="T104" x="11898" y="11061" textLength="460" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(11898,11061) scale(1,-1) rotate(-0) translate(-11898,-11061)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >AC1990</tspan></text>
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="9423,10424 9391,10428 9367,10436 9345,10450 9327,10468 9314,10490 9305,10514 9302,10540 9302,10909 9417,10909 9509,10909 9509,10955 9554,10863 9554,10909 9646,10909 9646,10425 9410,10425 "  />
+<text id="T105" x="12072" y="10723" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(12072,10723) scale(1,-1) rotate(-0) translate(-12072,-10723)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >4</tspan></text>
+<text id="T106" x="14478" y="10265" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14478,10265) scale(1,-1) rotate(-0) translate(-14478,-10265)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >8</tspan></text>
+<text id="T107" x="14478" y="10494" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14478,10494) scale(1,-1) rotate(-0) translate(-14478,-10494)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >3</tspan></text>
+<text id="T108" x="14478" y="10723" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14478,10723) scale(1,-1) rotate(-0) translate(-14478,-10723)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2</tspan></text>
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="12166,10301 12166,11007 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="12160,10424 12192,10428 12216,10436 12237,10450 12256,10468 12269,10490 12278,10514 12281,10540 12281,10909 12166,10909 12075,10909 12075,10863 12029,10955 12029,10909 11937,10909 11937,10425 12173,10425 "  />
+<text id="T109" x="6105" y="9004" textLength="445" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(6105,9004) scale(1,-1) rotate(-0) translate(-6105,-9004)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >W4243-</tspan></text>
+<text id="T110" x="6613" y="9348" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(6613,9348) scale(1,-1) rotate(-0) translate(-6613,-9348)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2045B-24</tspan></text>
+<text id="T111" x="6613" y="9004" textLength="559" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(6613,9004) scale(1,-1) rotate(-0) translate(-6613,-9004)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2045R-24</tspan></text>
+<text id="T112" x="6105" y="9348" textLength="445" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(6105,9348) scale(1,-1) rotate(-0) translate(-6105,-9348)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >W4243-</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="7474,9051 7197,9051 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="6091,9051 5860,9051 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="7474,9394 7197,9394 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="6091,9394 5860,9394 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14348,8821 14316,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14255,8821 14202,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14140,8821 14109,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13432,8821 13400,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13338,8821 13285,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13224,8821 13171,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13109,8821 13056,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12995,8821 12942,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12880,8821 12827,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12765,8821 12713,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12651,8821 12598,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12536,8821 12484,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12422,8821 12369,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12307,8821 12254,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12193,8821 12140,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12078,8821 12025,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11963,8821 11911,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11849,8821 11796,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11734,8821 11682,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11620,8821 11567,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11505,8821 11474,8821 "  />
+<text id="T113" x="13482" y="8775" textLength="510" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13482,8775) scale(1,-1) rotate(-0) translate(-13482,-8775)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >45-45-31</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14348,8936 14316,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14255,8936 14202,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14140,8936 14109,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13432,8936 13400,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13338,8936 13285,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13224,8936 13171,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13109,8936 13056,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12995,8936 12942,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12880,8936 12827,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12765,8936 12713,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12651,8936 12598,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12536,8936 12484,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12422,8936 12369,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12307,8936 12254,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12193,8936 12140,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12078,8936 12025,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11963,8936 11911,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11849,8936 11796,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11734,8936 11682,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11620,8936 11567,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11505,8936 11474,8936 "  />
+<text id="T114" x="13482" y="8890" textLength="510" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13482,8890) scale(1,-1) rotate(-0) translate(-13482,-8890)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >45-45-31</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14348,9509 14316,9509 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14255,9509 14202,9509 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14140,9509 14109,9509 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13432,9509 13400,9509 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13338,9509 13285,9509 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13224,9509 13171,9509 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13109,9509 13056,9509 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12995,9509 12942,9509 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12880,9509 12827,9509 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12765,9509 12713,9509 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12651,9509 12598,9509 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12536,9509 12484,9509 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12422,9509 12369,9509 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12307,9509 12254,9509 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12193,9509 12140,9509 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12078,9509 12025,9509 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11963,9509 11911,9509 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11849,9509 11796,9509 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11734,9509 11682,9509 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11620,9509 11567,9509 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11505,9509 11474,9509 "  />
+<text id="T115" x="13482" y="9463" textLength="510" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13482,9463) scale(1,-1) rotate(-0) translate(-13482,-9463)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >31-41-21</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14348,9623 14316,9623 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14255,9623 14202,9623 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14140,9623 14109,9623 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13432,9623 13400,9623 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13338,9623 13285,9623 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13224,9623 13171,9623 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="13109,9623 13056,9623 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12995,9623 12942,9623 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12880,9623 12827,9623 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12765,9623 12713,9623 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12651,9623 12598,9623 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12536,9623 12484,9623 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12422,9623 12369,9623 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12307,9623 12254,9623 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12193,9623 12140,9623 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12078,9623 12025,9623 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11963,9623 11911,9623 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11849,9623 11796,9623 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11734,9623 11682,9623 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11620,9623 11567,9623 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11505,9623 11474,9623 "  />
+<text id="T116" x="13482" y="9577" textLength="510" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13482,9577) scale(1,-1) rotate(-0) translate(-13482,-9577)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >31-41-21</tspan></text>
+<text id="T117" x="8098" y="9004" textLength="559" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(8098,9004) scale(1,-1) rotate(-0) translate(-8098,-9004)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2010R-24</tspan></text>
+<text id="T118" x="8098" y="9348" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(8098,9348) scale(1,-1) rotate(-0) translate(-8098,-9348)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2010B-24</tspan></text>
+<text id="T119" x="8146" y="9738" textLength="511" igTextHeight="115" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(8146,9738) scale(1,-1) rotate(-0) translate(-8146,-9738)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="115"  >W1310</tspan></text>
+<text id="T120" x="9576" y="9176" textLength="420" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9576,9176) scale(1,-1) rotate(-0) translate(-9576,-9176)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >CTU IN</tspan></text>
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14578,10196 14457,10196 14432,10199 14408,10207 14386,10221 14368,10239 14354,10261 14346,10285 14343,10311 14343,10909 14434,10909 14434,10955 14481,10863 14481,10909 14578,10909 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9411,9022 9445,9022 9454,9023 9462,9027 9469,9034 9472,9041 9474,9051 9474,9193 9476,9202 9479,9210 9486,9217 9494,9221 9503,9222 9537,9222 "  />
+<text id="T121" x="8712" y="8707" textLength="375" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(8712,8707) scale(1,-1) rotate(-0) translate(-8712,-8707)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >D6618</tspan></text>
+<text id="T122" x="7154" y="8707" textLength="438" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(7154,8707) scale(1,-1) rotate(-0) translate(-7154,-8707)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >D4620J</tspan></text>
+<text id="T123" x="7795" y="8707" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(7795,8707) scale(1,-1) rotate(-0) translate(-7795,-8707)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >P</tspan></text>
+<text id="T124" x="9013" y="9348" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9013,9348) scale(1,-1) rotate(-0) translate(-9013,-9348)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >11</tspan></text>
+<text id="T125" x="9013" y="9004" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9013,9004) scale(1,-1) rotate(-0) translate(-9013,-9004)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >10</tspan></text>
+<text id="T126" x="7523" y="9348" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(7523,9348) scale(1,-1) rotate(-0) translate(-7523,-9348)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >12</tspan></text>
+<text id="T127" x="7523" y="9004" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(7523,9004) scale(1,-1) rotate(-0) translate(-7523,-9004)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >11</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9411,9423 9445,9423 9454,9421 9462,9417 9469,9411 9472,9403 9474,9394 9474,9251 9476,9242 9479,9234 9486,9227 9494,9224 9503,9222 9537,9222 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="7692,8820 7724,8824 7748,8833 7770,8846 7788,8865 7802,8886 7810,8910 7813,8936 7813,9534 7699,9534 7607,9534 7607,9488 7561,9580 7561,9534 7469,9534 7469,8821 7705,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="8935,8936 8844,8936 8844,9027 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="8964,9394 8733,9394 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="8039,9394 7808,9394 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="8964,9051 8733,9051 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="8039,9051 7808,9051 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="7836,8936 7928,8936 7928,9027 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="8849,9423 8839,9422 8834,9421 8829,9419 8826,9416 8822,9412 8819,9408 8817,9404 8816,9399 8815,9394 8815,9051 8816,9045 8817,9040 8819,9036 8822,9032 8826,9028 8829,9026 8834,9023 8839,9022 8844,9022 8849,9022 8854,9023 8858,9026 8862,9028 8866,9032 8869,9036 8871,9040 8872,9045 8872,9051 8872,9394 8872,9399 8871,9404 8869,9408 8866,9412 8862,9416 8858,9419 8854,9421 8849,9422 8838,9423 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="7933,9423 7922,9422 7918,9421 7913,9419 7909,9416 7905,9412 7903,9408 7901,9404 7899,9399 7899,9394 7899,9051 7899,9045 7901,9040 7903,9036 7905,9032 7909,9028 7913,9026 7918,9023 7922,9022 7928,9022 7932,9022 7937,9023 7942,9026 7946,9028 7949,9032 7952,9036 7954,9040 7956,9045 7956,9051 7956,9394 7956,9399 7954,9404 7952,9408 7949,9412 7946,9416 7942,9419 7937,9421 7932,9422 7922,9423 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="7699,8698 7699,9632 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="9194,8821 9073,8821 9048,8824 9023,8833 9002,8846 8984,8865 8970,8886 8961,8910 8959,8936 8959,9534 9050,9534 9050,9580 9096,9488 9096,9534 9194,9534 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="7928,9614 7928,9967 11822,9967 11822,9729 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="7355,9027 7355,8936 7446,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="5980,9027 5980,8936 5889,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="7360,9423 7350,9422 7345,9421 7340,9419 7336,9416 7333,9412 7330,9408 7328,9404 7327,9399 7326,9394 7326,9051 7327,9045 7328,9040 7330,9036 7333,9032 7336,9028 7340,9026 7345,9023 7350,9022 7355,9022 7360,9022 7364,9023 7369,9026 7373,9028 7377,9032 7380,9036 7382,9040 7383,9045 7383,9051 7383,9394 7383,9399 7382,9404 7380,9408 7377,9412 7373,9416 7369,9419 7364,9421 7360,9422 7349,9423 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="5985,9423 5975,9422 5970,9421 5966,9419 5961,9416 5958,9412 5955,9408 5953,9404 5952,9399 5951,9394 5951,9051 5952,9045 5953,9040 5955,9036 5958,9032 5961,9028 5966,9026 5970,9023 5975,9022 5980,9022 5985,9022 5990,9023 5994,9026 5999,9028 6002,9032 6005,9036 6007,9040 6008,9045 6009,9051 6009,9394 6008,9399 6007,9404 6005,9408 6002,9412 5999,9416 5994,9419 5990,9421 5985,9422 5975,9423 "  />
+<text id="T128" x="14398" y="8775" textLength="162" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14398,8775) scale(1,-1) rotate(-0) translate(-14398,-8775)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >D5</tspan></text>
+<text id="T129" x="14398" y="8890" textLength="162" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14398,8890) scale(1,-1) rotate(-0) translate(-14398,-8890)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >C5</tspan></text>
+<text id="T130" x="14398" y="9463" textLength="169" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14398,9463) scale(1,-1) rotate(-0) translate(-14398,-9463)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >G8</tspan></text>
+<text id="T131" x="14398" y="9577" textLength="148" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14398,9577) scale(1,-1) rotate(-0) translate(-14398,-9577)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >F8</tspan></text>
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="5407,8010 5407,8716 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="11822,9403 11822,9041 "  />
+<text id="T132" x="4244" y="5499" textLength="389" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4244,5499) scale(1,-1) rotate(-0) translate(-4244,-5499)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >D800P</tspan></text>
+<text id="T133" x="3955" y="5499" textLength="63" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(3955,5499) scale(1,-1) rotate(-0) translate(-3955,-5499)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >J</tspan></text>
+<text id="T134" x="9206" y="8082" textLength="454" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9206,8082) scale(1,-1) rotate(-0) translate(-9206,-8082)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >AP1462</tspan></text>
+<text id="T135" x="14955" y="9401" textLength="719" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14955,9401) scale(1,-1) rotate(-0) translate(-14955,-9401)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >BUS 1-LEFT</tspan></text>
+<text id="T136" x="14960" y="9520" textLength="929" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14960,9520) scale(1,-1) rotate(-0) translate(-14960,-9520)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >GEN PURPOSE</tspan></text>
+<text id="T137" x="10134" y="9401" textLength="719" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(10134,9401) scale(1,-1) rotate(-0) translate(-10134,-9401)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >BUS 1-LEFT</tspan></text>
+<text id="T138" x="9973" y="9520" textLength="929" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9973,9520) scale(1,-1) rotate(-0) translate(-9973,-9520)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >GEN PURPOSE</tspan></text>
+<text id="T139" x="4280" y="6593" textLength="454" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4280,6593) scale(1,-1) rotate(-0) translate(-4280,-6593)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >AP0465</tspan></text>
+<text id="T140" x="5483" y="8082" textLength="454" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5483,8082) scale(1,-1) rotate(-0) translate(-5483,-8082)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >AE0402</tspan></text>
+<text id="T141" x="5483" y="9686" textLength="454" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5483,9686) scale(1,-1) rotate(-0) translate(-5483,-9686)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >AE0392</tspan></text>
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="12395,8716 12395,8010 "  />
+<text id="T142" x="13815" y="5499" textLength="721" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13815,5499) scale(1,-1) rotate(-0) translate(-13815,-5499)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >DM23004AB</tspan></text>
+<text id="T143" x="14349" y="5797" textLength="216" igTextHeight="85" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14349,5797) scale(1,-1) rotate(-0) translate(-14349,-5797)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="85"  >H12</tspan></text>
+<text id="T144" x="14349" y="5911" textLength="223" igTextHeight="85" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14349,5911) scale(1,-1) rotate(-0) translate(-14349,-5911)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="85"  >G12</tspan></text>
+<text id="T145" x="14349" y="6140" textLength="209" igTextHeight="85" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14349,6140) scale(1,-1) rotate(-0) translate(-14349,-6140)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="85"  >K12</tspan></text>
+<text id="T146" x="14349" y="6255" textLength="190" igTextHeight="85" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14349,6255) scale(1,-1) rotate(-0) translate(-14349,-6255)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="85"  >J12</tspan></text>
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="5636,8698 5636,9632 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14228,6163 14228,6072 14305,6072 "  />
+<text id="T147" x="13815" y="1947" textLength="721" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13815,1947) scale(1,-1) rotate(-0) translate(-13815,-1947)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >DM23004AA</tspan></text>
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14578,5613 14457,5613 14432,5616 14408,5625 14386,5638 14368,5657 14354,5678 14346,5703 14343,5728 14343,6899 14434,6899 14434,6945 14481,6854 14481,6899 14578,6899 "  />
+<text id="T148" x="114" y="5368" textLength="460" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(114,5368) scale(1,-1) rotate(-0) translate(-114,-5368)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >M23443</tspan></text>
+<text id="T149" x="2068" y="5499" textLength="721" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2068,5499) scale(1,-1) rotate(-0) translate(-2068,-5499)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >DM23443AA</tspan></text>
+<text id="T150" x="3563" y="6425" textLength="507" igTextHeight="115" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(3563,6425) scale(1,-1) rotate(-0) translate(-3563,-6425)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="115"  >W1500</tspan></text>
+<text id="T151" x="2484" y="5797" textLength="587" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2484,5797) scale(1,-1) rotate(-0) translate(-2484,-5797)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2005W-24</tspan></text>
+<text id="T152" x="2484" y="5911" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2484,5911) scale(1,-1) rotate(-0) translate(-2484,-5911)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2005B-24</tspan></text>
+<text id="T153" x="2484" y="6140" textLength="587" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2484,6140) scale(1,-1) rotate(-0) translate(-2484,-6140)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2006W-24</tspan></text>
+<text id="T154" x="2484" y="6255" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2484,6255) scale(1,-1) rotate(-0) translate(-2484,-6255)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2006B-24</tspan></text>
+<text id="T155" x="14682" y="7516" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14682,7516) scale(1,-1) rotate(-0) translate(-14682,-7516)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >A</tspan></text>
+<text id="T156" x="14669" y="7745" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14669,7745) scale(1,-1) rotate(-0) translate(-14669,-7745)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >B</tspan></text>
+<text id="T157" x="14398" y="7515" textLength="156" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14398,7515) scale(1,-1) rotate(-0) translate(-14398,-7515)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >A5</tspan></text>
+<text id="T158" x="14398" y="7744" textLength="156" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14398,7744) scale(1,-1) rotate(-0) translate(-14398,-7744)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >B5</tspan></text>
+<text id="T159" x="1783" y="9004" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1783,9004) scale(1,-1) rotate(-0) translate(-1783,-9004)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >A</tspan></text>
+<text id="T160" x="1770" y="9348" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1770,9348) scale(1,-1) rotate(-0) translate(-1770,-9348)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >B</tspan></text>
+<text id="T161" x="2024" y="9004" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2024,9004) scale(1,-1) rotate(-0) translate(-2024,-9004)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >10</tspan></text>
+<text id="T162" x="2024" y="9348" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2024,9348) scale(1,-1) rotate(-0) translate(-2024,-9348)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >11</tspan></text>
+<text id="T163" x="11991" y="5682" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(11991,5682) scale(1,-1) rotate(-0) translate(-11991,-5682)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >10</tspan></text>
+<text id="T164" x="12060" y="5797" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(12060,5797) scale(1,-1) rotate(-0) translate(-12060,-5797)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >1</tspan></text>
+<text id="T165" x="12060" y="5911" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(12060,5911) scale(1,-1) rotate(-0) translate(-12060,-5911)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2</tspan></text>
+<text id="T166" x="12060" y="6140" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(12060,6140) scale(1,-1) rotate(-0) translate(-12060,-6140)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >3</tspan></text>
+<text id="T167" x="12060" y="6255" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(12060,6255) scale(1,-1) rotate(-0) translate(-12060,-6255)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >4</tspan></text>
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14578,2062 14457,2062 14432,2065 14408,2073 14386,2087 14368,2105 14354,2127 14346,2151 14343,2177 14343,2890 14434,2890 14434,2935 14481,2844 14481,2890 14578,2890 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4491,6163 4491,6072 4406,6072 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14305,7447 14228,7447 14228,7538 "  />
+<text id="T168" x="11991" y="7515" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(11991,7515) scale(1,-1) rotate(-0) translate(-11991,-7515)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >13</tspan></text>
+<text id="T169" x="11991" y="7744" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(11991,7744) scale(1,-1) rotate(-0) translate(-11991,-7744)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >14</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12304,7447 12395,7447 12395,7538 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11914,7447 11822,7447 11822,7538 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9669,7447 9761,7447 9761,7538 "  />
+<text id="T170" x="9484" y="7744" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9484,7744) scale(1,-1) rotate(-0) translate(-9484,-7744)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >28</tspan></text>
+<text id="T171" x="9484" y="7515" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9484,7515) scale(1,-1) rotate(-0) translate(-9484,-7515)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >27</tspan></text>
+<text id="T172" x="5772" y="9004" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5772,9004) scale(1,-1) rotate(-0) translate(-5772,-9004)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >5</tspan></text>
+<text id="T173" x="5768" y="9348" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5768,9348) scale(1,-1) rotate(-0) translate(-5768,-9348)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >6</tspan></text>
+<text id="T174" x="5435" y="8707" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5435,8707) scale(1,-1) rotate(-0) translate(-5435,-8707)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >P</tspan></text>
+<text id="T175" x="5734" y="8707" textLength="438" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5734,8707) scale(1,-1) rotate(-0) translate(-5734,-8707)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >D4516J</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9188,7538 9188,7447 9279,7447 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="5527,9394 5180,9394 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4487,9394 4028,9394 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="5527,9051 5180,9051 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4487,9051 4028,9051 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="5407,9027 5407,8936 5498,8936 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="5412,9423 5402,9422 5398,9421 5393,9419 5389,9416 5385,9412 5383,9408 5381,9404 5379,9399 5378,9394 5378,9051 5379,9045 5381,9040 5383,9036 5385,9032 5389,9028 5393,9026 5398,9023 5402,9022 5407,9022 5412,9022 5417,9023 5421,9026 5426,9028 5429,9032 5432,9036 5434,9040 5435,9045 5436,9051 5436,9394 5435,9399 5434,9404 5432,9408 5429,9412 5426,9416 5421,9419 5417,9421 5412,9422 5402,9423 "  />
+<text id="T176" x="4214" y="5797" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4214,5797) scale(1,-1) rotate(-0) translate(-4214,-5797)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >27</tspan></text>
+<text id="T177" x="4214" y="5911" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4214,5911) scale(1,-1) rotate(-0) translate(-4214,-5911)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >28</tspan></text>
+<text id="T178" x="4214" y="6140" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4214,6140) scale(1,-1) rotate(-0) translate(-4214,-6140)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >29</tspan></text>
+<text id="T179" x="4214" y="6255" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4214,6255) scale(1,-1) rotate(-0) translate(-4214,-6255)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >30</tspan></text>
+<text id="T180" x="6105" y="7744" textLength="445" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(6105,7744) scale(1,-1) rotate(-0) translate(-6105,-7744)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >W6251-</tspan></text>
+<text id="T181" x="9484" y="5682" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9484,5682) scale(1,-1) rotate(-0) translate(-9484,-5682)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >20</tspan></text>
+<text id="T182" x="9471" y="5797" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9471,5797) scale(1,-1) rotate(-0) translate(-9471,-5797)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >16</tspan></text>
+<text id="T183" x="9471" y="5911" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9471,5911) scale(1,-1) rotate(-0) translate(-9471,-5911)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >17</tspan></text>
+<text id="T184" x="9471" y="6140" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9471,6140) scale(1,-1) rotate(-0) translate(-9471,-6140)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >18</tspan></text>
+<text id="T185" x="9471" y="6255" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9471,6255) scale(1,-1) rotate(-0) translate(-9471,-6255)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >19</tspan></text>
+<text id="T186" x="6613" y="7515" textLength="559" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(6613,7515) scale(1,-1) rotate(-0) translate(-6613,-7515)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2025R-24</tspan></text>
+<text id="T187" x="10393" y="7515" textLength="559" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(10393,7515) scale(1,-1) rotate(-0) translate(-10393,-7515)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2012R-24</tspan></text>
+<text id="T188" x="4616" y="5797" textLength="445" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4616,5797) scale(1,-1) rotate(-0) translate(-4616,-5797)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >W6251-</tspan></text>
+<text id="T189" x="10343" y="6140" textLength="587" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(10343,6140) scale(1,-1) rotate(-0) translate(-10343,-6140)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2006W-24</tspan></text>
+<text id="T190" x="2068" y="1947" textLength="721" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2068,1947) scale(1,-1) rotate(-0) translate(-2068,-1947)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >DM23106AB</tspan></text>
+<text id="T191" x="4283" y="2246" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4283,2246) scale(1,-1) rotate(-0) translate(-4283,-2246)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >5</tspan></text>
+<text id="T192" x="4283" y="2360" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4283,2360) scale(1,-1) rotate(-0) translate(-4283,-2360)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >6</tspan></text>
+<text id="T193" x="4283" y="2589" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4283,2589) scale(1,-1) rotate(-0) translate(-4283,-2589)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >3</tspan></text>
+<text id="T194" x="4283" y="2704" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4283,2704) scale(1,-1) rotate(-0) translate(-4283,-2704)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >4</tspan></text>
+<text id="T195" x="2484" y="2246" textLength="587" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2484,2246) scale(1,-1) rotate(-0) translate(-2484,-2246)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2037W-24</tspan></text>
+<text id="T196" x="2484" y="2360" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2484,2360) scale(1,-1) rotate(-0) translate(-2484,-2360)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2037B-24</tspan></text>
+<text id="T197" x="2484" y="2589" textLength="587" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2484,2589) scale(1,-1) rotate(-0) translate(-2484,-2589)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2036W-24</tspan></text>
+<text id="T198" x="2484" y="2704" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2484,2704) scale(1,-1) rotate(-0) translate(-2484,-2704)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2036B-24</tspan></text>
+<text id="T199" x="3570" y="8863" textLength="446" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(3570,8863) scale(1,-1) rotate(-0) translate(-3570,-8863)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >TB2102</tspan></text>
+<text id="T200" x="3666" y="9011" textLength="285" igTextHeight="80" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(3666,9011) scale(1,-1) rotate(-0) translate(-3666,-9011)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="80"  >QA47</tspan></text>
+<text id="T201" x="3666" y="9355" textLength="285" igTextHeight="80" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(3666,9355) scale(1,-1) rotate(-0) translate(-3666,-9355)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="80"  >QB47</tspan></text>
+<text id="T202" x="3570" y="9207" textLength="446" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(3570,9207) scale(1,-1) rotate(-0) translate(-3570,-9207)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >TB2102</tspan></text>
+<text id="T203" x="5690" y="7744" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5690,7744) scale(1,-1) rotate(-0) translate(-5690,-7744)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >16</tspan></text>
+<text id="T204" x="5690" y="7515" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5690,7515) scale(1,-1) rotate(-0) translate(-5690,-7515)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >15</tspan></text>
+<text id="T205" x="5734" y="7217" textLength="438" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5734,7217) scale(1,-1) rotate(-0) translate(-5734,-7217)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >D4003J</tspan></text>
+<text id="T206" x="114" y="8576" textLength="460" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(114,8576) scale(1,-1) rotate(-0) translate(-114,-8576)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >M31201</tspan></text>
+<text id="T207" x="4867" y="7286" textLength="446" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4867,7286) scale(1,-1) rotate(-0) translate(-4867,-7286)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >TB2102</tspan></text>
+<text id="T208" x="4867" y="8775" textLength="446" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4867,8775) scale(1,-1) rotate(-0) translate(-4867,-8775)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >TB2102</tspan></text>
+<text id="T209" x="2547" y="8775" textLength="446" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2547,8775) scale(1,-1) rotate(-0) translate(-2547,-8775)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >TB2102</tspan></text>
+<text id="T210" x="4661" y="7515" textLength="559" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4661,7515) scale(1,-1) rotate(-0) translate(-4661,-7515)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2072R-24</tspan></text>
+<text id="T211" x="4661" y="7744" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4661,7744) scale(1,-1) rotate(-0) translate(-4661,-7744)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2072B-24</tspan></text>
+<text id="T212" x="4546" y="9004" textLength="559" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4546,9004) scale(1,-1) rotate(-0) translate(-4546,-9004)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2073R-24</tspan></text>
+<text id="T213" x="4546" y="9348" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4546,9348) scale(1,-1) rotate(-0) translate(-4546,-9348)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2073B-24</tspan></text>
+<text id="T214" x="2068" y="8707" textLength="375" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2068,8707) scale(1,-1) rotate(-0) translate(-2068,-8707)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >D6718</tspan></text>
+<text id="T215" x="2484" y="9004" textLength="559" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2484,9004) scale(1,-1) rotate(-0) translate(-2484,-9004)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2071R-24</tspan></text>
+<text id="T216" x="2484" y="9348" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2484,9348) scale(1,-1) rotate(-0) translate(-2484,-9348)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2071B-24</tspan></text>
+<text id="T217" x="11347" y="8592" textLength="375" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(11347,8592) scale(1,-1) rotate(-0) translate(-11347,-8592)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >D6606</tspan></text>
+<text id="T218" x="11347" y="9280" textLength="375" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(11347,9280) scale(1,-1) rotate(-0) translate(-11347,-9280)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >D6618</tspan></text>
+<text id="T219" x="10393" y="7744" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(10393,7744) scale(1,-1) rotate(-0) translate(-10393,-7744)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2012B-24</tspan></text>
+<text id="T220" x="5124" y="6255" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5124,6255) scale(1,-1) rotate(-0) translate(-5124,-6255)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2043B-24</tspan></text>
+<text id="T221" x="11317" y="8775" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(11317,8775) scale(1,-1) rotate(-0) translate(-11317,-8775)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >52</tspan></text>
+<text id="T222" x="11317" y="8890" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(11317,8890) scale(1,-1) rotate(-0) translate(-11317,-8890)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >51</tspan></text>
+<text id="T223" x="11317" y="9463" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(11317,9463) scale(1,-1) rotate(-0) translate(-11317,-9463)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >24</tspan></text>
+<text id="T224" x="11317" y="9577" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(11317,9577) scale(1,-1) rotate(-0) translate(-11317,-9577)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >23</tspan></text>
+<text id="T225" x="9875" y="6255" textLength="445" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9875,6255) scale(1,-1) rotate(-0) translate(-9875,-6255)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >W6253-</tspan></text>
+<text id="T226" x="9875" y="5797" textLength="445" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9875,5797) scale(1,-1) rotate(-0) translate(-9875,-5797)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >W6253-</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9307,7561 7193,7561 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="6090,7561 5860,7561 "  />
+<text id="T227" x="5124" y="5911" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5124,5911) scale(1,-1) rotate(-0) translate(-5124,-5911)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2042B-24</tspan></text>
+<text id="T228" x="5094" y="5797" textLength="587" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5094,5797) scale(1,-1) rotate(-0) translate(-5094,-5797)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2042W-24</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9307,7790 7193,7790 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="6090,7790 5860,7790 "  />
+<text id="T229" x="10343" y="6255" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(10343,6255) scale(1,-1) rotate(-0) translate(-10343,-6255)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2006B-24</tspan></text>
+<text id="T230" x="10343" y="5911" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(10343,5911) scale(1,-1) rotate(-0) translate(-10343,-5911)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2005B-24</tspan></text>
+<text id="T231" x="10343" y="5797" textLength="587" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(10343,5797) scale(1,-1) rotate(-0) translate(-10343,-5797)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2005W-24</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11943,7561 10976,7561 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9871,7561 9641,7561 "  />
+<text id="T232" x="6105" y="7515" textLength="445" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(6105,7515) scale(1,-1) rotate(-0) translate(-6105,-7515)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >W6251-</tspan></text>
+<text id="T233" x="9875" y="7744" textLength="445" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9875,7744) scale(1,-1) rotate(-0) translate(-9875,-7744)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >W6253-</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11943,7790 10976,7790 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9871,7790 9641,7790 "  />
+<text id="T234" x="9875" y="7515" textLength="445" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9875,7515) scale(1,-1) rotate(-0) translate(-9875,-7515)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >W6253-</tspan></text>
+<text id="T235" x="4616" y="6255" textLength="445" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4616,6255) scale(1,-1) rotate(-0) translate(-4616,-6255)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >W6251-</tspan></text>
+<text id="T236" x="5094" y="6140" textLength="587" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5094,6140) scale(1,-1) rotate(-0) translate(-5094,-6140)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2043W-24</tspan></text>
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="5643,8820 5611,8824 5587,8833 5565,8846 5547,8865 5533,8886 5525,8910 5522,8936 5522,9534 5636,9534 5728,9534 5728,9580 5774,9488 5774,9534 5865,9534 5865,8821 5630,8821 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="11243,9394 11364,9394 11390,9397 11414,9405 11436,9419 11454,9437 11467,9459 11476,9483 11479,9509 11479,9764 11387,9764 11387,9717 11341,9809 11341,9764 11243,9764 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="11243,8707 11364,8707 11390,8709 11414,8718 11436,8732 11454,8750 11467,8772 11476,8795 11479,8821 11479,9076 11387,9076 11387,9030 11341,9122 11341,9076 11243,9076 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="5985,7819 5975,7818 5970,7817 5966,7815 5957,7810 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="5965,7816 5958,7809 5955,7804 5953,7800 5952,7795 5951,7790 5951,7561 5952,7556 5953,7551 5955,7547 5958,7542 5961,7539 5966,7536 5970,7534 5975,7533 5980,7532 5985,7533 5990,7534 5994,7536 5999,7539 6002,7542 6005,7547 6007,7551 6008,7556 6009,7561 6009,7790 6008,7795 6007,7800 6005,7804 6002,7809 5999,7812 5994,7815 5990,7817 5985,7818 5975,7819 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="5980,7538 5980,7447 5889,7447 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9193,7819 9183,7818 9178,7817 9173,7815 9169,7812 9166,7809 9163,7804 9161,7800 9159,7795 9159,7790 9159,7561 9159,7556 9161,7551 9163,7547 9166,7542 9169,7539 9173,7536 9178,7534 9183,7533 9188,7532 9192,7533 9198,7534 9202,7536 9206,7539 9209,7542 9213,7547 9215,7551 9216,7556 9216,7561 9216,7790 9216,7795 9215,7800 9213,7804 9209,7809 9206,7812 9202,7815 9198,7817 9192,7818 9182,7819 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9766,7819 9756,7818 9751,7817 9746,7815 9742,7812 9739,7809 9736,7804 9733,7800 9732,7795 9732,7790 9732,7561 9732,7556 9733,7551 9736,7547 9739,7542 9742,7539 9746,7536 9751,7534 9756,7533 9761,7532 9765,7533 9770,7534 9775,7536 9779,7539 9782,7542 9785,7547 9788,7551 9789,7556 9789,7561 9789,7790 9789,7795 9788,7800 9785,7804 9782,7809 9779,7812 9775,7815 9770,7817 9765,7818 9755,7819 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11828,7819 11818,7818 11813,7817 11808,7815 11804,7812 11801,7809 11798,7804 11796,7800 11794,7795 11794,7790 11794,7561 11794,7556 11796,7551 11798,7547 11801,7542 11804,7539 11808,7536 11813,7534 11818,7533 11822,7532 11828,7533 11833,7534 11837,7536 11841,7539 11845,7542 11847,7547 11850,7551 11851,7556 11851,7561 11851,7790 11851,7795 11850,7800 11847,7804 11845,7809 11841,7812 11837,7815 11833,7817 11828,7818 11817,7819 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12401,7819 12391,7818 12386,7817 12381,7815 12377,7812 12374,7809 12370,7804 12368,7800 12367,7795 12367,7790 12367,7561 12367,7556 12368,7551 12370,7547 12374,7542 12377,7539 12381,7536 12386,7534 12391,7533 12395,7532 12400,7533 12405,7534 12410,7536 12414,7539 12417,7542 12420,7547 12422,7551 12423,7556 12424,7561 12424,7790 12423,7795 12422,7800 12420,7804 12417,7809 12414,7812 12410,7815 12405,7817 12400,7818 12390,7819 "  />
+<text id="T237" x="5435" y="7217" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5435,7217) scale(1,-1) rotate(-0) translate(-5435,-7217)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >P</tspan></text>
+<text id="T238" x="4709" y="9509" textLength="511" igTextHeight="115" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4709,9509) scale(1,-1) rotate(-0) translate(-4709,-9509)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="115"  >W1210</tspan></text>
+<text id="T239" x="12892" y="1588" textLength="409" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(12892,1588) scale(1,-1) rotate(-0) translate(-12892,-1588)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >SHELF</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9307,5843 5703,5843 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4600,5843 4371,5843 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9307,5957 5703,5957 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4600,5957 4371,5957 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9307,6186 5703,6186 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4600,6186 4371,6186 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9307,6301 5703,6301 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4600,6301 4371,6301 "  />
+<text id="T240" x="6613" y="7744" textLength="553" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(6613,7744) scale(1,-1) rotate(-0) translate(-6613,-7744)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >2025B-24</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4038,5843 3116,5843 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2425,5843 2194,5843 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4038,5957 3116,5957 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2425,5957 2194,5957 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4038,6186 3116,6186 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2425,6186 2194,6186 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4038,6301 3116,6301 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2425,6301 2194,6301 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14234,7819 14223,7818 14219,7817 14214,7815 14210,7812 14206,7809 14204,7804 14202,7800 14200,7795 14199,7790 14199,7561 14200,7556 14202,7551 14204,7547 14206,7542 14210,7539 14214,7536 14219,7534 14223,7533 14228,7532 14234,7533 14238,7534 14243,7536 14247,7539 14251,7542 14253,7547 14255,7551 14256,7556 14257,7561 14257,7790 14256,7795 14255,7800 14253,7804 14251,7809 14247,7812 14243,7815 14238,7817 14234,7818 14223,7819 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4491,5819 4491,5728 4406,5728 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9188,6163 9188,5980 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4496,5986 4486,5985 4481,5984 4477,5982 4472,5979 4469,5976 4466,5971 4464,5967 4463,5962 4462,5957 4462,5843 4463,5838 4464,5833 4466,5828 4469,5824 4472,5821 4477,5818 4481,5816 4486,5814 4491,5814 4496,5814 4500,5816 4505,5818 4509,5821 4513,5824 4515,5828 4517,5833 4519,5838 4520,5843 4520,5957 4519,5962 4517,5967 4515,5971 4513,5976 4509,5979 4505,5982 4500,5984 4496,5985 4486,5986 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4496,6330 4486,6329 4481,6327 4477,6326 4472,6323 4469,6319 4466,6315 4464,6310 4463,6306 4462,6301 4462,6186 4463,6181 4464,6177 4466,6172 4469,6168 4472,6164 4477,6162 4481,6160 4486,6158 4491,6157 4496,6158 4500,6160 4505,6162 4509,6164 4513,6168 4515,6172 4517,6177 4519,6181 4520,6186 4520,6301 4519,6306 4517,6310 4515,6315 4513,6319 4509,6323 4505,6326 4500,6327 4496,6329 4486,6330 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9193,5986 9183,5985 9178,5984 9173,5982 9169,5979 9166,5976 9163,5971 9161,5967 9159,5962 9159,5957 9159,5843 9159,5838 9161,5833 9163,5828 9166,5824 9169,5821 9173,5818 9178,5816 9183,5814 9188,5814 9192,5814 9198,5816 9202,5818 9206,5821 9209,5824 9213,5828 9215,5833 9216,5838 9216,5843 9216,5957 9216,5962 9215,5967 9213,5971 9209,5976 9206,5979 9202,5982 9198,5984 9192,5985 9182,5986 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9193,6330 9183,6329 9178,6327 9173,6326 9169,6323 9166,6319 9163,6315 9161,6310 9159,6306 9159,6301 9159,6186 9159,6181 9161,6177 9163,6172 9166,6168 9169,6164 9173,6162 9178,6160 9183,6158 9188,6157 9192,6158 9198,6160 9202,6162 9206,6164 9209,6168 9213,6172 9215,6177 9216,6181 9216,6186 9216,6301 9216,6306 9215,6310 9213,6315 9209,6319 9206,6323 9202,6326 9198,6327 9192,6329 9182,6330 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3918,6163 3918,6072 4002,6072 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2314,5819 2314,5728 2230,5728 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3918,5819 3918,5728 4002,5728 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3923,5986 3913,5985 3908,5984 3904,5982 3899,5979 3896,5976 3893,5971 3891,5967 3890,5962 3889,5957 3889,5843 3890,5838 3891,5833 3893,5828 3896,5824 3899,5821 3904,5818 3908,5816 3913,5814 3918,5814 3923,5814 3928,5816 3932,5818 3936,5821 3940,5824 3942,5828 3945,5833 3946,5838 3947,5843 3947,5957 3946,5962 3945,5967 3942,5971 3940,5976 3936,5979 3932,5982 3928,5984 3923,5985 3913,5986 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3923,6330 3913,6329 3908,6327 3904,6326 3899,6323 3896,6319 3893,6315 3891,6310 3890,6306 3889,6301 3889,6186 3890,6181 3891,6177 3893,6172 3896,6168 3899,6164 3904,6162 3908,6160 3913,6158 3918,6157 3923,6158 3928,6160 3932,6162 3936,6164 3940,6168 3942,6172 3945,6177 3946,6181 3947,6186 3947,6301 3946,6306 3945,6310 3942,6315 3940,6319 3936,6323 3932,6326 3928,6327 3923,6329 3913,6330 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2320,5986 2309,5985 2304,5984 2300,5982 2296,5979 2292,5976 2289,5971 2287,5967 2286,5962 2285,5957 2285,5843 2286,5838 2287,5833 2289,5828 2292,5824 2296,5821 2300,5818 2304,5816 2309,5814 2314,5814 2319,5814 2324,5816 2329,5818 2332,5821 2336,5824 2339,5828 2341,5833 2342,5838 2343,5843 2343,5957 2342,5962 2341,5967 2339,5971 2336,5976 2332,5979 2329,5982 2324,5984 2319,5985 2309,5986 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2320,6330 2309,6329 2304,6327 2300,6326 2296,6323 2292,6319 2289,6315 2287,6310 2286,6306 2285,6301 2285,6186 2286,6181 2287,6177 2289,6172 2292,6168 2296,6164 2300,6162 2304,6160 2309,6158 2314,6157 2319,6158 2324,6160 2329,6162 2332,6164 2336,6168 2339,6172 2341,6177 2342,6181 2343,6186 2343,6301 2342,6306 2341,6310 2339,6315 2336,6319 2332,6323 2329,6326 2324,6327 2319,6329 2309,6330 "  />
+<text id="T241" x="520" y="1588" textLength="409" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(520,1588) scale(1,-1) rotate(-0) translate(-520,-1588)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >SHELF</tspan></text>
+<text id="T242" x="520" y="5139" textLength="409" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(520,5139) scale(1,-1) rotate(-0) translate(-520,-5139)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >SHELF</tspan></text>
+<text id="T243" x="520" y="6972" textLength="409" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(520,6972) scale(1,-1) rotate(-0) translate(-520,-6972)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >SHELF</tspan></text>
+<text id="T244" x="8424" y="8232" textLength="409" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(8424,8232) scale(1,-1) rotate(-0) translate(-8424,-8232)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >SHELF</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="5527,7561 5297,7561 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4607,7561 4147,7561 4147,8936 4032,9051 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="5527,7790 5297,7790 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4607,7790 4261,7790 4261,9280 4147,9280 4032,9394 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4141,5613 4261,5613 4287,5616 4311,5625 4333,5638 4351,5657 4365,5678 4373,5703 4376,5728 4376,6441 4285,6441 4285,6396 4238,6487 4238,6441 4147,6441 4032,6441 4032,5613 4153,5613 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="5407,7538 5407,7447 5498,7447 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4376,7538 4376,7332 4582,7332 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="5412,7819 5402,7818 5398,7817 5393,7815 5389,7812 5385,7809 5383,7804 5381,7800 5379,7795 5378,7790 5378,7561 5379,7556 5381,7551 5383,7547 5385,7542 5389,7539 5393,7536 5398,7534 5402,7533 5407,7532 5412,7533 5417,7534 5421,7536 5426,7539 5429,7542 5432,7547 5434,7551 5435,7556 5436,7561 5436,7790 5435,7795 5434,7800 5432,7804 5429,7809 5426,7812 5421,7815 5417,7817 5412,7818 5402,7819 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4381,7819 4371,7818 4367,7817 4362,7815 4358,7812 4354,7809 4351,7804 4349,7800 4348,7795 4347,7790 4347,7561 4348,7556 4349,7551 4351,7547 4354,7542 4358,7539 4362,7536 4367,7534 4371,7533 4376,7532 4381,7533 4386,7534 4390,7536 4395,7539 4398,7542 4401,7547 4403,7551 4404,7556 4405,7561 4405,7790 4404,7795 4403,7800 4401,7804 4398,7809 4395,7812 4390,7815 4386,7817 4381,7818 4371,7819 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3580,9051 3113,9051 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2421,9051 2194,9051 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3580,9394 3113,9394 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2421,9394 2194,9394 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4376,9027 4376,8936 4376,8821 4582,8821 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3254,8821 3459,8821 3459,9027 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2223,8936 2314,8936 2314,9027 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4381,9423 4371,9422 4367,9421 4362,9419 4358,9416 4354,9412 4351,9408 4349,9404 4348,9399 4347,9394 4347,9051 4348,9045 4349,9040 4351,9036 4354,9032 4358,9028 4362,9026 4367,9023 4371,9022 4376,9022 4381,9022 4386,9023 4390,9026 4395,9028 4398,9032 4401,9036 4403,9040 4404,9045 4405,9051 4405,9394 4404,9399 4403,9404 4401,9408 4398,9412 4395,9416 4390,9419 4386,9421 4381,9422 4371,9423 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3465,9423 3455,9422 3450,9421 3446,9419 3441,9416 3438,9412 3435,9408 3433,9404 3431,9399 3431,9394 3431,9051 3431,9045 3433,9040 3435,9036 3438,9032 3441,9028 3446,9026 3450,9023 3455,9022 3459,9022 3465,9022 3470,9023 3474,9026 3478,9028 3482,9032 3484,9036 3487,9040 3488,9045 3488,9051 3488,9394 3488,9399 3487,9404 3484,9408 3482,9412 3478,9416 3474,9419 3470,9421 3465,9422 3454,9423 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2320,9423 2309,9422 2304,9421 2300,9419 2296,9416 2292,9412 2289,9408 2287,9404 2286,9399 2285,9394 2285,9051 2286,9045 2287,9040 2289,9036 2292,9032 2296,9028 2300,9026 2304,9023 2309,9022 2314,9022 2319,9022 2324,9023 2329,9026 2332,9028 2336,9032 2339,9036 2341,9040 2342,9045 2343,9051 2343,9394 2342,9399 2341,9404 2339,9408 2336,9412 2332,9416 2329,9419 2324,9421 2319,9422 2309,9423 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1741,9423 1713,9423 1704,9421 1696,9417 1689,9411 1686,9403 1684,9394 1684,9251 1682,9242 1679,9234 1672,9227 1664,9224 1655,9222 1627,9222 "  />
+<text id="T245" x="14960" y="7629" textLength="961" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14960,7629) scale(1,-1) rotate(-0) translate(-14960,-7629)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >CMC DATA OUT</tspan></text>
+<text id="T246" x="14960" y="8833" textLength="821" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14960,8833) scale(1,-1) rotate(-0) translate(-14960,-8833)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >CMC DATA IN</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1741,9022 1713,9022 1704,9023 1696,9027 1689,9034 1686,9041 1684,9051 1684,9193 1682,9202 1679,9210 1672,9217 1664,9221 1655,9222 1627,9222 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14801,7532 14830,7532 14839,7534 14847,7538 14853,7544 14857,7552 14858,7561 14858,7647 14860,7656 14864,7663 14870,7670 14878,7674 14887,7676 14916,7676 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14801,7819 14830,7819 14839,7818 14847,7813 14853,7807 14857,7799 14858,7790 14858,7704 14860,7695 14864,7687 14870,7681 14878,7677 14887,7676 14916,7676 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14801,8793 14830,8793 14839,8794 14847,8798 14853,8804 14857,8812 14858,8821 14858,8850 14860,8859 14864,8867 14870,8873 14878,8877 14887,8878 14916,8878 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14801,8964 14830,8964 14839,8963 14847,8959 14853,8953 14857,8945 14858,8936 14858,8907 14860,8898 14864,8890 14870,8884 14878,8880 14887,8878 14916,8878 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14801,9480 14830,9480 14839,9481 14847,9485 14853,9492 14857,9500 14858,9509 14858,9537 14860,9546 14864,9554 14870,9560 14878,9564 14887,9566 14916,9566 "  />
+<text id="T247" x="14669" y="8776" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14669,8776) scale(1,-1) rotate(-0) translate(-14669,-8776)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >B</tspan></text>
+<text id="T248" x="14682" y="8891" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14682,8891) scale(1,-1) rotate(-0) translate(-14682,-8891)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >A</tspan></text>
+<text id="T249" x="14669" y="9463" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14669,9463) scale(1,-1) rotate(-0) translate(-14669,-9463)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >B</tspan></text>
+<text id="T250" x="14682" y="9578" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14682,9578) scale(1,-1) rotate(-0) translate(-14682,-9578)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >A</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14801,9652 14830,9652 14839,9650 14847,9646 14853,9640 14857,9632 14858,9623 14858,9595 14860,9586 14864,9578 14870,9571 14878,9567 14887,9566 14916,9566 "  />
+<text id="T251" x="1144" y="9176" textLength="420" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1144,9176) scale(1,-1) rotate(-0) translate(-1144,-9176)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >CTU IN</tspan></text>
+<text id="T252" x="10205" y="8833" textLength="716" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(10205,8833) scale(1,-1) rotate(-0) translate(-10205,-8833)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >CMC-C BUS</tspan></text>
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="1964,8821 2085,8821 2111,8824 2135,8833 2156,8846 2174,8865 2188,8886 2197,8910 2199,8936 2199,9534 2108,9534 2108,9488 2062,9580 2062,9534 1964,9534 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11021,8964 10992,8964 10983,8963 10975,8959 10969,8953 10965,8945 10963,8936 10963,8907 10962,8898 10958,8890 10951,8884 10943,8880 10935,8878 10906,8878 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11021,8793 10992,8793 10983,8794 10975,8798 10969,8804 10965,8812 10963,8821 10963,8850 10962,8859 10958,8867 10951,8873 10943,8877 10935,8878 10906,8878 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11021,9652 10992,9652 10983,9650 10975,9646 10969,9640 10965,9632 10963,9623 10963,9595 10962,9586 10958,9578 10951,9571 10943,9567 10935,9566 10906,9566 "  />
+<text id="T253" x="11049" y="8775" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(11049,8775) scale(1,-1) rotate(-0) translate(-11049,-8775)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >B</tspan></text>
+<text id="T254" x="11062" y="8890" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(11062,8890) scale(1,-1) rotate(-0) translate(-11062,-8890)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >A</tspan></text>
+<text id="T255" x="11049" y="9463" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(11049,9463) scale(1,-1) rotate(-0) translate(-11049,-9463)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >B</tspan></text>
+<text id="T256" x="11062" y="9577" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(11062,9577) scale(1,-1) rotate(-0) translate(-11062,-9577)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >A</tspan></text>
+<text id="T257" x="7904" y="8232" textLength="269" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(7904,8232) scale(1,-1) rotate(-0) translate(-7904,-8232)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >E3-1</tspan></text>
+<text id="T258" x="0" y="6972" textLength="269" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(0,6972) scale(1,-1) rotate(-0) translate(-0,-6972)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >E2-1</tspan></text>
+<text id="T259" x="643" y="8576" textLength="1328" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(643,8576) scale(1,-1) rotate(-0) translate(-643,-8576)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >AIMS CABINET-RIGHT</tspan></text>
+<text id="T260" x="9693" y="8462" textLength="1246" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9693,8462) scale(1,-1) rotate(-0) translate(-9693,-8462)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >AIMS CABINET-LEFT</tspan></text>
+<text id="T261" x="9164" y="8462" textLength="460" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9164,8462) scale(1,-1) rotate(-0) translate(-9164,-8462)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >M31101</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11021,9480 10992,9480 10983,9481 10975,9485 10969,9492 10965,9500 10963,9509 10963,9537 10962,9546 10958,9554 10951,9560 10943,9564 10935,9566 10906,9566 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="5636,7208 5636,8028 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="5643,7331 5611,7335 5587,7343 5565,7357 5547,7375 5533,7397 5525,7421 5522,7447 5522,7930 5636,7930 5728,7930 5728,7976 5774,7885 5774,7930 5865,7930 5865,7332 5630,7332 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="5407,7226 5407,7103 23,7103 23,9738 5407,9738 5407,9614 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="137,8698 137,9623 1970,9623 1970,8707 128,8707 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="11822,8716 11822,8363 7928,8363 7928,8716 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="9188,8583 9188,9852 11250,9852 11250,8592 9179,8592 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12395,5980 12395,6163 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12276,5728 12395,5728 12395,5819 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11943,5843 10976,5843 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9871,5843 9641,5843 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11943,5957 10976,5957 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9871,5957 9641,5957 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11943,6186 10976,6186 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9871,6186 9641,6186 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11943,6301 10976,6301 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9871,6301 9641,6301 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14228,5819 14228,5728 14305,5728 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11822,5819 11822,5728 11943,5728 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11822,6163 11822,6072 11822,5980 "  />
+<text id="T262" x="2015" y="5797" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2015,5797) scale(1,-1) rotate(-0) translate(-2015,-5797)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >34</tspan></text>
+<text id="T263" x="2015" y="5911" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2015,5911) scale(1,-1) rotate(-0) translate(-2015,-5911)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >33</tspan></text>
+<text id="T264" x="2015" y="6140" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2015,6140) scale(1,-1) rotate(-0) translate(-2015,-6140)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >37</tspan></text>
+<text id="T265" x="2015" y="6255" textLength="142" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2015,6255) scale(1,-1) rotate(-0) translate(-2015,-6255)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >36</tspan></text>
+<text id="T266" x="869" y="5854" textLength="726" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(869,5854) scale(1,-1) rotate(-0) translate(-869,-5854)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >CEPT E1 TX</tspan></text>
+<text id="T267" x="869" y="6198" textLength="712" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(869,6198) scale(1,-1) rotate(-0) translate(-869,-6198)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >CEPT E1 RX</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2314,6163 2314,6072 2230,6072 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1741,5986 1713,5986 1704,5984 1696,5980 1689,5974 1686,5966 1684,5957 1684,5928 1682,5920 1679,5912 1672,5906 1664,5901 1655,5900 1627,5900 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1741,5814 1713,5814 1704,5815 1696,5819 1689,5826 1686,5834 1684,5843 1684,5871 1682,5880 1679,5888 1672,5894 1664,5899 1655,5900 1627,5900 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1741,6330 1713,6330 1704,6328 1696,6324 1689,6318 1686,6309 1684,6301 1684,6272 1682,6263 1679,6255 1672,6249 1664,6245 1655,6244 1627,6244 "  />
+<text id="T268" x="1770" y="5797" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1770,5797) scale(1,-1) rotate(-0) translate(-1770,-5797)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >B</tspan></text>
+<text id="T269" x="1783" y="5911" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1783,5911) scale(1,-1) rotate(-0) translate(-1783,-5911)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >A</tspan></text>
+<text id="T270" x="1770" y="6140" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1770,6140) scale(1,-1) rotate(-0) translate(-1770,-6140)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >B</tspan></text>
+<text id="T271" x="1783" y="6255" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1783,6255) scale(1,-1) rotate(-0) translate(-1783,-6255)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >A</tspan></text>
+<text id="T272" x="634" y="5368" textLength="1247" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(634,5368) scale(1,-1) rotate(-0) translate(-634,-5368)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >CABIN FILE SERVER</tspan></text>
+<text id="T273" x="0" y="5139" textLength="227" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(0,5139) scale(1,-1) rotate(-0) translate(-0,-5139)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >E15</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1741,6157 1713,6157 1704,6159 1696,6163 1689,6170 1686,6178 1684,6186 1684,6215 1682,6224 1679,6232 1672,6238 1664,6242 1655,6244 1627,6244 "  />
+<text id="T274" x="937" y="2302" textLength="688" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(937,2302) scale(1,-1) rotate(-0) translate(-937,-2302)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >CABIN OUT</tspan></text>
+<text id="T275" x="1007" y="2646" textLength="548" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1007,2646) scale(1,-1) rotate(-0) translate(-1007,-2646)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >CABIN IN</tspan></text>
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="4147,6654 4147,5270 23,5270 23,6645 3918,6645 4156,6645 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1741,2434 1713,2434 1704,2433 1696,2429 1689,2423 1686,2415 1684,2406 1684,2377 1682,2368 1679,2360 1672,2354 1664,2350 1655,2349 1627,2349 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1741,2263 1713,2263 1704,2264 1696,2268 1689,2274 1686,2282 1684,2291 1684,2320 1682,2329 1679,2336 1672,2343 1664,2347 1655,2349 1627,2349 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1741,2778 1713,2778 1704,2777 1696,2773 1689,2766 1686,2758 1684,2749 1684,2721 1682,2712 1679,2704 1672,2698 1664,2694 1655,2692 1627,2692 "  />
+<text id="T276" x="1770" y="2246" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1770,2246) scale(1,-1) rotate(-0) translate(-1770,-2246)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >B</tspan></text>
+<text id="T277" x="1783" y="2360" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1783,2360) scale(1,-1) rotate(-0) translate(-1783,-2360)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >A</tspan></text>
+<text id="T278" x="1770" y="2589" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1770,2589) scale(1,-1) rotate(-0) translate(-1770,-2589)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >B</tspan></text>
+<text id="T279" x="1783" y="2704" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1783,2704) scale(1,-1) rotate(-0) translate(-1783,-2704)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >A</tspan></text>
+<text id="T280" x="634" y="1817" textLength="267" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(634,1817) scale(1,-1) rotate(-0) translate(-634,-1817)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >SDU</tspan></text>
+<text id="T281" x="114" y="1817" textLength="460" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(114,1817) scale(1,-1) rotate(-0) translate(-114,-1817)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >M23106</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1741,2606 1713,2606 1704,2608 1696,2612 1689,2618 1686,2626 1684,2635 1684,2663 1682,2672 1679,2680 1672,2687 1664,2691 1655,2692 1627,2692 "  />
+<text id="T282" x="4280" y="3042" textLength="454" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4280,3042) scale(1,-1) rotate(-0) translate(-4280,-3042)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >AP1490</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2314,2268 2314,2177 2237,2177 "  />
+<text id="T283" x="2023" y="2246" textLength="156" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2023,2246) scale(1,-1) rotate(-0) translate(-2023,-2246)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >B3</tspan></text>
+<text id="T284" x="2023" y="2360" textLength="156" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2023,2360) scale(1,-1) rotate(-0) translate(-2023,-2360)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >A3</tspan></text>
+<text id="T285" x="2023" y="2589" textLength="156" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2023,2589) scale(1,-1) rotate(-0) translate(-2023,-2589)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >K2</tspan></text>
+<text id="T286" x="2032" y="2704" textLength="134" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2032,2704) scale(1,-1) rotate(-0) translate(-2032,-2704)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >J2</tspan></text>
+<text id="T287" x="12264" y="1947" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(12264,1947) scale(1,-1) rotate(-0) translate(-12264,-1947)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >P</tspan></text>
+<text id="T288" x="11622" y="1947" textLength="438" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(11622,1947) scale(1,-1) rotate(-0) translate(-11622,-1947)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >D7380J</tspan></text>
+<text id="T289" x="4283" y="2131" textLength="71" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4283,2131) scale(1,-1) rotate(-0) translate(-4283,-2131)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >7</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2314,2612 2314,2520 2237,2520 "  />
+<text id="T290" x="3563" y="2874" textLength="507" igTextHeight="115" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(3563,2874) scale(1,-1) rotate(-0) translate(-3563,-2874)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="115"  >W2100</tspan></text>
+<text id="T291" x="3955" y="1947" textLength="63" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(3955,1947) scale(1,-1) rotate(-0) translate(-3955,-1947)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >J</tspan></text>
+<text id="T292" x="4244" y="1947" textLength="318" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4244,1947) scale(1,-1) rotate(-0) translate(-4244,-1947)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >D78P</tspan></text>
+<text id="T293" x="8873" y="3781" textLength="460" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(8873,3781) scale(1,-1) rotate(-0) translate(-8873,-3781)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >D1108P</tspan></text>
+<text id="T294" x="9523" y="3781" textLength="63" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(9523,3781) scale(1,-1) rotate(-0) translate(-9523,-3781)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >J</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3918,2268 3918,2177 4038,2177 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4491,2429 4491,2612 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4496,2435 4486,2434 4481,2433 4477,2431 4472,2428 4469,2424 4466,2420 4464,2416 4463,2411 4462,2406 4462,2291 4463,2286 4464,2281 4466,2277 4469,2273 4476,2266 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4468,2273 4477,2266 4481,2264 4486,2263 4491,2263 4496,2263 4500,2264 4505,2266 4509,2270 4513,2273 4515,2277 4517,2281 4519,2286 4520,2291 4520,2406 4519,2411 4517,2416 4515,2420 4513,2424 4509,2428 4505,2431 4500,2433 4496,2434 4486,2435 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4371,2177 4491,2177 4491,2268 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4496,2779 4486,2778 4481,2777 4477,2774 4472,2771 4469,2768 4466,2764 4464,2760 4463,2754 4462,2749 4462,2635 4463,2630 4464,2625 4466,2621 4469,2617 4472,2613 4477,2610 4481,2608 4486,2606 4491,2606 4496,2606 4500,2608 4505,2610 4509,2613 4513,2617 4515,2621 4517,2625 4519,2630 4520,2635 4520,2749 4519,2754 4517,2760 4515,2764 4513,2768 4509,2771 4505,2774 4500,2777 4496,2778 4486,2779 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11828,2435 11818,2434 11813,2433 11808,2431 11804,2428 11801,2424 11798,2420 11796,2416 11794,2411 11794,2406 11794,2291 11794,2286 11796,2281 11798,2277 11801,2273 11804,2270 11808,2266 11813,2264 11818,2263 11822,2263 11828,2263 11833,2264 11837,2266 11841,2270 11845,2273 11847,2277 11850,2281 11851,2286 11851,2291 11851,2406 11851,2411 11850,2416 11847,2420 11845,2424 11841,2428 11837,2431 11833,2433 11828,2434 11817,2435 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11828,2779 11818,2778 11813,2777 11808,2774 11804,2771 11801,2768 11798,2764 11796,2760 11794,2754 11794,2749 11794,2635 11794,2630 11796,2625 11798,2621 11801,2617 11804,2613 11808,2610 11813,2608 11818,2606 11822,2606 11828,2606 11833,2608 11837,2610 11841,2613 11845,2617 11847,2621 11850,2625 11851,2630 11851,2635 11851,2749 11851,2754 11850,2760 11847,2764 11845,2768 11841,2771 11837,2774 11833,2777 11828,2778 11817,2779 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11828,5986 11818,5985 11813,5984 11808,5982 11804,5979 11801,5976 11798,5971 11796,5967 11794,5962 11794,5957 11794,5843 11794,5838 11796,5833 11798,5828 11801,5824 11804,5821 11808,5818 11813,5816 11818,5814 11822,5814 11828,5814 11833,5816 11837,5818 11841,5821 11845,5824 11847,5828 11850,5833 11851,5838 11851,5843 11851,5957 11851,5962 11850,5967 11847,5971 11845,5976 11841,5979 11837,5982 11833,5984 11828,5985 11817,5986 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="11828,6330 11818,6329 11813,6327 11808,6326 11804,6323 11801,6319 11798,6315 11796,6310 11794,6306 11794,6301 11794,6186 11794,6181 11796,6177 11798,6172 11801,6168 11804,6164 11808,6162 11813,6160 11818,6158 11822,6157 11828,6158 11833,6160 11837,6162 11841,6164 11845,6168 11847,6172 11850,6177 11851,6181 11851,6186 11851,6301 11851,6306 11850,6310 11847,6315 11845,6319 11841,6323 11837,6326 11833,6327 11828,6329 11817,6330 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9761,6163 9761,5980 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9766,6330 9756,6329 9751,6327 9746,6326 9742,6323 9739,6319 9736,6315 9733,6310 9732,6306 9732,6301 9732,6186 9732,6181 9733,6177 9736,6172 9739,6168 9742,6164 9746,6162 9751,6160 9756,6158 9761,6157 9765,6158 9770,6160 9775,6162 9783,6167 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9776,6161 9782,6168 9785,6172 9788,6177 9789,6181 9789,6186 9789,6301 9789,6306 9788,6310 9785,6315 9782,6319 9779,6323 9775,6326 9770,6327 9765,6329 9755,6330 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9766,5986 9756,5985 9751,5984 9746,5982 9742,5979 9739,5976 9736,5971 9733,5967 9732,5962 9732,5957 9732,5843 9732,5838 9733,5833 9736,5828 9739,5824 9742,5821 9746,5818 9751,5816 9756,5814 9761,5814 9765,5814 9770,5816 9775,5818 9779,5821 9782,5824 9785,5828 9788,5833 9789,5838 9789,5843 9789,5957 9789,5962 9788,5967 9785,5971 9782,5976 9779,5979 9775,5982 9770,5984 9765,5985 9755,5986 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="9417,3772 9417,8028 "  />
+<text id="T295" x="11898" y="8082" textLength="460" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(11898,8082) scale(1,-1) rotate(-0) translate(-11898,-8082)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >AC1990</tspan></text>
+<text id="T296" x="14669" y="5797" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14669,5797) scale(1,-1) rotate(-0) translate(-14669,-5797)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >B</tspan></text>
+<text id="T297" x="14682" y="5912" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14682,5912) scale(1,-1) rotate(-0) translate(-14682,-5912)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >A</tspan></text>
+<text id="T298" x="14669" y="6141" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14669,6141) scale(1,-1) rotate(-0) translate(-14669,-6141)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >B</tspan></text>
+<text id="T299" x="14682" y="6256" textLength="85" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14682,6256) scale(1,-1) rotate(-0) translate(-14682,-6256)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >A</tspan></text>
+<text id="T300" x="14960" y="5854" textLength="712" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14960,5854) scale(1,-1) rotate(-0) translate(-14960,-5854)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >CEPT E1 RX</tspan></text>
+<text id="T301" x="14960" y="6198" textLength="726" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14960,6198) scale(1,-1) rotate(-0) translate(-14960,-6198)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >CEPT E1 TX</tspan></text>
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="9423,3894 9391,3898 9367,3907 9345,3920 9327,3938 9314,3960 9305,3984 9302,4010 9302,7930 9417,7930 9509,7930 9509,7976 9554,7885 9554,7930 9646,7930 9646,3895 9410,3895 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12401,5986 12391,5985 12386,5984 12381,5982 12377,5979 12374,5976 12370,5971 12366,5962 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12369,5972 12367,5962 12367,5957 12367,5843 12367,5838 12368,5833 12370,5828 12374,5824 12377,5821 12381,5818 12386,5816 12391,5814 12395,5814 12400,5814 12405,5816 12410,5818 12414,5821 12417,5824 12420,5828 12422,5833 12423,5838 12424,5843 12424,5957 12423,5962 12422,5967 12420,5971 12417,5976 12414,5979 12410,5982 12405,5984 12400,5985 12390,5986 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="12401,6330 12391,6329 12386,6327 12381,6326 12377,6323 12374,6319 12370,6315 12368,6310 12367,6306 12367,6301 12367,6186 12367,6181 12368,6177 12370,6172 12374,6168 12377,6164 12381,6162 12386,6160 12391,6158 12395,6157 12400,6158 12405,6160 12410,6162 12414,6164 12417,6168 12420,6172 12422,6177 12423,6181 12424,6186 12424,6301 12423,6306 12422,6310 12420,6315 12417,6319 12414,6323 12410,6326 12405,6327 12400,6329 12390,6330 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14234,6330 14223,6329 14219,6327 14214,6326 14210,6323 14206,6319 14204,6315 14202,6310 14200,6306 14199,6301 14199,6186 14200,6181 14202,6177 14204,6172 14206,6168 14210,6164 14214,6162 14219,6160 14223,6158 14228,6157 14234,6158 14238,6160 14243,6162 14247,6164 14251,6168 14253,6172 14255,6177 14256,6181 14257,6186 14257,6301 14256,6306 14255,6310 14253,6315 14251,6319 14247,6323 14243,6326 14238,6327 14234,6329 14223,6330 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14234,5986 14223,5985 14219,5984 14214,5982 14210,5979 14206,5976 14204,5971 14202,5967 14200,5962 14199,5957 14199,5843 14200,5838 14202,5833 14204,5828 14206,5824 14210,5821 14214,5818 14219,5816 14223,5814 14228,5814 14234,5814 14238,5816 14243,5818 14247,5821 14251,5824 14253,5828 14255,5833 14256,5838 14257,5843 14257,5957 14256,5962 14255,5967 14253,5971 14251,5976 14247,5979 14243,5982 14238,5984 14234,5985 14223,5986 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14796,6157 14830,6157 14839,6159 14847,6163 14853,6170 14857,6178 14858,6186 14858,6215 14860,6224 14864,6232 14870,6238 14878,6242 14887,6244 14921,6244 "  />
+<text id="T302" x="1495" y="8741" textLength="289" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1495,8741) scale(1,-1) rotate(-0) translate(-1495,-8741)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >(J18)</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="14796,6330 14830,6330 14839,6328 14847,6324 14853,6318 14857,6309 14858,6301 14858,6272 14860,6263 14864,6255 14870,6249 14878,6245 14887,6244 14921,6244 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4038,2291 3116,2291 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2425,2291 2194,2291 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4038,2406 3116,2406 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2425,2406 2194,2406 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4038,2635 3116,2635 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2425,2635 2194,2635 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4038,2749 3116,2749 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2425,2749 2194,2749 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3918,2612 3918,2429 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3923,2435 3913,2434 3908,2433 3904,2431 3899,2428 3896,2424 3893,2420 3891,2416 3890,2411 3889,2406 3889,2291 3890,2286 3891,2281 3893,2277 3896,2273 3899,2270 3904,2266 3908,2264 3913,2263 3918,2263 3923,2263 3928,2264 3932,2266 3936,2270 3940,2273 3942,2277 3945,2281 3946,2286 3947,2291 3947,2406 3946,2411 3945,2416 3942,2420 3940,2424 3936,2428 3932,2431 3928,2433 3923,2434 3913,2435 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3923,2779 3913,2778 3908,2777 3904,2774 3899,2771 3896,2768 3893,2764 3891,2760 3890,2754 3889,2749 3889,2635 3890,2630 3891,2625 3893,2621 3896,2617 3899,2613 3904,2610 3908,2608 3913,2606 3918,2606 3923,2606 3928,2608 3932,2610 3936,2613 3940,2617 3942,2621 3945,2625 3946,2630 3947,2635 3947,2749 3946,2754 3945,2760 3942,2764 3940,2768 3936,2771 3932,2774 3928,2777 3923,2778 3913,2779 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2320,2779 2309,2778 2304,2777 2300,2774 2296,2771 2292,2768 2289,2764 2287,2760 2286,2754 2285,2749 2285,2635 2286,2630 2287,2625 2289,2621 2292,2617 2296,2613 2300,2610 2304,2608 2309,2606 2314,2606 2319,2606 2324,2608 2329,2610 2332,2613 2336,2617 2339,2621 2341,2625 2342,2630 2343,2635 2343,2749 2342,2754 2341,2760 2339,2764 2336,2768 2332,2771 2329,2774 2324,2777 2319,2778 2309,2779 "  />
+<text id="T303" x="13815" y="7217" textLength="721" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(13815,7217) scale(1,-1) rotate(-0) translate(-13815,-7217)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >DM23004AA</tspan></text>
+<text id="T304" x="12372" y="1588" textLength="340" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(12372,1588) scale(1,-1) rotate(-0) translate(-12372,-1588)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >E12-1</tspan></text>
+<text id="T305" x="15069" y="1817" textLength="259" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(15069,1817) scale(1,-1) rotate(-0) translate(-15069,-1817)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >CTU</tspan></text>
+<text id="T306" x="14549" y="1817" textLength="460" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(14549,1817) scale(1,-1) rotate(-0) translate(-14549,-1817)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >M23004</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2320,2435 2309,2434 2304,2433 2300,2431 2296,2428 2292,2424 2289,2420 2287,2416 2286,2411 2285,2406 2285,2291 2286,2286 2287,2281 2289,2277 2292,2273 2296,2270 2300,2266 2304,2264 2309,2263 2314,2263 2319,2263 2324,2264 2329,2266 2332,2270 2336,2273 2339,2277 2341,2281 2342,2286 2343,2291 2343,2406 2342,2411 2341,2416 2339,2420 2336,2424 2332,2428 2329,2431 2324,2433 2319,2434 2309,2435 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="12395,10989 12395,11112 16061,11112 16061,1718 12395,1718 12395,1957 "  />
+<text id="T307" x="0" y="1588" textLength="330" igTextHeight="91" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(0,1588) scale(1,-1) rotate(-0) translate(-0,-1588)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="91"  >E11-1</tspan></text>
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="14572,1938 14572,10998 15947,10998 15947,1947 14563,1947 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="14578,7332 14457,7332 14432,7335 14408,7343 14386,7357 14368,7375 14354,7397 14346,7421 14343,7447 14343,9764 14434,9764 14434,9809 14481,9717 14481,9764 14578,9764 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="12166,1938 12166,8028 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="12160,2062 12192,2065 12216,2073 12237,2087 12256,2105 12269,2127 12278,2151 12281,2177 12281,7930 12166,7930 12075,7930 12075,7885 12029,7976 12029,7930 11937,7930 11937,2062 12173,2062 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="1964,5613 2085,5613 2111,5616 2135,5625 2156,5638 2174,5657 2188,5678 2197,5703 2199,5728 2199,6441 2108,6441 2108,6396 2062,6487 2062,6441 1964,6441 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="137,5490 137,6530 1970,6530 1970,5499 128,5499 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4141,2062 4261,2062 4287,2065 4311,2073 4333,2087 4351,2105 4365,2127 4373,2151 4376,2177 4376,2890 4285,2890 4285,2844 4238,2935 4238,2890 4147,2890 4032,2890 4032,2062 4153,2062 "  />
+<text id="T308" x="1889" y="11350" textLength="2193" igTextHeight="126" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1889,11350) scale(1,-1) rotate(-0) translate(-1889,-11350)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="126"  >UAL 777 UNCONTROLLED</tspan></text>
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="1964,2062 2085,2062 2111,2065 2135,2073 2156,2087 2174,2105 2188,2127 2197,2151 2199,2177 2199,2890 2108,2890 2108,2844 2062,2935 2062,2890 1964,2890 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="14,973 7043,973 7043,171 23,171 23,982 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="4033,982 4033,171 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="23,11198 23,11284 166,11284 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="15918,11284 16062,11284 16062,11198 "  />
+<text id="T309" x="48" y="779" textLength="1092" igTextHeight="103" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(48,779) scale(1,-1) rotate(-0) translate(-48,-779)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="103"  >766-772 777-777</tspan></text>
+<text id="T310" x="869" y="4124" textLength="729" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(869,4124) scale(1,-1) rotate(-0) translate(-869,-4124)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >CEPT E1 TX</tspan></text>
+<text id="T311" x="869" y="4468" textLength="722" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(869,4468) scale(1,-1) rotate(-0) translate(-869,-4468)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >CEPT E1 RX</tspan></text>
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="23,3494 4147,3494 4147,4983 23,4983 23,3494 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="137,3781 1970,3781 1970,4869 137,4869 137,3781 "  />
+<polyline stroke-width="18" stroke="rgb(0,0,0)" fill="none"  points="16062,1059 16062,973 15918,973 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2200,4583 2429,4583 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2200,4468 2429,4468 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3116,4583 4033,4583 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3116,4468 4033,4468 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4376,4583 4605,4583 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4376,4468 4605,4468 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="5694,4583 8844,4583 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="5694,4468 8844,4468 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4376,4239 4605,4239 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4376,4124 4605,4124 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="5694,4124 8844,4124 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="5694,4239 8844,4239 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4033,4239 3116,4239 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4033,4124 3116,4124 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2200,4239 2429,4239 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2200,4124 2429,4124 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4141,3895 4261,3895 4287,3898 4311,3907 4333,3920 4351,3938 4365,3960 4373,3984 4376,4010 4376,4723 4285,4723 4285,4677 4238,4768 4238,4723 4147,4723 4032,4723 4032,3895 4153,3895 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2257,4002 2214,4002 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2214,4018 2257,4018 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2206,4010 2206,4032 2265,4032 2265,3987 2206,3987 2206,4010 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2257,4345 2214,4345 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2214,4361 2257,4361 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="2206,4353 2206,4376 2265,4376 2265,4331 2206,4331 2206,4353 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="3975,4345 4018,4345 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4018,4361 3975,4361 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4026,4353 4026,4376 3967,4376 3967,4331 4026,4331 4026,4353 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="3975,4002 4018,4002 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4018,4018 3975,4018 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4026,4010 4026,4032 3967,4032 3967,3987 4026,3987 4026,4010 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4434,4345 4390,4345 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4390,4361 4434,4361 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4382,4353 4382,4376 4441,4376 4441,4331 4382,4331 4382,4353 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4434,4002 4390,4002 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4390,4018 4434,4018 "  />
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="4382,4010 4382,4032 4441,4032 4441,3987 4382,3987 4382,4010 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4491,4444 4491,4353 4406,4353 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4491,4101 4491,4010 4406,4010 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4496,4268 4486,4267 4481,4266 4477,4264 4472,4260 4469,4257 4466,4253 4464,4249 4463,4243 4462,4239 4462,4124 4463,4119 4464,4114 4466,4110 4469,4106 4472,4102 4477,4099 4481,4097 4486,4096 4491,4096 4496,4096 4500,4097 4505,4099 4509,4102 4513,4106 4515,4110 4517,4114 4519,4119 4520,4124 4520,4239 4519,4243 4517,4249 4515,4253 4513,4257 4509,4260 4505,4264 4500,4266 4496,4267 4486,4268 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="4496,4612 4486,4611 4481,4609 4477,4607 4472,4604 4469,4601 4466,4597 4464,4592 4463,4587 4462,4582 4462,4468 4463,4463 4464,4458 4466,4453 4469,4450 4472,4446 4477,4443 4481,4441 4486,4440 4491,4439 4496,4440 4500,4441 4505,4443 4509,4446 4513,4450 4515,4453 4517,4458 4519,4463 4520,4468 4520,4582 4519,4587 4517,4592 4515,4597 4513,4601 4509,4604 4505,4607 4500,4609 4496,4611 4486,4612 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3918,4444 3918,4353 4002,4353 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2314,4101 2314,4010 2230,4010 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3918,4101 3918,4010 4002,4010 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3923,4268 3913,4267 3908,4266 3904,4264 3899,4260 3896,4257 3893,4253 3891,4249 3890,4243 3889,4239 3889,4124 3890,4119 3891,4114 3893,4110 3896,4106 3899,4102 3904,4099 3908,4097 3913,4096 3918,4096 3923,4096 3928,4097 3932,4099 3936,4102 3940,4106 3942,4110 3945,4114 3946,4119 3947,4124 3947,4239 3946,4243 3945,4249 3942,4253 3940,4257 3936,4260 3932,4264 3928,4266 3923,4267 3913,4268 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="3923,4612 3913,4611 3908,4609 3904,4607 3899,4604 3896,4601 3893,4597 3891,4592 3890,4587 3889,4582 3889,4468 3890,4463 3891,4458 3893,4453 3896,4450 3899,4446 3904,4443 3908,4441 3913,4440 3918,4439 3923,4440 3928,4441 3932,4443 3936,4446 3940,4450 3942,4453 3945,4458 3946,4463 3947,4468 3947,4582 3946,4587 3945,4592 3942,4597 3940,4601 3936,4604 3932,4607 3928,4609 3923,4611 3913,4612 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2320,4268 2309,4267 2304,4266 2300,4264 2296,4260 2292,4257 2289,4253 2287,4249 2286,4243 2285,4239 2285,4124 2286,4119 2287,4114 2289,4110 2292,4106 2296,4102 2300,4099 2304,4097 2309,4096 2314,4096 2319,4096 2324,4097 2329,4099 2332,4102 2336,4106 2339,4110 2341,4114 2342,4119 2343,4124 2343,4239 2342,4243 2341,4249 2339,4253 2336,4257 2332,4260 2329,4264 2324,4266 2319,4267 2309,4268 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2320,4612 2309,4611 2304,4609 2300,4607 2296,4604 2292,4601 2289,4597 2287,4592 2286,4587 2285,4582 2285,4468 2286,4463 2287,4458 2289,4453 2292,4450 2296,4446 2300,4443 2304,4441 2309,4440 2314,4439 2319,4440 2324,4441 2329,4443 2332,4446 2336,4450 2339,4453 2341,4458 2342,4463 2343,4468 2343,4582 2342,4587 2341,4592 2339,4597 2336,4601 2332,4604 2329,4607 2324,4609 2319,4611 2309,4612 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="2314,4444 2314,4353 2230,4353 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1741,4267 1713,4267 1704,4266 1696,4262 1689,4256 1686,4248 1684,4239 1684,4210 1682,4201 1679,4193 1672,4187 1664,4183 1655,4181 1627,4181 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1741,4096 1713,4096 1704,4097 1696,4101 1689,4107 1686,4115 1684,4124 1684,4153 1682,4162 1679,4170 1672,4176 1664,4180 1655,4181 1627,4181 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1741,4611 1713,4611 1704,4610 1696,4605 1689,4599 1686,4591 1684,4582 1684,4554 1682,4545 1679,4537 1672,4530 1664,4527 1655,4525 1627,4525 "  />
+<text id="T312" x="1794" y="4525" textLength="85" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1794,4525) scale(1,-1) rotate(-0) translate(-1794,-4525)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >A</tspan></text>
+<text id="T313" x="1781" y="4411" textLength="85" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1781,4411) scale(1,-1) rotate(-0) translate(-1781,-4411)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >B</tspan></text>
+<text id="T314" x="1794" y="4182" textLength="85" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1794,4182) scale(1,-1) rotate(-0) translate(-1794,-4182)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >A</tspan></text>
+<text id="T315" x="1781" y="4067" textLength="85" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1781,4067) scale(1,-1) rotate(-0) translate(-1781,-4067)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >B</tspan></text>
+<text id="T316" x="2015" y="4525" textLength="142" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2015,4525) scale(1,-1) rotate(-0) translate(-2015,-4525)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >36</tspan></text>
+<text id="T317" x="2015" y="4411" textLength="142" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2015,4411) scale(1,-1) rotate(-0) translate(-2015,-4411)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >37</tspan></text>
+<text id="T318" x="2015" y="4182" textLength="142" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2015,4182) scale(1,-1) rotate(-0) translate(-2015,-4182)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >33</tspan></text>
+<text id="T319" x="2015" y="4067" textLength="142" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2015,4067) scale(1,-1) rotate(-0) translate(-2015,-4067)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >34</tspan></text>
+<text id="T320" x="2473" y="4525" textLength="554" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2473,4525) scale(1,-1) rotate(-0) translate(-2473,-4525)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >2006B-24</tspan></text>
+<text id="T321" x="2473" y="4411" textLength="588" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2473,4411) scale(1,-1) rotate(-0) translate(-2473,-4411)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >2006W-24</tspan></text>
+<text id="T322" x="2473" y="4182" textLength="554" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2473,4182) scale(1,-1) rotate(-0) translate(-2473,-4182)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >2005B-24</tspan></text>
+<text id="T323" x="2473" y="4067" textLength="588" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2473,4067) scale(1,-1) rotate(-0) translate(-2473,-4067)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >2005W-24</tspan></text>
+<text id="T324" x="4191" y="4525" textLength="142" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4191,4525) scale(1,-1) rotate(-0) translate(-4191,-4525)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >30</tspan></text>
+<text id="T325" x="4191" y="4411" textLength="142" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4191,4411) scale(1,-1) rotate(-0) translate(-4191,-4411)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >29</tspan></text>
+<text id="T326" x="4191" y="4182" textLength="142" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4191,4182) scale(1,-1) rotate(-0) translate(-4191,-4182)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >28</tspan></text>
+<text id="T327" x="4191" y="4010" textLength="142" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4191,4010) scale(1,-1) rotate(-0) translate(-4191,-4010)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >27</tspan></text>
+<text id="T328" x="4024" y="3781" textLength="64" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4024,3781) scale(1,-1) rotate(-0) translate(-4024,-3781)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >J</tspan></text>
+<text id="T329" x="4302" y="3781" textLength="418" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4302,3781) scale(1,-1) rotate(-0) translate(-4302,-3781)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >D9XXP</tspan></text>
+<text id="T330" x="2068" y="3781" textLength="724" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(2068,3781) scale(1,-1) rotate(-0) translate(-2068,-3781)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >DM23443XX</tspan></text>
+<text id="T331" x="120" y="3609" textLength="461" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(120,3609) scale(1,-1) rotate(-0) translate(-120,-3609)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >M23443</tspan></text>
+<text id="T332" x="640" y="3609" textLength="1248" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(640,3609) scale(1,-1) rotate(-0) translate(-640,-3609)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >CABIN FILE SERVER</tspan></text>
+<text id="T333" x="5" y="3322" textLength="227" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5,3322) scale(1,-1) rotate(-0) translate(-5,-3322)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >E15</tspan></text>
+<text id="T334" x="525" y="3322" textLength="410" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(525,3322) scale(1,-1) rotate(-0) translate(-525,-3322)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >SHELF</tspan></text>
+<text id="T335" x="3564" y="4754" textLength="488" igTextHeight="111" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(3564,4754) scale(1,-1) rotate(-0) translate(-3564,-4754)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="111"  >W1500</tspan></text>
+<text id="T336" x="4257" y="4869" textLength="455" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4257,4869) scale(1,-1) rotate(-0) translate(-4257,-4869)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >AP0465</tspan></text>
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="1741,4439 1713,4439 1704,4441 1696,4445 1689,4451 1686,4459 1684,4468 1684,4496 1682,4505 1679,4513 1672,4520 1664,4523 1655,4525 1627,4525 "  />
+<text id="T337" x="4604" y="4525" textLength="446" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4604,4525) scale(1,-1) rotate(-0) translate(-4604,-4525)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >W6251-</tspan></text>
+<text id="T338" x="4604" y="4067" textLength="446" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4604,4067) scale(1,-1) rotate(-0) translate(-4604,-4067)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >W6251-</tspan></text>
+<text id="T339" x="5124" y="4525" textLength="554" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5124,4525) scale(1,-1) rotate(-0) translate(-5124,-4525)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >2043B-24</tspan></text>
+<text id="T340" x="5074" y="4411" textLength="588" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5074,4411) scale(1,-1) rotate(-0) translate(-5074,-4411)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >2043W-24</tspan></text>
+<text id="T341" x="5124" y="4182" textLength="554" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5124,4182) scale(1,-1) rotate(-0) translate(-5124,-4182)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >2042B-24</tspan></text>
+<text id="T342" x="5094" y="4067" textLength="588" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5094,4067) scale(1,-1) rotate(-0) translate(-5094,-4067)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >2042W-24</tspan></text>
+<polyline stroke-width="12" stroke="rgb(0,0,0)" fill="none"  points="1964,3895 2085,3895 2111,3898 2135,3907 2156,3920 2174,3938 2188,3960 2197,3984 2199,4010 2199,4723 2108,4723 2108,4677 2062,4768 2062,4723 1964,4723 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9641,5728 9760,5728 9760,5819 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9187,5819 9187,5728 9308,5728 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="8672,4444 8672,4262 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="8677,4268 8667,4267 8663,4266 8658,4264 8654,4260 8650,4257 8647,4253 8645,4249 8644,4243 8643,4239 8643,4124 8644,4119 8645,4114 8647,4110 8650,4106 8654,4102 8658,4099 8663,4097 8667,4096 8672,4096 8677,4096 8682,4097 8686,4099 8691,4102 8694,4106 8697,4110 8699,4114 8700,4119 8701,4124 8701,4239 8700,4243 8699,4249 8697,4253 8694,4257 8691,4260 8686,4264 8682,4266 8677,4267 8667,4268 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="8677,4612 8667,4611 8663,4609 8658,4607 8654,4604 8650,4601 8647,4597 8645,4592 8644,4587 8643,4582 8643,4468 8644,4463 8645,4458 8647,4453 8650,4450 8654,4446 8658,4443 8663,4441 8667,4440 8672,4439 8677,4440 8682,4441 8686,4443 8691,4446 8694,4450 8697,4453 8699,4458 8700,4463 8701,4468 8701,4582 8700,4587 8699,4592 8697,4597 8694,4601 8691,4604 8686,4607 8682,4609 8677,4611 8667,4612 "  />
+<text id="T343" x="5676" y="11" textLength="1551" igTextHeight="92" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(5676,11) scale(1,-1) rotate(-0) translate(-5676,-11)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="92"  >MANUAL NO: D280W501S</tspan></text>
+<text id="T344" x="7564" y="756" textLength="796" igTextHeight="143" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(7564,756) scale(1,-1) rotate(-0) translate(-7564,-756)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="143"  >23-18-11</tspan></text>
+<text id="T345" x="7641" y="584" textLength="611" igTextHeight="103" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(7641,584) scale(1,-1) rotate(-0) translate(-7641,-584)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="103"  >   PAGE 1A</tspan></text>
+<text id="T346" x="7584" y="412" textLength="595" igTextHeight="103" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(7584,412) scale(1,-1) rotate(-0) translate(-7584,-412)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="103"  >   SHEET  1</tspan></text>
+<text id="T347" x="7579" y="241" textLength="909" igTextHeight="103" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(7579,241) scale(1,-1) rotate(-0) translate(-7579,-241)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="103"  >AUG 11/1996</tspan></text>
+<text id="T348" x="4057" y="687" textLength="3241" igTextHeight="115" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(4057,687) scale(1,-1) rotate(-0) translate(-4057,-687)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="115"  >CABIN TELECOMMUNICATIONS CONTROL</tspan></text>
+<text id="T349" x="1" y="0" textLength="1548" igTextHeight="115" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1,0) scale(1,-1) rotate(-0) translate(-1,-0)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="115"  >PROJECTS: 2-XXXX.</tspan></text>
+<text id="T350" x="1057" y="515" textLength="2092" igTextHeight="143" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(1057,515) scale(1,-1) rotate(-0) translate(-1057,-515)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="143"  >PLOTTED AT SCALE 1</tspan></text>
+<text id="T351" x="15297" y="756" textLength="792" igTextHeight="143" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(15297,756) scale(1,-1) rotate(-0) translate(-15297,-756)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="143"  >23-18-11</tspan></text>
+<text id="T352" x="15374" y="584" textLength="611" igTextHeight="103" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(15374,584) scale(1,-1) rotate(-0) translate(-15374,-584)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="103"  >   PAGE 1A</tspan></text>
+<text id="T353" x="15317" y="412" textLength="595" igTextHeight="103" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(15317,412) scale(1,-1) rotate(-0) translate(-15317,-412)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="103"  >   SHEET  1</tspan></text>
+<text id="T354" x="15312" y="241" textLength="909" igTextHeight="103" lengthAdjust="spacingAndGlyphs" text-anchor="start" transform="translate(15312,241) scale(1,-1) rotate(-0) translate(-15312,-241)"  ><tspan  font-family="helvetica" fill="rgb(0,0,0)"  font-size="103"  >AUG 11/1996</tspan></text>
+<path stroke-width="10" stroke="rgb(0,0,0)"  fill="none"  d="M 9016,4606 a43,43  0  1,1 -2,4"  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9055,4583 8840,4583 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="8926,4625 9012,4625 "  />
+<path stroke-width="10" stroke="rgb(0,0,0)"  fill="none"  d="M 9016,4492 a43,43  0  1,1 -2,4"  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9055,4468 8840,4468 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="8926,4511 9012,4511 "  />
+<path stroke-width="10" stroke="rgb(0,0,0)"  fill="none"  d="M 9016,4263 a43,43  0  1,1 -2,4"  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9055,4239 8840,4239 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="8926,4282 9012,4282 "  />
+<path stroke-width="10" stroke="rgb(0,0,0)"  fill="none"  d="M 9016,4148 a43,43  0  1,1 -2,4"  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9055,4124 8840,4124 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="8926,4167 9012,4167 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="8672,4010 8844,4010 "  />
+<path stroke-width="10" stroke="rgb(0,0,0)"  fill="none"  d="M 9016,4034 a43,43  0  1,1 -2,4"  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="9055,4010 8840,4010 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="8926,4053 9012,4053 "  />
+<polyline stroke-width="10" stroke="rgb(0,0,0)" fill="none"  points="8672,4101 8672,4010 "  />
+
+</g>  <!-- end of graphics/artwork layer -->
+
+<script type="text/ecmascript"><![CDATA[
+// diagram specific initialization
+function diagramOnLoad(evt) {
+  var errMsg="";
+  if ( window['coreOnLoad'] != undefined ) {
+	coreOnLoad(evt); // call the core initialization
+  }
+  else {
+	errMsg = errMsg + "You need the [BIGcore] and related IG support code for IG functionality.\n";
+  }
+
+	// Resize CGM Restricted Text; Supports scaling to fill y-dimension beyond font-size due to text rendering.
+	if ( window['resizeRestrictedTexts'] != undefined ) { resizeRestrictedTexts( "T1","T2","T3","T4","T5","T6","T7","T8","T9","T10","T11","T12","T13","T14","T15","T16","T17","T18","T19","T20","T21","T22","T23","T24","T25","T26","T27","T28","T29","T30","T31","T32","T33","T34","T35","T36","T37","T38","T39","T40","T41","T42","T43","T44","T45","T46","T47","T48","T49","T50","T51","T52","T53","T54","T55","T56","T57","T58","T59","T60","T61","T62","T63","T64","T65","T66","T67","T68","T69","T70","T71","T72","T73","T74","T75","T76","T77","T78","T79","T80","T81","T82","T83","T84","T85","T86","T87","T88","T89","T90","T91","T92","T93","T94","T95","T96","T97","T98","T99","T100","T101","T102","T103","T104","T105","T106","T107","T108","T109","T110","T111","T112","T113","T114","T115","T116","T117","T118","T119","T120","T121","T122","T123","T124","T125","T126","T127","T128","T129","T130","T131","T132","T133","T134","T135","T136","T137","T138","T139","T140","T141","T142","T143","T144","T145","T146","T147","T148","T149","T150","T151","T152","T153","T154","T155","T156","T157","T158","T159","T160","T161","T162","T163","T164","T165","T166","T167","T168","T169","T170","T171","T172","T173","T174","T175","T176","T177","T178","T179","T180","T181","T182","T183","T184","T185","T186","T187","T188","T189","T190","T191","T192","T193","T194","T195","T196","T197","T198","T199","T200","T201","T202","T203","T204","T205","T206","T207","T208","T209","T210","T211","T212","T213","T214","T215","T216","T217","T218","T219","T220","T221","T222","T223","T224","T225","T226","T227","T228","T229","T230","T231","T232","T233","T234","T235","T236","T237","T238","T239","T240","T241","T242","T243","T244","T245","T246","T247","T248","T249","T250","T251","T252","T253","T254","T255","T256","T257","T258","T259","T260","T261","T262","T263","T264","T265","T266","T267","T268","T269","T270","T271","T272","T273","T274","T275","T276","T277","T278","T279","T280","T281","T282","T283","T284","T285","T286","T287","T288","T289","T290","T291","T292","T293","T294","T295","T296","T297","T298","T299","T300","T301","T302","T303","T304","T305","T306","T307","T308","T309","T310","T311","T312","T313","T314","T315","T316","T317","T318","T319","T320","T321","T322","T323","T324","T325","T326","T327","T328","T329","T330","T331","T332","T333","T334","T335","T336","T337","T338","T339","T340","T341","T342","T343","T344","T345","T346","T347","T348","T349","T350","T351","T352","T353","T354"); } // resize the restricted text items
+	if (errMsg.length>0) { alert(errMsg); }
+}
+]]></script>
+</svg>
