@@ -269,7 +269,7 @@
     </g>
    </g>
   <path fill="none" fill-opacity="0" stroke="#000" stroke-opacity=".25" dojoGfxStrokeStyle="solid" d="m0 0v112"/>
-  <text fill-opacity=".6" x="56" y="-44.03" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" fill-rule="evenodd" font-size="14" font-family="Arial" transform="matrix(0-1 1 0 0 112)">Megabytes per…
+  <text fill-opacity=".6" x="56" y="-44.03" text-anchor="middle" rotate="0" kerning="0" text-rendering="auto" fill-rule="evenodd" font-size="14" font-family="Arial" transform="matrix(0-1 1 0 0 112)">Megabytes per ??
    </text>
   <g fill="none" fill-opacity="0">
    <path dojoGfxStrokeStyle="solid" d="m0 112h-5.333"/>
