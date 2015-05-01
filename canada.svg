@@ -27,20 +27,20 @@
   <linearGradient id="13" gradientUnits="userSpaceOnUse" x1="501.42" x2="528.84" xlink:href="#5"/>
   <linearGradient id="14" gradientUnits="userSpaceOnUse" x1="467.5" x2="516.48" xlink:href="#5"/>
   <linearGradient id="0" gradientUnits="userSpaceOnUse" x1="481.19" x2="490.96">
-   <stop stop-color="#9fbee5"/>
+   <stop offset="0" stop-color="#9fbee5"/>
    </linearGradient>
   <linearGradient id="15" gradientUnits="userSpaceOnUse" x1="2.5" x2="22.5" xlink:href="#2"/>
   <linearGradient id="16" gradientUnits="userSpaceOnUse" x1="2.5" x2="22.5">
-   <stop stop-color="#e56c1b"/>
+   <stop offset="0" stop-color="#e56c1b"/>
    </linearGradient>
   <linearGradient id="19" gradientUnits="userSpaceOnUse" x1="2.5" x2="22.5">
-   <stop stop-color="#9dbde5"/>
+   <stop offset="0" stop-color="#9dbde5"/>
    </linearGradient>
   <linearGradient id="17" gradientUnits="userSpaceOnUse" x1="2.5" x2="22.5">
-   <stop stop-color="#e5d39c"/>
+   <stop offset="0" stop-color="#e5d39c"/>
    </linearGradient>
   <linearGradient id="18" gradientUnits="userSpaceOnUse" x1="2.5" x2="22.5">
-   <stop stop-color="#d8e5e5"/>
+   <stop offset="0" stop-color="#d8e5e5"/>
    </linearGradient>
   <linearGradient id="12" gradientUnits="userSpaceOnUse" x1="492.81" x2="498.75" xlink:href="#5"/>
   <linearGradient id="u" gradientUnits="userSpaceOnUse" x1="244.78" x2="275.35" xlink:href="#5"/>
@@ -62,17 +62,17 @@
   <linearGradient id="F" gradientUnits="userSpaceOnUse" x1="417.1" x2="420.97" xlink:href="#5"/>
   <linearGradient id="9" gradientUnits="userSpaceOnUse" x1="220.15" x2="222.04" xlink:href="#5"/>
   <linearGradient id="1" gradientUnits="userSpaceOnUse" x1="329.42" x2="382.12">
-   <stop stop-color="#a1c0e5"/>
+   <stop offset="0" stop-color="#a1c0e5"/>
    </linearGradient>
   <linearGradient id="2" gradientUnits="userSpaceOnUse" x1="439.63" x2="482.24">
-   <stop stop-color="#e51919"/>
+   <stop offset="0" stop-color="#e51919"/>
    </linearGradient>
   <linearGradient id="8" gradientUnits="userSpaceOnUse" x1="205.97" x2="209.65" xlink:href="#5"/>
   <linearGradient id="3" gradientUnits="userSpaceOnUse" x1="480.82" x2="491.68" xlink:href="#2"/>
   <linearGradient id="4" gradientUnits="userSpaceOnUse" x1="419.88" x2="510.75" xlink:href="#2"/>
   <linearGradient id="7" gradientUnits="userSpaceOnUse" x1="222.73" x2="243.49" xlink:href="#5"/>
   <linearGradient id="5" gradientUnits="userSpaceOnUse" x1="297.12" x2="332.01">
-   <stop stop-color="#fff"/>
+   <stop offset="0" stop-color="#fff"/>
    </linearGradient>
   <linearGradient id="6" gradientUnits="userSpaceOnUse" x1="256.73" x2="297.12" xlink:href="#5"/>
   <linearGradient id="H" gradientUnits="userSpaceOnUse" x1="424.69" x2="427.64" xlink:href="#5"/>

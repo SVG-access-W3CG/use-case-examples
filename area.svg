@@ -4,7 +4,7 @@
    <path d="m0 0h365v353h-365z"/>
    </clipPath>
   <linearGradient id="0" gradientUnits="userSpaceOnUse" y1="39.22" x2="0" y2="353">
-   <stop stop-color="#125994" stop-opacity="0"/>
+   <stop offset="0" stop-color="#125994" stop-opacity="0"/>
    <stop offset="1" stop-color="#fff" stop-opacity=".99"/>
    </linearGradient>
   </defs>
