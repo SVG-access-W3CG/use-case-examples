@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 480">
+<title>Airline Graphic</title>
+<desc>A circular graph I don't actually understand from visual inspection. There is a circle with months marked on radial lines dividing it into segments, and on each line there are two aeroplanes: a red one, and a blue one, which according to a key represent 1998 and 2008. Presumably the distance from the centre is significant, but of what isn't clear from the graph.</desc>
  <defs>
   <clipPath id="2">
    <path d="m0 0h61v55h-61z"/>
