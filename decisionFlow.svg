@@ -107,34 +107,34 @@
   <linearGradient id="2" gradientUnits="userSpaceOnUse" y1="172" x2="0" y2="292.11" xlink:href="#0"/>
   <linearGradient id="1" gradientUnits="userSpaceOnUse" y1="56" x2="0" y2="116" xlink:href="#0"/>
   <linearGradient id="3" gradientUnits="userSpaceOnUse" y1="345" x2="0" y2="411">
-   <stop stop-color="#fcf8f4"/>
+   <stop offset="0" stop-color="#fcf8f4"/>
    <stop offset="1" stop-color="#f5ede1"/>
    </linearGradient>
   <linearGradient id="A" gradientUnits="userSpaceOnUse" y1="480" x2="0" y2="540">
-   <stop stop-color="#fafdfd"/>
+   <stop offset="0" stop-color="#fafdfd"/>
    <stop offset="1" stop-color="#f5fafb"/>
    </linearGradient>
   <linearGradient id="F" gradientUnits="userSpaceOnUse" y1="3.5" x2="0" y2="23.5">
-   <stop stop-color="#ffba75"/>
+   <stop offset="0" stop-color="#ffba75"/>
    <stop offset="1" stop-color="#fa9a50"/>
    </linearGradient>
   <linearGradient id="E" gradientUnits="userSpaceOnUse" y1="3.5" x2="0" y2="23.5">
-   <stop stop-color="#afd972"/>
+   <stop offset="0" stop-color="#afd972"/>
    <stop offset="1" stop-color="#82ba56"/>
    </linearGradient>
   <linearGradient id="8" gradientUnits="userSpaceOnUse" y1="596" x2="0" y2="656" xlink:href="#0"/>
   <linearGradient id="D" gradientUnits="userSpaceOnUse" y1="3.5" x2="0" y2="23.5">
-   <stop stop-color="#f59699"/>
+   <stop offset="0" stop-color="#f59699"/>
    <stop offset="1" stop-color="#e6656f"/>
    </linearGradient>
   <linearGradient id="C" gradientUnits="userSpaceOnUse" y1="3.5" x2="0" y2="23.5">
-   <stop stop-color="#f9e149"/>
+   <stop offset="0" stop-color="#f9e149"/>
    <stop offset="1" stop-color="#ffba75"/>
    </linearGradient>
   <linearGradient id="9" gradientUnits="userSpaceOnUse" y1="480" x2="0" y2="540" xlink:href="#0"/>
   <linearGradient id="B" gradientUnits="userSpaceOnUse" y1="56" x2="0" y2="116" xlink:href="#A"/>
   <linearGradient id="0" gradientUnits="userSpaceOnUse" y1="40" x2="0" y2="132">
-   <stop stop-color="#f2fdfd"/>
+   <stop offset="0" stop-color="#f2fdfd"/>
    <stop offset="1" stop-color="#cef4fa"/>
    </linearGradient>
   </defs>
