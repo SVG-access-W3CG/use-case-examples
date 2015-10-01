@@ -15,9 +15,10 @@
  <g id="Hintergrund" >
   <g id="Gruppe1">
 
-   <g id="InitialKetone" tabindex="0" aria-labelledby="InitialKetoneLabel">
+   <g id="InitialKetone" tabindex="0"
+      aria-describedby="InitialKetoneDesc" aria-labelledby="InitialKetoneLabel">
     <title id="InitialKetoneLabel">The initial ketone</title>
-    <desc>A ketone, consisting of a carbon atom double-bonded to an oxygen atom and singly  bonded to two "terminal groups"</desc>
+    <desc id="InitialKetoneDesc">A ketone, consisting of a carbon atom double-bonded to an oxygen atom and singly  bonded to two "terminal groups"</desc>
 
     <g id="g1-oxygen">
      <title>Oxygen atom double-bonded to the group</title>
