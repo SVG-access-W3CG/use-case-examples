@@ -3,9 +3,11 @@
 <title></title><!-- removes titles except in safari -->
 
  <defs>
+<g id="cf3">
   <path id="c" d="M14.736 5.7119 C14.04 1.8721 11.832 0 7.992 0 C5.64 0 3.744 0.7442 2.448 2.1846 C0.864 3.9121 0 6.4082 0 9.2403 C0 12.1201 0.888 14.5918 2.544 16.2959 C3.888 17.6885 5.616 18.336 7.896 18.336 C12.168 18.336 14.568 16.0322 15.096 11.4004 L12.792 11.4004 C12.6 12.6006 12.36 13.416 12 14.1123 C11.28 15.5518 9.792 16.3682 7.92 16.3682 C4.44 16.3682 2.232 13.584 2.232 9.2158 C2.232 4.7285 4.344 1.9678 7.728 1.9678 C9.144 1.9678 10.464 2.4004 11.184 3.0723 C11.832 3.6719 12.192 4.416 12.456 5.7119 L14.736 5.7119 Z"/>
   <path id="f" d="M2.232 9.5283 L10.584 9.5283 L10.584 7.5606 L2.232 7.5606 L2.232 1.9678 L11.736 1.9678 L11.736 0 L0 0 L0 17.4961 L2.232 17.4961 L2.232 9.5283 Z"/>
   <path id="h" d="M11.232 9.5283 L11.232 17.4961 L13.464 17.4961 L13.464 0 L11.232 0 L11.232 7.5606 L2.232 7.5606 L2.232 0 L0 0 L0 17.4961 L2.256 17.4961 L2.256 9.5283 L11.232 9.5283 Z"/>
+</g>
   <path id="o" d="M8.4238 0 C3.4082 0 0 3.69628 0 9.16798 C0 14.6406 3.4082 18.336 8.4483 18.336 C10.5596 18.336 12.4561 17.6885 13.8721 16.4883 C15.7676 14.8799 16.8955 12.168 16.8955 9.31248 C16.8955 3.67188 13.5596 0 8.4238 0 Z M8.4238 1.96778 C12.2158 1.96778 14.6641 4.84868 14.6641 9.26468 C14.6641 13.4883 12.1436 16.3682 8.4483 16.3682 C4.7275 16.3682 2.2315 13.4883 2.2315 9.16798 C2.2315 4.84868 4.7275 1.96778 8.4238 1.96778 Z"/>
   <path id="r" d="M2.23145 9.96 L7.99118 9.96 C9.98338 9.96 10.8711 10.9199 10.8711 13.0801 L10.8477 14.6397 C10.8477 15.7197 11.0401 16.7764 11.3516 17.4961 L14.0635 17.4961 L14.0635 16.9443 C13.2237 16.3682 13.0557 15.7441 13.0078 13.416 C12.9834 10.5361 12.5274 9.6719 10.6319 8.8565 C12.5996 7.8965 13.3916 6.6719 13.3916 4.6797 C13.3916 1.6563 11.4951 0 8.06348 0 L0 0 L0 17.4961 L2.23145 17.4961 L2.23145 9.96 Z M2.23145 7.9922 L2.23145 1.9678 L7.63188 1.9678 C8.87988 1.9678 9.59958 2.1602 10.1514 2.6406 C10.752 3.1445 11.0635 3.9365 11.0635 4.9922 C11.0635 7.0557 10.0078 7.9922 7.63188 7.9922 L2.23145 7.9922 Z"/>
   <path id="1" d="M2.8262 3.6719 L2.8262 12.7617 L4.4102 12.7617 L4.4102 0 L3.3662 0 C2.8077 1.9619 2.4483 2.2314 0 2.5381 L0 3.6719 L2.8262 3.6719 Z"/>
@@ -139,6 +141,8 @@
    <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M17 4.3496 L0 0 C0 0 2.15 2.4492 2.15 4.3496 C2.15 6.25 0 8.6494 0 8.6494 L17 4.3496 " transform="translate(811.25, 46.9004)" />
 
     <g><title>Stuff thrown out in second phase transform?</title>
+   <path d="M16.98 0 L0 0 L0 2.1602 L16.98 2.1602 L16.98 0 Z" transform="translate(682.35, 83.6396)" />
+
    <use xlink:href="#o" transform="translate(731, 64)" />
 
    <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M1.7 29.4498 L0 29.4498 L0 0 L1.7 0 L1.7 29.4498 Z" transform="translate(741.65, 84.2002)" />
@@ -151,8 +155,9 @@
 
    <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M0.85 16.3 L0 14.85 L25.7 0 L25.7 1.95 L0.85 16.3 Z" transform="translate(713.8, 111)" />
 
-   <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M12.1 6.05 C12.1 9.391 9.391 12.1 6.05 12.1 C2.709 12.1 0 9.391 0 6.05 C0 2.709 2.709 0 6.05 0 C9.391 0 12.1 2.709 12.1 6.05 Z" transform="translate(703, 110)" />
-<!-- minus -->   <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M0 0 L6.05 0 " transform="translate(706.05, 116.05)" />
+<g><!-- minus --><title>negative charge</title>
+   <circle r="6" style="stroke:#000;stroke-width:1.3;fill:none" cx="709" cy="116"/>
+  <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M0 0 L6.05 0 " transform="translate(706.05, 116.05)" /> </g>
     </g>
 
 
@@ -168,17 +173,28 @@
    <use xlink:href="#r" transform="translate(955, 54)" />
    <use xlink:href="#2" transform="translate(971, 50)" />
    <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M14.05 0 L14.9 1.5 L0.85 9.5996 L0 8.0996 L14.05 0 Z" transform="translate(936.9, 67.9004)" />
-   <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M12 6 C12 9.3135 9.313 12 6 12 C2.687 12 0 9.3135 0 6 C0 2.6865 2.687 0 6 0 C9.313 0 12 2.6865 12 6 Z" transform="translate(888.25, 66.5)" />
-   <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M0 0 L6 0 " transform="translate(891.25, 72.5)" />
-   <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M0 0 L0 6 " transform="translate(894.25, 69.5)" />
-   <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M84.25 0 L0 0 " transform="translate(999, 52)" />
+
+<g><title>positive charge</title>
+   <circle r="6" style="stroke:#000;stroke-width:1.3;fill:none" cx="894" cy="72"/>
+   <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M0 0 L6 0 " transform="translate(891, 72)" />
+   <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M0 0 L0 6 " transform="translate(894, 69)" /> </g>
+
+
+   <!--path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M84.25 0 L0 0 " transform="translate(999, 52)" /-->
+       <path style="stroke:#000; stroke-width:1.35" d="M1000 52 h85" />
+
    <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M17 4.3496 L0 0 C0 0 2.15 2.4492 2.15 4.3496 C2.15 6.25 0 8.6494 0 8.6494 L17 4.3496 " transform="translate(1081.05, 47.6504)" />
-   <path style="fill:#161413; fill-rule:evenodd;stroke:none;" d="M16.98 0 L0 0 L0 2.1602 L16.98 2.1602 L16.98 0 Z" transform="translate(682.35, 83.6396)" />
-   <path style="fill:#161413; fill-rule:evenodd;stroke:none;" d="M17.09 0 L0 0 L0 2.1749 L17.09 2.1749 L17.09 0 Z" transform="translate(1012.6, 75.3271)" />
-   <use xlink:href="#h" transform="translate(1038.49, 69.7539)" />
-   <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M12.1 6.0498 C12.1 9.3906 9.39 12.0996 6.05 12.0996 C2.71 12.0996 0 9.3906 0 6.0498 C0 2.709 2.71 0 6.05 0 C9.39 0 12.1 2.709 12.1 6.0498 Z" transform="translate(1055.25, 62.5)" />
-   <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M0 0 L6.05 0 " transform="translate(1058.3, 68.5498)" />
-   <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M0 0 L0 6.0498 " transform="translate(1061.3, 65.5498)" />
+
+   <g><title>Byproduct: positively charged hydrogen ions</title>
+     <path style="stroke:#000; stroke-width:2" d="M1012 77 h17" />
+     <use xlink:href="#h" transform="translate(1038.49, 69.7539)" />
+
+     <g><title>positive charge</title>
+       <circle r="6" style="stroke:#000;stroke-width:1.3;fill:none" cx="1061" cy="68"/>
+       <path style="stroke:#000; stroke-width:1.35" d="M1058 68 h6" />
+       <path style="stroke:#000; stroke-width:1.35" d="M1061 65 v6" /> </g>
+   </g>
+
    <use xlink:href="#o" transform="translate(1156, 12)" />
    <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M1.7 29.4502 L0 29.4502 L0 0 L1.7 0 L1.7 29.4502 Z" transform="translate(1166.9, 32.4502)" />
    <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M1.7 29.4502 L0 29.4502 L0 0 L1.7 0 L1.7 29.4502 Z" transform="translate(1160.9, 32.4502)" />
