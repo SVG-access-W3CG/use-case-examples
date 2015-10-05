@@ -3,27 +3,21 @@
 <title></title><!-- removes titles except in safari -->
 
  <defs>
-<g id="cf3">
   <path id="c" d="M14.736 5.7119 C14.04 1.8721 11.832 0 7.992 0 C5.64 0 3.744 0.7442 2.448 2.1846 C0.864 3.9121 0 6.4082 0 9.2403 C0 12.1201 0.888 14.5918 2.544 16.2959 C3.888 17.6885 5.616 18.336 7.896 18.336 C12.168 18.336 14.568 16.0322 15.096 11.4004 L12.792 11.4004 C12.6 12.6006 12.36 13.416 12 14.1123 C11.28 15.5518 9.792 16.3682 7.92 16.3682 C4.44 16.3682 2.232 13.584 2.232 9.2158 C2.232 4.7285 4.344 1.9678 7.728 1.9678 C9.144 1.9678 10.464 2.4004 11.184 3.0723 C11.832 3.6719 12.192 4.416 12.456 5.7119 L14.736 5.7119 Z"/>
   <path id="f" d="M2.232 9.5283 L10.584 9.5283 L10.584 7.5606 L2.232 7.5606 L2.232 1.9678 L11.736 1.9678 L11.736 0 L0 0 L0 17.4961 L2.232 17.4961 L2.232 9.5283 Z"/>
-  <path id="h" d="M11.232 9.5283 L11.232 17.4961 L13.464 17.4961 L13.464 0 L11.232 0 L11.232 7.5606 L2.232 7.5606 L2.232 0 L0 0 L0 17.4961 L2.256 17.4961 L2.256 9.5283 L11.232 9.5283 Z"/>
 </g>
   <path id="o" d="M8.4238 0 C3.4082 0 0 3.69628 0 9.16798 C0 14.6406 3.4082 18.336 8.4483 18.336 C10.5596 18.336 12.4561 17.6885 13.8721 16.4883 C15.7676 14.8799 16.8955 12.168 16.8955 9.31248 C16.8955 3.67188 13.5596 0 8.4238 0 Z M8.4238 1.96778 C12.2158 1.96778 14.6641 4.84868 14.6641 9.26468 C14.6641 13.4883 12.1436 16.3682 8.4483 16.3682 C4.7275 16.3682 2.2315 13.4883 2.2315 9.16798 C2.2315 4.84868 4.7275 1.96778 8.4238 1.96778 Z"/>
   <path id="r" d="M2.23145 9.96 L7.99118 9.96 C9.98338 9.96 10.8711 10.9199 10.8711 13.0801 L10.8477 14.6397 C10.8477 15.7197 11.0401 16.7764 11.3516 17.4961 L14.0635 17.4961 L14.0635 16.9443 C13.2237 16.3682 13.0557 15.7441 13.0078 13.416 C12.9834 10.5361 12.5274 9.6719 10.6319 8.8565 C12.5996 7.8965 13.3916 6.6719 13.3916 4.6797 C13.3916 1.6563 11.4951 0 8.06348 0 L0 0 L0 17.4961 L2.23145 17.4961 L2.23145 9.96 Z M2.23145 7.9922 L2.23145 1.9678 L7.63188 1.9678 C8.87988 1.9678 9.59958 2.1602 10.1514 2.6406 C10.752 3.1445 11.0635 3.9365 11.0635 4.9922 C11.0635 7.0557 10.0078 7.9922 7.63188 7.9922 L2.23145 7.9922 Z"/>
   <path id="1" d="M2.8262 3.6719 L2.8262 12.7617 L4.4102 12.7617 L4.4102 0 L3.3662 0 C2.8077 1.9619 2.4483 2.2314 0 2.5381 L0 3.6719 L2.8262 3.6719 Z"/>
   <path id="2" d="M8.4957 11.1953 L1.7813 11.1953 C1.9434 10.1513 2.5195 9.4853 4.0859 8.5674 L5.8857 7.5957 C7.6677 6.624 8.5857 5.3096 8.5857 3.7441 C8.5857 2.6816 8.1537 1.6914 7.3977 1.0078 C6.6417 0.3242 5.7061 0 4.5 0 C2.8799 0 1.6738 0.5762 0.9717 1.6553 C0.5215 2.3398 0.3232 3.1318 0.2881 4.4277 L1.8721 4.4277 C1.9258 3.5635 2.0342 3.042 2.25 2.6279 C2.6641 1.8535 3.4912 1.3857 4.4453 1.3857 C5.8857 1.3857 6.9657 2.4121 6.9657 3.7793 C6.9657 4.7881 6.3721 5.6513 5.2373 6.2998 L3.582 7.2353 C0.918 8.748 0.1436 9.9541 0 12.7617 L8.4957 12.7617 L8.4957 11.1953 Z"/>
-<path id="3" d="M3.402 6.9121 L3.6 6.9121 L4.266 6.8935 C6.012 6.8935 6.912 7.6855 6.912 9.2158 C6.912 10.8174 5.922 11.7715 4.266 11.7715 C2.538 11.7715 1.692 10.9082 1.584 9.0537 L0 9.0537 C0.072 10.0801 0.252 10.7461 0.558 11.3213 C1.206 12.5459 2.466 13.1758 4.212 13.1758 C6.84 13.1758 8.532 11.6094 8.532 9.1972 C8.532 7.5781 7.902 6.6777 6.372 6.1553 C7.56 5.6875 8.154 4.7881 8.154 3.5097 C8.154 1.3135 6.696 0 4.266 0 C1.692 0 0.324 1.4033 0.27 4.1221 L1.854 4.1221 C1.872 3.3476 1.944 2.916 2.142 2.5195 C2.502 1.8174 3.294 1.3857 4.284 1.3857 C5.688 1.3857 6.534 2.2138 6.534 3.5635 C6.534 4.4638 6.21 5.0039 5.508 5.292 C5.076 5.4717 4.518 5.5439 3.402 5.5615 L3.402 6.9121 Z"/>
  </defs>
  <g id="Hintergrund" >
   <g id="Gruppe1">
 
-   <g id="InitialKetone" tabindex="0"
       aria-describedby="InitialKetoneDesc" aria-labelledby="InitialKetoneLabel">
     <title id="InitialKetoneLabel">The initial ketone</title>
     <desc id="InitialKetoneDesc">A ketone, consisting of a carbon atom double-bonded to an oxygen atom and singly  bonded to two "terminal groups"</desc>
 
-    <g id="g1-oxygen">
-     <title>Oxygen atom double-bonded to the group</title>
      <use xlink:href="#o" transform="translate(42, 10)" /> </g>
 
     <g id="g1doubleBond">
@@ -68,21 +62,15 @@
    <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M0 0.8506 L1.45 0 L16.25 25.6006 L14.75 26.4502 L0 0.8506 Z" transform="translate(204.3, 26)" />
    <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M0 0.8506 L1.5 0 L16.25 25.6006 L14.8 26.4502 L0 0.8506 Z" transform="translate(209.45, 23)" />
 
-   <use xlink:href="#c" transform="translate(253, 40)" />
-   <use xlink:href="#f" transform="translate(272, 40)" />
-   <use xlink:href="#3" transform="translate(285, 50)" />
 
    <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M30.3 0 L30.3 1.7002 L0.95 1.7002 L0 0 L30.3 0 Z" transform="translate(221, 48)" />
 
    </g>
 
-   <g><title>Things moving in first intermediate state</title>
-    <g><title>Terminal group 2 moves from the carbon to the attached oxygen atom</title>
    <path style="fill:none;stroke:#e20010; stroke-width:1.7; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M0 7.0498 C6.0996 4.5 12.5996 2.89941 19.2002 2.45019 C52.6 0 81.65 25.1494 84.1 58.5498 " transform="translate(59.25, 1.9502)" />
    <path style="fill:#e20010; fill-rule:nonzero;stroke:none;" d="M3.1 13.75 L6.9 0.2998 C6.9 0.2998 4.9 1.8994 3.4 1.8496 C1.9 1.7998 0 0 0 0 L3.1 13.75 " transform="translate(140, 59)" />
     </g>
    
-    <g><title>The oxygen atom that held the hydroxide group on the reagent breaks off, freeing up something or other (that's a technical term there all right)</title>
    <path style="fill:none;stroke:#e20010; stroke-width:1.7; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M106.35 22.8008 C100.75 27.9504 94.2498 32.1504 87.1998 35.1504 C53.4498 49.5004 14.3496 33.7504 0 0 " transform="translate(53.9502, 74.8496)" />
    <path style="fill:#e20010; fill-rule:nonzero;stroke:none;" d="M0 0 L0.8506 14.0498 C0.8506 14.0498 2.2002 11.7998 3.6504 11.3496 C5.0498 10.8496 7.4502 11.8496 7.4502 11.8496 L0 0 " transform="translate(50.2998, 63.5)" />
      </g>
@@ -99,11 +87,6 @@
 
    <path d="M1.7 29.4492 L0 29.4492 L0 0 L1.7 0 L1.7 29.4492 Z" transform="translate(577.05, 22.4004)" />
 
-   <use xlink:href="#c" transform="translate(607.652, 61.7158)" />
-
-   <use xlink:href="#f" transform="translate(625.91, 62.0039)" />
-
-   <use xlink:href="#3" transform="translate(639.076, 71.2383)" />
 
    <path d="M26.1 15.0498 L25.25 16.5498 L0 1.9492 L0 0 L26.1 15.0498 Z" transform="translate(580.85, 49.1504)" />
 
@@ -147,9 +130,6 @@
 
    <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M1.7 29.4498 L0 29.4498 L0 0 L1.7 0 L1.7 29.4498 Z" transform="translate(741.65, 84.2002)" />
    <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M1.7 29.4498 L0 29.4498 L0 0 L1.7 0 L1.7 29.4498 Z" transform="translate(735.65, 84.2002)" />
-   <use xlink:href="#c" transform="translate(766, 123)" />
-   <use xlink:href="#f" transform="translate(784, 123)" />
-   <use xlink:href="#3" transform="translate(797, 133)" />
    <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M26.1 15.1 L25.25 16.55 L0 1.95 L0 0 L26.1 15.1 Z" transform="translate(739.5, 111)" />
    <use xlink:href="#o" transform="translate(696, 123)" />
 
