@@ -44,23 +44,27 @@
      <line style="stroke:black;stroke-width:2" x1="54" y1="59" x2="54" y2="30"/>
      <line style="stroke:black;stroke-width:2" x1="47" y1="59" x2="47" y2="30"/> </g>
 
-    <g id="g1Carbon" x="51" y="56" aria-labelledby="g1Carbon-label" role="group"
+    <g id="g1Carbon" x="51" y="56" aria-labelledby="g1Carbon-label" role="img"
       aria-flowto="g1doubleBond g1R2singleBond g1R1singleBond">
       <title id="g1Carbon-label">The carbon atom
         bonded to the oxygen in the ketone</title> </g>
 
-    <g id="g1terminal1" aria-flowto="g1R1singleBond">
+    <g id="g1terminal1" aria-flowto="g1R1singleBond" role="img">
      <title>terminal group 1</title>
-     <!-- R --><use xlink:href="#r1" transform="translate(5, 69)" />
-     <!-- 1 ><use xlink:href="#1" transform="translate(21, 65)" /--> </g>
+     <use xlink:href="#r1" transform="translate(5, 69)" />
+     </g>
     
-    <g id="g1R1singleBond" aria-flowto="g1terminal1 g1Carbon" aria-labelledby="g1R1singleBond-label"><title id="g1R1singleBond-label">Single bond to terminal group 1</title>
+    <g id="g1R1singleBond" aria-flowto="g1terminal1 g1Carbon"
+      aria-labelledby="g1R1singleBond-label" role="img">
+     <title id="g1R1singleBond-label">Single bond to terminal group 1</title>
      <line style="stroke:black;stroke-width:2" x1="30" y1="70" x2="51" y2="56"/> </g>
     
-    <g id="g1terminal2" aria-flowto="g1R2singleBond">
+    <g id="g1terminal2" aria-flowto="g1R2singleBond" role="img">
      <use xlink:href="#r2" transform="translate(77, 69)" /> </g>
 
-    <g id="g1R2singleBond" aria-flowto="g1terminal2 g1Carbon" aria-labelledby="g1R2singleBond-label"><title id="g1R2singleBond-label">Single bond to terminal group 2</title>
+    <g id="g1R2singleBond" aria-flowto="g1terminal2 g1Carbon"
+      aria-labelledby="g1R2singleBond-label" role="img">
+     <title id="g1R2singleBond-label">Single bond to terminal group 2</title>
      <line style="stroke:black;stroke-width:2" x1="74" y1="70" x2="51" y2="56"/> </g>
 
    </g>
