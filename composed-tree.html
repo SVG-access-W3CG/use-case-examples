@@ -6,7 +6,7 @@
 <body>
 <h1>SVG test file embedded in HTML:</h1>
 <p> composed-tree </p>
-<svg viewBox="12 2 654 606" width="654" height="606">
+<svg viewBox="12 2 654 606" width="654" height="606"> 
   <title>A composed tree</title>
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:date>2013-07-12 01:16Z</dc:date><!-- Produced by OmniGraffle Professional 5.4.4 -->
@@ -27,16 +27,16 @@
       viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
       <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
     </marker>
-    <g id="plainNode" aria-label="Plain node" role="img"><title>A plain node</title>
+    <g id="plainNode" aria-labelledby="plainNodeLabel" role="img"><title id="plainNodeLabel">A plain node</title>
       <circle r="27" fill="white" filter="url(#Shadow)"/>
       <circle r="27" fill="#084" stroke-width="1" stroke="#000"/>
     </g>
-    <g id="shadowHost">
+    <g id="shadowHost" aria-labelledby="shadowHostLabel" role="img"><title id="shadowHostLabel">A shadow host</title>
       <circle r="27" fill="white" filter="url(#Shadow)"/>
       <circle r="27" fill="#084" stroke="black" stroke-width="1"/>
       <text fill="white" font-family="Helvetica" font-size="12"><tspan x="-20" y="-3">shadow</tspan><tspan x="-10" y="11">host</tspan></text>
     </g>
-    <g id="document">
+    <g id="document" aria-labelledby="documentLabel" role="img"><title id="documentLabel">The document root</title>
       <circle r="27" fill="white" filter="url(#Shadow)"/>
       <circle r="27" fill="#08f" stroke="black" stroke-width="1"/>
       <text fill="white" font-family="Helvetica" font-size="12" font-weight="500" x="-26" y="4">document</text>
