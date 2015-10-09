@@ -36,41 +36,46 @@
       <text fill="white" font-family="Helvetica" font-size="12" font-weight="500" x="-26" y="4">document</text>
     </g>
   </defs>
-  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+  <g>
     <title>Composed Trees</title>
     <g><title>Trees</title>
       <g id="id1424_Graphic">
         <rect x="32" y="18" width="614" height="565" fill="white" stroke="black" stroke-width="1"/>
-        <text transform="translate(37 23)" font-family="Helvetica" font-size="12" y="11">composed tree</text>
+        <text transform="translate(37 34)" font-family="Helvetica" font-size="12">composed tree</text>
       </g>
     </g>
     <g><title>Nodes</title>
       <g>
-        <use xlink:href="#plainNode" x="207" y="545"/>
-        <use xlink:href="#plainNode" x="280" y="545"/>
-        <use xlink:href="#plainNode" x="495" y="433"/>
-        <use xlink:href="#shadowHost" x="567" y="433"/>
-        <use xlink:href="#plainNode" x="351" y="247"/>
-        <use xlink:href="#plainNode" x="207" y="433"/>
-        <use xlink:href="#plainNode" x="278" y="433"/>
         <use xlink:href="#document" x="321" y="63"/>
+
         <use xlink:href="#plainNode" x="279" y="155"/>
         <use xlink:href="#plainNode" x="351" y="155"/>
+
         <use xlink:href="#shadowHost" x="207" y="247"/>
         <use xlink:href="#plainNode" x="279" y="247"/>
+        <use xlink:href="#plainNode" x="351" y="247"/>
         <use xlink:href="#shadowHost" x="423" y="247"/>
-        <use xlink:href="#plainNode" x="423" y="341"/>
-        <use xlink:href="#plainNode" x="495" y="341"/>
-        <use xlink:href="#shadowHost" x="351" y="433"/>
-        <use xlink:href="#plainNode" x="423" y="433"/>
+
         <use xlink:href="#plainNode" x="135" y="341"/>
         <use xlink:href="#plainNode" x="207" y="341"/>
+        <use xlink:href="#plainNode" x="423" y="341"/>
+        <use xlink:href="#plainNode" x="495" y="341"/>
+
         <use xlink:href="#plainNode" x="63" y="433"/>
         <use xlink:href="#plainNode" x="135" y="433"/>
-        <use xlink:href="#plainNode" x="441" y="545"/>
+        <use xlink:href="#plainNode" x="207" y="433"/>
+        <use xlink:href="#plainNode" x="278" y="433"/>
+        <use xlink:href="#shadowHost" x="351" y="433"/>
+        <use xlink:href="#plainNode" x="423" y="433"/>
+        <use xlink:href="#plainNode" x="495" y="433"/>
+        <use xlink:href="#shadowHost" x="567" y="433"/>
+
+        <use xlink:href="#plainNode" x="207" y="545"/>
+        <use xlink:href="#plainNode" x="280" y="545"/>
         <use xlink:href="#plainNode" x="369" y="545"/>
-        <use xlink:href="#plainNode" x="609" y="545"/>
+        <use xlink:href="#plainNode" x="441" y="545"/>
         <use xlink:href="#plainNode" x="537" y="545"/>
+        <use xlink:href="#plainNode" x="609" y="545"/>
       </g>
       <line x1="223" y1="362" x2="255" y2="403" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       <line x1="207" y1="368" x2="207" y2="395" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
