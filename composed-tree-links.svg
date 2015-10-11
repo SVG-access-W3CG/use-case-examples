@@ -71,7 +71,7 @@
           <title id="r2l2-label">second child is third level, node 2</title></a></g>
 
         <g tabindex="0" id="r2n2" transform="translate(351 155)"
-         role="group" aria-labelledby="r2n1-label plainNodeLabel">
+         role="group" aria-labelledby="r2n2-label plainNodeLabel">
           <use xlink:href="#plainNode" />
          <title id="r2n2-label">Second row, node 2</title>
          <a xlink:href="#r3n3" aria-labelledby="r2l3-label">
