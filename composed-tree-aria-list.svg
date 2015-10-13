@@ -48,7 +48,7 @@
       <g>
         <g tabindex="0" id="r1root" transform="translate(321 63)"
           aria-labelledby="documentLabel" role="listitem"
-          aria-owns="r2list1" aria-flowto="r2n1 r2n2" >
+          aria-owns="r2list1">
           <use xlink:href="#document"/>
         <a xlink:href="#r2n1" aria-labelledby="r1l1-label">
          <line x1="-12" y1="25" x2="-27" y2="57" marker-end="url(#FilledArrow_Marker)"
@@ -62,7 +62,7 @@
        <g role="list" id="r2list1">
         <g tabindex="0" id="r2n1" transform="translate(279 155)"
           aria-labelledby="r2n1-label plainNodeLabel" role="listitem"
-          aria-owns="r3list1" aria-flowto="r3n1 r3n2" >
+          aria-owns="r3list1">
          <use id="r2n1" xlink:href="#plainNode"/>
          <title id="r2n1-label">Second row, node 1</title>
          <a xlink:href="#r3n1" aria-labelledby="r2l1-label">
@@ -76,7 +76,7 @@
 
         <g tabindex="0" id="r2n2" transform="translate(351 155)"
          aria-labelledby="r2n2-label plainNodeLabel" role="listitem"
-          aria-owns="r3list2" aria-flowto="r3n3 r3n4" >
+          aria-owns="r3list2">
           <use xlink:href="#plainNode" />
          <title id="r2n2-label">Second row, node 2</title>
          <a xlink:href="#r3n3" aria-labelledby="r2l3-label">
@@ -92,7 +92,7 @@
        <g role="list" id="r3list1">
         <g tabindex="0" id="r3n1" transform="translate(207 247)"
          aria-labelledby="r3n1-label shadowHostLabel" role="listitem"
-          aria-owns="r4n1 r4n2" aria-flowto="r4n1 r4n2" >
+          aria-owns="r4n1 r4n2">
           <use id="r3n1" xlink:href="#shadowHost"/>
           <title id="r3n1-label">Third row, node 1</title>
          <a xlink:href="#r4n1" aria-labelledby="r3l1-label">
@@ -118,7 +118,7 @@
 
         <g tabindex="0" id="r3n4" transform="translate(423 247)"
           aria-labelledby="r3n4-label shadowHostLabel" role="listitem" 
-          aria-owns="r4n3 r4n4" aria-flowto="r4n3 r4n4" >
+          aria-owns="r4n3 r4n4">
           <use xlink:href="#shadowHost"/>
           <title id="r3n4-label">Third row, node 4</title>
           <a xlink:href="#r4n3" aria-labelledby="r3l3-label">
