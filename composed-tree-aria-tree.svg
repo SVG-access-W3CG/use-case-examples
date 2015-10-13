@@ -204,7 +204,7 @@
 
 
         <g tabindex="0" id="r5n5" transform="translate(351 433)" aria-level="5"
-         role="group" aria-labelledby="r5n5-label shadowHostLabel" role="treeitem tree" 
+         aria-labelledby="r5n5-label shadowHostLabel" role="treeitem tree" 
           aria-owns="r6n1 r6n2" aria-flowto="r6n1 r6n2" aria-expanded="true">
         <use xlink:href="#shadowHost"/>
           <title id="r5n5-label">Fifth row, node 5</title>
