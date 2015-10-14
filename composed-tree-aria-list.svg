@@ -236,34 +236,34 @@
           <title id="r5n6-label">Fifth row, node 6</title></g>
        </g>
 
-       <g role="list" id="r5list4">
-        <g tabindex="0" id="r5n7" transform="translate(495 433)"
-          role="listitem img" aria-labelledby="r5n7-label plainNodeLabel">
-          <use xlink:href="#plainNode"/>
-          <title id="r5n7-label">Fifth row, node 7</title></g>
+        <g role="list" id="r5list4">
+          <g tabindex="0" id="r5n7" transform="translate(495 433)"
+            role="listitem img" aria-labelledby="r5n7-label plainNodeLabel">
+            <use xlink:href="#plainNode"/>
+            <title id="r5n7-label">Fifth row, node 7</title></g>
 
-        <g id="r5n8" transform="translate(567 433)" tabindex="0"
-          aria-labelledby="r5n8-label shadowHostLabel"
-          role="listitem" aria-owns="r6list2">
-          <use xlink:href="#shadowHost"/>
-          <title id="r5n8-label">Fifth row, node 8</title>
-          <a xlink:href="#r6n3" aria-labelledby="r5l3-label">
-           <line x1="-24" y1="13" x2="-166" y2="93" marker-end="url(#FilledArrow_Marker)"
-            stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-            <title id="r5l13-label">first child is sixth level, node 3</title></a>
-          <a xlink:href="#r6n4" aria-labelledby="r5l4-label">
-           <line x1="-23" y1="18" x2="-98" y2="93" marker-end="url(#FilledArrow_Marker)"
-            stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-            <title id="r5l4-label">second child is sixth level, node 4</title></a>
-          <a xlink:href="#r6n5" aria-labelledby="r5l5-label">
-           <line x1="9" y1="26" x2="29" y2="77" marker-end="url(#FilledArrow_Marker)"
-            stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-            <title id="r5l5-label">third child is sixth level, node 5</title></a>
-          <a xlink:href="#r6n6" aria-labelledby="r5l6-label">
-           <line x1="-7" y1="26" x2="-20" y2="76" marker-end="url(#FilledArrow_Marker)"
-            stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-            <title id="r5l6-label">fourth child is sixth level, node 6</title></a></g>
-       </g>
+          <g id="r5n8" transform="translate(567 433)" tabindex="0"
+            aria-labelledby="r5n8-label shadowHostLabel"
+            role="listitem" aria-owns="r6list2">
+            <use xlink:href="#shadowHost"/>
+            <title id="r5n8-label">Fifth row, node 8</title>
+            <a xlink:href="#r6n3" aria-labelledby="r5l3-label">
+              <line x1="-24" y1="13" x2="-166" y2="93" marker-end="url(#FilledArrow_Marker)"
+                stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+              <title id="r5l13-label">first child is sixth level, node 3</title></a>
+            <a xlink:href="#r6n4" aria-labelledby="r5l4-label">
+              <line x1="-23" y1="18" x2="-98" y2="93" marker-end="url(#FilledArrow_Marker)"
+                stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+              <title id="r5l4-label">second child is sixth level, node 4</title></a>
+            <a xlink:href="#r6n5" aria-labelledby="r5l5-label">
+              <line x1="9" y1="26" x2="29" y2="77" marker-end="url(#FilledArrow_Marker)"
+                stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+              <title id="r5l5-label">third child is sixth level, node 5</title></a>
+            <a xlink:href="#r6n6" aria-labelledby="r5l6-label">
+              <line x1="-7" y1="26" x2="-20" y2="76" marker-end="url(#FilledArrow_Marker)"
+                stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+              <title id="r5l6-label">fourth child is sixth level, node 6</title></a></g>
+        </g>
 
         <g role="list" id="r6list1">
           <g tabindex="0" id="r6n1" transform="translate(207 545)"
