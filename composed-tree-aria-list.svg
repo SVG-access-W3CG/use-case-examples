@@ -131,7 +131,7 @@
             <title id="r3l4-label">second child is fourth level, node 4</title></a></g>
        </g>
 
-       <g role="list" id=r4list1">
+       <g role="list" id="r4list1">
         <g tabindex="0" id="r4n1" transform="translate(135 341)"
          aria-labelledby="r4n1-label plainNodeLabel" role="listitem" 
           aria-owns="r5list1">
@@ -161,7 +161,7 @@
           <title id="r4l4-label">second child is fifth level, node 4</title></a></g>
        </g>
 
-       <g role="list" id=r4list2">
+       <g role="list" id="r4list2">
         <g tabindex="0" id="r4n3" transform="translate(423 341)"
          aria-labelledby="r4n3-label plainNodeLabel" role="listitem" 
           aria-owns="r5list3">
@@ -191,7 +191,7 @@
            <title id="r4l8-label">second child is fifth level, node 8</title></a></g>
        </g>
 
-       <g role="list" id=r5list1">
+       <g role="list" id="r5list1">
         <g tabindex="0" id="r5n1" transform="translate(63 433)"
          role="img listitem" aria-labelledby="r5n1-label plainNodeLabel">
         <use xlink:href="#plainNode"/>
@@ -203,7 +203,7 @@
           <title id="r5n2-label">Fifth row, node 2</title></g>
        </g>
 
-       <g role="list" id=r5list2">
+       <g role="list" id="r5list2">
         <g tabindex="0" id="r5n3" transform="translate(207 433)"
          role="img listitem" aria-labelledby="r5n3-label plainNodeLabel">
         <use xlink:href="#plainNode"/>
@@ -215,7 +215,7 @@
           <title id="r5n4-label">Fifth row, node 4</title></g>
        </g>
 
-       <g role="list" id=r5list3">
+       <g role="list" id="r5list3">
         <g tabindex="0" id="r5n5" transform="translate(351 433)"
          aria-labelledby="r5n5-label shadowHostLabel" role="listitem" 
           aria-owns="r6list1">
@@ -236,7 +236,7 @@
           <title id="r5n6-label">Fifth row, node 6</title></g>
        </g>
 
-       <g role="list" id=r5list4">
+       <g role="list" id="r5list4">
         <g tabindex="0" id="r5n7" transform="translate(495 433)"
           role="img listitem" aria-labelledby="r5n7-label plainNodeLabel">
           <use xlink:href="#plainNode"/>
