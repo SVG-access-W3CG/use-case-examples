@@ -193,12 +193,12 @@
 
        <g role="list" id="r5list1">
         <g tabindex="0" id="r5n1" transform="translate(63 433)"
-         role="listitem img" aria-labelledby="r5n1-label plainNodeLabel">
+         role="listitem" aria-labelledby="r5n1-label plainNodeLabel">
         <use xlink:href="#plainNode"/>
           <title id="r5n1-label">Fifth row, node 1</title></g>
 
         <g tabindex="0" id="r5n2" transform="translate(135 433)"
-         role="listitem img" aria-labelledby="r5n2-label plainNodeLabel">
+         role="listitem" aria-labelledby="r5n2-label plainNodeLabel">
         <use xlink:href="#plainNode"/>
           <title id="r5n2-label">Fifth row, node 2</title></g>
        </g>
@@ -231,7 +231,7 @@
           <title id="r5l2-label">second child is sixth level, node 2</title></a></g>
 
         <g tabindex="0" id="r5n6" transform="translate(423 433)"
-          role="listitem img" aria-labelledby="r5n6-label plainNodeLabel">
+          role="listitem" aria-labelledby="r5n6-label plainNodeLabel">
           <use xlink:href="#plainNode"/>
           <title id="r5n6-label">Fifth row, node 6</title></g>
        </g>
@@ -267,12 +267,12 @@
 
         <g role="list" id="r6list1">
           <g tabindex="0" id="r6n1" transform="translate(207 545)"
-           role="listitem img" aria-labelledby="r6n1-label plainNodeLabel">
+           role="listitem" aria-labelledby="r6n1-label plainNodeLabel">
           <use xlink:href="#plainNode"/>
             <title id="r6n1-label">Sixth row, node 1</title></g>
 
           <g tabindex="0" id="r6n2" transform="translate(280 545)"
-           role="listitem img" aria-labelledby="r6n2-label plainNodeLabel">
+           role="listitem" aria-labelledby="r6n2-label plainNodeLabel">
           <use xlink:href="#plainNode"/>
             <title id="r6n2-label">Sixth row, node 2</title></g>
         </g>
