@@ -21,7 +21,7 @@
       viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
       <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
     </marker>
-    <g id="plainNode" aria-labelledby="plainNodeLabel" role="img">
+    <g id="plainNode" aria-labelledby="plainNodeLabel">
       <title id="plainNodeLabel">A plain node</title>
       <circle r="27" fill="white" filter="url(#Shadow)"/>
       <circle r="27" fill="#084" stroke-width="1" stroke="#000"/>
