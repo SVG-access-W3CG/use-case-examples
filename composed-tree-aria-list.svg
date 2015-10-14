@@ -45,7 +45,7 @@
       </g>
     </g>
     <g><title>Nodes</title>
-      <g>
+      <g role="list">
         <g tabindex="0" id="r1root" transform="translate(321 63)"
           aria-labelledby="documentLabel" role="listitem"
           aria-owns="r2list1">
@@ -92,7 +92,7 @@
        <g role="list" id="r3list1">
         <g tabindex="0" id="r3n1" transform="translate(207 247)"
          aria-labelledby="r3n1-label shadowHostLabel" role="listitem"
-          aria-owns="r4n1 r4n2">
+          aria-owns="r4list1">
           <use id="r3n1" xlink:href="#shadowHost"/>
           <title id="r3n1-label">Third row, node 1</title>
          <a xlink:href="#r4n1" aria-labelledby="r3l1-label">
@@ -118,7 +118,7 @@
 
         <g tabindex="0" id="r3n4" transform="translate(423 247)"
           aria-labelledby="r3n4-label shadowHostLabel" role="listitem" 
-          aria-owns="r4n3 r4n4">
+          aria-owns="r4list2">
           <use xlink:href="#shadowHost"/>
           <title id="r3n4-label">Third row, node 4</title>
           <a xlink:href="#r4n3" aria-labelledby="r3l3-label">
@@ -131,9 +131,10 @@
             <title id="r3l4-label">second child is fourth level, node 4</title></a></g>
        </g>
 
+       <g role="list" id=r4list1">
         <g tabindex="0" id="r4n1" transform="translate(135 341)"
-         aria-labelledby="r4n1-label plainNodeLabel" role="listitem list" 
-          aria-owns="r5n1 r5n2" aria-flowto="r5n1 r5n2" >
+         aria-labelledby="r4n1-label plainNodeLabel" role="listitem" 
+          aria-owns="r5list1">
         <use xlink:href="#plainNode"/>
           <title id="r4n1-label">Fourth row, node 1</title>
           <a xlink:href="#r4n3" aria-labelledby="r4l1-label">
@@ -146,8 +147,8 @@
           <title id="r4l2-label">second child is fifth level, node 2</title></a></g>
 
         <g tabindex="0" id="r4n2" transform="translate(207 341)"
-         aria-labelledby="r4n2-label plainNodeLabel" role="listitem list" 
-          aria-owns="r5n3 r5n4" aria-flowto="r5n3 r5n4" >
+         aria-labelledby="r4n2-label plainNodeLabel" role="listitem" 
+          aria-owns="r5list2">
         <use xlink:href="#plainNode"/>
           <title id="r4n2-label">Fourth row, node 2</title>
           <a xlink:href="#r5n3" aria-labelledby="r4l3-label">
@@ -158,10 +159,12 @@
            <line x1="16" y1="21" x2="48" y2="64" marker-end="url(#FilledArrow_Marker)"
             stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
           <title id="r4l4-label">second child is fifth level, node 4</title></a></g>
+       </g>
 
+       <g role="list" id=r4list2">
         <g tabindex="0" id="r4n3" transform="translate(423 341)"
-         aria-labelledby="r4n3-label plainNodeLabel" role="listitem list" 
-          aria-owns="r5n5 r5n6" aria-flowto="r5n5 r5n6" >
+         aria-labelledby="r4n3-label plainNodeLabel" role="listitem" 
+          aria-owns="r5list3">
          <use xlink:href="#plainNode"/>
           <title id="r4n3-label">Fourth row, node 3</title>
           <a xlink:href="#r5n5" aria-labelledby="r5l5-label">
@@ -174,8 +177,8 @@
           <title id="r4l6-label">second child is fifth level, node 6</title></a></g>
 
         <g tabindex="0" id="r4n4" transform="translate(495 341)"
-         aria-labelledby="r4n4-label plainNodeLabel" role="listitem list" 
-          aria-owns="r5n7 r5n8" aria-flowto="r5n7 r5n8" >
+         aria-labelledby="r4n4-label plainNodeLabel" role="listitem" 
+          aria-owns="r5list4">
          <use xlink:href="#plainNode"/>
           <title id="r4n4-label">Fourth row, node 4</title>
           <a xlink:href="#r5n7" aria-labelledby="r4l7-label">
@@ -186,8 +189,9 @@
            <line x1="16" y1="21" x2="49" y2="64" marker-end="url(#FilledArrow_Marker)"
             stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
            <title id="r4l8-label">second child is fifth level, node 8</title></a></g>
+       </g>
 
-
+       <g role="list" id=r5list1">
         <g tabindex="0" id="r5n1" transform="translate(63 433)"
          role="img listitem" aria-labelledby="r5n1-label plainNodeLabel">
         <use xlink:href="#plainNode"/>
@@ -197,7 +201,9 @@
          role="img listitem" aria-labelledby="r5n2-label plainNodeLabel">
         <use xlink:href="#plainNode"/>
           <title id="r5n2-label">Fifth row, node 2</title></g>
+       </g>
 
+       <g role="list" id=r5list2">
         <g tabindex="0" id="r5n3" transform="translate(207 433)"
          role="img listitem" aria-labelledby="r5n3-label plainNodeLabel">
         <use xlink:href="#plainNode"/>
@@ -207,11 +213,12 @@
          role="img listitem" aria-labelledby="r5n4-label plainNodeLabel">
         <use xlink:href="#plainNode"/>
           <title id="r5n4-label">Fifth row, node 4</title></g>
+       </g>
 
-
+       <g role="list" id=r5list3">
         <g tabindex="0" id="r5n5" transform="translate(351 433)"
          aria-labelledby="r5n5-label shadowHostLabel" role="listitem" 
-          aria-owns="r6list1" aria-flowto="r6list1">
+          aria-owns="r6list1">
           <use xlink:href="#shadowHost"/>
           <title id="r5n5-label">Fifth row, node 5</title>
           <a xlink:href="#r6n1" aria-labelledby="r5l1-label">
@@ -223,12 +230,13 @@
             stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
           <title id="r5l2-label">second child is sixth level, node 2</title></a></g>
 
-
         <g tabindex="0" id="r5n6" transform="translate(423 433)"
           role="img listitem" aria-labelledby="r5n6-label plainNodeLabel">
           <use xlink:href="#plainNode"/>
           <title id="r5n6-label">Fifth row, node 6</title></g>
+       </g>
 
+       <g role="list" id=r5list4">
         <g tabindex="0" id="r5n7" transform="translate(495 433)"
           role="img listitem" aria-labelledby="r5n7-label plainNodeLabel">
           <use xlink:href="#plainNode"/>
@@ -236,7 +244,7 @@
 
         <g id="r5n8" transform="translate(567 433)" tabindex="0"
           aria-labelledby="r5n8-label shadowHostLabel"
-          role="listitem" aria-owns="r6list2" aria-flowto="r6list2">
+          role="listitem" aria-owns="r6list2">
           <use xlink:href="#shadowHost"/>
           <title id="r5n8-label">Fifth row, node 8</title>
           <a xlink:href="#r6n3" aria-labelledby="r5l3-label">
@@ -255,6 +263,7 @@
            <line x1="-7" y1="26" x2="-20" y2="76" marker-end="url(#FilledArrow_Marker)"
             stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
             <title id="r5l6-label">fourth child is sixth level, node 6</title></a></g>
+       </g>
 
         <g role="list" id="r6list1">
           <g tabindex="0" id="r6n1" transform="translate(207 545)"
