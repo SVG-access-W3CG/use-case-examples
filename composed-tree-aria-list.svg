@@ -21,16 +21,19 @@
       viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
       <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
     </marker>
-    <g id="plainNode" aria-labelledby="plainNodeLabel" role="img"><title id="plainNodeLabel">A plain node</title>
+    <g id="plainNode" aria-labelledby="plainNodeLabel" role="img">
+      <title id="plainNodeLabel">A plain node</title>
       <circle r="27" fill="white" filter="url(#Shadow)"/>
       <circle r="27" fill="#084" stroke-width="1" stroke="#000"/>
     </g>
-    <g id="shadowHost" aria-labelledby="shadowHostLabel" role="img"><title id="shadowHostLabel">A shadow host</title>
+    <g id="shadowHost" aria-labelledby="shadowHostLabel" role="img">
+      <title id="shadowHostLabel">A shadow host</title>
       <circle r="27" fill="white" filter="url(#Shadow)"/>
       <circle r="27" fill="#084" stroke="black" stroke-width="1"/>
       <text fill="white" font-family="Helvetica" font-size="12"><tspan x="-20" y="-3">shadow</tspan><tspan x="-10" y="11">host</tspan></text>
     </g>
-    <g id="document" aria-labelledby="documentLabel" role="img"><title id="documentLabel">The document root</title>
+    <g id="document" aria-labelledby="documentLabel" role="img">
+      <title id="documentLabel">The document root</title>
       <circle r="27" fill="white" filter="url(#Shadow)"/>
       <circle r="27" fill="#08f" stroke="black" stroke-width="1"/>
       <text fill="white" font-family="Helvetica" font-size="12" font-weight="500" x="-26" y="4">document</text>
@@ -205,12 +208,12 @@
 
        <g role="list" id="r5list2">
         <g tabindex="0" id="r5n3" transform="translate(207 433)"
-         role="listitem img" aria-labelledby="r5n3-label plainNodeLabel">
+         role="listitem " aria-labelledby="r5n3-label plainNodeLabel">
         <use xlink:href="#plainNode"/>
           <title id="r5n3-label">Fifth row, node 3</title></g>
 
         <g tabindex="0" id="r5n4" transform="translate(278 433)"
-         role="listitem img" aria-labelledby="r5n4-label plainNodeLabel">
+         role="listitem " aria-labelledby="r5n4-label plainNodeLabel">
         <use xlink:href="#plainNode"/>
           <title id="r5n4-label">Fifth row, node 4</title></g>
        </g>
@@ -238,7 +241,7 @@
 
         <g role="list" id="r5list4">
           <g tabindex="0" id="r5n7" transform="translate(495 433)"
-            role="listitem img" aria-labelledby="r5n7-label plainNodeLabel">
+            role="listitem " aria-labelledby="r5n7-label plainNodeLabel">
             <use xlink:href="#plainNode"/>
             <title id="r5n7-label">Fifth row, node 7</title></g>
 
@@ -279,22 +282,22 @@
 
         <g role="list" id="r6list2">
           <g tabindex="0" id="r6n3" transform="translate(369 545)"
-            role="listitem img" aria-labelledby="r6n3-label plainNodeLabel">
+            role="listitem" aria-labelledby="r6n3-label plainNodeLabel">
             <use xlink:href="#plainNode"/>
             <title id="r6n3-label">Sixth row, node 3</title></g>
 
           <g tabindex="0" id="r6n4" transform="translate(441 545)"
-            role="listitem img" aria-labelledby="r6n4-label plainNodeLabel">
+            role="listitem" aria-labelledby="r6n4-label plainNodeLabel">
             <use xlink:href="#plainNode"/>
             <title id="r6n4-label">Sixth row, node 4</title></g>
 
           <g tabindex="0" id="r6n5" transform="translate(537 545)"
-            role="listitem img" aria-labelledby="r6n5-label plainNodeLabel">
+            role="listitem" aria-labelledby="r6n5-label plainNodeLabel">
             <use xlink:href="#plainNode"/>
             <title id="r6n5-label">Sixth row, node 5</title></g>
 
           <g tabindex="0" id="r6n6" transform="translate(609 545)"
-            role="listitem img" aria-labelledby="r6n6-label plainNodeLabel">
+            role="listitem" aria-labelledby="r6n6-label plainNodeLabel">
             <use xlink:href="#plainNode"/>
             <title id="r6n6-label">Sixth row, node 6</title></g>
         </g>
