@@ -105,14 +105,14 @@
             <title id="r3l2-label">second child is fourth level, node 2</title></a></g>
 
         <g tabindex="0" id="r3n2" transform="translate(279 247)"
-         role="img listitem" aria-labelledby="r3n2-label plainNodeLabel">
+         role="listitem" aria-labelledby="r3n2-label plainNodeLabel">
           <use xlink:href="#plainNode"/>
           <title id="r3n2-label">Third row, node 2</title></g>
        </g>
 
        <g role="list" id="r3list2">
         <g tabindex="0" id="r3n3" transform="translate(351 247)"
-         role="img listitem" aria-labelledby="r3n3-label plainNodeLabel">
+         role="listitem" aria-labelledby="r3n3-label plainNodeLabel">
           <use xlink:href="#plainNode"/>
           <title id="r3n3-label">Third row, node 3</title></g>
 
