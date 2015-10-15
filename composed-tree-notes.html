@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
- <head>
+ <head lang="en">
   <meta charset="utf-8">
   <title>Making composed-tree.svg more accessible</title>
+  <link rel="stylesheet" href="notestyle.css">
  <head>
  <body>
   <h1>Making <a href="composed-tree.svg">composed-tree.svg</a> more accessible…</h1>
@@ -15,8 +16,9 @@
   <ul>
     <li>They are helpful in the overall process</li>
     <li>They are according to spec, so tools we don't know about may well benefit</li>
+  </ul>
   <dl>
-    <dt class="step">Simplify the code to make it easily readable. This involved:
+    <dt><em class="step">Step:</em> Simplify the code to make it easily readable. This involved:
       <ul>
         <li>making use of a defs element and use elements</li>
         <li>reducing the precision of coordinates to whole numbers</li>
@@ -56,8 +58,6 @@
     <dd><em class="rationale">Rationale:</em> No user agent we tested seems to support the title element according to the SVG specification. As noted in step@@ the first <code>title</code> is used for the document as a whole, but others seem to be unavailable. This is a bug. Redundant <code>aria-labelledby</code> is an effective workaround for many browser/screenreader combinations.</dd>
     <dt><em class="step">Step:</em> Embed the SVG source in HTML - <a href="composed-tree.html">composed-tree.html</a></dt>
     <dd><em class="rationale">Rationale:</em> That is the only way to make IE provide useful information to the screenreader.</dd>
-    <dt><em class="step">Step:</em> </dt>
-    <dd><em class="rationale">Rationale:</em> </dd>
   </dl>
 
   <h2>Mistakes we made, bugs we found</h2>
