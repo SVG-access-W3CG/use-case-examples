@@ -8,7 +8,7 @@
  <body>
   <h1>Making <a href="composed-tree.svg">composed-tree.svg</a> more accessible…</h1>
 
-  <p>These are some notes on steps that improved the accessibility of <a href="composed-tree.svg">composed-tree.svg</a>, and why each one was worth doing. Note that the order doesn't reflect what we actually did over time, so much as the order we probably should have done things.</p>
+  <p>These are some notes on steps we took that improved the accessibility of <a href="composed-tree.svg">composed-tree.svg</a> up to its current state (at time of writing), and why each one was worth doing. Note that the order doesn't reflect what we actually did over time, so much as the order we probably should have done things.</p>
 
   <h2 id="general">General code cleaning</h2>
   
@@ -18,7 +18,7 @@
     <li>They are according to spec, so tools we don't know about may well benefit</li>
   </ul>
   <dl>
-    <dt><em class="step">Step:</em> Simplify the code to make it easily readable. This involved:
+    <dt id="g-simplify"><em class="step">Step:</em> Simplify the code to make it easily readable. This involved:
       <ul>
         <li>making use of a defs element and use elements</li>
         <li>reducing the precision of coordinates to whole numbers</li>
@@ -32,21 +32,21 @@
 
   <p>The following steps are all things that directly enhanced the accessibility of the diagram in some way we could test:</p>
   <dl>
-    <dt><em class="step">Step:</em> Write a description of the image in HTML</dt>
+    <dt id="a-htmldesc"><em class="step">Step:</em> Write a description of the image in HTML</dt>
     <dd><em class="rationale">Rationale:</em> So far, we don't know how to make the image completely accessible. And in some cases it is still not even usable at all. The description can be used as a destination for a <code>longdesc</code> attribute or as fallback content for an <code>object</code> element. We should also work out how to use it as an alternate description inside the SVG, but have not done that yet.</dd>
-    <dt><em class="step">Step:</em> Add a top-level <code>title</code> element.</dt>
+    <dt id="a-mainTitle"><em class="step">Step:</em> Add a top-level <code>title</code> element.</dt>
     <dd><em class="rationale">Rationale:</em> The first <code>title</code> element found in the document is generally used by browsers as the title of the page, in the same way as the HTML <code>title</code> element.</dd>
-    <dt><em class="step">Step:</em> Add <code>tabindex="0"</code> to each node in the diagram.</dt>
+    <dt id="a-tabindex"><em class="step">Step:</em> Add <code>tabindex="0"</code> to each node in the diagram.</dt>
     <dd><em class="rationale">Rationale:</em> This enables some basic keyboard navigation, and made the nodes part of a navigation tree, although it only works in some user agents.</dd>
-    <dt><em class="step">Step:</em> Reorder the source so the nodes appear in the order of walking the tree breadth-first - <i>i.e.</i> top node, all the second-level nodes from left to right, then all the third-level nodes, etc.</dt>
+    <dt id="a-reorder"><em class="step">Step:</em> Reorder the source so the nodes appear in the order of walking the tree breadth-first - <i>i.e.</i> top node, all the second-level nodes from left to right, then all the third-level nodes, etc.</dt>
     <dd><em class="rationale">Rationale:</em> This meant that keyboard navigation produced an order that makes some sense, which helped give some idea of the structure.</dd>
-    <dt><em class="step">Step:</em> Make all the lines linking nodes into real links using the <code>a</code> element, and place them immediately after the node they link <em>from</em>.</dt>
-    <dd><em class="rationale">Rationale:</em> This combines with step @@ to provide more efficient keyboard navigation of the tree. Unfortunately it only works in certain browsers. In addition it is only worth doing if the tree is more than about 6 elements, since there are about three times as many focusable items to move through.</dd>
-    <dt><em class="step">Step:</em> Group the nodes and the links that connect from them in a <code>g</code> element with the <code>tabindex</code> attribute (instead of having it on the <code>use</code> element that draws the node itself.</dt>
+    <dt id="a-links"><em class="step">Step:</em> Make all the lines linking nodes into real links using the <code>a</code> element, and place them immediately after the node they link <em>from</em>.</dt>
+    <dd><em class="rationale">Rationale:</em> This combines with <a href="#a-tabindex">adding <code>tabindex</code> attributes</a> and <a href="#a-reorder">reordering the source code</a> to provide more efficient keyboard navigation of the tree. Unfortunately the links don't work properly in some browsers. In addition it is only worth doing if the tree is more than about 6 elements, since there are about three times as many focusable items to move through.</dd>
+    <dt id="a-groupWithLinks"><em class="step">Step:</em> Group the nodes and the links that connect from them in a <code>g</code> element with the <code>tabindex</code> attribute (instead of having it on the <code>use</code> element that draws the node itself.</dt>
     <dd><em class="rationale">Rationale:</em> This meant that at least VoiceOver cursor navigation became more efficient in some browsers: The cursor would move from node to node, skipping the links inside each node. This reduced the number of keystrokes to move across the tree.</dd>
-    <dt><em class="step">Step:</em> Provide a <code>title</code> element for each item in the <code>defs</code> element, and each navigable element (the nodes, links, and the images in the <code>defs</code> element.</dt>
+    <dt id="a-titles"><em class="step">Step:</em> Provide a <code>title</code> element for each item in the <code>defs</code> element, and each navigable element (the nodes, links, and the images in the <code>defs</code> element.</dt>
     <dd><em class="rationale">Rationale:</em> Screenreaders are not currently doing anything useful with this, which is basically bad implementation. Browsers do use the element to provide tooltips which can be very helpful in interpreting the graphics, and we did take advantage of this step later, so it was worth doing. Experimental tools using the <code>title</code> element according to the specification have been described for more than a decade so there may be more uses we don't know.</dd>
-    <dt><em class="step">Step:</em> Add aria list markup - <code>role="list"</code> and </code>role="listitem"</code> as appropriate to match the structure of the tree.</dt>
+    <dt id="a-ariaList"><em class="step">Step:</em> Add aria list markup - <code>role="list"</code> and </code>role="listitem"</code> as appropriate to match the structure of the tree.</dt>
     <dd><em class="rationale">Rationale:</em> This provided more information in screenreaders, and helps communicate the structure being presented.</dd>
   </dl>
 
@@ -54,10 +54,12 @@
 
   <p>Some of the things we did were to work around bugs, or deficient implementations. They should not be necessary, but in practice they are worth doing:</p>
   <dl>
-    <dt><em class="step">Step:</em> Add <code>aria-labelledby</code> attributes to things that have <code>title</code>s</dt>
-    <dd><em class="rationale">Rationale:</em> No user agent we tested seems to support the title element according to the SVG specification. As noted in step@@ the first <code>title</code> is used for the document as a whole, but others seem to be unavailable. This is a bug. Redundant <code>aria-labelledby</code> is an effective workaround for many browser/screenreader combinations.</dd>
-    <dt><em class="step">Step:</em> Embed the SVG source in HTML - <a href="composed-tree.html">composed-tree.html</a></dt>
+    <dt id="w-labelledby"><em class="step">Step:</em> Add <code>aria-labelledby</code> attributes to things that have <code>title</code>s</dt>
+    <dd><em class="rationale">Rationale:</em> No screenreader we tested seems to support the title element according to the SVG specification. As <a href="#a-mainTitle">noted above</a> the first <code>title</code> is used for the document as a whole, but others seem to be unavailable. This is a bug. Redundant <code>aria-labelledby</code> is an effective workaround for many browser/screenreader combinations.</dd>
+    <dt id="w-inHTML"><em class="step">Step:</em> Embed the SVG source in HTML - <a href="composed-tree.html">composed-tree.html</a></dt>
     <dd><em class="rationale">Rationale:</em> That is the only way to make IE provide useful information to the screenreader.</dd>
+    <dt id="w-hiddenDef"><em class="step">Step:</em> Add <code>aria-hidden="true"</code> to the <code>defs</code> element</dt>
+    <dd><em class="rationale">Rationale:</em> This stopped some browsers, but not all, from passing the content of the <code>defs</code> elements to the screenreader.</dd>
   </dl>
 
   <h2>Mistakes we made, bugs we found</h2>
