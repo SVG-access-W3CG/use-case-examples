@@ -64,7 +64,24 @@
 
   <h2>Mistakes we made, bugs we found</h2>
 
-  <p>This needs to be added...</p>
+  <p><strong>Please note:</strong> This section still needs missing content added</p>
+
+  <p>There were bugs and problems on more or less every platform we tested.</p>
+
+  <h3>Browsers</h3>
+
+  <h4>Safari</h4>
+  <p>It seems the SVG is not tab-navigable unless the screen reader is running.</p>
+  <p>It is apparently not possible to follow a link that points to a target within an SVG document</p>
+  
+  <h4>Yandex Browser (Mac)</h4>
+  <p>Without <code>&lt;defs aria-hidden="true"&gt;</code> Yandex passes the content of the <code>&lt;defs&gt;</code> element to VoiceOver</p>
+
+  <h4>Firefox</h4>
+  <p>Even with <code>&lt;defs aria-hidden="true"&gt;</code> Firefox passes the content of the defs element to VoiceOver</p>
+  <p>Firefox doesn't appear to make the nodes navigable by keyboard. It is possible for focus to get on them by following a link.</p>
+
+<p>Thanks are due to Léonie Watson for extensive help with testing, and constructive suggestions on how to resolve problems. Contributions, as pull requests or email to the SVG accessibility task force, are welcome to this document.</p>
 
  </body>
 </html>
