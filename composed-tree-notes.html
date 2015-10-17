@@ -68,12 +68,14 @@
 
   <p>There were bugs and problems on more or less every platform we tested.</p>
 
-  <p>No browser/screenreader combination presents the <code>&lt;title&gt;</code> of an SVG element, other than the first <code>&lt;title&gt;</code> in the document source, as an "accessible name". This is a pretty straightforward failure on something that has been in SVG since last century - perhaps the accessibility equivalent of not actually implementing the <code>&lt;rect&gt;</code> element.
+  <p>No browser/screenreader combination presents the <code>&lt;title&gt;</code> of an SVG element, other than the first <code>&lt;title&gt;</code> in the document source, as an "accessible name". Similarly, no browser appears to enable access to the <code>&lt;desc&gt;</code> element, unless it is referred to by <code>aria-describedby</code> This is a pretty straightforward failure on something that has been in SVG since last century - perhaps the accessibility equivalent of not actually implementing the <code>&lt;rect&gt;</code> element.</p>
+  
 
   <h3>Browsers</h3>
 
   <h4>Safari</h4>
   <p>It seems the SVG is not tab-navigable unless the screen reader is running.</p>
+  <p>Without <code>&lt;defs aria-hidden="true"&gt;</code> Yandex passes the content of the <code>&lt;defs&gt;</code> element to VoiceOver</p>
   <p>It is apparently not possible to follow a link that points to a target within an SVG document using the keyboard, even with the screen reader running. (Usual approaches like "return", "VO+space" do not work".</p>
   
   <h4>Yandex Browser (Mac)</h4>
