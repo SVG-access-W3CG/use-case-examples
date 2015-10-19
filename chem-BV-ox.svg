@@ -4,71 +4,76 @@
 <desc id="thedescription">The Baeyer-Villiger Oxidation of a ketone using triflouro-1,1,1-ethaneperoxoic acid, passing through two intermediate phases to produce an ester</desc>
 
   <defs aria-hidden="true">
-    <g id="cf3" role="img">
+    <g id="cf3">
       <title id="cf3-label">CF3</title>
       <desc id="cf3-desc">A triflouromethane group</desc>
       <text y="20" font-family="Arial"><tspan font-size="24">CF</tspan><tspan
         font-size="16" y="25">3</tspan></text></g>
 
-    <g id="h" role="img">
+    <g id="h">
       <title id="h-label">Hydrogen atom</title>
       <text y="18" font-family="Arial" font-size="24">H</text></g> 
 
-    <g id="o" role="img">
+    <g id="o">
       <title id="o-label">Oxygen atom</title>
       <text y="18" font-family="Arial" font-size="24">O</text></g> 
 
-    <g id="r1" role="img">
+    <g id="r1">
       <title id="r1-label">Terminal group 1</title>
       <text y="20" x="-4" font-family="Arial"><tspan font-size="26">R</tspan><tspan
         font-size="16" y="10">1</tspan></text></g> 
 
-    <g id="r2" role="img">
+    <g id="r2">
       <title id="r2-label">Terminal group 2</title>
       <text y="20" font-family="Arial"><tspan font-size="26">R</tspan><tspan
         font-size="16" y="10">2</tspan></text></g> 
 
   </defs>
 
-   <g id="InitialKetone" tabindex="0" role="group"
-     aria-describedby="InitialKetoneDesc" aria-labelledby="InitialKetoneLabel">
-     <title id="InitialKetoneLabel">The initial ketone</title>
-     <desc id="InitialKetoneDesc">A ketone, consisting of a carbon atom double-bonded
-       to an oxygen atom and singly bonded to two "terminal groups"</desc>
+  <g id="InitialKetone" tabindex="0" role="list"
+    aria-describedby="InitialKetoneDesc" aria-labelledby="InitialKetoneLabel">
+    <title id="InitialKetoneLabel">The initial ketone</title>
+    <desc id="InitialKetoneDesc">A ketone, consisting of a carbon atom double-bonded
+      to an oxygen atom and singly bonded to two "terminal groups"</desc>
 
-     <g id="g1-oxygen" aria-labelledby="o-label g1-o-label" role="group">
-       <title id="g1-o-label"> double-bonded to the group</title>
-       <use xlink:href="#o" transform="translate(42, 10)" aria-labelledby="o-label"/>
+    <g id="g1Carbon" x="51" y="56" aria-labelledby="g1C-label" role="listitem" aria-owns="g1terminals">
+      <title id="g1C-label">The carbon atom
+        bonded to the oxygen in the ketone</title> </g>
 
-       <g id="g1doubleBond" role="img">
-         <title>Double bond</title>
-         <path style="stroke:black;stroke-width:2" d="M54 30v29"/>
-         <path style="stroke:black;stroke-width:2" d="M47 30v29"/> </g>
+    <g id="g1terminals" role="list">
+     <g role="listitem">
+      <g id="g1-oxygen" aria-labelledby="o-label g1O-label" role="list">
+        <title id="g1O-label"> double-bonded to the group</title>
+        <use xlink:href="#o" transform="translate(42, 10)" aria-labelledby="o-label" role="listitem"/>
+
+        <g id="g1OBond" role="listitem" aria-labelledby="g1oBond-label">
+          <title id="g1oBond-label">Double bond</title>
+          <path style="stroke:black;stroke-width:2" d="M54 30v29"/>
+          <path style="stroke:black;stroke-width:2" d="M47 30v29"/> </g>
+      </g>
      </g>
-
-     <g id="g1Carbon" x="51" y="56" aria-labelledby="g1Carbon-label" role="img"
-       aria-flowto="g1oxygen g1R2 g1R1">
-       <title id="g1Carbon-label">The carbon atom
-         bonded to the oxygen in the ketone</title> </g>
-
-     <g id="g1R1" role="group">
-       <title>terminal group 1</title>
-       <use xlink:href="#r1" transform="translate(5, 69)" aria-labelledby="r1-label"/>
+     <g role="listitem">
+      <g id="g1R1" role="list" aria-labelledby="g1R1-label">
+        <title id="g1R1-label">terminal group 1</title>
+        <use xlink:href="#r1" transform="translate(5, 69)" aria-labelledby="r1-label" role="listitem"/>
     
-       <g id="g1R1singleBond" aria-flowto="g1terminal1 g1Carbon"
-         aria-labelledby="g1R1bond-label" role="img">
-         <title id="g1R1bond-label">Single bond to terminal group 1</title>
-         <line style="stroke:black;stroke-width:2" x1="30" y1="70" x2="51" y2="56"/> </g>
+        <g id="g1R1singleBond" aria-labelledby="g1R1bond-label" role="img">
+          <title id="g1R1bond-label">Single bond to terminal group 1</title>
+          <path style="stroke:black;stroke-width:2" d="M30 70L51 56"/> </g>
+      </g>
      </g>
-    
-     <g id="g1R2" role="group">
-       <use xlink:href="#r2" transform="translate(77, 69)" aria-labelledby="r2-label" />
+     <g role="listitem">
+      <g id="g1R2" role="list" aria-labelledby="g1R2-label">
+        <title id="g1R2-label">Terminal group 2</title>
+        <use xlink:href="#r2" transform="translate(77, 69)" aria-labelledby="r2-label" role="listitem"/>
 
-       <g id="g1R2bond" aria-labelledby="g1R2bond-label" role="img">
-         <title id="g1R2bond-label">Single bond to terminal group 2</title>
-         <line style="stroke:black;stroke-width:2" x1="74" y1="70" x2="51" y2="56"/> </g>
+        <g id="g1R2bond" aria-labelledby="g1R2bond-label" role="listitem">
+          <title id="g1R2bond-label">Single bond to terminal group 2</title>
+          <path style="stroke:black;stroke-width:2" d="M74 70L51 56"/> </g>
+      </g>
      </g>
-   </g>
+    </g>
+  </g>
 
    <g id="plus" tabindex="0" role="group"><title>plus</title>
    <text font-size="26" x="118" y="60">+</text></g>
