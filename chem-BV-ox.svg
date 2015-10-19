@@ -1,236 +1,239 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.1" height="149" width="1254" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1254 149" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg version="1.1" height="149" width="1254" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1254 149" xmlns:xlink="http://www.w3.org/1999/xlink" aria-describedby="the description">
 <title>Baeyer-Villiger Oxidation</title>
-<desc id="thedescription">The Baeyer-Villiger Oxidation of a ketone using triflouro-1,1,1-ethaneperoxoic acid, passing through intermediate phases to produce an ester</desc>
- <defs>
-<g id="cf3" role="img" aria-describedby="cf3-desc"><title>CF3</title><desc id="cf3desc">A triflouromethane group</desc>
-<text y="20" font-family="Arial"><tspan font-size="24">CF</tspan><tspan font-size="16" y="25">3</tspan></text>
-</g>
+<desc id="thedescription">The Baeyer-Villiger Oxidation of a ketone using triflouro-1,1,1-ethaneperoxoic acid, passing through two intermediate phases to produce an ester</desc>
 
-<g id="h" role="img" aria-labelledby="h-label"><title id="h-label">Hydrogen atom</title>
-<text y="18" font-family="Arial" font-size="24">H</text>
-</g> 
-<g id="o" role="img" aria-labelledby="o-label"><title id="o-label">Oxygen atom</title>
-<text y="18" font-family="Arial" font-size="24">O</text>
-</g> 
+  <defs aria-hidden="true">
+    <g id="cf3" role="img">
+      <title id="cf3-label">CF3</title>
+      <desc id="cf3-desc">A triflouromethane group</desc>
+      <text y="20" font-family="Arial"><tspan font-size="24">CF</tspan><tspan
+        font-size="16" y="25">3</tspan></text></g>
 
- <g id="r1" role="img" aria-labelledby="r1-label">
-  <title id="r1-label">Terminal group 1</title>
-  <text y="20" x="-4" font-family="Arial"><tspan font-size="26">R</tspan><tspan
-    font-size="16" y="10">1</tspan></text>
- </g> 
+    <g id="h" role="img">
+      <title id="h-label">Hydrogen atom</title>
+      <text y="18" font-family="Arial" font-size="24">H</text></g> 
 
-<g id="r2" role="img" aria-labelledby="r2-label">
- <title id="r2-label">Terminal group 2</title>
- <text y="20" font-family="Arial"><tspan font-size="26">R</tspan><tspan
-   font-size="16" y="10">2</tspan></text>
-</g> 
+    <g id="o" role="img">
+      <title id="o-label">Oxygen atom</title>
+      <text y="18" font-family="Arial" font-size="24">O</text></g> 
 
- </defs>
- <g id="Hintergrund" >
-  <g id="Gruppe1">
+    <g id="r1" role="img">
+      <title id="r1-label">Terminal group 1</title>
+      <text y="20" x="-4" font-family="Arial"><tspan font-size="26">R</tspan><tspan
+        font-size="16" y="10">1</tspan></text></g> 
+
+    <g id="r2" role="img">
+      <title id="r2-label">Terminal group 2</title>
+      <text y="20" font-family="Arial"><tspan font-size="26">R</tspan><tspan
+        font-size="16" y="10">2</tspan></text></g> 
+
+  </defs>
 
    <g id="InitialKetone" tabindex="0" role="group"
-      aria-describedby="InitialKetoneDesc" aria-labelledby="InitialKetoneLabel">
-    <title id="InitialKetoneLabel">The initial ketone</title>
-    <desc id="InitialKetoneDesc">A ketone, consisting of a carbon atom double-bonded to an oxygen atom and singly  bonded to two "terminal groups"</desc>
+     aria-describedby="InitialKetoneDesc" aria-labelledby="InitialKetoneLabel">
+     <title id="InitialKetoneLabel">The initial ketone</title>
+     <desc id="InitialKetoneDesc">A ketone, consisting of a carbon atom double-bonded
+       to an oxygen atom and singly bonded to two "terminal groups"</desc>
 
-    <g id="g1-oxygen" aria-labelledby="g1-oxygen-label" role="group">
-     <title id="g1-oxygen-label">Oxygen atom double-bonded to the group</title>
-     <use xlink:href="#o" transform="translate(42, 10)" /> </g>
+     <g id="g1-oxygen" aria-labelledby="g1-oxygen-label" role="group">
+       <title id="g1-oxygen-label">Oxygen atom double-bonded to the group</title>
+       <use xlink:href="#o" transform="translate(42, 10)" aria-labelledby="o-label"/> </g>
 
-    <g id="g1doubleBond" role="img">
-     <title>Double bond</title>
-     <line style="stroke:black;stroke-width:2" x1="54" y1="59" x2="54" y2="30"/>
-     <line style="stroke:black;stroke-width:2" x1="47" y1="59" x2="47" y2="30"/> </g>
+     <g id="g1doubleBond" role="img">
+       <title>Double bond</title>
+       <path style="stroke:black;stroke-width:2" d="M54 30v29"/>
+       <line style="stroke:black;stroke-width:2" x1="47" y1="59" x2="47" y2="30"/> </g>
 
-    <g id="g1Carbon" x="51" y="56" aria-labelledby="g1Carbon-label" role="img"
-      aria-flowto="g1doubleBond g1R2singleBond g1R1singleBond">
-      <title id="g1Carbon-label">The carbon atom
-        bonded to the oxygen in the ketone</title> </g>
+     <g id="g1Carbon" x="51" y="56" aria-labelledby="g1Carbon-label" role="img"
+       aria-flowto="g1doubleBond g1R2singleBond g1R1singleBond">
+       <title id="g1Carbon-label">The carbon atom
+         bonded to the oxygen in the ketone</title> </g>
 
-    <g id="g1terminal1" aria-flowto="g1R1singleBond" role="img">
-     <title>terminal group 1</title>
-     <use xlink:href="#r1" transform="translate(5, 69)" />
-     </g>
+     <g id="g1terminal1" aria-flowto="g1R1singleBond" role="img">
+       <title>terminal group 1</title>
+       <use xlink:href="#r1" transform="translate(5, 69)" aria-labelledby="r1-label"/></g>
     
-    <g id="g1R1singleBond" aria-flowto="g1terminal1 g1Carbon"
-      aria-labelledby="g1R1singleBond-label" role="img">
-     <title id="g1R1singleBond-label">Single bond to terminal group 1</title>
-     <line style="stroke:black;stroke-width:2" x1="30" y1="70" x2="51" y2="56"/> </g>
+     <g id="g1R1singleBond" aria-flowto="g1terminal1 g1Carbon"
+       aria-labelledby="g1R1singleBond-label" role="img">
+       <title id="g1R1singleBond-label">Single bond to terminal group 1</title>
+       <line style="stroke:black;stroke-width:2" x1="30" y1="70" x2="51" y2="56"/> </g>
     
-    <g id="g1terminal2" aria-flowto="g1R2singleBond" role="img">
-     <use xlink:href="#r2" transform="translate(77, 69)" /> </g>
+     <g id="g1terminal2" aria-flowto="g1R2singleBond" role="img">
+       <use xlink:href="#r2" transform="translate(77, 69)" aria-labelledby="r2-label" /> </g>
 
-    <g id="g1R2singleBond" aria-flowto="g1terminal2 g1Carbon"
-      aria-labelledby="g1R2singleBond-label" role="img">
-     <title id="g1R2singleBond-label">Single bond to terminal group 2</title>
-     <line style="stroke:black;stroke-width:2" x1="74" y1="70" x2="51" y2="56"/> </g>
+     <g id="g1R2singleBond" aria-flowto="g1terminal2 g1Carbon"
+       aria-labelledby="g1R2singleBond-label" role="img">
+       <title id="g1R2singleBond-label">Single bond to terminal group 2</title>
+       <line style="stroke:black;stroke-width:2" x1="74" y1="70" x2="51" y2="56"/> </g>
 
    </g>
 
    <g id="plus" tabindex="0" role="group"><title>plus</title>
-   <text font-size="26" transform="translate(118, 60)">+</text>
-   </g>
+   <text font-size="26" x="118" y="60">+</text></g>
 
    <g id="reagent" tabindex="0" aria-labelledby="reagentlabel" role="group">
-    <title id="reagentlabel">Reagent, triflouro-1,1,1-ethaneperoxoic acid</title>
+     <title id="reagentlabel">Reagent, triflouro-1,1,1-ethaneperoxoic acid</title>
 
-    <g id="rgt1oh1" aria-labelledby="rgt1oh1-label" role="img">
-     <title id="intoh1-label">-anol group</title>
-     <use xlink:href="#h" transform="translate(137,75)" />
-     <use xlink:href="#o" transform="translate(153,75)" />
-    </g>
+     <g id="rgt1oh1" aria-labelledby="rgt1oh1-label" role="img">
+       <title id="intoh1-label">-anol group</title>
+       <use xlink:href="#h" transform="translate(137,75)" aria-labelledby="h-label" />
+       <use xlink:href="#o" transform="translate(153,75)" aria-labelledby="o-label" /></g>
 
-   <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M18.6 0 L18.6 1.6992 L0 1.6992 L0 0 L18.6 0 Z" transform="translate(172,82)" />
+     <path d="M18.6 0 L18.6 1.72 L0 1.7 L0 0 L18.6 0 Z" transform="translate(172,82)" />
 
-   <use xlink:href="#o" transform="translate(193,75)" />
+     <use xlink:href="#o" transform="translate(193,75)" aria-labelledby="o-label"/>
 
-   <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M14.85 0 L15.8 1.7002 L1.45 26.5498 L0 25.7002 L14.85 0 Z" transform="translate(206, 48)" />
+     <path d="M14.85 0 L15.8 1.7 L1.5 26.5 L0 25.7Z" transform="translate(206, 48)" />
 
-   <use xlink:href="#o" transform="translate(193, 6)" />
+     <use xlink:href="#o" transform="translate(193, 6)" aria-labelledby="o-label" />
 
-   <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M0 0.8506 L1.45 0 L16.25 25.6006 L14.75 26.4502 L0 0.8506 Z" transform="translate(204.3, 26)" />
-   <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M0 0.8506 L1.5 0 L16.25 25.6006 L14.8 26.4502 L0 0.8506 Z" transform="translate(209.45, 23)" />
+     <path d="M0 0.8506 L1.45 0 L16.25 25.6 L14.75 26.5Z" transform="translate(204.3, 26)" />
+     <path d="M0 0.8506 L1.5 0 L16.25 25.6 L14.8 26.5Z" transform="translate(209.45, 23)" />
 
-   <use xlink:href="#cf3" transform="translate(253, 40)" />
+     <use xlink:href="#cf3" transform="translate(253, 40)" aria-labelledby="cf3-label" />
 
-   <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M30.3 0 L30.3 1.7002 L0.95 1.7002 L0 0 L30.3 0 Z" transform="translate(221, 48)" />
-
+     <path d="M30.3 0 L30.3 1.7 L0.95 1.7 L0 0Z" transform="translate(221, 48)" />
    </g>
 
    <g><title>Initial reaction steps</title>
-    <g tabindex="0"><title>The acid's hydrogen breaks the double bond of the ketone's oxygen atom and forms an OH group</title>
-   <path style="fill:none;stroke:#e20010; stroke-width:1.7; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M0 7.0498 C6.0996 4.5 12.5996 2.89941 19.2002 2.45019 C52.6 0 81.65 25.1494 84.1 58.5498 " transform="translate(59.25, 1.9502)" />
-   <path style="fill:#e20010; fill-rule:nonzero;stroke:none;" d="M3.1 13.75 L6.9 0.2998 C6.9 0.2998 4.9 1.8994 3.4 1.8496 C1.9 1.7998 0 0 0 0 L3.1 13.75 " transform="translate(140, 59)" />
-    </g>
+     <g tabindex="0">
+     <title>The acid's hydrogen breaks the double bond of the ketone's oxygen atom and forms an OH group</title>
+     <path style="fill:none;stroke:#e01; stroke-width:1.7; stroke-linecap:butt; stroke-linejoin:miter"
+       d="M0 7.05 C6.1 4.5 12.6 2.9 19.2 2.45019 C52.6 0 81.65 25.1494 84.1 58.5498 " transform="translate(59.25, 1.9502)" />
+     <path style="fill:#e01" transform="translate(140, 59)"
+       d="M3.1 13.75 L6.9 0.2998 C6.9 0.2998 4.9 1.8994 3.4 1.8496 C1.9 1.7998 0 0 0 0 L3.1 13.75 " /></g>
    
-    <g tabindex="0"><title>The oxygen atom that held the hydrogen on the reagent acid takes up the free bond to the central carbon atom.</title>
-   <path style="fill:none;stroke:#e20010; stroke-width:1.7; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M106.35 22.8008 C100.75 27.9504 94.2498 32.1504 87.1998 35.1504 C53.4498 49.5004 14.3496 33.7504 0 0 " transform="translate(53.9502, 74.8496)" />
-   <path style="fill:#e20010; fill-rule:nonzero;stroke:none;" d="M0 0 L0.8506 14.0498 C0.8506 14.0498 2.2002 11.7998 3.6504 11.3496 C5.0498 10.8496 7.4502 11.8496 7.4502 11.8496 L0 0 " transform="translate(50.2998, 63.5)" />
-     </g>
-    </g>
-
-    <g id="arrow1">
-     <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M64.65 0 L0 0 " transform="translate(310.5, 52)" />
-     <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M17 4.3496 L0 0 C0 0 2.1 2.4492 2.1 4.3496 C2.1 6.25 0 8.6494 0 8.6494 L17 4.3496 " transform="translate(373, 47.6504)" /></g>
-   
-   <g id="intermediate1"><title>Intermediate state 1</title>
-   <use xlink:href="#o" transform="translate(572.412, 2.21582)" />
-
-   <path d="M1.7 29.4492 L0 29.4492 L0 0 L1.7 0 L1.7 29.4492 Z" transform="translate(583, 22.4004)" />
-
-   <path d="M1.7 29.4492 L0 29.4492 L0 0 L1.7 0 L1.7 29.4492 Z" transform="translate(577.05, 22.4004)" />
-
-   <use xlink:href="#cf3" transform="translate(607.652, 61.7158)" />
-
-   <path d="M26.1 15.0498 L25.25 16.5498 L0 1.9492 L0 0 L26.1 15.0498 Z" transform="translate(580.85, 49.1504)" />
-
-   <use xlink:href="#o" transform="translate(537.912, 61.7158)" />
-
-   <path d="M0.85 16.2998 L0 14.8496 L25.7 0 L25.7 1.9492 L0.85 16.2998 Z" transform="translate(555.15, 49.1504)" />
-
-   <use xlink:href="#o" transform="translate(503.662, 41.7158)" />
-
-   <path d="M0 1.4502 L0.85 0 L16.35 8.9502 L15.5 10.4004 L0 1.4502 Z" transform="translate(521.5, 55.0498)" />
-
-   <path d="M1 15.3496 L0 14.9502 L0.15 13.9004 L24.2 0 L25.05 1.5 L1 15.3496 Z" transform="translate(477.75, 55)" />
-
-   <use xlink:href="#r1" transform="translate(432, 82)" />
-
-   <path d="M0.85 12.9004 L0 11.4004 L19.8 0 L21.2 0.1504 L20.65 1.4502 L0.85 12.9004 Z" transform="translate(456.55, 69.7998)" />
-
-   <use xlink:href="#r2" transform="translate(480.732, 100)" />
-
-   <path d="M8.8 27.4502 L7.15 27.8496 L0 1.2998 L0.55 0 L1.55 0.3994 L8.8 27.4502 Z" transform="translate(477.2, 69.9502)" />
-
-    <g id="int1oh1" aria-labelledby="int1oh1-label" role="img">
-     <title id="intoh1-label">-anol group</title>
-     <use xlink:href="#h" transform="translate(424,34)" />
-     <use xlink:href="#o" transform="translate(440,34)" />
-    </g>
-
-
-   <path d="M0 1.2002 L1.2 0 L20.55 19.3506 L20.4 20.4004 L19 20.25 L0 1.2002 Z" transform="translate(457.35, 49.5498)" />
-    </g>
-
-    <g><title>Things moving in intermediate state 1</title>
-
-     <g><title>second things moving</title>
-   <path style="fill:none;stroke:#e20010; stroke-width:1.7; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M3.1 24.8008 C0.9 21.6504 0 17.7002 0.55 13.9004 C1.8 5.7002 9.5 0 17.7 1.25 C25.95 2.5 31.6 10.2002 30.4 18.4502 " transform="translate(528.75, 32)" />
-   <path style="fill:#e20010; fill-rule:nonzero;stroke:none;" d="M0 13.4004 L10.1 3.7002 C10.1 3.7002 7.55 4.0996 6.3 3.2998 C5 2.5 4.25 0 4.25 0 L0 13.4004 " transform="translate(552.85, 47.25)" />
-     </g>
-   <path style="fill:none;stroke:#e20010; stroke-width:1.7; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M26.25 0 C21.8 9.4492 9.75 14.2998 0 10.4492 " transform="translate(484.4, 73.4004)" />
-   <path style="fill:#e20010; fill-rule:nonzero;stroke:none;" d="M5.4 0 L0 12.9004 C0 12.9004 2.2 11.5508 3.7 11.8008 C5.2 12 6.85 14 6.85 14 L5.4 0 " transform="translate(506.95, 61.5996)" />
-    </g>
-   <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M158.7 0 L0 0 " transform="translate(654.75, 51.25)" />
-   <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M17 4.3496 L0 0 C0 0 2.15 2.4492 2.15 4.3496 C2.15 6.25 0 8.6494 0 8.6494 L17 4.3496 " transform="translate(811.25, 46.9004)" />
-
-    <g><title>Stuff thrown out in second phase transform?</title>
-   <path d="M16.98 0 L0 0 L0 2.1602 L16.98 2.1602 L16.98 0 Z" transform="translate(682.35, 83.6396)" />
-
-   <use xlink:href="#o" transform="translate(731, 64)" />
-
-   <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M1.7 29.4498 L0 29.4498 L0 0 L1.7 0 L1.7 29.4498 Z" transform="translate(741.65, 84.2002)" />
-   <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M1.7 29.4498 L0 29.4498 L0 0 L1.7 0 L1.7 29.4498 Z" transform="translate(735.65, 84.2002)" />
-   <use xlink:href="#cf3" transform="translate(766, 123)" />
-
-   <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M26.1 15.1 L25.25 16.55 L0 1.95 L0 0 L26.1 15.1 Z" transform="translate(739.5, 111)" />
-   <use xlink:href="#o" transform="translate(696, 123)" />
-
-   <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M0.85 16.3 L0 14.85 L25.7 0 L25.7 1.95 L0.85 16.3 Z" transform="translate(713.8, 111)" />
-
-<g><!-- minus --><title>negative charge</title>
-   <circle r="6" style="stroke:#000;stroke-width:1.3;fill:none" cx="709" cy="116"/>
-  <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M0 0 L6.05 0 " transform="translate(706.05, 116.05)" /> </g>
-    </g>
-
-
-   <use xlink:href="#r1" transform="translate(848, 74)" />
-
-   <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M20.35 0 L21.2 0.5 L21.2 1.5 L0.85 13.25 L0 11.75 L20.35 0 Z" transform="translate(872.65, 61.6504)" />
-   <use xlink:href="#o" transform="translate(885.412, 14.2158)" />
-   <use xlink:href="#h" transform="translate(905.242, 14.5039)" />
-   <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M0 0 L1.7 0 L1.7 27.2002 L0.85 27.7002 L0 27.2002 L0 0 Z" transform="translate(893, 34.4502)" />
-   <use xlink:href="#o" transform="translate(919.662, 73.7158)" />
-
-   <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M25.75 14.3496 L24.9 15.8496 L0 1.5 L0 0.5 L0.85 0 L25.75 14.3496 Z" transform="translate(893.85, 61.6504)" />
-   <use xlink:href="#r2" transform="translate(955, 54)" />
-
-   <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M14.05 0 L14.9 1.5 L0.85 9.5996 L0 8.0996 L14.05 0 Z" transform="translate(936.9, 67.9004)" />
-
-<g><title>positive charge</title>
-   <circle r="6" style="stroke:#000;stroke-width:1.3;fill:none" cx="894" cy="72"/>
-   <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M0 0 L6 0 " transform="translate(891, 72)" />
-   <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M0 0 L0 6 " transform="translate(894, 69)" /> </g>
-
-
-   <!--path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M84.25 0 L0 0 " transform="translate(999, 52)" /-->
-       <path style="stroke:#000; stroke-width:1.35" d="M1000 52 h85" />
-
-   <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M17 4.3496 L0 0 C0 0 2.15 2.4492 2.15 4.3496 C2.15 6.25 0 8.6494 0 8.6494 L17 4.3496 " transform="translate(1081.05, 47.6504)" />
-
-   <g><title>Byproduct: positively charged hydrogen ions</title>
-     <path style="stroke:#000; stroke-width:2" d="M1012 77 h17" />
-     <use xlink:href="#h" transform="translate(1038.49, 69.7539)" />
-
-     <g><title>positive charge</title>
-       <circle r="6" style="stroke:#000;stroke-width:1.3;fill:none" cx="1061" cy="68"/>
-       <path style="stroke:#000; stroke-width:1.35" d="M1058 68 h6" />
-       <path style="stroke:#000; stroke-width:1.35" d="M1061 65 v6" /> </g>
+     <g tabindex="0">
+       <title>The oxygen atom that held the hydrogen on the reagent acid takes up the free bond
+         to the central carbon atom.</title>
+       <path style="fill:none;stroke:#e20010; stroke-width:1.7; stroke-linecap:butt; stroke-linejoin:miter"
+         d="M106.35 22.8 C100.75 27.95 94.25 32.15 87.2 35.1504 C53.45 49.5 14.3496 33.7504 0 0" 
+         transform="translate(53.95, 74.85)" />
+       <path style="fill:#e20010" d="M0 0 L0.85 14 C0.85 14 2.2 11.8 3.6 11.5 C5.05 10.85 7.5 11.85 7.5 11.85Z"
+         transform="translate(50.3, 63.5)" /> </g>
    </g>
 
-   <use xlink:href="#o" transform="translate(1156, 12)" />
-   <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M1.7 29.4502 L0 29.4502 L0 0 L1.7 0 L1.7 29.4502 Z" transform="translate(1166.9, 32.4502)" />
-   <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M1.7 29.4502 L0 29.4502 L0 0 L1.7 0 L1.7 29.4502 Z" transform="translate(1160.9, 32.4502)" />
-   <use xlink:href="#r1" transform="translate(1118, 72)" />
+  <g id="arrow1">
+    <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter"
+      d="M64.65 0 L0 0 " transform="translate(310.5, 52)" />
+    <path d="M17 4.3 L0 0 C0 0 2.1 2.5 2.1 4.3 C2.1 6.25 0 8.6 0 8.6Z"
+      transform="translate(373, 47.6504)" /></g>
+   
+  <g id="intermediate1"><title>Intermediate state 1</title>
+    <use xlink:href="#o" transform="translate(572.412, 2.21582)" aria-labelledby="o-label"/>
 
-   <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M0.85 13.7002 L0 12.25 L21.2 0 L21.2 1.9502 L0.85 13.7002 Z" transform="translate(1143.55, 59.2002)" />
-   <use xlink:href="#o" transform="translate(1190, 72)" />
-   <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M25.7 14.8496 L24.85 16.2998 L0 1.9502 L0 0 L25.7 14.8496 Z" transform="translate(1164.75, 59.2002)" />
-   <use xlink:href="#r2" transform="translate(1226, 52)" />
+    <path d="M1.7 29.4492 L0 29.4492 L0 0 L1.7 0 L1.7 29.4492 Z" transform="translate(583, 22.4004)" />
+    <path d="M1.7 29.4492 L0 29.4492 L0 0 L1.7 0 L1.7 29.4492 Z" transform="translate(577.05, 22.4004)" />
 
-   <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M14.1 0 L14.95 1.4502 L0.85 9.5498 L0 8.0996 L14.1 0 Z" transform="translate(1207.75, 65.9502)" />
+    <use xlink:href="#cf3" transform="translate(607.652, 61.7158)"  aria-labelledby="cf3-label"/>
+
+    <path d="M26.1 15.0498 L25.25 16.5498 L0 1.9492 L0 0 L26.1 15.0498 Z" transform="translate(580.85, 49.1504)" />
+
+    <use xlink:href="#o" transform="translate(537.912, 61.7158)" aria-labelledby="o-label"/>
+
+    <path d="M0.85 16.2998 L0 14.8496 L25.7 0 L25.7 1.9492Z" transform="translate(555.15, 49.1504)" />
+
+    <use xlink:href="#o" transform="translate(503.662, 41.7158)" aria-labelledby="o-label"/>
+
+    <path d="M0 1.4502 L0.85 0 L16.35 8.9502 L15.5 10.4004Z" transform="translate(521.5, 55.0498)" />
+
+    <path d="M1 15.3496 L0 14.9502 L0.15 13.9004 L24.2 0 L25.05 1.5Z" transform="translate(477.75, 55)" />
+
+    <use xlink:href="#r1" transform="translate(432, 82)" aria-labelledby="r1-label"/>
+
+    <path d="M0.85 12.9004 L0 11.4004 L19.8 0 L21.2 0.1504 L20.65 1.4502Z"
+      transform="translate(456.55, 69.7998)" />
+
+    <use xlink:href="#r2" transform="translate(480.732, 100)" aria-labelledby="r2-label"/>
+
+    <path d="M8.8 27.4502 L7.15 27.8496 L0 1.2998 L0.55 0 L1.55 0.3994 L8.8 27.4502 Z" transform="translate(477.2, 69.9502)" />
+
+    <g id="int1oh1" aria-labelledby="int1oh1-label" role="img">
+      <title id="intoh1-label">-anol group</title>
+      <use xlink:href="#h" transform="translate(424,34)" aria-labelledby="h-label"/>
+      <use xlink:href="#o" transform="translate(440,34)" aria-labelledby="o-label"/>
+    </g>
+
+
+    <path d="M0 1.2 L1.2 0 L20.55 19.4 L20.4 20.4 L19 20.25Z" transform="translate(457.35, 49.5498)" />
   </g>
- </g>
+
+  <g><title>Things moving in intermediate state 1</title>
+
+    <g><title>second things moving</title>
+      <path style="fill:none;stroke:#e20010; stroke-width:1.7; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M3.1 24.8008 C0.9 21.6504 0 17.7002 0.55 13.9004 C1.8 5.7002 9.5 0 17.7 1.25 C25.95 2.5 31.6 10.2002 30.4 18.4502 " transform="translate(528.75, 32)" />
+      <path style="fill:#e20010; fill-rule:nonzero;stroke:none;" d="M0 13.4004 L10.1 3.7002 C10.1 3.7002 7.55 4.0996 6.3 3.2998 C5 2.5 4.25 0 4.25 0 L0 13.4004 " transform="translate(552.85, 47.25)" /> </g>
+    <path style="fill:none;stroke:#e20010; stroke-width:1.7; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M26.25 0 C21.8 9.4492 9.75 14.2998 0 10.4492 " transform="translate(484.4, 73.4004)" />
+    <path style="fill:#e20010; fill-rule:nonzero;stroke:none;" d="M5.4 0 L0 12.9004 C0 12.9004 2.2 11.5508 3.7 11.8008 C5.2 12 6.85 14 6.85 14 L5.4 0 " transform="translate(506.95, 61.5996)" />
+  </g>
+  
+  <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M158.7 0 L0 0 " transform="translate(654.75, 51.25)" />
+  <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M17 4.3496 L0 0 C0 0 2.15 2.4492 2.15 4.3496 C2.15 6.25 0 8.6494 0 8.6494 L17 4.3496 " transform="translate(811.25, 46.9004)" />
+
+  <g><title>Stuff thrown out in second phase transform?</title>
+    <path d="M16.98 0 L0 0 L0 2.1602 L16.98 2.1602 L16.98 0 Z" transform="translate(682.35, 83.6396)" />
+
+    <use xlink:href="#o" transform="translate(731, 64)" aria-labelledby="o-label"/>
+
+    <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M1.7 29.4498 L0 29.4498 L0 0 L1.7 0 L1.7 29.4498 Z" transform="translate(741.65, 84.2002)" />
+    <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M1.7 29.4498 L0 29.4498 L0 0 L1.7 0 L1.7 29.4498 Z" transform="translate(735.65, 84.2002)" />
+    <use xlink:href="#cf3" transform="translate(766, 123)" aria-labelledby="cf3-label"/>
+
+    <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M26.1 15.1 L25.25 16.55 L0 1.95 L0 0 L26.1 15.1 Z" transform="translate(739.5, 111)" />
+    <use xlink:href="#o" transform="translate(696, 123)" aria-labelledby="o-label"/>
+
+    <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M0.85 16.3 L0 14.85 L25.7 0 L25.7 1.95 L0.85 16.3 Z" transform="translate(713.8, 111)" />
+
+    <g><!-- minus --><title>negative charge</title>
+      <circle r="6" style="stroke:#000;stroke-width:1.3;fill:none" cx="709" cy="116"/>
+      <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M0 0 L6.05 0 " transform="translate(706.05, 116.05)" /> </g>
+  </g>
+
+
+  <use xlink:href="#r1" transform="translate(848, 74)"  aria-labelledby="r1-label"/>
+
+  <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M20.35 0 L21.2 0.5 L21.2 1.5 L0.85 13.25 L0 11.75 L20.35 0 Z" transform="translate(872.65, 61.6504)" />
+  <use xlink:href="#o" transform="translate(885.412, 14.2158)" aria-labelledby="o-label"/>
+  <use xlink:href="#h" transform="translate(905.242, 14.5039)" aria-labelledby="h-label"/>
+  <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M0 0 L1.7 0 L1.7 27.2002 L0.85 27.7002 L0 27.2002 L0 0 Z" transform="translate(893, 34.4502)" />
+  <use xlink:href="#o" transform="translate(919.662, 73.7158)" aria-labelledby="o-label"/>
+
+  <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M25.75 14.3496 L24.9 15.8496 L0 1.5 L0 0.5 L0.85 0 L25.75 14.3496 Z" transform="translate(893.85, 61.6504)" />
+  <use xlink:href="#r2" transform="translate(955, 54)" />
+
+  <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M14.05 0 L14.9 1.5 L0.85 9.5996 L0 8.0996 L14.05 0 Z" transform="translate(936.9, 67.9004)" />
+
+  <g><title>positive charge</title>
+    <circle r="6" style="stroke:#000;stroke-width:1.3;fill:none" cx="894" cy="72"/>
+    <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M0 0 L6 0 " transform="translate(891, 72)" />
+    <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter; stroke-dasharray:none;" d="M0 0 L0 6 " transform="translate(894, 69)" /> </g>
+
+
+
+  <path style="stroke:#000; stroke-width:1.35" d="M1000 52 h85" />
+
+  <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M17 4.3496 L0 0 C0 0 2.15 2.4492 2.15 4.3496 C2.15 6.25 0 8.6494 0 8.6494 L17 4.3496 " transform="translate(1081.05, 47.6504)" />
+
+  <g><title>Byproduct: positively charged hydrogen ions</title>
+    <path style="stroke:#000; stroke-width:2" d="M1012 77 h17" />
+    <use xlink:href="#h" transform="translate(1038.49, 69.7539)"  aria-labelledby="h-label"/>
+
+    <g><title>positive charge</title>
+      <circle r="6" style="stroke:#000;stroke-width:1.3;fill:none" cx="1061" cy="68"/>
+      <text x="1056" y="73">+</text></g>
+  </g>
+
+  <use xlink:href="#o" transform="translate(1156, 12)" aria-labelledby="o-label"/>
+  <g><title>double bond</title></g>
+  <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M1.7 29.4502 L0 29.4502 L0 0 L1.7 0 L1.7 29.4502 Z" transform="translate(1166.9, 32.4502)" />
+  <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M1.7 29.4502 L0 29.4502 L0 0 L1.7 0 L1.7 29.4502 Z" transform="translate(1160.9, 32.4502)" />
+  <use xlink:href="#r1" transform="translate(1118, 72)" />
+
+  <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M0.85 13.7002 L0 12.25 L21.2 0 L21.2 1.9502 L0.85 13.7002 Z" transform="translate(1143.55, 59.2002)" />
+  <use xlink:href="#o" transform="translate(1190, 72)" />
+  <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M25.7 14.8496 L24.85 16.2998 L0 1.9502 L0 0 L25.7 14.8496 Z" transform="translate(1164.75, 59.2002)" />
+  <use xlink:href="#r2" transform="translate(1226, 52)" />
+
+  <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M14.1 0 L14.95 1.4502 L0.85 9.5498 L0 8.0996 L14.1 0 Z" transform="translate(1207.75, 65.9502)" />
 </svg>
