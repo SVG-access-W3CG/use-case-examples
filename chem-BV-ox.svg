@@ -29,96 +29,106 @@
         font-size="16" y="10">2</tspan></text></g> 
 
   </defs>
+  <g role="list"> <!-- the set of steps -->
 
-  <g id="InitialKetone" tabindex="0" role="list"
-    aria-describedby="InitialKetoneDesc" aria-labelledby="InitialKetoneLabel">
-    <title id="InitialKetoneLabel">The initial ketone</title>
-    <desc id="InitialKetoneDesc">A ketone, consisting of a carbon atom double-bonded
-      to an oxygen atom and singly bonded to two "terminal groups"</desc>
 
-    <g id="g1Carbon" x="51" y="56" aria-labelledby="g1C-label" role="listitem" aria-owns="g1terminals">
-      <title id="g1C-label">The carbon atom
-        bonded to the oxygen in the ketone</title> </g>
+    <g id="start" aria-labelledby="start-label" role="list">
+      <title id="startlabel">The initial ingredients, a Ketone and triflouro-1,1,1-ethaneperoxoic acid</title>
 
-    <g id="g1terminals" role="list">
-     <g role="listitem">
-      <g id="g1-oxygen" aria-labelledby="o-label g1O-label" role="list">
-        <title id="g1O-label"> double-bonded to the group</title>
-        <use xlink:href="#o" transform="translate(42, 10)" aria-labelledby="o-label" role="listitem"/>
+      <g id="InitialKetone" tabindex="0" role="list"
+        aria-describedby="InitialKetoneDesc" aria-labelledby="InitialKetoneLabel">
+        <title id="InitialKetoneLabel">The initial ketone</title>
+        <desc id="InitialKetoneDesc">A ketone, consisting of a carbon atom double-bonded
+          to an oxygen atom and singly bonded to two "terminal groups"</desc>
 
-        <g id="g1OBond" role="listitem" aria-labelledby="g1oBond-label">
-          <title id="g1oBond-label">Double bond</title>
-          <path style="stroke:black;stroke-width:2" d="M54 30v29"/>
-          <path style="stroke:black;stroke-width:2" d="M47 30v29"/> </g>
-      </g>
-     </g>
-     <g role="listitem">
-      <g id="g1R1" role="list" aria-labelledby="g1R1-label">
-        <title id="g1R1-label">terminal group 1</title>
-        <use xlink:href="#r1" transform="translate(5, 69)" aria-labelledby="r1-label" role="listitem"/>
+        <g id="g1Carbon" x="51" y="56" aria-labelledby="g1C-label" role="listitem" aria-owns="g1terminals">
+          <title id="g1C-label">The carbon atom
+            bonded to the oxygen in the ketone</title> </g>
+
+      <g id="g1terminals" role="list">
+        <g role="listitem">
+          <g id="g1-oxygen" aria-labelledby="o-label g1O-label" role="list">
+            <title id="g1O-label"> double-bonded to the group</title>
+            <use xlink:href="#o" transform="translate(42, 10)" aria-labelledby="o-label" role="listitem"/>
+
+          <g id="g1OBond" role="listitem" aria-labelledby="g1oBond-label">
+            <title id="g1oBond-label">Double bond</title>
+            <path style="stroke:black;stroke-width:2" d="M54 30v29"/>
+            <path style="stroke:black;stroke-width:2" d="M47 30v29"/> </g>
+          </g> <!-- g1-oxygen -->
+        </g> <!-- listitem -->
+
+        <g role="listitem">
+          <g id="g1R1" role="list" aria-labelledby="g1R1-label">
+            <title id="g1R1-label">terminal group 1</title>
+            <use xlink:href="#r1" transform="translate(5, 69)" aria-labelledby="r1-label" role="listitem"/>
     
-        <g id="g1R1singleBond" aria-labelledby="g1R1bond-label" role="img">
-          <title id="g1R1bond-label">Single bond to terminal group 1</title>
-          <path style="stroke:black;stroke-width:2" d="M30 70L51 56"/> </g>
-      </g>
-     </g>
-     <g role="listitem">
-      <g id="g1R2" role="list" aria-labelledby="g1R2-label">
-        <title id="g1R2-label">Terminal group 2</title>
-        <use xlink:href="#r2" transform="translate(77, 69)" aria-labelledby="r2-label" role="listitem"/>
+            <g id="g1R1singleBond" aria-labelledby="g1R1bond-label" role="img">
+              <title id="g1R1bond-label">Single bond to terminal group 1</title>
+              <path style="stroke:black;stroke-width:2" d="M30 70L51 56"/> </g>
+          </g>
+        </g>
+ 
+        <g role="listitem">
+          <g id="g1R2" role="list" aria-labelledby="g1R2-label">
+            <title id="g1R2-label">Terminal group 2</title>
+            <use xlink:href="#r2" transform="translate(77, 69)" aria-labelledby="r2-label" role="listitem"/>
 
-        <g id="g1R2bond" aria-labelledby="g1R2bond-label" role="listitem">
-          <title id="g1R2bond-label">Single bond to terminal group 2</title>
-          <path style="stroke:black;stroke-width:2" d="M74 70L51 56"/> </g>
-      </g>
-     </g>
+            <g id="g1R2bond" aria-labelledby="g1R2bond-label" role="listitem">
+              <title id="g1R2bond-label">Single bond to terminal group 2</title>
+              <path style="stroke:black;stroke-width:2" d="M74 70L51 56"/> </g>
+          </g> <!-- g1R2 -->
+        </g> <!-- listitem -->
+      </g> <!-- list - the terminals of the ketone -->
+    </g> <!-- list - the ketone -->
+
+    <g id="plus" tabindex="0" role="img"><title>plus</title>
+      <text font-size="26" x="118" y="60">+</text></g>
+
+    <g id="reagent" tabindex="0" aria-labelledby="reagentlabel" role="group">
+      <title id="reagentlabel">Reagent, triflouro-1,1,1-ethaneperoxoic acid</title>
+
+      <g id="rgt1oh1" aria-labelledby="rgt1oh1-label" role="img">
+        <title id="intoh1-label">-anol group</title>
+        <use xlink:href="#h" transform="translate(137,75)" aria-labelledby="h-label" />
+        <use xlink:href="#o" transform="translate(153,75)" aria-labelledby="o-label" /></g>
+
+      <path d="M18.6 0 L18.6 1.72 L0 1.7 L0 0 L18.6 0 Z" transform="translate(172,82)" />
+
+      <use xlink:href="#o" transform="translate(193,75)" aria-labelledby="o-label"/>
+
+      <path d="M14.85 0 L15.8 1.7 L1.5 26.5 L0 25.7Z" transform="translate(206, 48)" />
+
+      <use xlink:href="#o" transform="translate(193, 6)" aria-labelledby="o-label" />
+
+      <path d="M0 0.8506 L1.45 0 L16.25 25.6 L14.75 26.5Z" transform="translate(204.3, 26)" />
+      <path d="M0 0.8506 L1.5 0 L16.25 25.6 L14.8 26.5Z" transform="translate(209.45, 23)" />
+
+      <use xlink:href="#cf3" transform="translate(253, 40)" aria-labelledby="cf3-label" />
+
+      <path d="M30.3 0 L30.3 1.7 L0.95 1.7 L0 0Z" transform="translate(221, 48)" />
     </g>
-  </g>
 
-   <g id="plus" tabindex="0" role="group"><title>plus</title>
-   <text font-size="26" x="118" y="60">+</text></g>
-
-   <g id="reagent" tabindex="0" aria-labelledby="reagentlabel" role="group">
-     <title id="reagentlabel">Reagent, triflouro-1,1,1-ethaneperoxoic acid</title>
-
-     <g id="rgt1oh1" aria-labelledby="rgt1oh1-label" role="img">
-       <title id="intoh1-label">-anol group</title>
-       <use xlink:href="#h" transform="translate(137,75)" aria-labelledby="h-label" />
-       <use xlink:href="#o" transform="translate(153,75)" aria-labelledby="o-label" /></g>
-
-     <path d="M18.6 0 L18.6 1.72 L0 1.7 L0 0 L18.6 0 Z" transform="translate(172,82)" />
-
-     <use xlink:href="#o" transform="translate(193,75)" aria-labelledby="o-label"/>
-
-     <path d="M14.85 0 L15.8 1.7 L1.5 26.5 L0 25.7Z" transform="translate(206, 48)" />
-
-     <use xlink:href="#o" transform="translate(193, 6)" aria-labelledby="o-label" />
-
-     <path d="M0 0.8506 L1.45 0 L16.25 25.6 L14.75 26.5Z" transform="translate(204.3, 26)" />
-     <path d="M0 0.8506 L1.5 0 L16.25 25.6 L14.8 26.5Z" transform="translate(209.45, 23)" />
-
-     <use xlink:href="#cf3" transform="translate(253, 40)" aria-labelledby="cf3-label" />
-
-     <path d="M30.3 0 L30.3 1.7 L0.95 1.7 L0 0Z" transform="translate(221, 48)" />
-   </g>
-
-   <g><title>Initial reaction steps</title>
-     <g tabindex="0">
-     <title>The acid's hydrogen breaks the double bond of the ketone's oxygen atom and forms an OH group</title>
-     <path style="fill:none;stroke:#e01; stroke-width:1.7; stroke-linecap:butt; stroke-linejoin:miter"
-       d="M0 7.05 C6.1 4.5 12.6 2.9 19.2 2.45019 C52.6 0 81.65 25.1494 84.1 58.5498 " transform="translate(59.25, 1.9502)" />
-     <path style="fill:#e01" transform="translate(140, 59)"
-       d="M3.1 13.75 L6.9 0.2998 C6.9 0.2998 4.9 1.8994 3.4 1.8496 C1.9 1.7998 0 0 0 0 L3.1 13.75 " /></g>
+    <g><title>Initial reaction steps</title>
+      <g tabindex="0">
+        <title>The acid's hydrogen breaks the double bond of the ketone's oxygen atom and forms an OH group</title>
+        <path style="fill:none;stroke:#e01; stroke-width:1.7; stroke-linecap:butt; stroke-linejoin:miter"
+          d="M0 7.05 C6.1 4.5 12.6 2.9 19.2 2.45019 C52.6 0 81.65 25.1494 84.1 58.5498 "
+          transform="translate(59.25, 1.9502)" />
+        <path style="fill:#e01" transform="translate(140, 59)"
+          d="M3.1 13.75 L6.9 0.2998 C6.9 0.2998 4.9 1.8994 3.4 1.8496 C1.9 1.7998 0 0 0 0 L3.1 13.75 " /></g>
    
-     <g tabindex="0">
-       <title>The oxygen atom that held the hydrogen on the reagent acid takes up the free bond
-         to the central carbon atom.</title>
-       <path style="fill:none;stroke:#e20010; stroke-width:1.7; stroke-linecap:butt; stroke-linejoin:miter"
-         d="M106.35 22.8 C100.75 27.95 94.25 32.15 87.2 35.1504 C53.45 49.5 14.3496 33.7504 0 0" 
-         transform="translate(53.95, 74.85)" />
-       <path style="fill:#e20010" d="M0 0 L0.85 14 C0.85 14 2.2 11.8 3.6 11.5 C5.05 10.85 7.5 11.85 7.5 11.85Z"
-         transform="translate(50.3, 63.5)" /> </g>
-   </g>
+      <g tabindex="0">
+        <title>The oxygen atom that held the hydrogen on the reagent acid takes up the free bond
+          to the central carbon atom.</title>
+        <path style="fill:none;stroke:#e20010; stroke-width:1.7; stroke-linecap:butt; stroke-linejoin:miter"
+          d="M106.35 22.8 C100.75 27.95 94.25 32.15 87.2 35.15 C53.45 49.5 14.3496 33.7504 0 0" 
+          transform="translate(53.95, 74.85)" />
+        <path style="fill:#e20010" d="M0 0 L0.85 14 C0.85 14 2.2 11.8 3.6 11.5 C5.05 10.85 7.5 11.85 7.5 11.85Z"
+          transform="translate(50.3, 63.5)" /> </g>
+    </g>
+  </g> <!-- list the starting group -->
+</g><!-- The whole shebang -->
 
   <g id="arrow1">
     <path style="fill:none;stroke:#161413; stroke-width:1.35; stroke-linecap:butt; stroke-linejoin:miter"
