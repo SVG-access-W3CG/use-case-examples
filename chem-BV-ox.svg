@@ -221,13 +221,13 @@
 
     <g><title>positive charge</title>
       <circle r="6" style="stroke:#000;stroke-width:1.3;fill:none" cx="1061" cy="68"/>
-      <text x="1056" y="73">+</text></g>
+      <text x="1058" y="71" font-size="10">+</text></g>
   </g>
 
   <use xlink:href="#o" transform="translate(1156, 12)" aria-labelledby="o-label"/>
-  <g><title>double bond</title></g>
-  <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M1.7 29.4502 L0 29.4502 L0 0 L1.7 0 L1.7 29.4502 Z" transform="translate(1166.9, 32.4502)" />
-  <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M1.7 29.4502 L0 29.4502 L0 0 L1.7 0 L1.7 29.4502 Z" transform="translate(1160.9, 32.4502)" />
+  <g><title>double bond</title>
+    <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M1.7 29.4502 L0 29.4502 L0 0 L1.7 0 L1.7 29.4502 Z" transform="translate(1166.9, 32.4502)" />
+    <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M1.7 29.4502 L0 29.4502 L0 0 L1.7 0 L1.7 29.4502 Z" transform="translate(1160.9, 32.4502)" /></g>
   <use xlink:href="#r1" transform="translate(1118, 72)" />
 
   <path style="fill:#161413; fill-rule:nonzero;stroke:none;" d="M0.85 13.7002 L0 12.25 L21.2 0 L21.2 1.9502 L0.85 13.7002 Z" transform="translate(1143.55, 59.2002)" />
