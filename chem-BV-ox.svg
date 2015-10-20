@@ -41,9 +41,10 @@
         <desc id="InitialKetoneDesc">A ketone, consisting of a carbon atom double-bonded
           to an oxygen atom and singly bonded to two "terminal groups"</desc>
 
-        <g id="g1Carbon" x="51" y="56" aria-labelledby="g1C-label" role="listitem" aria-owns="g1terminals">
-          <title id="g1C-label">The carbon atom
-            bonded to the oxygen in the ketone</title> </g>
+        <g id="g1Carbon" aria-labelledby="g1C-label" role="listitem" aria-owns="g1terminals">
+          <title id="g1C-label">The carbon atom in the ketone chain that is
+            bonded to the oxygen</title>
+          <circle r=".2" cx="51" cy="56" role="img"/></g>
 
       <g id="g1terminals" role="list">
         <g role="listitem">
@@ -82,32 +83,41 @@
       </g> <!-- list - the terminals of the ketone -->
     </g> <!-- list - the ketone -->
 
-    <g id="plus" tabindex="0" role="img"><title>plus</title>
+    <g id="plus" tabindex="0" role="listitem" aria-labelledby="1plus-label">
+      <title id="1plus-label">plus</title>
       <text font-size="26" x="118" y="60">+</text></g>
 
-    <g id="reagent" tabindex="0" aria-labelledby="reagentlabel" role="group">
+    <g id="reagent" tabindex="0" aria-labelledby="reagentlabel" role="listitem">
       <title id="reagentlabel">Reagent, triflouro-1,1,1-ethaneperoxoic acid</title>
+      <g role="list">
 
-      <g id="rgt1oh1" aria-labelledby="rgt1oh1-label" role="img">
-        <title id="intoh1-label">-anol group</title>
-        <use xlink:href="#h" transform="translate(137,75)" aria-labelledby="h-label" />
-        <use xlink:href="#o" transform="translate(153,75)" aria-labelledby="o-label" /></g>
+        <g id="rgt1c1" role="listitem" aria-labelledby="rgt1c1-label">
+          <title id="rgt1c1-label">"central" Carbon atom in the reagent acid</title>
+          <g role="list" aria-owns="">
+          <circle r=".2" cx="223" cy="49"/></g>
+        </g>
 
-      <path d="M18.6 0 L18.6 1.72 L0 1.7 L0 0 L18.6 0 Z" transform="translate(172,82)" />
+        <g id="rgt1oh1" aria-labelledby="rgt1oh1-label" role="listitem">
+          <title id="intoh1-label">-anol group</title>
+          <use xlink:href="#h" transform="translate(137,75)" aria-labelledby="h-label" />
+          <use xlink:href="#o" transform="translate(153,75)" aria-labelledby="o-label" /></g>
 
-      <use xlink:href="#o" transform="translate(193,75)" aria-labelledby="o-label"/>
+        <path d="M18.6 0 L18.6 1.72 L0 1.7 L0 0 L18.6 0 Z" transform="translate(172,82)" />
 
-      <path d="M14.85 0 L15.8 1.7 L1.5 26.5 L0 25.7Z" transform="translate(206, 48)" />
+        <use xlink:href="#o" transform="translate(193,75)" aria-labelledby="o-label"/>
 
-      <use xlink:href="#o" transform="translate(193, 6)" aria-labelledby="o-label" />
+        <path d="M14.85 0 L15.8 1.7 L1.5 26.5 L0 25.7Z" transform="translate(206, 48)" />
 
-      <path d="M0 0.8506 L1.45 0 L16.25 25.6 L14.75 26.5Z" transform="translate(204.3, 26)" />
-      <path d="M0 0.8506 L1.5 0 L16.25 25.6 L14.8 26.5Z" transform="translate(209.45, 23)" />
+        <use xlink:href="#o" transform="translate(193, 6)" aria-labelledby="o-label" />
 
-      <use xlink:href="#cf3" transform="translate(253, 40)" aria-labelledby="cf3-label" />
+        <path d="M0 0.8506 L1.45 0 L16.25 25.6 L14.75 26.5Z" transform="translate(204.3, 26)" />
+        <path d="M0 0.8506 L1.5 0 L16.25 25.6 L14.8 26.5Z" transform="translate(209.45, 23)" />
 
-      <path d="M30.3 0 L30.3 1.7 L0.95 1.7 L0 0Z" transform="translate(221, 48)" />
-    </g>
+        <use xlink:href="#cf3" transform="translate(253, 40)" aria-labelledby="cf3-label" />
+
+        <path d="M30.3 0 L30.3 1.7 L0.95 1.7 L0 0Z" transform="translate(221, 48)" />
+      </g>
+    </g> <!-- list - the reagent -->
 
     <g><title>Initial reaction steps</title>
       <g tabindex="0">
