@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 400 540" width="400" height="540">
+  <title>Medical expenditure compared to deaths caused</title>
+  <defs>
+    <filter id="shadow1" x="0" y="0" width="200%" height="200%">
+      <feOffset result="offOut" in="SourceGraphic" dx="0" dy="4" />
+      <feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="4" />
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    </filter>
+    <filter id="shadow2" x="0" y="0" width="200%" height="200%">
+      <feOffset result="offOut" in="SourceGraphic" dx="0" dy="-4" />
+      <feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="4" />
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    </filter>
+  </defs>
+
+<style><![CDATA[
+line {stroke: black; stroke-width:2}
+a { opacity:.4}
+#c a:focus polygon { filter: url(#shadow1)}
+#c a:focus line {filter: url(#shadow2)} 
+#d a:focus line { filter: url(#shadow1)}
+#d a:focus polygon {filter: url(#shadow2)} 
+]]>
+</style>
+<g role="list">
+  <g role="listitem"><g role="list" id="c" aria-labelledby="c-label">
+      <title id="c-label">diseases by cost</title> 
+    <g id="c1" style="fill:pink" role="listitem" aria-labelledby="c1-label">
+      <title id="c1-label">Breast Cancer: $287.9M</title>
+      <rect width="20" height="287.9"/>
+      <a xlink:href="#d4" aria-labelledby="c1l-label">
+        <title id="c1l-label">Deaths: 41,374 - 4th</title>
+        <!-- replace these with curves… -->
+        <polygon points="20 72 380 423 20 216"/>
+        <line x1="20" x2="380" y1="72" y2="413"/>
+      </a>
+    </g>
+    <g id="c2" style="fill:orange" role="listitem"
+      aria-labelledby="c2-label">
+      <title id="c2-label">Prostate Cancer: $147M</title>
+      <rect y="287.9" width="20" height="147"/>
+      <a xlink:href="#d6" aria-labelledby="c2l-label">
+        <title id="c2l-label">Deaths 21,176, 6th</title>
+        <polygon points="20 323 380 456 20 400"/>
+        <line x1="20" x2="380" y1="323" y2="451" />
+      </a>
+    </g>
+    <g id="c3" style="fill:purple" role="listitem" aria-labelledby="c3-label">
+      <title id="c3-label">Heart Disease: $54.1M</title>
+      <rect y="434.9" width="20" height="54.1"/>
+      <a xlink:href="#d1" aria-labelledby="dc3l-label">
+        <title id="c3l-label">Deaths: 596,577, 1st</title>
+        <polygon points="20 450 380 225 20 477"/>
+        <line x1="20" x2="380" y1="450" y2="75"/>
+      </a>
+    </g>
+    <g id="c4" style="fill:grey" role="listitem" aria-labelledby="c4-label">
+      <title id="c4-label">Motor Neuron Disease: $22.9M</title>
+      <rect y="489" width="20" height="22.9"/>
+      <a xlink:href="#d8" aria-labelledby="c4l-label">
+        <title id="c4l-label">Deaths: 6,849, 8th</title>
+        <polygon points="20 495 380 463.3 20 506"/>
+        <line x1="20" x2="380" y1="495" y2="465.3"/>
+      </a>
+    </g>
+    <g id="c5" style="fill:red" role="listitem" aria-labelledby="c5-label">
+      <title id="c5-label">HIV/AIDS: $14M</title>
+      <rect y="511.9" width="20" height="14"/>
+      <a xlink:href="#d7" aria-labelledby="c5l-label">
+        <title id="c5l-label">Deaths: 7,683, 7th</title>
+        <polygon points="20 515.5 380 461.8 20 522.5"/>
+        <line x1="20" x2="380" y1="515.5" y2="459.6"/>
+      </a>
+    </g>
+    <g id="c6" style="fill:aqua" role="listitem" aria-labelledby="c6-label">
+      <title id="c6-label">COPD: $7M</title>
+      <rect y="525.9" width="20" height="7"/>
+      <a xlink:href="#d2" aria-labelledby="c6l-label">
+        <title id="c6l-label">Deaths: 142,942, 2nd</title>
+        <polygon points="20 527.9 380 353 20 531"/>
+        <line x1="20" x2="380" y1="527.9" y2="316"/>
+      </a>
+    </g>
+    <g id="c7" style="fill:green" role="listitem" aria-labelledby="c7-label">
+      <title id="c7-label">Diabetes: $4.2M</title>
+      <rect y="532.9" width="20" height="4.2"/>
+      <a xlink:href="#d3" aria-labelledby="c7l-label">
+        <title id="c7l-label">Deaths: 73,831, 3rd</title>
+        <polygon points="20 534 380 399 20 536"/>
+      <line x1="20" x2="380" y1="534" y2="380"/>
+      </a>
+    </g>
+    <g id="c8" role="listitem" aria-labelledby="c8-label">
+      <title id="c8-label">Suicide: $3.2M</title>
+      <rect style="fill:yellow" y="537.1" width="20" height="3.4"/>
+      <a xlink:href="#d5" aria-labelledby="c8l-label">
+        <title id="c8l-label">Deaths: 39,518 5th</title>
+        <polygon points="20 538.1 380 443 20 539.5"/>
+      <line x1="20" x2="380" y1="538.1" y2="433"/>
+      </a>
+    </g>
+  </g></g>
+  <g role="listitem"><g role="list" id="d" aria-labelledby="d-label">
+      <title id="d-label">diseases by deaths</title> 
+
+    <g id="d1" style="fill:purple" role="listitem" aria-labelledby="d1-label">
+      <title id="d1-label">Heart disease: 596,577 deaths</title>
+      <rect x="380" width="20" height="298.3"/>
+      <a xlink:href="#c3" aria-labelledby="d1l-label">
+        <title id="d1l-label">Expenditure: $54.1M, 3rd</title>
+        <polygon points="380 75 20 450 380 225"/>
+      <line x1="380" y1="225" x2="20" y2="477"/>
+      </a>
+    </g>
+    <g id="d2" style="fill:aqua" role="listitem" aria-labelledby="d2-label">
+      <title id="d2-label">COPD: 142,942 deaths</title>
+      <rect x="380" width="20" y="298.3" height="72.5"/>
+      <a xlink:href="#c6" aria-labelledby="d2l-label">
+        <title id="d2l-label">Expenditure: $7M, 6th</title>
+        <polygon points="380 316 20 527.9 380 353"/>
+        <line x1="380" y1="353" x2="20" y2="531"/>
+      </a>
+    </g>
+    <g id="d3" style="fill:green" role="listitem" aria-labelledby="d3-label">
+      <title id="d3-label">Diabetes: 73,831 deaths</title>
+      <rect x="380" width="20" y="370.8" height="36.9"/>
+      <a xlink:href="#c7" aria-labelledby="d3l-label">
+        <title id="d3l-label">Expenditure: $4.2M, 7th</title>
+        <polygon points="380 380 20 534 380 399"/>
+        <line x1="380" y1="399" x2="20" y2="536"/>
+      </a>
+    </g>
+    <g id="d4" style="fill:pink" role="listitem" aria-labelledby="d4-label">
+      <title id="d4-label">Breast Cancer: 41,374 deaths</title>
+      <rect x="380" width="20" y="407.7" height="20.7"/>
+      <a xlink:href="#c1" aria-labelledby="d4l-label">
+        <title id="d4l-label">Expenditure: $257.85M, 1st</title>
+        <polygon points="380 413 20 72 380 423"/>
+        <line x1="380" y1="423" x2="20" y2="216"/>
+      </a>
+    </g>
+    <g id="d5" style="fill:yellow" role="listitem" aria-labelledby="d5-label">
+      <title id="d5-label">Suicide: 39,518 deaths</title>
+      <rect x="380" width="20" y="428.4" height="19.8"/>
+      <a xlink:href="#c8" aria-labelledby="d5l-label">
+        <title id="d5l-label">Expenditure: $3.2M, 8th</title>
+        <polygon points="380 433 20 538.1 380 443"/>
+        <line x1="380" y1="443" x2="20" y2="539.5"/>
+      </a>
+    </g>
+    <g id="d6" style="fill:orange" role="listitem" aria-labelledby="d6-label">
+      <title id="d6-label">Prostate Cancer: 21,176 deaths</title>
+      <rect x="380" width="20" y="448.2" height="10.6"/>
+      <a xlink:href="#c2" aria-labelledby="d6l-label">
+        <title id="d6l-label">Expenditure: $147M, 2nd</title>
+        <polygon points="380 451 20 323 380 456"/>
+        <line x1="380" y1="456" x2="20" y2="400"/>
+      </a>
+    </g>
+    <g id="d7" style="fill:red" role="listitem" aria-labelledby="d7-label">
+      <title id="d7-label">HIV/AIDS: 7,683 deaths</title>
+      <rect x="380" width="20" y="458.8" height="3.8"/>
+      <a xlink:href="#c5" aria-labelledby="d7l-label">
+        <title id="d7l-label">Expenditure: $14M, 5th</title>
+        <polygon points="380 459.6 20 515.5 380 461.8"/>
+        <line x1="380" y1="461.8" x2="20" y2="522.5"/>
+      </a>
+    </g>
+    <g id="d8" style="fill:grey" role="listitem" aria-labelledby="d8-label">
+      <title id="d8-label">Motor Neurone Disease: 21,176 deaths</title>
+      <rect x="380" width="20" y="462.6" height="3.4"/>
+      <a xlink:href="#c4" aria-labelledby="d8l-label">
+        <title id="d8l-label">Expenditure: $22.9M, 4th</title>
+        <polygon points="380 463.3 20 495 380 465.3"/>
+        <line x1="380" y1="465.3" x2="20" y2="506"/>
+      </a>
+    </g>
+  </g></g>
+</g>
+</svg>
