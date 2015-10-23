@@ -1,4 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 580" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <style><![CDATA[
+ path:hover {fill:none}
+]]></style>
  <defs>
   <clipPath id="1">
    <path d="m-20-21h550v580h-550z"/>
@@ -173,4 +176,7 @@
     </text>
    </g>
   </g>
+ <circle r="230" cx="275" cy="290" style="fill:none; stroke: red; stroke-width: 1; stroke-dasharray: .1 .70285"/>
+ <circle r="230" cx="275" cy="290" style="fill:none; stroke: black; stroke-width: 4; stroke-dasharray: .11426 3.9"/>
+ <circle r="230" cx="275" cy="290" style="fill:none; stroke: black; stroke-width: 8; stroke-dasharray: .11426 23.9713"/>
  </svg>
