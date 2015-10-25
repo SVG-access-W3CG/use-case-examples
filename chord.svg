@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 580" xmlns:xlink="http://www.w3.org/1999/xlink">
  <style><![CDATA[
  path:hover {fill:none; stroke:black}
- text { font-family: Arial,SanSerif; text-anchor: middle; font-size: 14 }
+ text { font-family: Arial,SanSerif; text-anchor: middle; font-size: 14; fill: black !important }
 ]]></style>
  <defs>
   <clipPath id="1">
    <path d="m-20-21h550v580h-550z"/>
    </clipPath>
   </defs>
-  <!g font-family="Arial,SanSerif" text-anchor="middle" kerning="0" text-rendering="auto" font-size="14"-->
+  <!--g font-family="Arial,SanSerif" text-anchor="middle" kerning="0" text-rendering="auto" font-size="14"-->
  <!--path fill="#fff" fill-rule="evenodd" stroke-width="1" d="m0 0h550v580h-550z" id="0"/>
  <use xlink:href="#0"/-->
 
 <g transform="translate(20 21)" clip-path="url(#1)" fill-rule="evenodd">
  <g role="list"><title>headings</title>
-  <g role="listitem><g role="list" fill="#e6e6e6"><title>headings group 1</title>
+  <g role="listitem"><g role="list" fill="#e6e6e6"><title>headings group 1</title>
     <g role="listitem"> 
    <path id="xer-back" d="m253.78 36.503c-11.758.062-23.494 1.013-35.11 2.846l-3.43-21.731c12.711-2.01 25.555-3.047 38.423-3.115"/>
    <text x="235.11" y="28.745"  transform="matrix(.99673-.08081.08081.99673-1.179 19.08)">xer...</text>
@@ -100,8 +100,7 @@ cc   <text x="468.45" y="151.45"  transform="matrix(.49834.86698-.86698.49834 36
      <text x="315.72" y="512.74"  transform="matrix(-.96911.24662-.24662-.96911 746.99 922.64)">Annoying</text>
     </g>
    </g>
-  </g></g>
-   
+  </g>   
   <path fill="#f80" stroke="#f80" d="m143.07 470.43c-6.985-3.891-13.762-8.144-20.304-12.741q132.23-188.19 351.05-259.04c2.463 7.606 4.528 15.337 6.186 23.16q-225 47.692-336.93 248.62"/>
   <path fill="#cc0" stroke="#cc0" d="m194.18 491.31c-7.711-2.114-15.307-4.629-22.756-7.535q83.58-214.28 306.51-157.7c-1.967 7.75-4.336 15.393-7.099 22.896q-215.83-79.47-276.66 142.34"/>
   <path fill="#f00" stroke="#f00" d="m26.15 246.56c.778-7.762 1.95-15.479 3.512-23.12q225.34 46.06 291.75-174.15c7.468 2.253 14.817 4.883 22.02 7.882q-88.43 212.32-317.28 189.38"/>
