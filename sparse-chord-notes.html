@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+ <title>Making sparse-chord.svg accessible</title>
+</head><body>
+<h1>Making <a href="sparse-chord.svg">sparse-chord.svg</a> more accessible</h1>
+<p>Notes on the changes made to sparse-chord.svg and how these helped improve its accessibility.</p>
+<p>See also the <a href="chord-notes.svg">chord graph notes</a> I made as a way to start thinking through the issues.</p>
+<h2>Starting fresh</h2>
+ <p>Unlike most of the example here so far, I started without source code. Instead there was an image, and the question of whether it could be made accessible using link and other keyboard navigation.</ul> 
+<h2>Accessibility steps</h2>
+ <dl>
+  <dt>Use <code>aria-labelledby</code> on titles</dt>
+   <dd></dd>
+  <dt>make the links</dt>
+   <dd>Connections from items on one side to the corresponding item on the other are links</dd>
+  <dt>Grouping</dt>
+   <dd>Each block representing a disease is a group, and the link to the corresponding block on the other side is a link, represented as a triangle covering the entire connection from one side but only reaching a point on the other.</dd>
+  <dt>ARIA</dt>
+   <dd>The set of blocks on each side are a list</dd>
+  <dt>Style</dt>  
+   <dd>add a style to the links to increase visibility when they are focused</dd>
+ </dl>
+
+ <p><img src="sparse-chord.svg" alt="" longdesc="chord-desc.html"></p>
+ <p><a href="http://github.com/svg-access-w3c/use-case-examples/sparse-chord-notes.html">This document</a> is on github - feel free to propose changes, offer information about browser support, etc.</p>
+</body></html>
