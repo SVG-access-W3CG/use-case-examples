@@ -1,38 +1,107 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 160" height="12em" width="50em">
-          <g id="basicProcess" opacity=".6">
-            <g id="Modif-nodeWD">
-              <ellipse ry="18" rx="38" cy="40" cx="147" stroke="black" fill="none"></ellipse>
-              <a xlink:href="#RecsWD"><text font-size="14" font-family="Times,serif" y="44" x="147" text-anchor="middle">WD</text></a> </g>
-            <g id="Modif-repeatWD" stroke="black">
-              <path d="M128,24C123,14 129,4 147,4 158,4 165,8 167,14" fill="none" stroke-dasharray="6 1"></path>
-              <polygon points="170,14 166,24 164,13"></polygon> </g>
-            <g class="edge" id="Modif-toCR" stroke="black" fill="black">
-              <path d="M185,40h31"></path>
-              <polygon points="211,36 221,40 211,44"></polygon> </g>
-            <g id="Modif-nodeCR">
-              <ellipse ry="18" rx="38" cy="40" cx="260" stroke="black" fill="none"></ellipse>
-              <a xlink:href="#RecsCR"><text font-size="14" font-family="Times,serif" y="44" x="260" text-anchor="middle">CR</text></a> </g>
-            <g class="edge" id="Modif-repeatCR" stroke="black" fill="black">
-              <path d="M242,24C238,14 244,4 260,4 271,4 277,8 279,14" stroke-dasharray="5 3" fill="none"></path>
-              <polygon points="282,14 277,24 275,13"></polygon> </g>
-            <g id="Modif-backToWD" stroke="#666" fill="#666">
-              <path d="M190,47h34" stroke-dasharray="4 4"></path>
-              <polygon points="190,45 183,47 190,49"></polygon> </g>
-            <g class="edge" id="Modif-ToPR" stroke="black" fill="black">
-              <path d="M298,40h27"></path>
-              <polygon points="324,36 334,40 324,44"></polygon> </g>
-            <g id="Modif-nodePR">
-              <ellipse ry="18" rx="28" cy="40" cx="363" stroke="black" fill="none"></ellipse>
-              <a xlink:href="#RecsPR"><text font-size="14" font-family="Times,serif" y="44" x="363" text-anchor="middle">PR</text></a> </g>
-            <g id="Modif-BackToCR" stroke="#aaa" fill="#aaa">
-              <path d="M301,47h38" stroke-dasharray="2 5"></path>
-              <polygon points="301,45 296,47 301,49"></polygon> </g>
-            <g id="Modif-ToRec" stroke="black" fill="black">
-              <path d="M391,40h20"></path>
-              <polygon points="404,36 414,40 404,44"></polygon> </g> </g>
-          <g id="Modif-nodeRec" stroke="black">
-            <ellipse ry="18" rx="28" cy="40" cx="443" fill="none" stroke-width="2"></ellipse>
-            <a xlink:href="#RecsW3C"><text font-size="16" font-family="Times,serif" y="44" x="443" text-anchor="middle" stroke-width=".3">REC</text></a></g>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 -20 650 180" height="180" width="650">
+  <title>Flowchart: Process for revising a W3C Recommendation</title>
+  <g id="basicProcess" opacity=".6">
+
+    <g id="Modif-nodeWD" role="list" aria-labelledby="modif-nodewd-label">
+      <title id="modif-nodewd-label">Working Draft</title>
+      <ellipse ry="18" rx="38" cy="40" cx="97" stroke="black" fill="#fff"></ellipse>
+      <a xlink:href="#RecsWD" aria-labelledby="modif-nodewd-label">
+        <text font-size="14" font-family="Times,serif" y="44" x="97" text-anchor="middle">WD</text>
+      </a>
+
+      <g id="Modif-repeatWD" role="listitem"
+        aria-labelledby="modif-repeatwd-label modif-repeatwd-text">
+        <title id="modif-repeatwd-label">Publish a New Working Draft</title>
+        <text id="modif-repeatwd-text" font-size="8" x="60" y="0">Important changes/6 months</text>
+        <path d="M78,24C73,14 79,4 97,4 108,4 115,8 117,14"
+          fill="none" stroke="black" stroke-dasharray="6 1"></path>
+        <polygon points="120,14 116,24 114,13"></polygon> </g>
+
+      <g id="Modif-toCR" role="listitem"
+        aria-labelledby="modif-tocr-label modif-tocr-text" fill="#060">
+        <title id="modif-tocr-label">Advance to Candidate Recommendation</title> 
+        <text id="modif-tocr-label" x="138" y="38" font-size="8">Director's approval</text>
+          <path stroke="#060" d="M135,40h81"></path>
+          <polygon points="211,36 221,40 211,44"></polygon> </g>
+    </g>
+
+    <g id="Modif-nodeCR" role="list" aria-labelledby="modif-nodecr-label">
+      <title id="modif-nodecr-label">Candidate recommendation - Patent Policy Exclusion Opportunity</title>
+      <ellipse ry="18" rx="38" cy="40" cx="260" stroke="black" fill="#fff"></ellipse>
+      <a xlink:href="#RecsCR">
+        <text font-size="14" font-family="Times,serif" y="44" x="260" text-anchor="middle">CR</text></a>
+
+      <g role="listitem" id="Modif-repeatCR"
+        aria-labelledby="modif-repeatcr-label modif-repeatcr-text" fill="#060">
+        <text font-size="8" id="modif-repeatcr-text">
+          <tspan x="225" y="-10">Directors approval for</tspan>
+          <tspan x="230" y="0">substantive changes</tspan></text>
+        <path stroke="#000" d="M242,24C238,14 244,4 260,4 271,4 277,8 279,14"
+          stroke-dasharray="5 11" fill="none"></path>
+        <path stroke="#060" d="M242,24C238,14 244,4 260,4 271,4 277,8 279,14"
+          stroke-dasharray="5 11" stroke-dashoffset="8" fill="none"></path>
+        <polygon points="282,14 277,24 275,13"></polygon> </g>
+
+      <g id="Modif-ToPR" role="listitem"
+        aria-labelledby="modif-topr-label modif-topr-text" fill="#060">
+        <title id="modif-topr-label">Advance to Proposed Recommendation</title> 
+        <text id="modif-topr-label" x="300" y="38" font-size="8">Director's approval</text>
+        <path d="M298,40h77" stroke="#060"></path>
+        <polygon points="374,36 384,40 374,44"></polygon> </g>
+
+      <g id="Modif-backToWD" role="listitem"
+        aria-labelledby="modif-backtowd-label modif-backtowd-text" fill="#600">
+        <title id="modif-backtowd-label">Return to Working Draft</title> 
+        <text id="modif-backtowd-label" font-size="8">
+          <tspan x="142" y="56">WG or Director decision</tspan>
+          <tspan x="144" y="64">e.g. for further review</tspan></text>
+        <path d="M140,47h84" stroke-dasharray="4 4" stroke="#600"></path>
+        <polygon points="140,45 133,47 140,49"></polygon> </g>
+    </g>
+
+    <g id="Modif-nodePR" role="list" aria-labelledby="modif-nodepr-label">
+      <title id="modif-nodepr-label">Proposed Recommendation - Advisory Committee Review</title>
+      <ellipse ry="18" rx="28" cy="40" cx="413" stroke="black" fill="none"></ellipse>
+      <a xlink:href="#RecsPR">
+        <text font-size="14" font-family="Times,serif" y="44" x="413" text-anchor="middle">PR</text></a>
+
+      <g id="Modif-ToRec" role="listitem"
+        aria-labelledby="modif-torec-label modif-torec-text" fill="#060">
+        <title id="modif-topr-label">Advance to Recommendation</title> 
+        <text id="modif-topr-label" x="300" y="38" font-size="8">  
+          <tspan x="445" y="30">Advisory Committee Review</tspan>
+          <tspan x="445" y="38">Director's Decision</tspan></text>
+
+        <path d="M441,40h100" stroke="#060"></path>
+        <polygon points="534,36 544,40 534,44"></polygon> </g>
+
+      <g id="Modif-BackToCR" role="listitem"
+        aria-labelledby="modif-backtocr-label modif-backtocr-text" fill="#600">
+        <title id="modif-backtocr-label">Return to Working Draft</title> 
+        <text id="modif-backtowd-label" font-size="8">
+          <tspan x="302" y="56">Director Decision</tspan>
+          <tspan x="304" y="64">For minor changes</tspan></text>
+        <path d="M301,47h88" stroke-dasharray="3 5" stroke="#600"></path>
+        <polygon points="301,45 296,47 301,49"></polygon> </g>
+
+      <g id="Modif-PRBackToWD" role="listitem"
+        aria-labelledby="modif-prbacktowd-label modif-prbacktowd-text" fill="#c00">
+        <title id="modif-prbacktocr-label">Return to Working Draft</title> 
+        <text id="modif-prbacktowd-label" font-size="8">
+          <tspan x="202" y="78">Director decision for further work and review</tspan></text>
+        <path d="M413,58v12h-316v-6" stroke-dasharray="2 2" stroke="#c00" fill="none"></path>
+        <polygon points="95,64 97,59 99,64"></polygon> </g>
+
+    </g>
+
+    <g id="Modif-nodeRec" stroke="black">
+      <ellipse ry="18" rx="28" cy="40" cx="573" fill="none" stroke-width="2"></ellipse>
+      <a xlink:href="#RecsW3C">
+        <text font-size="16" font-family="Times,serif" y="44" x="573"
+          text-anchor="middle" stroke-width=".3">REC</text></a>
+    </g>
+  </g>
+
           <g id="changeARec" stroke="black">
             <path d="M443,58 v20"></path><polygon points="443,78 441,71 445,71"></polygon>
             <polygon points="443,78 486,103 443,128 400,103" fill="none"></polygon>
@@ -52,7 +121,7 @@
             <text x="262" y="75" font-size="10">No</text>
             <polygon points="260,58 262,63 258,63" stroke="black"></polygon> </g>
           <g id="Modif-BackToFPWD" stroke="black">
-            <a xlink:href="#first-wd"><text font-size="8" font-family="Times,serif" y="38" x="66" stroke="none">First WD</text></a>
-            <path d="M220,103h-160v-63h43" fill="none"></path>
+            <a xlink:href="#first-wd"><text font-size="8" font-family="Times,serif" y="38" x="16" stroke="none">First WD</text></a>
+            <path d="M220,103h-210v-63h43" fill="none"></path>
             <text x="200" y="100" stroke-width="0.2" fill="black" font-size="10">Yes</text>
-            <polygon points="103,38 108,40 103,42"></polygon> </g> </svg>
+            <polygon points="53,38 58,40 53,42"></polygon> </g> </svg>
