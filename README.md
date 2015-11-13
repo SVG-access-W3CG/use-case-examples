@@ -8,7 +8,7 @@ The key thing is to explain in your comments why your change makes the thing mor
 
 We are tracking this through the [W3C SVG wiki](https://www.w3.org/wiki/SVG_Accessibility)
 
-So far a couple of images have been worked up to the point where we would really like issues filed:
+So far a handful of images have been worked up to the point where we would really like <a href="http://github.com/SVG-access-W3CG/use-case-examples/issues">issues filed</a>:
 
 <dl>
  <dt>composed-tree</dt>
@@ -17,6 +17,8 @@ So far a couple of images have been worked up to the point where we would really
  <dt>sparse-chord</dt>
   <dd>[sparse-chord.svg](sparse-chord.svg) is a graph that links things shown in 2 individual bar charts to each other.</dd>
   <dd>[Notes about the changes and lessons](sparse-chord-notes.html) are pretty sparse, and we welcome additional testing results</dd>
+ <dt>[rectrack2.svg](rectrack2.svg) is a flowchart with various loops</dt>
+  <dd>[Notes about the changes and lessons](sparse-chord-notes.html) are pretty sparse, and we welcome additional testing results</dd>
 </dl>
 
 There are a couple of images that are being worked on, but are known to be buggy. We would love people to fork them and file Pull Requests for suggesting improvements...
@@ -24,5 +26,8 @@ There are a couple of images that are being worked on, but are known to be buggy
  <dt>chem-BV-ox</dt>
   <dd>[chem-BV-ox.svg](chem-BV-ox.svg) presents a chemical reaction, using a graphical representation familiar to who work with organic chemistry. This is still very much a work in progress.</dd>
  <dt>chord</dt>
-  <dd>[chord.svg](chord.svg) is a pretty complex graph. A [description of the image](https://www.w3.org/wiki/SVG_Accessibility/Cool_Graphs#uc-chord) is available.</dd>
- <dd>[Notes about the changes and lessons](sparse-chord-notes.html) are pretty sparse, and we welcome additional testing results.</dd>
+  <dd>[chord.svg](chord.svg) is a pretty complex graph. A [description of the image](https://www.w3.org/wiki/SVG_Accessibility/Cool_Graphs#uc-chord) is available</dd>
+  <dd>[Notes about the changes and lessons](sparse-chord-notes.html) are pretty sparse, and we welcome additional testing results</dd>
+ <dt>revisedrec</dt>
+  <dd>[revisedrec.svg](revisedrec.svg) is a flowchart between 5 explicit states and one implicit state, with a number of loops. I started to work it up, and then took what I had done to create [rectrack2.svg](rectrack2.svg). At some point the changes should be backported to finish this, because the diagrams are used in the W3C Process document.</dd>
+</dl>
