@@ -1,14 +1,15 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 40 640 160" height="20em" width="80em">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 40 640 240" height="25em" width="80em">
   <title>Flowchart: Process for producing a W3C Recommendation</title>
   <g id="basicProcess" role="list">
 
     <g id="Modif-FPWD" role="listitem" aria-labelledby="modif-fpwd-label modif-fpwd-text">
       <title id="modif-fpwd-label">First Public Working Draft - Exclusion Opportunity</title>
-      <text font-size="8">
-        <a xlink:href="#first-wd"><tspan y="138" x="6">First WD</tspan></a>
-        <tspan x="2" y="148">WG Decision</tspan></text>
-      <path d="M0,140h53" fill="none" stroke="#000"></path>
-      <polygon points="47,136 57,140 47,144"></polygon>
+      <a xlink:href="#Modif-nodeWD">
+        <text font-size="8"><tspan y="136" x="6">First WD</tspan>
+          <tspan x="4" y="150">WG Decision</tspan>
+          <tspan x="4" y="158">Director's approval</tspan></text>
+        <path d="M0,140h53" fill="none" stroke="#000"></path>
+        <polygon points="47,136 57,140 47,144"></polygon></a>
     </g>
 
     <g id="Modif-nodeWD" role="list" aria-labelledby="modif-nodewd-label">
@@ -114,5 +115,53 @@
           text-anchor="middle" stroke-width=".3">REC</text></a>
     </g>
   </g>
+
+
+        <g id="changeARec" stroke="black">
+          <g id="requestedChange" aria-labelledby="requestedchange-title">
+            <title>Proposed change to a Recommendation</title>
+            <path d="M573,158 v20"></path>
+            <polygon points="573,178 571,171 575,171"></polygon>
+            <polygon points="573,178 603,203 573,228 540,203" fill="white"></polygon>
+            <text text-anchor="middle" font-size="10" stroke="none">
+              <tspan x="573" y="202">Changes</tspan>
+              <tspan x="573" y="212">to text?</tspan></text>
+
+            <text x="575" y="239" font-size="10" stroke="none">Yes</text>
+            <path fill="none" d="M573,228v12h-18c-25,0 -30,-44 -55,-44h-18v12"></path>
+            <polygon points="482,208 480,201 484,201"></polygon>
+            <polygon points="482,208 518,233 482,258 442,233" fill="white"></polygon>
+            <text text-anchor="middle" font-size="10" stroke="none"><tspan x="482" y="232">Substantive</tspan><tspan x="482" y="242" text-anchor="middle">changes?</tspan></text></g>
+
+          <g id="RecToPR">
+            <text x="425" y="230" font-size="10" stroke="none">No</text>
+            <text text-anchor="start" font-size="10" stroke="none">
+              <tspan x="420" y="190">Director's</tspan><tspan x="420" y="200">approval</tspan></text>
+            <path d="M442,233h-24v-75" stroke="black" fill="none"></path>
+            <polygon stroke="black" points="418,158 416,165 420,165"></polygon></g>
+
+          <g id="Modif-RecSubstantiveChanges" stroke="black">
+            <text x="484" y="269" font-size="10" stroke="none">Yes</text>
+            <path d="M482,258v12h-50c-50,0 -8,-74 -82,-74h-20v12" fill="none"></path>
+            <polygon points="330,208 328,201 332,201"></polygon>
+            <polygon points="330,258 360,233 330,208 300,233" fill="white"></polygon>
+            <text font-size="10" text-anchor="middle" stroke="none"><tspan x="330" y="230">New</tspan><tspan x="330" y="240" text-anchor="middle">Features?</tspan></text></g>
+
+          <g id="Modif-NoNewFeatures" aria-labelledby="modif-nonewfeatures-label director-approval-text">
+            <title>No new features - return to Candidate Recommendation</title>
+            <a xlink:href="#Modif-nodeCR">
+              <path d="M300,233h-40v-44" fill="none"></path>
+              <path d="M260,178v-20"></path>
+              <text role="none" x="288" y="230" stroke="none" font-size="10">No</text>
+              <text text-anchor="end" font-size="10" stroke="none">
+                <tspan x="258" y="215">Director's</tspan><tspan x="258" y="225">approval</tspan></text>
+              <polygon points="260,158 262,163 258,163" stroke="black"></polygon></a> </g>
+
+          <g id="Modif-BackToFPWD" stroke="black" aria-labelledby="modif-fpwd-label modif-fpwd-text">
+            <a xlink:href="#Modif-nodeWD">
+              <text x="332" y="269" font-size="10" stroke="none">Yes</text>
+              <path d="M330,258v12h-329v-130h53" fill="none"></path></a>
+          </g>
+          </g>
 
 </svg>
