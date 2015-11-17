@@ -4,11 +4,12 @@
 
     <g id="Modif-FPWD" role="listitem" aria-labelledby="modif-fpwd-label modif-fpwd-text">
       <title id="modif-fpwd-label">First Public Working Draft - Exclusion Opportunity</title>
-      <text font-size="8">
-        <a xlink:href="#first-wd"><tspan y="138" x="6">First WD</tspan></a>
-        <tspan x="2" y="148">WG Decision</tspan></text>
-      <path d="M0,140h53" fill="none" stroke="#000"></path>
-      <polygon points="47,136 57,140 47,144"></polygon>
+      <a xlink:href="#Modif-nodeWD">
+        <text font-size="8"><tspan y="136" x="6">First WD</tspan>
+          <tspan x="4" y="150">WG Decision</tspan>
+          <tspan x="4" y="158">Director's approval</tspan></text>
+        <path d="M0,140h53" fill="none" stroke="#000"></path>
+        <polygon points="47,136 57,140 47,144"></polygon></a>
     </g>
 
     <g id="Modif-nodeWD" role="list" aria-labelledby="modif-nodewd-label">
@@ -127,7 +128,7 @@
               <tspan x="573" y="212">to text?</tspan></text>
 
             <text x="575" y="239" font-size="10" stroke="none">Yes</text>
-            <path fill="none" d="M573,228v12h-18c-50,0 -8,-44 -55,-44h-18v12"></path>
+            <path fill="none" d="M573,228v12h-18c-25,0 -30,-44 -55,-44h-18v12"></path>
             <polygon points="482,208 480,201 484,201"></polygon>
             <polygon points="482,208 518,233 482,258 442,233" fill="white"></polygon>
             <text text-anchor="middle" font-size="10" stroke="none"><tspan x="482" y="232">Substantive</tspan><tspan x="482" y="242" text-anchor="middle">changes?</tspan></text></g>
@@ -146,16 +147,18 @@
             <polygon points="330,258 360,233 330,208 300,233" fill="white"></polygon>
             <text font-size="10" text-anchor="middle" stroke="none"><tspan x="330" y="230">New</tspan><tspan x="330" y="240" text-anchor="middle">Features?</tspan></text></g>
 
-          <g id="Modif-NoNewFeatures">
-            <path d="M300,233h-40v-44" fill="none"></path>
-            <path d="M260,178v-20"></path>
-            <text x="288" y="230" stroke="none" font-size="10">No</text>
-            <text text-anchor="end" font-size="10" stroke="none">
-              <tspan x="258" y="215">Director's</tspan><tspan x="258" y="225">approval</tspan></text>
-            <polygon points="260,158 262,163 258,163" stroke="black"></polygon> </g>
+          <g id="Modif-NoNewFeatures" aria-labelledby="modif-nonewfeatures-label director-approval-text">
+            <title>No new features - return to Candidate Recommendation</title>
+            <a xlink:href="#Modif-nodeCR">
+              <path d="M300,233h-40v-44" fill="none"></path>
+              <path d="M260,178v-20"></path>
+              <text role="none" x="288" y="230" stroke="none" font-size="10">No</text>
+              <text text-anchor="end" font-size="10" stroke="none">
+                <tspan x="258" y="215">Director's</tspan><tspan x="258" y="225">approval</tspan></text>
+              <polygon points="260,158 262,163 258,163" stroke="black"></polygon></a> </g>
 
           <g id="Modif-BackToFPWD" stroke="black" aria-labelledby="modif-fpwd-label modif-fpwd-text">
-            <a xlink:href="#first-wd">
+            <a xlink:href="#Modif-nodeWD">
               <text x="332" y="269" font-size="10" stroke="none">Yes</text>
               <path d="M330,258v12h-329v-130h53" fill="none"></path></a>
           </g>
