@@ -1,6 +1,11 @@
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 40 640 240" height="25em" width="80em">
   <title>Flowchart: Process for producing a W3C Recommendation</title>
-  <g id="basicProcess" role="list">
+  <style><![CDATA[
+     :focus path, :focus polygon, :focus ellipse { stroke-width: 4}
+     g:hover path, g:hover polygon, g:hover ellipse { stroke-width: 4}
+     :focus text, g:hover text { stroke: black; stroke-width: .5}
+  ]]></style>
+  <!--g id="basicProcess" role="list"-->
 
     <g id="Modif-FPWD" role="listitem" aria-labelledby="modif-fpwd-label modif-fpwd-text">
       <title id="modif-fpwd-label">First Public Working Draft - Exclusion Opportunity</title>
@@ -14,8 +19,8 @@
 
     <g id="Modif-nodeWD" role="list" aria-labelledby="modif-nodewd-label">
       <title id="modif-nodewd-label">Working Draft</title>
-      <ellipse ry="18" rx="38" cy="140" cx="97" stroke="black" fill="#fff"></ellipse>
       <a xlink:href="#RecsWD" aria-labelledby="modif-nodewd-label">
+        <ellipse ry="18" rx="38" cy="140" cx="97" stroke="black" fill="#fff"></ellipse>
         <text font-size="14" y="144" x="97" text-anchor="middle">WD</text></a>
 
 <!-- Experiment 1: use g[role=listitem] with a link inside it -->
@@ -40,8 +45,8 @@
 
     <g id="Modif-nodeCR" role="list" aria-labelledby="modif-nodecr-label">
       <title id="modif-nodecr-label">Candidate recommendation - Patent Policy Exclusion Opportunity</title>
-      <ellipse ry="18" rx="38" cy="140" cx="260" stroke="black" fill="#fff"></ellipse>
       <a xlink:href="#RecsCR">
+        <ellipse ry="18" rx="38" cy="140" cx="260" stroke="black" fill="#fff"></ellipse>
         <text font-size="14" y="144" x="260" text-anchor="middle">CR</text></a>
 
 <!-- Experiment 2: use a instead of g -->
@@ -88,8 +93,8 @@
         aria-labelledby="modif-torec-label modif-torec-text" fill="#060">
         <title id="modif-torec-label">Advance to Recommendation</title> 
         <text role="none" id="modif-torec-text" x="300" y="138" font-size="8">  
-          <tspan x="445" y="130">Advisory Committee Review</tspan>
-          <tspan x="445" y="138">Director's Decision</tspan></text>
+          <tspan x="445" y="128">Advisory Committee Review</tspan>
+          <tspan x="445" y="136">Director's Decision</tspan></text>
 
         <path d="M441,140h100" stroke="#060"></path>
         <polygon points="534,136 544,140 534,144"></polygon> </a>
