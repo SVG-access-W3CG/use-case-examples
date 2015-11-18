@@ -2,11 +2,24 @@
  <head>
   <meta charset="utf-8">
   <title>Notes on making W3C process diagrams accessible</title>
+  <style>
+     :focus path, :focus polygon, :focus ellipse { stroke-width: 4}
+     g:hover path, g:hover polygon, g:hover ellipse { stroke-width: 4}
+     :focus text, g:hover text { stroke: black; stroke-width: .5}
+  </style>
  </head>
  <body>
   <h1>Notes on making the W3C process diagrams accessible</h1>
 
   <p>The <a href="rectrack.svg">rectrack.svg</a> and <a href="revisedrec">revisedrec</a>  diagrams are taken from the 2014 version of the <a href="http://w3.org/Consortium/Process">W3C Process Document</a>, where they is embedded within the HTML source. <a href="rectrack-note.svg">rectrack-note.svg</a> is a new extended version rectrack.svg, intended to be added to a revision of the Process Document.</p>
+
+  <p>Note that some browsers have different behaviour when dealing with SVG as standalone files and when it is embedded in HTML. For example, Internet Explorer reportedly can't do anything at all with standalone SVG.<p>
+
+  <p>To test them as code embedded in HTML, instead of standalone SVG, see below:</p>
+  <ul>
+    <li><a href="#rr2">RevisedRec</a></li>
+    <li><a href="#rt2">RecTrack-Note</a></li>
+  <ul>
 
   <p>The graphic is a relatively simple flowchart (mathematically an example of a "directed graph"). There are 5 real states, and an implicit state, and documents can move between these states by meeting requirements that vary according to the particular transition.</p>
 
@@ -19,102 +32,120 @@
   <h2>Adding accessibility</h2>
 
   <dl>
-   <dt><code>title</code></dt>
+   <dt>Use <code>title</code> for important objects</dt>
     <dd>The diagram was given title elements throughout the structure. It still needs an overall <code>desc</code> to be added</dd>
-   <dt><code>aria-labelledby</code></dt>
-    <dd>To cope with poor browser support for native accessibility, aria-labelledby attributes were added to all objects. They refer to both the title, and the text content</dd>
-   <dt><code>role="none"</code></dt>
+   <dt>Use <code>aria-labelledby</code> for titles</dt>
+    <dd>To cope with poor browser support for native accessibility, aria-labelledby attributes were added to all navigable objects. They refer to both the title, and the text content</dd>
+   <dt>Use <code>role="none"</code> to hide text nodes which are explicitly referred to by <code>aria-labelledby</code>.</dt>
     <dd><code>text</code> elements were generally given <code>role="none"</code> unless they were part of a link, in order to stop the text appearing again in the reading order for a screenreader</dd>
    <dt><code>fill="#fff"</code> instead of <code>fill="none"</code></dt>
     <dd>Graphic objects were given a white fill instead of none, to make it easier to hover them and get tooltips generated from their <code>title</code> elements.</dd>
    <dt>ARIA list markup</dt>
-    <dd>The whole diagram is treated as a list, and then each node, along with the edges leading away from it is also treated as a list. There are two "loose" <code>g</code> elements - the links from the implicit "no state" to become a Note or First Draft. Otherwise the nodes, which are lists are just floating within the main <code>g</code> which has <code>role="list"</code>. On Safari and Yandex.browser for Mac with VoiceOver this seems to work as well as wrapping each list in an element with <code>role="listitem"</code>.
+    <dd>The whole diagram is treated as a list, and then each node, along with the edges leading away from it is also treated as a list. There are two "loose" <code>g</code> elements - the links from the implicit "no state" to become a Note or First Draft. Otherwise the nodes, which are lists are just floating within the main <code>g</code> which has <code>role="list"</code>. On Safari and Yandex.browser for Mac with VoiceOver this seems to work as well as wrapping each list in an element with <code>role="listitem"</code>.</dd>
+    <dd><strong>Note</strong>: Windows browsers with JAWS do not seem to recognise items in a list unless they are explicitly marked with <code>role="listitem"</code> while browsers with VoiceOver seem to do so at least in some cases</dd>
    <dt>Matching labelling text to the relevant path</dt>
     <dd>There is a minimal use of colour to make association easier - but it is not necessary, and being low-contrast is only useful to some people anyway. Text labels are also associated by being contained within the same element in the source, and by being very close to the relevant path in the layout.</dd>
+   <dt>Highlight currently focused object(s)</dt>
+    <dd>I added a stylesheet that provides a highlight effect for currently focused or hovered items</dd>
+    <dd><pre><code>     :focus path, :focus polygon, :focus ellipse { stroke-width: 4}
+     g:hover path, g:hover polygon, g:hover ellipse { stroke-width: 4}
+     :focus text, g:hover text { stroke: black; stroke-width: .5}</code></pre></dd>
+    <dd>This should probably be restricted to apply to e.g. <code>g[role=listitem]</code> so it can be used more generally, but I'll have to play with that a bit more</dd>
+   <dt>Use links to make connections navigable</dt>
+    <dd>Where there are one-way connections, wrap the in a link. This makes them navigable by the keyboard, and should make it possible to explore the flowchart. Unfortunately links don't seem to work in some browsers.</dd>
+   <dt>Use <code>tabindex="0"</code> to make objects navigable.</dt>
+    <dd>This allows a user to explore the diagram's important components using keyboard navigation. It is helpful in conjunction with the highlighting mentioned above, but it doesn't work in at least Firefox/Mac.</dd> 
   </dl>
 
   <h2 id="problems">Problems and discussion</h2>
 
-  <p>In order to keep keyboard navigation simple, only the nodes are tabbable. It would be nice to make it possible to move from nodes to follow any of the links that are visually represented, but Safari seems not to follow links in SVG, Firefox doesn't show that they are links, and it might make navigation more complex, so I haven't tried doing it for now.  If <code>aria-flowto</code> <strong>worked</strong> it would be useful, but as far as I know it works in one screenreader on two browsers on one OS - i.e. is useful only to a tiny proportion of the people who need to navigate the structure. I expect to do some more experiments using tabindex and links.</p>
+  <p>These are noted against the current version of <a href="#rt2">rectrack2.svg, as included below</a></p>
 
-  <p>This hasn't been very carefully tested yet, so there might be lots more problems</p>
+  <h3>Yandex.browser 15.4.2272 Mac OS X 10.10.5</h3>
+  <dl>
+    <dt><code>&lt;g role="listitem"</code> is useless</dt>
+      <dd>There is no way of navigating a listitem - although that is also true for HTML <code>&lt;li&gt;</code> elements unless thay have <code>tabindex="0"</code>…</dd>
+    <dt>Following links is broken</dt>
+      <dd>When focused on a link to a valid internal fragment, pressing <kbd>return</kbd> takes the focus away, but it is unclear where it goes. The address in the URL bar does reflect the target of the link. Pressing <kbd>tab</kbd> again moves the focus to the first item in the taborder. If the link destination is a fragment identifier that doesn't exist, focus stays where it was.</dd>
+  </dl>
+
+  <h3>Safari Mac OS X 10.10.5</h3>
+  <dl>
+    <dt><code>&lt;g role="listitem"</code> is useless</dt>
+      <dd>There is no way of navigating a listitem - although that is also true for HTML <code>&lt;li&gt;</code> elements unless thay have <code>tabindex="0"</code>…</dd>
+    <dt>Semi-random tab bug</dt>
+      <dd>There is a bug which I cannot reproduce reliably. The result is that the image loses the tab focus, and there appears to be no reliable way to get back to the image using only the keyboard. However, a workaround I successfully applied on a single attempt was to load the same image in a new tab.</dd>
+    <dt>Following links is broken</dt>
+      <dd>There seems to be no way to follow valid internal links from the keyboard, and clicking them with the mouse seems to do nothing. Links <em>that point to a fragment id which doesn't actually exist</em> change the URL in the address bar, but not those that point to valid fragments.</dd>
+  </dl>
+
+  <h3>Firefox 42.0 Mac OS X 10.10.5</h3>
+  <dl>
+    <dt><code>&lt;g role="listitem"</code> is useless</dt>
+      <dd>There is no way of navigating a listitem - although that is also true for HTML <code>&lt;li&gt;</code> elements unless thay have <code>tabindex="0"</code>…</dd>
+    <dt><code>tabindex="0"</code> doesn't work</dt>
+      <dd>When using the tab key to navigate Firefox only seems to focus links.</dd>
+    <dt>visual focus disappears if linking to an inactive element</dt>
+      <dd>When following a link to something that isn't itself a link, the visual focus indicator disappears. The link was clearly followed, because pressing <kbd>tab</kbd> brings the focus indicator back again, on the first recognised active element after the target of the link.</dd>
+  </dl>
+
+  <p><del data-changed="I changed this on 17 November">In order to keep keyboard navigation simple, only the nodes are tabbable. It would be nice to make it possible to move from nodes to follow any of the links that are visually represented, but Safari seems not to follow links in SVG, Firefox doesn't show that they are links, and it might make navigation more complex, so I haven't tried doing it for now</del>.</p>
+
+  <p>If <code>aria-flowto</code> <strong>worked</strong> it would be useful, but as far as I know it works in one screenreader on two browsers on one OS - i.e. is useful only to a tiny proportion of the people who need to navigate the structure. I expect to do some more experiments using tabindex and links.</p>
+
+  <p>This hasn't been very carefully tested yet, so there might be lots more problems. Please <a href="https://github.com/SVG-access-W3CG/use-case-examples/issues">file issues</a> or <https://github.com/SVG-access-W3CG/use-case-examples/blob/gh-pages/rectrack2-notes.html>Edit this document and make Pull requests</a>!</p>
 
   <p>It would be good if <code>title</code>-derived tooltips were easier to get for visual users. I'll probably just put a white backdrop into various groups to do this</p>
 
-<h2>Rectrack2.svg embeded in HTML</h2>
-<svg viewBox="0 0 640 200" height="15em" width="48em">
+<h2 id="rr2">Revisedrec2.svg embedded in HTML</h2>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 40 640 240" height="25em" width="80em">
   <title>Flowchart: Process for producing a W3C Recommendation</title>
-  <g id="basicProcess" role="list">
 
     <g id="Modif-FPWD" role="listitem" aria-labelledby="modif-fpwd-label modif-fpwd-text">
       <title id="modif-fpwd-label">First Public Working Draft - Exclusion Opportunity</title>
-      <text font-size="8">
-        <a xlink:href="#first-wd"><tspan y="138" x="6">First WD</tspan></a>
-        <tspan x="2" y="148">WG Decision</tspan></text>
-      <path d="M0,140h53" fill="none" stroke="#000"></path>
-      <polygon points="47,136 57,140 47,144"></polygon>
+      <a xlink:href="#Modif-nodeWD">
+        <text font-size="8"><tspan y="136" x="6">First WD</tspan>
+          <tspan x="4" y="150">WG Decision</tspan>
+          <tspan x="4" y="158">Director's approval</tspan></text>
+        <path d="M0,140h53" fill="none" stroke="#000"></path>
+        <polygon points="47,136 57,140 47,144"></polygon></a>
     </g>
 
     <g id="Modif-nodeWD" role="list" aria-labelledby="modif-nodewd-label">
       <title id="modif-nodewd-label">Working Draft</title>
-      <ellipse ry="18" rx="38" cy="140" cx="97" stroke="black" fill="#fff"></ellipse>
       <a xlink:href="#RecsWD" aria-labelledby="modif-nodewd-label">
+        <ellipse ry="18" rx="38" cy="140" cx="97" stroke="black" fill="#fff"></ellipse>
         <text font-size="14" y="144" x="97" text-anchor="middle">WD</text></a>
 
-      <g id="Modif-repeatWD" role="listitem"
-        aria-labelledby="modif-repeatwd-label modif-repeatwd-text">
+<!-- Experiment 1: use g[role=listitem] with a link inside it -->
+
+      <g id="Modif-repeatWD" role="listitem">
+        <a xlink:href="#Modif-nodeWD" aria-labelledby="modif-repeatwd-label modif-repeatwd-text">
         <title id="modif-repeatwd-label">Publish a New Working Draft</title>
         <text id="modif-repeatwd-text" font-size="8">
           <tspan x="30" y="92">WG Decision: review needed, or</tspan>
           <tspan x="40" y="100">No change for 6 months</tspan></text>
         <path d="M78,124C73,114 79,104 97,104 108,104 115,108 117,114"
           fill="none" stroke="black" stroke-dasharray="6 1"></path>
-        <polygon points="120,114 116,124 114,113"></polygon> </g>
+        <polygon points="120,114 116,124 114,113"></polygon> </a> </g>
 
-      <g id="Modif-toCR" role="listitem"
-        aria-labelledby="modif-tocr-label modif-tocr-text" fill="#060">
+      <g id="Modif-toCR" role="listitem" fill="#060">
+        <a xlink:href="#Modif-nodeCR" aria-labelledby="modif-tocr-label modif-tocr-text">
         <title id="modif-tocr-label">Advance to Candidate Recommendation</title> 
-        <text role="none" id="modif-tocr-text" x="138" y="138" font-size="8">Director's approval</text>
+        <text role="none" id="modif-tocr-text" x="138" y="136" font-size="8">Director's approval</text>
           <path stroke="#060" d="M135,140h81"></path>
-          <polygon points="211,136 221,140 211,144"></polygon> </g>
-
-      <g id="Modif-WDtoNote" role="listitem" opacity=".45"
-        aria-labelledby="modif-wdtonote-label modif-wdtonote-text">
-        <title id="modif-wdtonote-label">Publish as a Note</title>
-        <text role="none" id="modif-wdtonote-text" font-size="8" x="180" y="32">WG Decision, e.g. stop work for lack of interest</text>
-        <path d="M125,128l50-93h195" id="modif-wdtonote-path"
-          fill="none" stroke="black" stroke-dasharray="6 1"></path>
-        <polygon points="365,38 375,35 365,32"></polygon> </g>
-    </g>
-
-    <g id="Modif-toNote" role="listitem" aria-labelledby="modif-tonote-label modif-tonote-label">
-      <title id="modif-tonote-label">Publishing a Working Group Note from a document not on the Recommendation Track</title>
-      <text role="none" x="165" y="10" font-size="8" id="modif-tonote-text">WG Decision to publish information</text>
-      <path fill="none" stroke="#000" d="M160,12h170l41,12"></path>
-      <polygon points="382,27 372,21 370,28"></polygon>
-    </g>
-
-    <g id="Modif-nodeNote" role="list" aria-labelledby="modif-nodenote-label" opacity=".45">
-      <title id="modif-nodenote-label">Working Group Note</title>
-      <ellipse ry="18" rx="30" cy="40" cx="403" stroke="black" fill="#fff"></ellipse>
-      <a xlink:href="#RecsWD"><text font-size="14" y="44" x="403" text-anchor="middle">Note</text></a>
-
-      <g id="Modif-NotetoWD" role="listitem"
-        aria-labelledby="modif-notetowd-label modif-notetowd-text">
-        <title id="modif-notetowd-label">Publish as a Note</title>
-        <text role="none" id="modif-notetowd-text" font-size="8" x="200" y="54">WG Decision, e.g. for new implementation</text>
-        <path d="M130,130l60-85h185" fill="none" stroke="black" stroke-dasharray="4 1"></path>
-        <polygon points="130,130 133,120 139,124"></polygon> </g>
-
+          <polygon points="211,136 221,140 211,144"></polygon></a> </g>
     </g>
 
     <g id="Modif-nodeCR" role="list" aria-labelledby="modif-nodecr-label">
       <title id="modif-nodecr-label">Candidate recommendation - Patent Policy Exclusion Opportunity</title>
-      <ellipse ry="18" rx="38" cy="140" cx="260" stroke="black" fill="#fff"></ellipse>
       <a xlink:href="#RecsCR">
+        <ellipse ry="18" rx="38" cy="140" cx="260" stroke="black" fill="#fff"></ellipse>
         <text font-size="14" y="144" x="260" text-anchor="middle">CR</text></a>
 
-      <g role="listitem" id="Modif-repeatCR"
+<!-- Experiment 2: use a instead of g -->
+
+      <a xlink:href="#Modif-nodeCR" id="Modif-repeatCR"
         aria-labelledby="modif-repeatcr-label modif-repeatcr-text" fill="#060">
         <title id="modif-repeatcr-label">Publish a revised CR</title>
         <text role="none" font-size="8" id="modif-repeatcr-text">
@@ -125,54 +156,44 @@
           stroke-dasharray="5 11" fill="none"></path>
         <path stroke="#060" d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114"
           stroke-dasharray="5 11" stroke-dashoffset="8" fill="none"></path>
-        <polygon points="282,114 277,124 275,113"></polygon> </g>
+        <polygon points="282,114 277,124 275,113"></polygon> </a>
 
-      <g id="Modif-ToPR" role="listitem"
+      <a xlink:href="#Modif-nodePR" id="Modif-ToPR"
         aria-labelledby="modif-topr-label modif-topr-text" fill="#060">
         <title id="modif-topr-label">Advance to Proposed Recommendation</title> 
-        <text role="none" id="modif-topr-text" x="300" y="138" font-size="8">Director's approval</text>
+        <text role="none" id="modif-topr-text" x="300" y="136" font-size="8">Director's approval</text>
         <path d="M298,140h77" stroke="#060"></path>
-        <polygon points="374,136 384,140 374,144"></polygon> </g>
+        <polygon points="374,136 384,140 374,144"></polygon> </a>
 
-      <g id="Modif-backToWD" role="listitem"
+      <a xlink:href="#Modif-nodeWD" id="Modif-backToWD"
         aria-labelledby="modif-backtowd-label modif-backtowd-text" fill="#600">
         <title id="modif-backtowd-label">Return to Working Draft</title> 
         <text role="none" id="modif-backtowd-text" font-size="8">
           <tspan x="142" y="156">WG or Director decision</tspan>
           <tspan x="144" y="164">e.g. for further review</tspan></text>
         <path d="M140,147h84" stroke-dasharray="4 4" stroke="#600"></path>
-        <polygon points="140,145 133,147 140,149"></polygon> </g>
-
-      <g id="Modif-CRtoNote" role="listitem" opacity=".45"
-        aria-labelledby="modif-crtonote-label modif-crtonote-text">
-        <title id="modif-crtonote-label">Publish as a Note</title>
-        <text role="none" id="modif-crtonote-text" font-size="8">
-          <textPath xlink:href="#modif-crtonote-path" startOffset="15%">
-            <tspan dy="-2">WG Decision,</tspan></textPath>
-          <textPath xlink:href="#modif-crtonote-path" startOffset="10%">
-            <tspan dy="8">e.g. stop work for lack of interest</tspan></textPath></text>
-        <path d="M290,129l95,-74" id="modif-crtonote-path"
-          fill="none" stroke="black" stroke-dasharray="6 1"></path>
-        <polygon points="385,55 373,58 379,64"></polygon> </g>
+        <polygon points="140,145 133,147 140,149"></polygon> </a>
     </g>
 
     <g id="Modif-nodePR" role="list" aria-labelledby="modif-nodepr-label">
       <title id="modif-nodepr-label">Proposed Recommendation - Advisory Committee Review</title>
-      <ellipse ry="18" rx="28" cy="140" cx="413" stroke="black" fill="#fff"></ellipse>
       <a xlink:href="#RecsPR">
+        <ellipse ry="18" rx="28" cy="140" cx="413" stroke="black" fill="#fff"></ellipse>
         <text font-size="14" font-family="Times,serif" y="144" x="413" text-anchor="middle">PR</text></a>
 
-      <g id="Modif-ToRec" role="listitem"
+<!-- Experiment 3: use a[role=listitem] instead of g -->
+
+      <a xlink:href="#Modif-nodeRec" id="Modif-ToRec" role="listitem"
         aria-labelledby="modif-torec-label modif-torec-text" fill="#060">
         <title id="modif-torec-label">Advance to Recommendation</title> 
         <text role="none" id="modif-torec-text" x="300" y="138" font-size="8">  
-          <tspan x="445" y="130">Advisory Committee Review</tspan>
-          <tspan x="445" y="138">Director's Decision</tspan></text>
+          <tspan x="445" y="128">Advisory Committee Review</tspan>
+          <tspan x="445" y="136">Director's Decision</tspan></text>
 
         <path d="M441,140h100" stroke="#060"></path>
-        <polygon points="534,136 544,140 534,144"></polygon> </g>
+        <polygon points="534,136 544,140 534,144"></polygon> </a>
 
-      <g id="Modif-BackToCR" role="listitem"
+      <a xlink:href="#Modif-nodeCR" id="Modif-BackToCR" role="listitem"
         aria-labelledby="modif-backtocr-label modif-backtocr-text" fill="#600">
         <title id="modif-backtocr-label">Return to Working Draft</title> 
         <text id="modif-backtocr-text" font-size="8">
@@ -180,30 +201,266 @@
           <tspan x="302" y="164">Director Decision</tspan>
           <tspan x="304" y="172">e.g. for minor changes</tspan></text>
         <path d="M301,147h88" stroke-dasharray="3 5" stroke="#600"></path>
-        <polygon points="301,145 296,147 301,149"></polygon> </g>
+        <polygon points="301,145 296,147 301,149"></polygon> </a>
 
-      <g id="Modif-PRBackToWD" role="listitem"
+      <a xlink:href="#Modif-nodeWD" id="Modif-PRBackToWD" role="listitem"
         aria-labelledby="modif-prbacktowd-label modif-prbacktowd-text" fill="#c00">
         <title id="modif-prbacktowd-label">Return to Working Draft</title> 
         <text role="none" id="modif-prbacktowd-text" font-size="8">
           <tspan x="102" y="188">Advisory Committee review and Director's Decision, e.g. for further work and review</tspan></text>
         <path d="M413,158v22h-316v-16" stroke-dasharray="2 2" stroke="#c00" fill="none"></path>
+        <polygon points="95,164 97,159 99,164"></polygon> </a>
+    </g>
+
+    <g id="Modif-nodeRec" stroke="black" aria-labelledby="modif-noderec-label" role="list">
+      <title id="modif-noderec-label">W3C Recommendation</title>
+      <a xlink:href="#RecsW3C" aria-labelledby="modif-noderec-label">
+        <ellipse ry="18" rx="28" cy="140" cx="573" fill="#fff" stroke-width="2"></ellipse>
+        <text font-size="16" y="144" x="573"
+          text-anchor="middle" stroke-width=".3">REC</text></a>
+
+<!-- Experiment 4: use g[role=listitem] -->
+
+      <g id="Modif-ChangeProposal" aria-labelledby="Modif-changeproposal-title">
+        <title id="Modif-changeproposal-tit">Proposed change to a Recommendation</title>
+        <path d="M573,158 v20"></path>
+        <polygon points="573,178 571,171 575,171"></polygon>
+    </g>
+  </g>
+
+<!-- The modification piece -->
+
+    <g id="Modif-TextChanges" stroke="black" stroke-width="2" role="list">
+      <g role="listitem" tabindex="0">
+        <polygon points="573,178 603,203 573,228 540,203" fill="white"></polygon>
+        <text id="modif-textchanges-text" text-anchor="middle" font-size="10" stroke="none">
+          <tspan x="573" y="202">Changes</tspan>
+          <tspan x="573" y="212">to text?</tspan></text></g>
+
+        <a xlink:href="#Modif-nodeRec" aria-labelledby="modif-editedrec-title">
+          <title id="modif-editedrec-title">No text changes: Edited Recommendation</title>
+          <text role="none" x="528" y="200" font-size="10" stroke="none">No</text>
+          <text text-anchor="end" font-size="10" stroke="none">
+            <tspan x="527" y="170">Director's</tspan><tspan x="524" y="180">approval</tspan></text>
+          <path fill="none" d="M540,203h-16c0,-30 10,-44 24,-50"></path>
+          <polygon points="548,152 543,154 545,157"></polygon></a>
+
+        <a xlink:href="#Modif-SubstantiveChanges">
+          <text x="575" y="239" font-size="10" stroke="none">Yes</text>
+          <path fill="none" d="M573,228v12h-26c-25,0 -30,-44 -55,-44h-10v12"></path>
+          <polygon points="482,208 480,201 484,201"></polygon></a>
+        </g>
+
+      <g id="Modif-SubstantiveChanges" stroke="black" stroke-width="2" role="list">
+        <g role="listitem" tabindex="0">
+          <polygon points="482,208 518,233 482,258 442,233" fill="white"></polygon>
+          <text text-anchor="middle" font-size="10" stroke="none">
+            <tspan x="482" y="232">Substantive</tspan>
+            <tspan x="482" y="242" text-anchor="middle">changes?</tspan></text></g>
+
+        <a xlink:href="#Modif-nodePR" aria-labelledby="modif-rectopr-title modif-rectopr-text">
+          <title id="modif-rectocr-title">No substantive changes: Proposed Edited Recommendation</title>
+          <text x="425" y="230" font-size="10" stroke="none">No</text>
+          <text id="modif-rectopr-text" text-anchor="start" font-size="10" stroke="none">
+            <tspan x="420" y="190">Director's</tspan><tspan x="420" y="200">approval</tspan></text>
+          <path d="M442,233h-24v-75" fill="none"></path>
+          <polygon stroke="black" points="418,158 416,165 420,165"></polygon></a>
+
+        <a xlink:href="#Modif-NewFeatures">
+          <text x="484" y="269" font-size="10" stroke="none">Yes</text>
+          <path d="M482,258v12h-50c-50,0 -8,-74 -82,-74h-20v12" fill="none"></path>
+          <polygon points="330,208 328,201 332,201"></polygon></a>
+
+      </g>
+
+    <g id="Modif-NewFeatures" stroke="black" stroke-width="2" role="list">
+      <g role="listitem" tabindex="0">
+        <polygon points="330,258 360,233 330,208 300,233" fill="white"></polygon>
+        <text font-size="10" text-anchor="middle" stroke="none">
+          <tspan x="330" y="230">New</tspan>
+          <tspan x="330" y="240" text-anchor="middle">Features?</tspan></text></g>
+
+        <a xlink:href="#Modif-nodeCR" aria-labelledby="modif-nonewfeatures-label director-approval-text"
+          stroke="black" stroke-width="2">
+          <title id="modif-nonewfeatures-label">No new features - return to Candidate Recommendation</title>
+          <path d="M300,233h-40v-44" fill="none"></path>
+          <path d="M260,178v-20"></path>
+          <text role="none" x="288" y="230" stroke="none" font-size="10">No</text>
+          <text text-anchor="end" font-size="10" stroke="none">
+            <tspan x="258" y="215">Director's</tspan><tspan x="258" y="225">approval</tspan></text>
+          <polygon points="260,158 262,163 258,163" stroke="black"></polygon></a>
+
+        <a xlink:href="Modif-FPWD" aria-labelledby="modif-fpwd-label modif-fpwd-text"
+          stroke="black" stroke-width="2">
+             <text x="332" y="269" font-size="10" stroke="none">Yes</text>
+            <path d="M330,258v12h-329v-130h53" fill="none"></path></a>
+    </g>
+
+</svg>
+<h2 id="rt2">Rectrack2.svg embedded in HTML</h2>
+
+<svg viewBox="0 0 640 200" height="15em" width="48em">
+  <title>Flowchart: Process for producing a W3C Recommendation</title>
+  <g id="basicProcess" role="list">
+
+    <g id="note-FPWD" role="listitem" aria-labelledby="note-fpwd-label note-fpwd-text">
+      <title id="note-fpwd-label">First Public Working Draft - Exclusion Opportunity</title>
+      <text font-size="8">
+        <a xlink:href="#first-wd"><tspan y="138" x="6">First WD</tspan></a>
+        <tspan x="2" y="148">WG Decision</tspan></text>
+      <path d="M0,140h53" fill="none" stroke="#000"></path>
+      <polygon points="47,136 57,140 47,144"></polygon>
+    </g>
+
+    <g id="note-nodeWD" role="list" aria-labelledby="note-nodewd-label">
+      <title id="note-nodewd-label">Working Draft</title>
+      <ellipse ry="18" rx="38" cy="140" cx="97" stroke="black" fill="#fff"></ellipse>
+      <a xlink:href="#RecsWD" aria-labelledby="note-nodewd-label">
+        <text font-size="14" y="144" x="97" text-anchor="middle">WD</text></a>
+
+      <g id="note-repeatWD" role="listitem"
+        aria-labelledby="note-repeatwd-label note-repeatwd-text">
+        <title id="note-repeatwd-label">Publish a New Working Draft</title>
+        <text id="note-repeatwd-text" font-size="8">
+          <tspan x="30" y="92">WG Decision: review needed, or</tspan>
+          <tspan x="40" y="100">No change for 6 months</tspan></text>
+        <path d="M78,124C73,114 79,104 97,104 108,104 115,108 117,114"
+          fill="none" stroke="black" stroke-dasharray="6 1"></path>
+        <polygon points="120,114 116,124 114,113"></polygon> </g>
+
+      <g id="note-toCR" role="listitem"
+        aria-labelledby="note-tocr-label note-tocr-text" fill="#060">
+        <title id="note-tocr-label">Advance to Candidate Recommendation</title> 
+        <text role="none" id="note-tocr-text" x="138" y="138" font-size="8">Director's approval</text>
+          <path stroke="#060" d="M135,140h81"></path>
+          <polygon points="211,136 221,140 211,144"></polygon> </g>
+
+      <g id="note-WDtoNote" role="listitem" opacity=".45"
+        aria-labelledby="note-wdtonote-label note-wdtonote-text">
+        <title id="note-wdtonote-label">Publish as a Note</title>
+        <text role="none" id="note-wdtonote-text" font-size="8" x="180" y="32">WG Decision, e.g. stop work for lack of interest</text>
+        <path d="M125,128l50-93h195" id="note-wdtonote-path"
+          fill="none" stroke="black" stroke-dasharray="6 1"></path>
+        <polygon points="365,38 375,35 365,32"></polygon> </g>
+    </g>
+
+    <g id="note-toNote" role="listitem" aria-labelledby="note-tonote-label note-tonote-label">
+      <title id="note-tonote-label">Publishing a Working Group Note from a document not on the Recommendation Track</title>
+      <text role="none" x="165" y="10" font-size="8" id="note-tonote-text">WG Decision to publish information</text>
+      <path fill="none" stroke="#000" d="M160,12h170l41,12"></path>
+      <polygon points="382,27 372,21 370,28"></polygon>
+    </g>
+
+    <g id="note-nodeNote" role="list" aria-labelledby="note-nodenote-label" opacity=".45">
+      <title id="note-nodenote-label">Working Group Note</title>
+      <ellipse ry="18" rx="30" cy="40" cx="403" stroke="black" fill="#fff"></ellipse>
+      <a xlink:href="#RecsWD"><text font-size="14" y="44" x="403" text-anchor="middle">Note</text></a>
+
+      <g id="note-NotetoWD" role="listitem"
+        aria-labelledby="note-notetowd-label note-notetowd-text">
+        <title id="note-notetowd-label">Publish as a Note</title>
+        <text role="none" id="note-notetowd-text" font-size="8" x="200" y="54">WG Decision, e.g. for new implementation</text>
+        <path d="M130,130l60-85h185" fill="none" stroke="black" stroke-dasharray="4 1"></path>
+        <polygon points="130,130 133,120 139,124"></polygon> </g>
+
+    </g>
+
+    <g id="note-nodeCR" role="list" aria-labelledby="note-nodecr-label">
+      <title id="note-nodecr-label">Candidate recommendation - Patent Policy Exclusion Opportunity</title>
+      <ellipse ry="18" rx="38" cy="140" cx="260" stroke="black" fill="#fff"></ellipse>
+      <a xlink:href="#RecsCR">
+        <text font-size="14" y="144" x="260" text-anchor="middle">CR</text></a>
+
+      <g role="listitem" id="note-repeatCR"
+        aria-labelledby="note-repeatcr-label note-repeatcr-text" fill="#060">
+        <title id="note-repeatcr-label">Publish a revised CR</title>
+        <text role="none" font-size="8" id="note-repeatcr-text">
+          <tspan x="225" y="80">Working Group Decision,</tspan>
+          <tspan x="225" y="90">Directors approval for</tspan>
+          <tspan x="230" y="100">substantive changes</tspan></text>
+        <path stroke="#000" d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114"
+          stroke-dasharray="5 11" fill="none"></path>
+        <path stroke="#060" d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114"
+          stroke-dasharray="5 11" stroke-dashoffset="8" fill="none"></path>
+        <polygon points="282,114 277,124 275,113"></polygon> </g>
+
+      <g id="note-ToPR" role="listitem"
+        aria-labelledby="note-topr-label note-topr-text" fill="#060">
+        <title id="note-topr-label">Advance to Proposed Recommendation</title> 
+        <text role="none" id="note-topr-text" x="300" y="138" font-size="8">Director's approval</text>
+        <path d="M298,140h77" stroke="#060"></path>
+        <polygon points="374,136 384,140 374,144"></polygon> </g>
+
+      <g id="note-backToWD" role="listitem"
+        aria-labelledby="note-backtowd-label note-backtowd-text" fill="#600">
+        <title id="note-backtowd-label">Return to Working Draft</title> 
+        <text role="none" id="note-backtowd-text" font-size="8">
+          <tspan x="142" y="156">WG or Director decision</tspan>
+          <tspan x="144" y="164">e.g. for further review</tspan></text>
+        <path d="M140,147h84" stroke-dasharray="4 4" stroke="#600"></path>
+        <polygon points="140,145 133,147 140,149"></polygon> </g>
+
+      <g id="note-CRtoNote" role="listitem" opacity=".45"
+        aria-labelledby="note-crtonote-label note-crtonote-text">
+        <title id="note-crtonote-label">Publish as a Note</title>
+        <text role="none" id="note-crtonote-text" font-size="8">
+          <textPath xlink:href="#note-crtonote-path" startOffset="15%">
+            <tspan dy="-2">WG Decision,</tspan></textPath>
+          <textPath xlink:href="#note-crtonote-path" startOffset="10%">
+            <tspan dy="8">e.g. stop work for lack of interest</tspan></textPath></text>
+        <path d="M290,129l95,-74" id="note-crtonote-path"
+          fill="none" stroke="black" stroke-dasharray="6 1"></path>
+        <polygon points="385,55 373,58 379,64"></polygon> </g>
+    </g>
+
+    <g id="note-nodePR" role="list" aria-labelledby="note-nodepr-label">
+      <title id="note-nodepr-label">Proposed Recommendation - Advisory Committee Review</title>
+      <ellipse ry="18" rx="28" cy="140" cx="413" stroke="black" fill="#fff"></ellipse>
+      <a xlink:href="#RecsPR">
+        <text font-size="14" font-family="Times,serif" y="144" x="413" text-anchor="middle">PR</text></a>
+
+      <g id="note-ToRec" role="listitem"
+        aria-labelledby="note-torec-label note-torec-text" fill="#060">
+        <title id="note-torec-label">Advance to Recommendation</title> 
+        <text role="none" id="note-torec-text" x="300" y="138" font-size="8">  
+          <tspan x="445" y="130">Advisory Committee Review</tspan>
+          <tspan x="445" y="138">Director's Decision</tspan></text>
+
+        <path d="M441,140h100" stroke="#060"></path>
+        <polygon points="534,136 544,140 534,144"></polygon> </g>
+
+      <g id="note-BackToCR" role="listitem"
+        aria-labelledby="note-backtocr-label note-backtocr-text" fill="#600">
+        <title id="note-backtocr-label">Return to Working Draft</title> 
+        <text id="note-backtocr-text" font-size="8">
+          <tspan x="306" y="156">AC Review, </tspan>
+          <tspan x="302" y="164">Director Decision</tspan>
+          <tspan x="304" y="172">e.g. for minor changes</tspan></text>
+        <path d="M301,147h88" stroke-dasharray="3 5" stroke="#600"></path>
+        <polygon points="301,145 296,147 301,149"></polygon> </g>
+
+      <g id="note-PRBackToWD" role="listitem"
+        aria-labelledby="note-prbacktowd-label note-prbacktowd-text" fill="#c00">
+        <title id="note-prbacktowd-label">Return to Working Draft</title> 
+        <text role="none" id="note-prbacktowd-text" font-size="8">
+          <tspan x="102" y="188">Advisory Committee review and Director's Decision, e.g. for further work and review</tspan></text>
+        <path d="M413,158v22h-316v-16" stroke-dasharray="2 2" stroke="#c00" fill="none"></path>
         <polygon points="95,164 97,159 99,164"></polygon> </g>
 
-      <g id="Modif-PRtoNote" role="listitem" opacity=".45" fill="#200"
-        aria-labelledby="modif-prtonote-label modif-prtonote-text">
-        <title id="modif-prtonote-label">Publish as a Note</title>
-        <text role="none" id="modif-prtonote-text" font-size="8">
+      <g id="note-PRtoNote" role="listitem" opacity=".45" fill="#200"
+        aria-labelledby="note-prtonote-label note-prtonote-text">
+        <title id="note-prtonote-label">Publish as a Note</title>
+        <text role="none" id="note-prtonote-text" font-size="8">
             <tspan x="408" y="80">Advisory Committee Review,</tspan>
             <tspan x="409" y="88">Director's Decision</tspan>
             <tspan x="410" y="96">e.g. to stop work towards a Recommendation</tspan></text>
-        <path d="M410,122l-5,-60" id="modif-crtonote-path"
+        <path d="M410,122l-5,-60" id="note-crtonote-path"
           fill="none" stroke="#200" stroke-dasharray="6 1"></path>
         <polygon points="405,58 402.5,65 408,64.5"></polygon> </g>
     </g>
 
-    <g id="Modif-nodeRec" stroke="black" aria-labelledby="modif-noderec-label">
-      <title id="modif-noderec-label">W3C Recommendation</title>
+    <g id="note-nodeRec" stroke="black" aria-labelledby="note-noderec-label">
+      <title id="note-noderec-label">W3C Recommendation</title>
       <ellipse ry="18" rx="28" cy="140" cx="573" fill="#fff" stroke-width="2"></ellipse>
       <a xlink:href="#RecsW3C">
         <text font-size="16" y="144" x="573"
