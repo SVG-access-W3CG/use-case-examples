@@ -11,7 +11,9 @@
  <body>
   <h1>Notes on making the W3C process diagrams accessible</h1>
 
-  <p>The <a href="rectrack.svg">rectrack.svg</a> and <a href="revisedrec">revisedrec</a>  diagrams are taken from the 2014 version of the <a href="http://w3.org/Consortium/Process">W3C Process Document</a>, where they is embedded within the HTML source. <a href="rectrack-note.svg">rectrack-note.svg</a> is a new extended version rectrack.svg, intended to be added to a revision of the Process Document.</p>
+  <p>The <a href="rectrack.svg">rectrack.svg</a> and <a href="revisedrec2.svg">revisedrec2.svg</a>  diagrams are taken from the 2014 version of the <a href="http://w3.org/Consortium/Process">W3C Process Document</a>, where they are embedded within the HTML source. <a href="rectrack-note.svg">rectrack-note.svg</a> is a new extended version of rectrack.svg, intended to be added to a revision of the Process Document.</p>
+
+  <p>At the time of writing, revisedrec2 is the most advanced version, with changes that are yet to be ported to the others if they turn out to be good. It also has several different approaches to connecting major nodes - after some testing, I'll <em>probably</em> work out which one is better and use that everywhere.</p>
 
   <p>Note that some browsers have different behaviour when dealing with SVG as standalone files and when it is embedded in HTML. For example, Internet Explorer reportedly can't do anything at all with standalone SVG.<p>
 
@@ -19,7 +21,7 @@
   <ul>
     <li><a href="#rr2">RevisedRec</a></li>
     <li><a href="#rt2">RecTrack-Note</a></li>
-  <ul>
+  </ul>
 
   <p>The graphic is a relatively simple flowchart (mathematically an example of a "directed graph"). There are 5 real states, and an implicit state, and documents can move between these states by meeting requirements that vary according to the particular transition.</p>
 
