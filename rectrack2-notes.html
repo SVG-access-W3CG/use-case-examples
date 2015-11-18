@@ -8,6 +8,13 @@
 
   <p>The <a href="rectrack.svg">rectrack.svg</a> and <a href="revisedrec">revisedrec</a>  diagrams are taken from the 2014 version of the <a href="http://w3.org/Consortium/Process">W3C Process Document</a>, where they is embedded within the HTML source. <a href="rectrack-note.svg">rectrack-note.svg</a> is a new extended version rectrack.svg, intended to be added to a revision of the Process Document.</p>
 
+  <p>Note that some browsers have different behaviour when dealing with SVG as standalone files and when it is embedded in HTML. For example, Internet Explorer reportedly can't do anything at all with standalone SVG.<p>
+
+  <p>To test them as code embedded in HTML, instead of standalone SVG, see below:</p>
+  <ul>
+    <li><a href="#rt2">RecTrack-Note</a></li>
+  <ul>
+
   <p>The graphic is a relatively simple flowchart (mathematically an example of a "directed graph"). There are 5 real states, and an implicit state, and documents can move between these states by meeting requirements that vary according to the particular transition.</p>
 
   <h2>Cleaning the source</h2>
@@ -19,25 +26,67 @@
   <h2>Adding accessibility</h2>
 
   <dl>
-   <dt><code>title</code></dt>
+   <dt>Use <code>title</code> for important objects</dt>
     <dd>The diagram was given title elements throughout the structure. It still needs an overall <code>desc</code> to be added</dd>
-   <dt><code>aria-labelledby</code></dt>
-    <dd>To cope with poor browser support for native accessibility, aria-labelledby attributes were added to all objects. They refer to both the title, and the text content</dd>
-   <dt><code>role="none"</code></dt>
+   <dt>Use <code>aria-labelledby</code> for titles</dt>
+    <dd>To cope with poor browser support for native accessibility, aria-labelledby attributes were added to all navigable objects. They refer to both the title, and the text content</dd>
+   <dt>Use <code>role="none"</code> to hide text nodes which are explicitly referred to by <code>aria-labelledby</code>.</dt>
     <dd><code>text</code> elements were generally given <code>role="none"</code> unless they were part of a link, in order to stop the text appearing again in the reading order for a screenreader</dd>
    <dt><code>fill="#fff"</code> instead of <code>fill="none"</code></dt>
     <dd>Graphic objects were given a white fill instead of none, to make it easier to hover them and get tooltips generated from their <code>title</code> elements.</dd>
    <dt>ARIA list markup</dt>
-    <dd>The whole diagram is treated as a list, and then each node, along with the edges leading away from it is also treated as a list. There are two "loose" <code>g</code> elements - the links from the implicit "no state" to become a Note or First Draft. Otherwise the nodes, which are lists are just floating within the main <code>g</code> which has <code>role="list"</code>. On Safari and Yandex.browser for Mac with VoiceOver this seems to work as well as wrapping each list in an element with <code>role="listitem"</code>.
+    <dd>The whole diagram is treated as a list, and then each node, along with the edges leading away from it is also treated as a list. There are two "loose" <code>g</code> elements - the links from the implicit "no state" to become a Note or First Draft. Otherwise the nodes, which are lists are just floating within the main <code>g</code> which has <code>role="list"</code>. On Safari and Yandex.browser for Mac with VoiceOver this seems to work as well as wrapping each list in an element with <code>role="listitem"</code>.</dd>
+    <dd><strong>Note</strong>: Windows browsers with JAWS do not seem to recognise items in a list unless they are explicitly marked with <code>role="listitem"</code> while browsers with VoiceOver seem to do so at least in some cases</dd>
    <dt>Matching labelling text to the relevant path</dt>
     <dd>There is a minimal use of colour to make association easier - but it is not necessary, and being low-contrast is only useful to some people anyway. Text labels are also associated by being contained within the same element in the source, and by being very close to the relevant path in the layout.</dd>
+   <dt>Highlight currently focused object(s)</dt>
+    <dd>I added a stylesheet that provides a highlight effect for currently focused or hovered items</dd>
+    <dd><pre><code>     :focus path, :focus polygon, :focus ellipse { stroke-width: 4}
+     g:hover path, g:hover polygon, g:hover ellipse { stroke-width: 4}
+     :focus text, g:hover text { stroke: black; stroke-width: .5}</code></pre></dd>
+   <dt>Use links to make connections navigable</dt>
+    <dd>Where there are one-way connections, wrap the in a link. This makes them navigable by the keyboard, and should make it possible to explore the flowchart. Unfortunately links don't seem to work in some browsers.</dd>
+   <dt>Use <code>tabindex="0"</code> to make objects navigable.</dt>
+    <dd>This allows a user to explore the diagram's important components using keyboard navigation. It is helpful in conjunction with the highlighting mentioned above, but it doesn't work in at least Firefox/Mac.</dd> 
   </dl>
 
   <h2 id="problems">Problems and discussion</h2>
 
-  <p>In order to keep keyboard navigation simple, only the nodes are tabbable. It would be nice to make it possible to move from nodes to follow any of the links that are visually represented, but Safari seems not to follow links in SVG, Firefox doesn't show that they are links, and it might make navigation more complex, so I haven't tried doing it for now.  If <code>aria-flowto</code> <strong>worked</strong> it would be useful, but as far as I know it works in one screenreader on two browsers on one OS - i.e. is useful only to a tiny proportion of the people who need to navigate the structure. I expect to do some more experiments using tabindex and links.</p>
+  <p>These are noted against the current version of <a href="#rt2">rectrack2.svg, as included below</a></p>
 
-  <p>This hasn't been very carefully tested yet, so there might be lots more problems</p>
+  <h3>Yandex.browser 15.4.2272 Mac OS X 10.10.5</h3>
+  <dl>
+    <dt><code>&lt;g role="listitem"</code> is useless</dt>
+      <dd>There is no way of navigating a listitem - although that is also true for HTML <code>&lt;li&gt;</code> elements unless thay have <code>tabindex="0"</code>…</dd>
+    <dt>Following links is broken</dt>
+      <dd>When focused on a link to a valid internal fragment, pressing <kbd>return</kbd> takes the focus away, but it is unclear where it goes. The address in the URL bar does reflect the target of the link. Pressing <kbd>tab</kbd> again moves the focus to the first item in the taborder. If the link destination is a fragment identifier that doesn't exist, focus stays where it was.</dd>
+  </dl>
+
+  <h3>Safari Mac OS X 10.10.5</h3>
+  <dl>
+    <dt><code>&lt;g role="listitem"</code> is useless</dt>
+      <dd>There is no way of navigating a listitem - although that is also true for HTML <code>&lt;li&gt;</code> elements unless thay have <code>tabindex="0"</code>…</dd>
+    <dt>Semi-random tab bug</dt>
+      <dd>There is a bug which I cannot reproduce reliably. The result is that the image loses the tab focus, and there appears to be no reliable way to get back to the image using only the keyboard. However, a workaround I successfully applied on a single attempt was to load the same image in a new tab.</dd>
+    <dt>Following links is broken</dt>
+      <dd>There seems to be no way to follow valid internal links from the keyboard, and clicking them with the mouse seems to do nothing. Links <em>that point to a fragment id which doesn't actually exist</em> change the URL in the address bar, but not those that point to valid fragments.</dd>
+  </dl>
+
+  <h3>Firefox 42.0 Mac OS X 10.10.5</h3>
+  <dl>
+    <dt><code>&lt;g role="listitem"</code> is useless</dt>
+      <dd>There is no way of navigating a listitem - although that is also true for HTML <code>&lt;li&gt;</code> elements unless thay have <code>tabindex="0"</code>…</dd>
+    <dt><code>tabindex="0"</code> doesn't work</dt>
+      <dd>When using the tab key to navigate Firefox only seems to focus links.</dd>
+    <dt>visual focus disappears if linking to an inactive element</dt>
+      <dd>When following a link to something that isn't itself a link, the visual focus indicator disappears. The link was clearly followed, because pressing <kbd>tab</kbd> brings the focus indicator back again, on the first recognised active element after the target of the link.</dd>
+  </dl>
+
+  <p><del data-changed="I changed this on 17 November">In order to keep keyboard navigation simple, only the nodes are tabbable. It would be nice to make it possible to move from nodes to follow any of the links that are visually represented, but Safari seems not to follow links in SVG, Firefox doesn't show that they are links, and it might make navigation more complex, so I haven't tried doing it for now</del>.</p>
+
+  <p>If <code>aria-flowto</code> <strong>worked</strong> it would be useful, but as far as I know it works in one screenreader on two browsers on one OS - i.e. is useful only to a tiny proportion of the people who need to navigate the structure. I expect to do some more experiments using tabindex and links.</p>
+
+  <p>This hasn't been very carefully tested yet, so there might be lots more problems. Please <a href="https://github.com/SVG-access-W3CG/use-case-examples/issues">file issues</a> or <https://github.com/SVG-access-W3CG/use-case-examples/blob/gh-pages/rectrack2-notes.html>Edit this document and make Pull requests</a>!</p>
 
   <p>It would be good if <code>title</code>-derived tooltips were easier to get for visual users. I'll probably just put a white backdrop into various groups to do this</p>
 
