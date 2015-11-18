@@ -50,6 +50,7 @@
     <dd><pre><code>     :focus path, :focus polygon, :focus ellipse { stroke-width: 4}
      g:hover path, g:hover polygon, g:hover ellipse { stroke-width: 4}
      :focus text, g:hover text { stroke: black; stroke-width: .5}</code></pre></dd>
+    <dd>This should probably be restricted to apply to e.g. <code>g[role=listitem]</code> so it can be used more generally, but I'll have to play with that a bit more</dd>
    <dt>Use links to make connections navigable</dt>
     <dd>Where there are one-way connections, wrap the in a link. This makes them navigable by the keyboard, and should make it possible to explore the flowchart. Unfortunately links don't seem to work in some browsers.</dd>
    <dt>Use <code>tabindex="0"</code> to make objects navigable.</dt>
