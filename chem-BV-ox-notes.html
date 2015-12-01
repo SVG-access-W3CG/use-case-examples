@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <title>Making chord.svg accessible</title>
+  </head>
+  <body>
+    <h1>Making <a href="chem-BV-ox.svg">chem-BV-ox.svg</a> more accessible</h1>
+    <p>Notes on the changes made to chem-BV-ox.svg and how these helped improve its accessibility.</p>
+    <h2>Starting point</h2>
+    <p>This is a diagram representing a process in organic chemistry, showing how adding one substance to another can be used to force a
+      change.</p>
+    <p>Specifically, it shows the process known as Baeyer-Villiger oxidation, in which a </p>
+    <h2>Preparation </h2>
+    <ul>
+    </ul>
+    <dl>
+      <dt>Clean the code.</dt>
+      <dd>Everything was <code>path</code> elements, including text. And most of them were over-complicated.</dd>
+      <dt>Order the content according to logic</dt>
+      <dd>There are four phases of the reaction process. Ordering the elements according to the phases makes it easier to group them.</dd>
+      <dt>Use <code>defs</code> and <code>use</code> elements</dt>
+      <dd>Many things are repeated. It seems logical to rely on <code>use</code> elements instead of duplicating code. But it might not
+        work properly.</dd>
+    </dl>
+    <h2>Accessibility steps</h2>
+    <p>Note that the work is only in an experimental phase, and incomplete. This is partially a statement of goals, and only the "make real
+      text" step has already been applied throughout.</p>
+    <dl>
+      <dt>Use real text</dt>
+      <dd>For elements, represented by letters (which correspond to their common chemical names), use actual text.</dd>
+      <dt>Provide <code>title</code>s and <code>desc</code>s.</dt>
+      <dd>Adding information to each item as necessary to describe what it is.</dd>
+      <dt><strong>Hack:</strong> use <code>aria-labelledby</code> (and <code>aria-describedby</code>)</dt>
+      <dd>I don't know of any screenreader that supports the <code>title</code> element except for presenting the first one as a title of
+        an image, nor any screenreader that supports the <code>desc</code> element, without the redundant aria attributes being used.<br>
+      </dd>
+      <dt><strong>Hack:</strong> use <code>aria-labelledby</code> (and <code>aria-describedby</code>) in <code>use</code> elements not
+        the <code>defs</code> they clone</dt>
+      <dd>I don't know of any screenreader that provides alternatives included within <code>defs</code>, even when made with aria, unless
+        redundant aria attributes within the <code>use</code> element point to the alternative used.<br>
+      </dd>
+      <dt><strong>To Do:</strong> highlight styles</dt>
+      <dd>Provide style rules for <code>focus</code>/<code>hover</code>, so users can easily identify what they are focused on.</dd>
+      <dt><strong>To Do:</strong> make the layout "<em>responsive</em>"</dt>
+      <dd>The current layout is linear, not very high but very wide compared to most real screens. Making it flow more naturally in the
+        user's screen seems like a sensible thing to do.</dd>
+      <dt><strong>To complete:</strong> use <code>tabindex="0"</code> to make the thing navigable.</dt>
+      <dd>Using <code>tabindex="0"</code> makes it possible in some browsers to navigate the structure using the keyboard.</dd>
+      <dt><strong>To complete:</strong> Present the content as lists.</dt>
+      <dd>use <code>role="list"</code> (and <code>listitem</code>) to break the phases, and items relevant to each phase, into
+        screen-reader-navigable lists</dd>
+      <dt><strong>To complete:</strong> Present each molecule with <code>role="list"</code></dt>
+      <dd>This works, because each molecule in the equation can be represented as a tree structure</dd>
+      <dt><strong>Worth completing?</strong> Use <code>aria-flowto</code></dt>
+      <dd>This doesn't actually work very well, especially when it should support multiple possible destinations and might be a bad idea. </dd>
+      <dd>It seems to sometimes crash VoiceOver :(</dd>
+    </dl>
+    <br>
+  </body>
+</html>
