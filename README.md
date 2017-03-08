@@ -11,6 +11,8 @@ We are also trying to tracking this work through the [W3C SVG wiki](https://www.
 So far a handful of images have been worked up to the point where we would really like <a href="http://github.com/SVG-access-W3CG/use-case-examples/issues">issues filed</a>:
 
 <dl>
+ <dt>beaker</dt>
+ <dd><a href="beaker.html">beaker.html</a> is an animated diagram demonstrating a science principle. It uses SVG animation - <code>animate</code> and <code>set</code> elements for most of the interactivity and dynamic update, and <code>aria-live</code> to communicate some of what's going on to screen readers.</dd>
  <dt>composed-tree</dt>
   <dd><a href="composed-tree.svg">composed-tree.svg</a> is a tree diagram - a <a href="composed-tree-desc.html">more detiled description</a> is available. There is also a <a href="composed-tree.html">version as HTML with SVG code inline</a> and some <a href="composed-tree-notes.html">notes about the changes and lessons learned</a>.</dd>
   <dd>The original image came from the <a href="https://w3c.github.io/webcomponents/spec/shadow">W3C draft Shadow DOM specification</a>. Hopefully the improvements made here translate to an improvement in that document's accessibility.</dd>
