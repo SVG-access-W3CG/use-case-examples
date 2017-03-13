@@ -6,19 +6,36 @@
 <p>The <a href="beaker.html">diagram</a> is hand-coded. It uses SVG animation to present an interactive demonstration, <code>aria-live</code> to make the commentary on what is happening accessible, and a script to make the animation keyboard-accessible.</p>
 
 <h2>The code</h2>
-<p>Each object is self-contained, has a <code>title</code> with <code>aria-labelledby</code> to identify it.</p>
+<p>Each object is self-contained, has a <code>title</code> with <code>aria-labelledby</code> to identify it. That makes it possible to navigate around with a screenreader and find out what pieces there are in the diagram.</p>
 <p>The overall graphic has <code>title</code> and <code>desc</code> provided, the description labeled with <code>aria-describedby</code>.</p> 
-<p>A number of graphic objects are animated using SVG <code>animate</code> elements - these are all triggered by the event <code>heat.click</code> with a time offset as relevant</p>
+<p>A number of graphic objects are animated using SVG <code>animate</code> elements - these are all triggered by the event <code>heat.click</code> with a time offset as relevant - i.e. once you click the button marked "heat" everything runs automatically.</p>
 <p>The heading text <samp>Heating water, from ice to steam</samp> uses <code>role="heading" aria-level="1"</code>.</p>
 <p>The status indicator is marked <code>aria-live="polite"</code> and uses <code>&lt;set attributeName="visibility"…</code> to change the visibility of various <code>text</code> elements which are positioned in the same place.</p>
 <p>The <var>heat</var> button has <code>role="button" tabindex="o"</code> and there is a script included so firing a keydown for the space bar while focused on the button generates a <code>click</code> event.</p>
 <p>The water, and the burner, use <code>set attributeName="aria-labelledby"…</code> to change their title, but I haven't yet tested whether that does anything if you're focused on them.</p>
+<p>I used a simple stylesheet for most of the components. The code is inline inside HTML, and the stylesheet is part of the HTML container:</p>
 
 <h2>Tweaks, hacks and frustrations</h2>
-<p>There is no way to start an animation from the keyboard. The SVG <code>accesskey</code> attribute doesn't seem to be implemented. although you can at least make things focusable. I had to use a script to fire a synthetic </code>click</code> event with a JS listener for a specific key code.</p>
+<p>There is no native way to start an animation from the keyboard. You can reliably make things focusable, using <code>tabindex</code>. But once you get there you need a mouseclick. The SVG <code>accesskey</code> attribute doesn't seem to be implemented. I had to use a script to fire a synthetic </code>click</code> event with a JS listener for a specific key code:</p>
+<pre><code>&lt;script>&lt;![CDATA[
+var heat=document.querySelector("#heat");
+heat.addEventListener("keydown",start);
+function start(e){
+ if (e.keyCode == 32 || e.keyCode == 13) {
+  var theClick = new MouseEvent("click");
+    heat.dispatchEvent(theClick);
+  }
+ }
+]]>&lt;/script></pre></code>
 <p>Using <code>animate</code> to change a value that doesn't have obvious interpolation - e.g. from <code>visibility="hidden"</code> to <code>visibility="visible"</code>Blink and Webkit will animate in discrete steps at the beginning of an animation, whereas Firefox does it in the middle of the duration. So I did the thing I meant to do as used <code>set</code> instead…</p>
 
 <h2>Browser support and bugs</h2>
 <p>IE and Edge do not support SVG animation, so the demonstration doesn't work at all.</p>
-<p>In Blink-based browsers Opera and Yandex on Mac, and Safari, the animation can be started purely from the keyboard, the status is updated through VoiceOver as expected.</p>
-<p>In Firefox on Mac, the animation works as expected and the overall description is also offered through VoiceOver.</p>
+<p>On MacOS 10.10 in Safari 10, the animation can be started purely from the keyboard although there is no focus indicator so it isn't clear that this works. The status is updated through VoiceOver as expected.</p>
+<p>On MacOS 10.10 in Blink-based browsers Opera and Yandex, the animation can be started purely from the keyboard, the status is updated through VoiceOver as expected.</p>
+<p>In Firefox 51 on MacOS 10.10, the animation works as in other browsers, <strong>and</strong> the overall description is offered through VoiceOver.</p>
+
+<h2>Thanks…</h2>
+<p>The people who made SVG, and then made it work, are many, and never get enough thanks. If you meet someone who implemented SVG, filed or fixed a bug, tested or taught SVG, please say thank you.</p>
+<p>A few people explicitly helped with this demo. In no special order:</p>
+<p>Stéphane Deschamps, Luis Calvo Díaz, Levon Spradlin, Léonie Watson, Whoever made the MSDN page I looked at</p>
