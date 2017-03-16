@@ -7,9 +7,8 @@
     <meta content="BlueGriffon wysiwyg editor" name="generator">
   </head>
   <body>
-    <p>This <a href="https://github.com/SVG-access-W3CG/use-case-examples/hc-chart/notes.html">document is on github</a> as part of the
-      work done in the <a href="https://www.w3.org/community/svga11y/">W3C SVG accessibility Community Group</a> - please feel free to
-      contribute.<br>
+    <p>This <a href="https://github.com/SVG-access-W3CG/use-case-examples/hc-chart/">document is on github</a> as part of the work done in
+      the <a href="https://www.w3.org/community/svga11y/">W3C SVG accessibility Community Group</a> - please feel free to contribute.<br>
     </p>
     <object data="hc-chart.html" height="400" width="600"> </object>
     <h1>Highcharts.com's exported screen reader chart</h1>
@@ -25,10 +24,13 @@
       change, and I have maintained the aria structure which is basically that each line has <code>role="region"</code> and the markers
       have <code>role="img"</code> except that I use a <code>title</code> with <code>aria-labelledby</code> instead of just an <code>aria-label</code>.</p>
     <p>This version can be more or less explored on windows using NVDA with Chrome, Firefox, using Narrator with IE - but with Edge there is
-      a problem getting to the individual data points, and with JAWS using Chrome, Edge or IE. On Mac, I could read the datapoints with
-      VoiceOver and Yandex browser, and with Safari I could navigate between the regions, and enter each of them to get the data points.</p>
+      a problem getting to the individual data points, and with JAWS using Chrome, Edge or IE. </p>
+    <p>On Mac, I could read the individual datapoints with VoiceOver and Yandex browser but not the <code>g</code> elements with <code>role="region"</code>
+      which do have a <code>title</code> linked using <code>aria-labelledby</code>,&nbsp; and with Safari I could navigate between the
+      regions, and enter each of them to get the data points.</p>
     <p>To get to this stage I made two kinds of change. To make it easier to work with the code, I simplified a lot of it. This was a fairly
       straightforward task - their code is itself fairly clear.</p>
+    <p>If you think that's not interesting, feel free to skip to the first experiment.</p>
     <h3>Accessibility related changes</h3>
     <ul>
     </ul>
@@ -83,6 +85,17 @@
       <li>Trim <code>x</code> and <code>y</code> values to integers or <samp>nn.5</samp></li>
       <li>Convert the line markers to <code>use</code> elements</li>
       <li>Convert repeated <code>fill</code> / <code>stroke</code> rules to <code>style</code> and <code>class</code></li>
+    </ul>
+    <h2>The experiments…</h2>
+    <h3>Experiment 1: role="table" …</h3>
+    <p>This data is absolutely tabular. So the obvious thing to do is use ARIA table markup for it, right?</p>
+    <p>Yep. That's the next thing I am going to do.</p>
+    <h2>Thank you</h2>
+    <p>Chaals put this stuff together, but as explained and expected, it's building on a lot of other people's work.</p>
+    <p>Obviously, thanks to the people at <a href="http://highsoft.com">highsoft.com</a> for making their product, and perhaps slightly
+      less obviously to the folk at <a href="http://webaim.org">WebAIM</a> who did the surveys that generated the data used. A big thank
+      you also to Léonie Watson for testing and thinking.</p>
+    <ul>
     </ul>
   </body>
 </html>
