@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>highchart screenreaders chart - offline version</title>
+    <meta content="chaals" name="author">
+    <meta content="BlueGriffon wysiwyg editor" name="generator">
+  </head>
+  <body>
+    <p>This <a href="https://github.com/SVG-access-W3CG/use-case-examples/hc-chart/notes.html">document is on github</a> as part of the
+      work done in the <a href="https://www.w3.org/community/svga11y/">W3C SVG accessibility Community Group</a> - please feel free to
+      contribute.<br>
+    </p>
+    <object data="hc-chart.html" height="400" width="600"> </object>
+    <h1>Highcharts.com's exported screen reader chart</h1>
+    <a href="http://highsoft.com/">Highsoft.com</a> produce various commercial software tools including the <a href="http://highcharts.com">highcharts
+      charting library</a> that creates SVG for modern browsers. Their online demos use a javascript library to provide many accessibility
+    features, and their system also allows export of the graphs in various forms.
+    <p>Since <a href="https://shop.highsoft.com/faq#Non-Commercial-0">their work is offered free for non-commercial use</a>, I exported <a
+        href="hc-chart.svg">an SVG</a> from <a href="http://www.highcharts.com/samples/highcharts/accessibility/accessible-line/#highcharts-data-table-0">one
+        of their online demonstration charts</a>. However it didn't get the accessibility features that come from their javascript. Here's
+      what I did to see how to make it more accessible.</p>
+    <h2>Stage 1:</h2>
+    <p>The "<a href="hc-chart-1.html">stage 1 snapshot</a>" is pretty much the same diagram. Importantly, there isn't any real visual
+      change, and I have maintained the aria structure which is basically that each line has <code>role="region"</code> and the markers
+      have <code>role="img"</code> except that I use a <code>title</code> with <code>aria-labelledby</code> instead of just an <code>aria-label</code>.</p>
+    <p>This version can be more or less explored on windows using NVDA with Chrome, Firefox, using Narrator with IE - but with Edge there is
+      a problem getting to the individual data points, and with JAWS using Chrome, Edge or IE. On Mac, I could read the datapoints with
+      VoiceOver and Yandex browser, and with Safari I could navigate between the regions, and enter each of them to get the data points.</p>
+    <p>To get to this stage I made two kinds of change. To make it easier to work with the code, I simplified a lot of it. This was a fairly
+      straightforward task - their code is itself fairly clear.</p>
+    <h3>Accessibility related changes</h3>
+    <ul>
+    </ul>
+    <dl>
+      <dt>Convert from SVG XML file to HTML with inline SVG</dt>
+      <dd>IE doesn't provide any accessibility support for SVG XML documents, only inline HTML.</dd>
+    </dl>
+    <ul>
+    </ul>
+    <dl>
+      <dt>Change <code>desc</code> element to a <code>metadata</code> element</dt>
+      <dd>The content was just metadata about the creation. I also added some information to it. </dd>
+    </dl>
+    <ul>
+    </ul>
+    <dl>
+      <dt>Convert <code>aria-label</code> to <code>aria-labelledby</code> and a <code>title</code> element.</dt>
+      <dd>This re-enables tooltips for mouse users - the online version has a sophisticated tooltip mechanism but it doesn't work in the
+        exported SVG.</dd>
+    </dl>
+    <ul>
+    </ul>
+    <dl>
+      <dt>Add an actual description in a top-level <code>desc</code> element.</dt>
+      <dd>Mostly describe the information presented, with a few words about the form of the graph.</dd>
+    </dl>
+    <ul>
+    </ul>
+    <h3>General cleaning</h3>
+    <p>The following is just a list of the things I did to simplify the code and make it easier to play with. Some things, like removing <code>transform</code>s,
+      are sometimes a bad idea since they complicate some kinds of re-use, and I didn't necessarily do them in all possible cases.</p>
+    <ul>
+      <li>Remove redundant content, including default or invalid code:
+        <ul>
+          <li><code>clip-path</code> and references</li>
+          <li><code>rect</code> elements with <code>fill="none"</code></li>
+          <li><code>line-join</code> attributes</li>
+          <li><code>class</code> attribute values used by script in the online version but not in the exported version.</li>
+        </ul>
+      </li>
+      <li>Remove default / invalid values:
+        <ul>
+          <li> <code>opacity="1"</code></li>
+          <li> <code>scale(1 1)</code> transforms</li>
+          <li><code>color:</code> CSS rules</li>
+          <li><code>x</code>/<code>y</code>/<code>rx</code>/<code>ry="0"</code></li>
+          <li><code>stroke-width="1"</code></li>
+        </ul>
+      </li>
+      <li>Remove many <code>transform="translate(…)"</code> by calculating the impact on relevant <code>x</code> and <code>y</code>
+        values and apply them directly</li>
+      <li>Trim <code>x</code> and <code>y</code> values to integers or <samp>nn.5</samp></li>
+      <li>Convert the line markers to <code>use</code> elements</li>
+      <li>Convert repeated <code>fill</code> / <code>stroke</code> rules to <code>style</code> and <code>class</code></li>
+    </ul>
+  </body>
+</html>
