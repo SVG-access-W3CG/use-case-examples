@@ -86,10 +86,22 @@
       <li>Convert repeated <code>fill</code> / <code>stroke</code> rules to <code>style</code> and <code>class</code></li>
     </ul>
     <h2>The experiments…</h2>
-    <h3>Experiment 1: role="table" Work in Progress [<em>THE</em> 90s animated gif goes here with no alt]</h3>
+    <h4>Experiment 1: role="table" Work in Progress [<em>THE</em> 90s animated gif goes here with no alt]</h4>
     <p>This data is absolutely tabular. So the obvious thing to do is use ARIA table markup for it, right?</p>
-    <p><a href="hc-chart-table.html">Try it out…</a> On Safari/VoiceOver, it works quite nicely, on Blink it only gives access to the rows,
-      each one being presented as a listgroup (huh?!).</p>
+    <p>I'm working on this. Currently there is a redundancy between each cell and the columnheader, so you get a repeat. I'm working out
+      what works where before I worry about it.</p>
+    <p>Basically I added a <code>&lt;g role="table"&gt;</code>, moved the x-axis labels into that group and made them <code>role="columnheader"</code>,
+      gave each line <code>role="row"</code>, gave the <code>title</code> for the line&nbsp; <code>role="rowheader"</code> which worked
+      in Blink browsers that otherwise failed to recognise the ARIA but failed in Safari, and made the data points <code>role="cell"</code>.
+    </p>
+    <p><a href="hc-chart-table.html">You can try it out</a> … and feel free to <a href="https://github.com/SVG-access-W3CG/use-case-examples/issues">suggest
+        stuff to do</a> or <a href="https://github.com/SVG-access-W3CG/use-case-examples/pulls">offer changes as a Pull Request</a>.</p>
+    <p>On Safari/VoiceOver, it works quite nicely, on Blink it only gives access to the rows, each one being presented as a listgroup
+      (huh?!).</p>
+    <h4>I learned…</h4>
+    <ul>
+      <li>Trying to use a <code>title</code> with <code>role="rowheading"</code> or <code>row="columnheading"</code> didn't work in Safari.</li>
+    </ul>
     <h2>Thank you</h2>
     <p>Chaals put this stuff together, but as explained and expected, it's building on a lot of other people's work.</p>
     <p>Obviously, thanks to the people at <a href="http://highsoft.com">highsoft.com</a> for making their product, and perhaps slightly
