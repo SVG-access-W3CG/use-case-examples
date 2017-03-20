@@ -17,16 +17,18 @@
     <p>Since <a href="https://shop.highsoft.com/faq#Non-Commercial-0">their work is offered free for non-commercial use</a>, I exported <a
         href="hc-chart.svg">an SVG</a> from <a href="http://www.highcharts.com/samples/highcharts/accessibility/accessible-line/#highcharts-data-table-0">one
         of their online demonstration charts</a>. However it didn't get the accessibility features that come from their javascript. Here's
-      what I did to see how to make it more accessible.</p>
+      what I did so far to see how to make it more accessible.</p>
     <h2>Stage 1:</h2>
     <p>The "<a href="hc-chart-1.html">stage 1 snapshot</a>" is pretty much the same diagram. Importantly, there isn't any real visual
       change, and I have maintained the aria structure which is basically that each line has <code>role="region"</code> and the markers
       have <code>role="img"</code> except that I use a <code>title</code> with <code>aria-labelledby</code> instead of just an <code>aria-label</code>.</p>
+    <p>This isn't at all keyboard-navigable - there are tabindex="-1" everywhere. The original with the accessibility script <strong>is</strong>
+      keyboard navigable, but I haven't <strong>yet</strong> tried to replicate that.</p>
     <p>This version can be more or less explored on windows using NVDA with Chrome, Firefox, using Narrator with IE, and with JAWS using
       Chrome, Edge or IE.With Narrator and Edge there is a problem getting to the individual data points.</p>
-    <p>On Mac, I could read the individual datapoints with VoiceOver and Yandex browser but not the <code>g</code> elements with <code>role="region"</code>
-      which do have a <code>title</code> linked using <code>aria-labelledby</code>,&nbsp; and with Safari I could navigate between the
-      regions, and enter each of them to get the data points.</p>
+    <p>On Mac, I could read the individual datapoints with VoiceOver and Yandex browser but not the <code>g</code> elements
+      with <code>role="region"</code> which do have a <code>title</code> linked using <code>aria-labelledby</code>,&nbsp; and with Safari
+      I could navigate between the regions, and enter each of them to get the data points.</p>
     <p>To get to this stage I made two kinds of change. To make it easier to work with the code, I simplified a lot of it. This was a fairly
       straightforward task - their code is itself fairly clear.</p>
     <p>If you think that's not interesting, feel free to skip to the first experiment.</p>
