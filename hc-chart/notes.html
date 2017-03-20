@@ -22,8 +22,8 @@
     <p>The "<a href="hc-chart-1.html">stage 1 snapshot</a>" is pretty much the same diagram. Importantly, there isn't any real visual
       change, and I have maintained the aria structure which is basically that each line has <code>role="region"</code> and the markers
       have <code>role="img"</code> except that I use a <code>title</code> with <code>aria-labelledby</code> instead of just an <code>aria-label</code>.</p>
-    <p>This version can be more or less explored on windows using NVDA with Chrome, Firefox, using Narrator with IE - but with Edge there is
-      a problem getting to the individual data points, and with JAWS using Chrome, Edge or IE. </p>
+    <p>This version can be more or less explored on windows using NVDA with Chrome, Firefox, using Narrator with IE, and with JAWS using
+      Chrome, Edge or IE.With Narrator and Edge there is a problem getting to the individual data points.</p>
     <p>On Mac, I could read the individual datapoints with VoiceOver and Yandex browser but not the <code>g</code> elements with <code>role="region"</code>
       which do have a <code>title</code> linked using <code>aria-labelledby</code>,&nbsp; and with Safari I could navigate between the
       regions, and enter each of them to get the data points.</p>
@@ -86,9 +86,10 @@
       <li>Convert repeated <code>fill</code> / <code>stroke</code> rules to <code>style</code> and <code>class</code></li>
     </ul>
     <h2>The experiments…</h2>
-    <h3>Experiment 1: role="table" …</h3>
+    <h3>Experiment 1: role="table" Work in Progress [<em>THE</em> 90s animated gif goes here with no alt]</h3>
     <p>This data is absolutely tabular. So the obvious thing to do is use ARIA table markup for it, right?</p>
-    <p>Yep. That's the next thing I am going to do.</p>
+    <p><a href="hc-chart-table.html">Try it out…</a> On Safari/VoiceOver, it works quite nicely, on Blink it only gives access to the rows,
+      each one being presented as a listgroup (huh?!).</p>
     <h2>Thank you</h2>
     <p>Chaals put this stuff together, but as explained and expected, it's building on a lot of other people's work.</p>
     <p>Obviously, thanks to the people at <a href="http://highsoft.com">highsoft.com</a> for making their product, and perhaps slightly
