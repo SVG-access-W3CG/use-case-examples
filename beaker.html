@@ -66,7 +66,7 @@
 </g>
 
 <g>
-  <text x="250" y="100">Status:</text>
+  <text x="230" y="100">Status:</text>
   <text id="idle" x="230" y="120">Idle
     <set attributeName="visibility" to="hidden" begin="heat.click" dur="30s"/>
   </text>
@@ -106,13 +106,6 @@
   <text x="300" y="200">_ 100 ºC (212ºF)</text>
 </g>
 
-<g id="beaker-stand" aria-labelledby="beaker-stand-label" class="ironbar">
-  <title id="beaker-stand-label">Beaker Stand</title>
-  <path id="leg1" d="M50,400 L60,370 65,200"/>
-  <path id="leg2" d="M250,400 L240,370 235,200"/>
-  <path id="support" d="M30,200 h240"/>  
-</g>
-
 <g id="burner" aria-labelledby="burner-title" class="ironblock" role="img">
   <title id="burner-title">A bunsen burner, with the oxygen inlet open</title>
   <path d="M70,400v-10c0,0 80,-30 160,0v10z"/>
@@ -129,8 +122,15 @@
     <set attributeName="visibility" to="visible" begin="heat.click"/>
 </g>
 
+<g id="beaker-stand" aria-labelledby="beaker-stand-label" class="ironbar">
+  <title id="beaker-stand-label">Beaker Stand</title>
+  <path id="leg1" d="M50,400 L60,370 65,200"/>
+  <path id="leg2" d="M250,400 L240,370 235,200"/>
+  <path id="support" d="M30,200 h240"/>  
+</g>
+
 <g id="beaker" aria-labelledby="beaker-label" role="img">
-  <title>A beaker with a 100g iceblock in it</title>
+  <title>A glass beaker</title>
   <path d="M100,50h100c0,1 0,2 0,2c-5,1 -5,2 -5,2v138c0,2 -2,3 -5,5h-80c-2,0 -2,-3 -5,-5v-138c-5,-1 -5,-2 -5,-2c0,-1 0,-2 0,-2" class="glass"/>
 </g>
 
