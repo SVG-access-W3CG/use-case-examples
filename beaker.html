@@ -8,9 +8,10 @@
 
   As the copyright holder, I grant anyone who wants it a license to do anything
   they want with the code and the image - effectively this is now public domain.
+
+  Have a look for "CC0" to understand what that means.
 -->
 
-<title>Heating ice</title>
 <style>
   .ironbar {stroke-width: 5 ; stroke: black; fill: none}
   .ironblock {fill: #555}
@@ -18,38 +19,75 @@
   .water {fill: #aaf}
   .ice {fill: #eee}
   .red {fill: red; stroke:red ; stroke-width: 3}
-  text {font-size:20}
+  text {font-size:15px}
+  text[role],g[role=button] text {font-size:20px}
 </style></head><body>
+
 <p><svg width="600" height="600" viewBox="0 0 400 400"
     aria-describedby="mainDesc">
 
+<switch>
+<g systemLanguage="es">
+  <title>Calentando Hielo</title>
+  <desc id="mainDesc">Un ejercicio para explicar el proceso de calentar agua. Hay un recipiente lleno de hielo, encima de un calentador estilo "Bunsen", un termometro, y una sección marcado "Estado". Un botón marcado "vaya" enciende el fuego. EL hielo se caliente, hasta llegar a 0ºC (32ºF), y queda alli hasta que se funde todo el hielo. Despues sube la temperatura hasta llegar al 100ºC (212ºF), donde queda mientras el agua hierve y evapora. Cuando no queda más agua, el estado se cambia a "¡¡Oye!!" - quemar el recipiente no forma parte de la experiencía…</desc>
 
-  <title>Heating ice</title>
+<text role="heading" aria-level="1" x="50" y="30">Convertir hielo al vapor</text>
+</g>
+<g systemLanguage="en">
+  <title>Heating ice to steam</title>
   <desc id="mainDesc">A simple scientific exercise to explain how water heats. There is a beaker filled with ice on top of a burner stand, and a thermometer. A button labelled "heat" begins the process of heating the water, and a section labelled status gives an update about what is happening. When heat is applied, the ice is heated to about zero degrees Celsius (32º Fahrenheit), and then the temperature remains static until the ice is melted. The temperature rises until the water reaches 100ºC, and then it stays there again as the water boils away. When the beaker is almost empty, the status changes to "uh-oh!" implying that burning the beaker isn't part of the goals…</desc>
 
-<text role="heading" aria-level="1" x="50" y="30" font-size="25">Heating water, from ice to steam</text>
+<text role="heading" aria-level="1" x="50" y="30" font-size="150%">Heating ice to steam</text>
+</g>
+</switch>
 
 <g aria-live="polite">
-  <text x="250" y="95">Status:</text>
-  <text id="idle" x="250" y="120">Idle
+<switch>
+<g systemLanguage="es">
+  <text x="230" y="100">Estado:</text>
+  <text id="idle" x="230" y="120">Hielo frio
     <set attributeName="visibility" to="hidden" begin="heat.click" dur="30s"/>
   </text>
-  <text id="heating-ice" visibility="hidden" x="250" y="120">Heating ice
-    <set attributeName="visibility" to="visible" begin="heat.click+.05s" dur="1.95s"/>
+  <text id="heating-ice" visibility="hidden" x="230" y="120">Calentando hielo
+    <set attributeName="visibility" to="visible" begin="heat.click" dur="2s"/>
   </text>
-  <text id="melting-ice" visibility="hidden" x="250" y="120">Melting ice
+  <text id="melting-ice" visibility="hidden" x="230" y="120">Hielo fundando
     <set attributeName="visibility" to="visible" begin="heat.click+2s" dur="5s"/>
   </text>
-  <text id="heating-ice" visibility="hidden" x="250" y="120">Heating water
+  <text id="heating-ice" visibility="hidden" x="230" y="120">Calentando agua
     <set attributeName="visibility" to="visible" begin="heat.click+7s" dur="5s"/>
   </text>
-  <text id="heating-ice" visibility="hidden" x="250" y="120">Boiling water
+  <text id="heating-ice" visibility="hidden" x="230" y="120">Agua hirviendo
     <set attributeName="visibility" to="visible" begin="heat.click+12s" dur="5s"/>
   </text>
-  <text id="heating-ice" visibility="hidden" x="250" y="120">Uh oh!!!
+  <text id="heating-ice" visibility="hidden" x="230" y="120">¡¡¡Oye!!!
     <set attributeName="visibility" to="visible" begin="heat.click+17s" dur="13s"/>
   </text>
 </g>
+
+<g>
+  <text x="250" y="100" systemLanguage="en">Status:</text>
+  <text id="idle" x="230" y="120">Idle
+    <set attributeName="visibility" to="hidden" begin="heat.click" dur="30s"/>
+  </text>
+  <text id="heating-ice" visibility="hidden" x="230" y="120">Heating ice
+    <set attributeName="visibility" to="visible" begin="heat.click" dur="2s"/>
+  </text>
+  <text id="melting-ice" visibility="hidden" x="230" y="120">Melting ice
+    <set attributeName="visibility" to="visible" begin="heat.click+2s" dur="5s"/>
+  </text>
+  <text id="heating-ice" visibility="hidden" x="230" y="120">Heating water
+    <set attributeName="visibility" to="visible" begin="heat.click+7s" dur="5s"/>
+  </text>
+  <text id="heating-ice" visibility="hidden" x="230" y="120">Boiling water
+    <set attributeName="visibility" to="visible" begin="heat.click+12s" dur="5s"/>
+  </text>
+  <text id="heating-ice" visibility="hidden" x="230" y="120">Uh oh!!!
+    <set attributeName="visibility" to="visible" begin="heat.click+17s" dur="13s"/>
+  </text>
+</g>
+
+</switch>
 
 <g id="thermometer" aria-labelledby="thermo-title" aria-describedby="thermo-desc">
  <title id="thermo-title">A thermometer</title>
@@ -64,8 +102,8 @@
     <animate attributeName="y1" from="280" to="200" dur="5s" begin="heat.click+7s" fill="freeze" end="30s"/>
   </line>
  </g>
-  <text x="300" y="280" font-size="10">_ 0 ºC (32ºF)</text>
-  <text x="300" y="200" font-size="10">_ 100 ºC (212ºF)</text>
+  <text x="300" y="280">_ 0 ºC (32ºF)</text>
+  <text x="300" y="200">_ 100 ºC (212ºF)</text>
 </g>
 
 <g id="beaker-stand" aria-labelledby="beaker-stand-label" class="ironbar">
@@ -75,26 +113,28 @@
   <path id="support" d="M30,200 h240"/>  
 </g>
 
-<g id="burner" aria-labelledby="burner-title" class="ironblock" aria-live="polite">
+<g id="burner" aria-labelledby="burner-title" class="ironblock" role="img">
   <title id="burner-title">A bunsen burner, with the oxygen inlet open</title>
-  <title id="burner-on-title">The burner is producing a hot blue flame</title>
-  <set attributeName="aria-labelledby" to="burner-on-title" begin="heat.click"/>
   <path d="M70,400v-10c0,0 80,-30 160,0v10z"/>
   <rect x="130" y="240" width="40" height="175"/>
+  <rect x="128" y="240" width="44" height="25"/>
   <rect x="128" y="320" width="44" height="50"/>
   <circle cx="150" cy="345" r="15" fill="white"/>
   <polygon points="135,370 149,350 151,350 165,370"/>
-  <path fill="#00f" visibility="hidden" opacity=".8" d="M133,238c0,0 -5,-10 0,-25c0,0 0,-11 -30,-9c0,0 -1,-2 -1,-2h94c0,0 -1,2 -1,2c-30,0 -30,9 -30,9c0,0 5,10 0,25c-2,0 -2,-20 -15,-20c-2,0 -10,0 -15,20 z">
-    <set attributeName="visibility" to="visible" begin="heat.click"/>
-  </path>
 </g>
 
-<g id="beaker" aria-labelledby="beaker-label">
+<g role="img" visibility="hidden">
+  <path fill="#00f" opacity=".8" d="M133,238c0,0 -5,-10 0,-25c0,0 0,-11 -30,-9c0,0 -1,-2 -1,-2h94c0,0 -1,2 -1,2c-30,0 -30,9 -30,9c0,0 5,10 0,25c-2,0 -2,-20 -15,-20c-2,0 -10,0 -15,20 z"/>
+    <title id="burner-on-title">The burner is producing a hot blue flame</title>
+    <set attributeName="visibility" to="visible" begin="heat.click"/>
+</g>
+
+<g id="beaker" aria-labelledby="beaker-label" role="img">
   <title>A beaker with a 100g iceblock in it</title>
   <path d="M100,50h100c0,1 0,2 0,2c-5,1 -5,2 -5,2v138c0,2 -2,3 -5,5h-80c-2,0 -2,-3 -5,-5v-138c-5,-1 -5,-2 -5,-2c0,-1 0,-2 0,-2" class="glass"/>
 </g>
 
-<g id="water" class="water" visibility="hidden" aria-live="polite">
+<g id="water" class="water" visibility="hidden" aria-live="polite" role="img">
   <set attributeName="visibility" to="visible" begin="heat.click+1.8s"/>
   <title>Water is created as the ice melts</title>
   <polygon points="106,75 194,75 194,193 189,196 111,196 106,193">
@@ -103,8 +143,8 @@
   </polygon>
 </g>
 
-<g id="ice" aria-labelledby="ice-label" class="ice">
-  <title>An ice block</title>
+<g id="ice" aria-labelledby="iceLabel" class="ice" role="img">
+  <title id="iceLabel">An ice block</title>
   <rect id="main-ice-block" x="106" y="75" width="88" height="118">
     <animate attributeName="x" to="150" fill="freeze" dur="5s" begin="heat.click+2s"/>
     <animate attributeName="rx" to="40" fill="freeze" dur="5s" begin="heat.click+2s"/>
@@ -115,14 +155,17 @@
     <animate attributeName="points" to="150,78 150,78 150,78 150,78" fill="freeze"
       dur="1.5s" begin="heat.click+1.8s"/>
   </polygon>
+  <set attributeName="visibility" to="hidden" begin="heat.click+7s"/>
 </g>
 
 <g id="heat" tabindex="0" role="button">
-  <text x="24" y="92" font-size="20">Heat</text>
   <title>Turn on the heat</title>
   <rect x="20" y="70" width="50" height="30" rx="2" glass="glass"/>
   <rect x="22" y="72" width="46" height="26" rx="2" fill="white"/>
-  <text x="24" y="92" font-size="20">Heat</text>
+<switch>
+  <text x="24" y="92" system-language="es">Vaya</text>
+  <text x="24" y="92" system-language="en">Heat</text>
+</switch>
 </g>
 
 <script><![CDATA[
@@ -133,7 +176,7 @@ function start(e){
   var theClick = new MouseEvent("click");
     heat.dispatchEvent(theClick);
   }
- }
+}
 ]]></script>
 
 </svg>
